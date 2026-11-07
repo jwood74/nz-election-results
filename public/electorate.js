@@ -1,4 +1,4 @@
-import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature } from './model.js';
+import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature, partyTintClass } from './model.js';
 import { $, int, pct, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 
 const id = new URLSearchParams(location.search).get('id');
@@ -17,7 +17,7 @@ function renderWatch() {
 function summary(body, items, votes, changes = new Map()) {
   body.replaceChildren();
   for (const item of items) {
-    const tr = node('tr');
+    const tr = node('tr', null, partyTintClass(item.party ? item.partyId : item.id));
     const name = cell(tr, item.name, 'party-name');
     if (item.party) name.append(node('span', item.party, 'party-sub'));
     markChange(tr, name, changes.get(item.id), item);
@@ -57,8 +57,8 @@ function competitors() {
   for (const booth of booths.values()) for (const item of booth[voteType] || []) if (!items.has(item.id)) items.set(item.id, item);
   return [...items.values()].sort((a,b) => a.name.localeCompare(b.name));
 }
-function header(row, text, key, numeric = false) {
-  const th = node('th', null, numeric ? 'num' : ''); th.scope = 'col';
+function header(row, text, key, numeric = false, tint = '') {
+  const th = node('th', null, `${numeric ? 'num' : ''} ${tint}`.trim()); th.scope = 'col';
   th.setAttribute('aria-sort', sortKey === key ? (direction === 1 ? 'ascending' : 'descending') : 'none');
   const button = node('button', `${text} ↕`); button.type = 'button'; button.dataset.boothSort = key;
   button.addEventListener('click', () => { direction = sortKey === key ? -direction : 1; sortKey = key; renderBooths(); });
@@ -70,7 +70,7 @@ function renderBooths() {
   const items = competitors();
   const head = node('tr');
   header(head, 'Booth / address', 'name'); header(head, 'Status', 'reported'); header(head, 'Valid votes', 'total', true);
-  for (const item of items) header(head, voteType === 'parties' ? item.abbreviation || item.name : item.name, item.id, true);
+  for (const item of items) header(head, voteType === 'parties' ? item.abbreviation || item.name : item.name, item.id, true, partyTintClass(voteType === 'candidates' ? item.partyId : item.id));
   header(head, 'Source updated · NZ', 'updated'); $('booth-head').replaceChildren(head);
   $('booth-caption').textContent = `Booth ${voteType === 'candidates' ? 'candidate' : 'party'} ${metric === 'votes' ? 'votes' : 'vote percentages'}`;
   const rows = filterBooths([...booths.values()], { search: $('booth-search').value, status: $('booth-status').value, sortKey, direction, voteType, metric });
@@ -93,7 +93,7 @@ function renderBooths() {
       cell(tr, int(boothValue(booth, 'total', voteType, metric)), 'num');
       for (const item of items) {
         const value = boothValue(booth, item.id, voteType, metric);
-        cell(tr, metric === 'percent' ? pct(value) : int(value), 'num');
+        cell(tr, metric === 'percent' ? pct(value) : int(value), `num ${partyTintClass(voteType === 'candidates' ? item.partyId : item.id)}`.trim());
       }
       cell(tr, clock(booth.updated), 'meta'); $('booth-rows').append(tr);
     }

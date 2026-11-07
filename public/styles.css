@@ -5,6 +5,14 @@
 .result-changed td,.booth-table .result-changed td:first-child{background:#e0eee3}
 .result-changed:hover td{background:#d3e5d7}
 .change-badge{display:block;width:fit-content;margin-top:5px;font-size:10px;font-weight:600;line-height:1.5;color:#22513a;border:1px solid #91b39c;border-radius:3px;padding:1px 5px;white-space:normal}
+.tint-lab{--party-tint:#f7e9e7}
+.tint-nat{--party-tint:#e6eff8}
+.tint-grn{--party-tint:#e9f1e5}
+.tint-act{--party-tint:#faf3d9}
+.tint-nzf{--party-tint:#eaeceb}
+th.party-tint,td.party-tint,tr.party-tint>td{background:var(--party-tint)}
+.result-changed:hover>td.party-tint,.result-changed.party-tint:hover>td{background:var(--party-tint)}
+.result-changed>td.party-tint,.result-changed.party-tint>td{box-shadow:inset 0 2px 0 #91b39c,inset 0 -2px 0 #91b39c}
 .result-panels{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
 .result-panels>div{min-width:0}
 .summary-table{min-width:0;table-layout:fixed}

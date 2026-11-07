@@ -57,6 +57,12 @@ export function sourceTime(value) {
 
 export function voteShare(votes, total) { return total > 0 && votes != null ? votes / total * 100 : null; }
 
+// Stable feed party IDs, never candidate IDs or a candidate's ballot position.
+export function partyTintClass(partyId) {
+  const tints = { '13': 'party-tint tint-lab', '16': 'party-tint tint-nat', '10': 'party-tint tint-grn', '5': 'party-tint tint-act', '17': 'party-tint tint-nzf' };
+  return Object.hasOwn(tints, partyId) ? tints[partyId] : '';
+}
+
 export function boothValue(booth, key, voteType, metric) {
   if (key === 'name') return booth.name;
   if (booth.unavailable) return null;
