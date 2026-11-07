@@ -4,6 +4,7 @@
 .detail-actions{display:flex;gap:8px;flex-wrap:wrap}
 .result-changed td,.booth-table .result-changed td:first-child{background:#e0eee3}
 .result-changed:hover td{background:#d3e5d7}
+.national-table .result-changed td{background:transparent}
 .change-badge{display:block;width:fit-content;margin-top:5px;font-size:10px;font-weight:600;line-height:1.5;color:#22513a;border:1px solid #91b39c;border-radius:3px;padding:1px 5px;white-space:normal}
 .table-scroll{position:relative}
 .seat-change{display:inline-block;font-size:12px;font-weight:750;white-space:nowrap}
