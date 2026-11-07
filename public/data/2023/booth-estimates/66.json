@@ -1,0 +1,3703 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "66",
+  "name": "Ikaroa-Rāwhiti",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "67",
+      "name": "Ikaroa-Rāwhiti"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "368": {
+      "currentAddress": "Mangateretere School Hall, 314 State Highway 51, Mangateretere",
+      "historicalVenueId": "8bf4839f35f24165d7f9",
+      "method": "exact-label",
+      "totalValidVotes": 53,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 53,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 33,
+            "14": 14,
+            "16": 0,
+            "17": 2,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "401": {
+      "currentAddress": "Wainuiomata Intermediate School, 66 Konini Street, Wainuiomata",
+      "historicalVenueId": "1006fbe7df5c48825907",
+      "method": "exact-label",
+      "totalValidVotes": 67,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 67,
+          "votes": {
+            "5": 0,
+            "10": 5,
+            "13": 35,
+            "14": 19,
+            "16": 1,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "537": {
+      "currentAddress": "St John&#39;s Presbyterian Church, Jireh Hall, 608 Frederick Street, Mahora",
+      "historicalVenueId": "16ab97e259aba89672ed",
+      "method": "exact-label",
+      "totalValidVotes": 265,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 265,
+          "votes": {
+            "5": 3,
+            "10": 12,
+            "13": 143,
+            "14": 81,
+            "16": 9,
+            "17": 7,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "548": {
+      "currentAddress": "Belmont Hall, 711 Western Hutt Road, Belmont",
+      "historicalVenueId": "373b56f98bc33e48c690",
+      "method": "exact-label",
+      "totalValidVotes": 20,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 12,
+            "14": 3,
+            "16": 3,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "573": {
+      "currentAddress": "Gisborne Boys High School, 80 Stanley Road, Gisborne",
+      "historicalVenueId": "5db9f299c7fb5b821325",
+      "method": "exact-label",
+      "totalValidVotes": 136,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 136,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 89,
+            "14": 36,
+            "16": 2,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "582": {
+      "currentAddress": "Wainuiomata War Memorial Hall, 1 Queen Street, Wainuiomata",
+      "historicalVenueId": "64960aa7a61b680d8cbc",
+      "method": "exact-label",
+      "totalValidVotes": 564,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 421,
+          "votes": {
+            "5": 1,
+            "10": 32,
+            "13": 222,
+            "14": 132,
+            "16": 10,
+            "17": 14,
+            "36": 3,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 143,
+          "votes": {
+            "5": 0,
+            "10": 12,
+            "13": 80,
+            "14": 31,
+            "16": 3,
+            "17": 9,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "653": {
+      "currentAddress": "Te Mahia School, 457 Mahia East Coast Road, Māhia",
+      "historicalVenueId": "b4945be2573c1a18ade0",
+      "method": "exact-label",
+      "totalValidVotes": 61,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 61,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 44,
+            "14": 10,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "654": {
+      "currentAddress": "Wairoa War Memorial Hall, 93 Queen Street, Wairoa",
+      "historicalVenueId": "73ecfd4fecaf1e4b6e5f",
+      "method": "exact-label",
+      "totalValidVotes": 748,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 572,
+          "votes": {
+            "5": 6,
+            "10": 29,
+            "13": 367,
+            "14": 119,
+            "16": 15,
+            "17": 18,
+            "36": 6,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 176,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 114,
+            "14": 36,
+            "16": 4,
+            "17": 7,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "708": {
+      "currentAddress": "King George Hall, 1 Hill Road, Bayview",
+      "historicalVenueId": "85119571ad9152a24b41",
+      "method": "exact-label",
+      "totalValidVotes": 55,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 2,
+            "10": 2,
+            "13": 22,
+            "14": 9,
+            "16": 6,
+            "17": 9,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "758": {
+      "currentAddress": "Te Hapara School, 31 Mill Road, Gisborne",
+      "historicalVenueId": "daeb3b39644f70a9206a",
+      "method": "exact-label",
+      "totalValidVotes": 106,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 106,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 68,
+            "14": 18,
+            "16": 8,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "762": {
+      "currentAddress": "Gisborne Hospital, Poutama Room, 421 Ormond Road, Gisborne",
+      "historicalVenueId": "9d2232791114bb367ef2",
+      "method": "exact-label",
+      "totalValidVotes": 169,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 66,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 45,
+            "14": 14,
+            "16": 0,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 103,
+          "votes": {
+            "5": 1,
+            "10": 7,
+            "13": 68,
+            "14": 18,
+            "16": 5,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "786": {
+      "currentAddress": "Makauri School, 120 King Road, Gisborne",
+      "historicalVenueId": "f6d025f09e95740a7b5c",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 8,
+            "14": 1,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "787": {
+      "currentAddress": "Manutuke School, 59 Waingake Road, Manutūkē",
+      "historicalVenueId": "b1dbf14dbb792d534c72",
+      "method": "exact-label",
+      "totalValidVotes": 80,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 80,
+          "votes": {
+            "5": 1,
+            "10": 5,
+            "13": 48,
+            "14": 24,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "791": {
+      "currentAddress": "Elgin School, 2 Knox Street, Gisborne",
+      "historicalVenueId": "e14e25b9d20a6838e64b",
+      "method": "exact-label",
+      "totalValidVotes": 139,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 139,
+          "votes": {
+            "5": 0,
+            "10": 7,
+            "13": 93,
+            "14": 32,
+            "16": 2,
+            "17": 1,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "792": {
+      "currentAddress": "Awapuni School, 129 Awapuni Road, Gisborne",
+      "historicalVenueId": "f3187efb061e808a9b17",
+      "method": "exact-label",
+      "totalValidVotes": 47,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 47,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 35,
+            "14": 5,
+            "16": 1,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "793": {
+      "currentAddress": "Gisborne Central School Hall, 7 Central Street, Gisborne",
+      "historicalVenueId": "c713ef10bf2426006505",
+      "method": "exact-label",
+      "totalValidVotes": 64,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 64,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 34,
+            "14": 13,
+            "16": 2,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "798": {
+      "currentAddress": "Te Karaka Area School, 5 Kanakanaia Road, Te Karaka",
+      "historicalVenueId": "8786c8cf64fa11a790cd",
+      "method": "exact-label",
+      "totalValidVotes": 105,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 105,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 82,
+            "14": 13,
+            "16": 1,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "800": {
+      "currentAddress": "Muriwai School, 1684 Wharerata Road, Muriwai",
+      "historicalVenueId": "ebaf05c0c72ed74d1bc5",
+      "method": "exact-label",
+      "totalValidVotes": 52,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 52,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 28,
+            "14": 18,
+            "16": 2,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "805": {
+      "currentAddress": "Makaraka School, 137 Main Road South, Gisborne",
+      "historicalVenueId": "0542bb29e2d4a0558e98",
+      "method": "exact-label",
+      "totalValidVotes": 55,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 0,
+            "10": 7,
+            "13": 31,
+            "14": 9,
+            "16": 4,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "825": {
+      "currentAddress": "Camberley Community Centre, 703 Kiwi Street, Camberley",
+      "historicalVenueId": "1c3bd18512231e23b9b4",
+      "method": "exact-label",
+      "totalValidVotes": 251,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 164,
+          "votes": {
+            "5": 0,
+            "10": 7,
+            "13": 102,
+            "14": 44,
+            "16": 0,
+            "17": 3,
+            "36": 4,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 87,
+          "votes": {
+            "5": 0,
+            "10": 5,
+            "13": 62,
+            "14": 19,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "836": {
+      "currentAddress": "Mangapapa School, 5 Rua Street, Gisborne",
+      "historicalVenueId": "8e4a0ecd769508a5469b",
+      "method": "exact-label",
+      "totalValidVotes": 118,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 118,
+          "votes": {
+            "5": 1,
+            "10": 5,
+            "13": 71,
+            "14": 26,
+            "16": 8,
+            "17": 2,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "865": {
+      "currentAddress": "Wainuiomata Marae, 153-201 Parkway, Wainuiomata",
+      "historicalVenueId": "b6edc797734d0caf1d2a",
+      "method": "exact-label",
+      "totalValidVotes": 105,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 105,
+          "votes": {
+            "5": 0,
+            "10": 12,
+            "13": 49,
+            "14": 37,
+            "16": 2,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "888": {
+      "currentAddress": "Tikitiki School, 33 Rangitukia Road, Tikitiki",
+      "historicalVenueId": "b98acab1500fb8e7a104",
+      "method": "exact-label",
+      "totalValidVotes": 132,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 132,
+          "votes": {
+            "5": 1,
+            "10": 5,
+            "13": 92,
+            "14": 24,
+            "16": 1,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "889": {
+      "currentAddress": "Tolaga Bay Area School, 24 Resolution Street, Tolaga Bay",
+      "historicalVenueId": "f644b1a3dbb2c922c8f1",
+      "method": "exact-label",
+      "totalValidVotes": 226,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 72,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 47,
+            "14": 15,
+            "16": 2,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 154,
+          "votes": {
+            "5": 0,
+            "10": 5,
+            "13": 99,
+            "14": 35,
+            "16": 3,
+            "17": 6,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "890": {
+      "currentAddress": "Whāngārā School, 44 Pa Road, Whangara",
+      "historicalVenueId": "a8560cfdb3c3b3719d37",
+      "method": "exact-label",
+      "totalValidVotes": 20,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 11,
+            "14": 6,
+            "16": 0,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "891": {
+      "currentAddress": "Hatea-A-Rangi School, 6 School Road, Tokomaru Bay",
+      "historicalVenueId": "dc9b595fa77ad1c4a2ec",
+      "method": "exact-label",
+      "totalValidVotes": 159,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 159,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 102,
+            "14": 44,
+            "16": 2,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "897": {
+      "currentAddress": "Te Waha O Rerekohu Area School, 3 Arewhana Street, Te Araroa",
+      "historicalVenueId": "426c70c348e22a613ffc",
+      "method": "exact-label",
+      "totalValidVotes": 138,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 138,
+          "votes": {
+            "5": 0,
+            "10": 8,
+            "13": 78,
+            "14": 40,
+            "16": 3,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "900": {
+      "currentAddress": "Te Kura Kaupapa Māori o Kawakawa mai Tawhiti, 22 Wharf Road, Hicks Bay",
+      "historicalVenueId": "50457f10f181fec14b7d",
+      "method": "exact-label",
+      "totalValidVotes": 91,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 91,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 49,
+            "14": 37,
+            "16": 3,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "919": {
+      "currentAddress": "Fernridge School Hall, 264 Upper Plain Road, Masterton",
+      "historicalVenueId": "9ae7d50b41dd7def2580",
+      "method": "exact-label",
+      "totalValidVotes": 10,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 10,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 5,
+            "14": 1,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "930": {
+      "currentAddress": "Solway School Hall, 318 Ngaumutawa Road, Masterton",
+      "historicalVenueId": "388d2dae8167b0d7da83",
+      "method": "exact-label",
+      "totalValidVotes": 27,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 27,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 9,
+            "14": 7,
+            "16": 2,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "991": {
+      "currentAddress": "Matawai School, 29 Raumati Street, Mātāwai",
+      "historicalVenueId": "2b7c6ff7c89ac1273337",
+      "method": "exact-label",
+      "totalValidVotes": 9,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 7,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1007": {
+      "currentAddress": "Ngata Memorial College, 1 College Road North, Ruatoria",
+      "historicalVenueId": "45e4e109251e708ed960",
+      "method": "exact-label",
+      "totalValidVotes": 239,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 239,
+          "votes": {
+            "5": 1,
+            "10": 16,
+            "13": 150,
+            "14": 58,
+            "16": 4,
+            "17": 7,
+            "36": 1,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1019": {
+      "currentAddress": "Garage of Private House, 1 Betty Watt Grove, Riverstone Terraces",
+      "historicalVenueId": "da8ae6725f95b13cac78",
+      "method": "exact-label",
+      "totalValidVotes": 10,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 10,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 3,
+            "14": 5,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1030": {
+      "currentAddress": "Kotemaori School, 4778 State Highway 2, Kotemaori",
+      "historicalVenueId": "3c441a53abfc2246b6aa",
+      "method": "exact-label",
+      "totalValidVotes": 11,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 8,
+            "14": 2,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1110": {
+      "currentAddress": "St Hilda&#39;s Church Hall, 35 Cruickshank Road, Clouston Park",
+      "historicalVenueId": "dea26b7cbfd21ddebbcf",
+      "method": "exact-label",
+      "totalValidVotes": 14,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 11,
+            "14": 1,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1134": {
+      "currentAddress": "Fraser Crescent School Hall, 16 Redwood Street, Elderslea",
+      "historicalVenueId": "0681e4aa7ca8627a12af",
+      "method": "exact-label",
+      "totalValidVotes": 42,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 42,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 27,
+            "14": 7,
+            "16": 2,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1135": {
+      "currentAddress": "Plateau School, 12A Molloys Road, Te Mārua",
+      "historicalVenueId": "6539f1541f4ffae5695c",
+      "method": "exact-label",
+      "totalValidVotes": 19,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 11,
+            "14": 5,
+            "16": 1,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1136": {
+      "currentAddress": "Totara Park School Hall, 16 California Drive, Totara Park",
+      "historicalVenueId": "202b482bd788a7a4e2f5",
+      "method": "exact-label",
+      "totalValidVotes": 46,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 46,
+          "votes": {
+            "5": 1,
+            "10": 6,
+            "13": 24,
+            "14": 8,
+            "16": 4,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1323": {
+      "currentAddress": "Mahoe Girl Guide Hall, 23 Auckland Road (corner Auckland Road & York Ave), Greenmeadows",
+      "historicalVenueId": "a8664e220e732441d904",
+      "method": "exact-label",
+      "totalValidVotes": 40,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 40,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 22,
+            "14": 10,
+            "16": 3,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1391": {
+      "currentAddress": "Poukawa School Hall, 107 Poukawa Road, Poukawa",
+      "historicalVenueId": "51c99655acb39017ba52",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 9,
+            "14": 2,
+            "16": 0,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1392": {
+      "currentAddress": "Flaxmere Community Centre, 30 Swansea Road, Flaxmere",
+      "historicalVenueId": "c315bfebeba859cc4a3f",
+      "method": "exact-label",
+      "totalValidVotes": 1035,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 859,
+          "votes": {
+            "5": 6,
+            "10": 42,
+            "13": 471,
+            "14": 272,
+            "16": 11,
+            "17": 16,
+            "36": 7,
+            "56": 1,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 176,
+          "votes": {
+            "5": 1,
+            "10": 5,
+            "13": 121,
+            "14": 40,
+            "16": 2,
+            "17": 0,
+            "36": 3,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1393": {
+      "currentAddress": "Central Hawkes Bay College library, 45 Tavistock Road, Waipukurau",
+      "historicalVenueId": "b54db35ae31d8897c8d0",
+      "method": "exact-label",
+      "totalValidVotes": 43,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 43,
+          "votes": {
+            "5": 1,
+            "10": 7,
+            "13": 20,
+            "14": 7,
+            "16": 2,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1397": {
+      "currentAddress": "Waipawa School, Technology Block, 6 Harker Street, Waipawa",
+      "historicalVenueId": "6a0ce5ac5001eec94f37",
+      "method": "exact-label",
+      "totalValidVotes": 29,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 29,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 19,
+            "14": 4,
+            "16": 2,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1410": {
+      "currentAddress": "St Joseph&#39;s School Hall, 404 Eastbourne Street East, Akina",
+      "historicalVenueId": "e2e7dec1245fa592042b",
+      "method": "exact-label",
+      "totalValidVotes": 41,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 41,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 17,
+            "14": 9,
+            "16": 3,
+            "17": 2,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1445": {
+      "currentAddress": "Marewa School, 80D Latham Street, Marewa",
+      "historicalVenueId": "6213ba6f1351ce722895",
+      "method": "exact-label",
+      "totalValidVotes": 85,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 85,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 57,
+            "14": 10,
+            "16": 2,
+            "17": 3,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1446": {
+      "currentAddress": "Richmond School, 13A Barnard Avenue, Maraenui",
+      "historicalVenueId": "8a5b7c85bd05891797f7",
+      "method": "exact-label",
+      "totalValidVotes": 39,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 39,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 25,
+            "14": 9,
+            "16": 0,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1447": {
+      "currentAddress": "Henry Hill School, 13A Dick Place, Onekawa",
+      "historicalVenueId": "b9fc327c936c75c262dc",
+      "method": "exact-label",
+      "totalValidVotes": 35,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 35,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 20,
+            "14": 9,
+            "16": 0,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1450": {
+      "currentAddress": "Wairoa College, 20 Lucknow Street, Wairoa",
+      "historicalVenueId": "a5b465ec4bf8bb8598ec",
+      "method": "exact-label",
+      "totalValidVotes": 61,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 61,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 43,
+            "14": 10,
+            "16": 1,
+            "17": 0,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1457": {
+      "currentAddress": "Taradale Senior Citizens Friendship Centre, 10 White Street, Symons Lane entrance, Taradale",
+      "historicalVenueId": "b6cf2225b12a63859e82",
+      "method": "exact-label",
+      "totalValidVotes": 11,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 8,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1490": {
+      "currentAddress": "Havelock North Primary School Hall, 9 Campbell Street, Havelock North",
+      "historicalVenueId": "20adaddfb9a63bb68087",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 6,
+            "14": 1,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1492": {
+      "currentAddress": "Te Awanga Community Centre, 9 Wellwood Terrace, Te Awanga",
+      "historicalVenueId": "fb60298db629b615e611",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 12,
+            "14": 2,
+            "16": 1,
+            "17": 1,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1510": {
+      "currentAddress": "Taradale High School, 50 Murphy Road, Taradale",
+      "historicalVenueId": "e99398223fe468e79c49",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 12,
+            "14": 4,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1573": {
+      "currentAddress": "Hutt Valley High School, 84-114 Woburn Road, Woburn",
+      "historicalVenueId": "b1c26ec8ac499bc6476e",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 4,
+            "14": 4,
+            "16": 1,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1577": {
+      "currentAddress": "Te Awa School, 1A Te Awa Avenue, Te Awa",
+      "historicalVenueId": "8ef2306fc99cf602a0fe",
+      "method": "exact-label",
+      "totalValidVotes": 21,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 9,
+            "14": 4,
+            "16": 0,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1590": {
+      "currentAddress": "Birchville School Hall, 16 Gemstone Drive, Birchville",
+      "historicalVenueId": "79d006d14228c779f989",
+      "method": "exact-label",
+      "totalValidVotes": 24,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 13,
+            "14": 2,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1593": {
+      "currentAddress": "St Brendan&#39;s School Hall, 56 Palmer Crescent, Heretaunga",
+      "historicalVenueId": "ad90bafdadea929fd93f",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 11,
+            "14": 5,
+            "16": 2,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1595": {
+      "currentAddress": "Avalon School Hall, 10 Gordon Street, Avalon",
+      "historicalVenueId": "6ec3ab318f1355052e9d",
+      "method": "exact-label",
+      "totalValidVotes": 15,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 7,
+            "14": 2,
+            "16": 1,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1597": {
+      "currentAddress": "Trentham School Hall, 2 Moonshine Road, Trentham",
+      "historicalVenueId": "f895853fa5c5c607b90d",
+      "method": "exact-label",
+      "totalValidVotes": 34,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 34,
+          "votes": {
+            "5": 0,
+            "10": 6,
+            "13": 12,
+            "14": 7,
+            "16": 3,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1602": {
+      "currentAddress": "Te Kura o Hau Karetu (Māoribank School Hall), 32 Hillside Drive, Māoribank",
+      "historicalVenueId": "016264191170c848eb45",
+      "method": "exact-label",
+      "totalValidVotes": 43,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 43,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 25,
+            "14": 13,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1604": {
+      "currentAddress": "Avalon Intermediate School Hall, 1041 High Street, Avalon",
+      "historicalVenueId": "8d57507e7bbcf070ad31",
+      "method": "exact-label",
+      "totalValidVotes": 40,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 40,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 21,
+            "14": 13,
+            "16": 0,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1605": {
+      "currentAddress": "Oxford Crescent School Hall, 5 Oxford Crescent, Ebdentown",
+      "historicalVenueId": "091d4518828ee568ae78",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 11,
+            "14": 4,
+            "16": 1,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1666": {
+      "currentAddress": "Mayfair School Hall, 1110 Willowpark Road North, Mayfair",
+      "historicalVenueId": "ceb6dd42d04dcaa70508",
+      "method": "exact-label",
+      "totalValidVotes": 71,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 71,
+          "votes": {
+            "5": 1,
+            "10": 7,
+            "13": 38,
+            "14": 15,
+            "16": 2,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1671": {
+      "currentAddress": "Greytown School Hall, 73 East Street, Greytown",
+      "historicalVenueId": "9acd49233f7948dc51c0",
+      "method": "exact-label",
+      "totalValidVotes": 14,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 5,
+            "14": 3,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1674": {
+      "currentAddress": "Masterton Intermediate School Hall, 38 Intermediate Street, Masterton",
+      "historicalVenueId": "3b4a47d6bc93e050eeed",
+      "method": "exact-label",
+      "totalValidVotes": 37,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 37,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 19,
+            "14": 10,
+            "16": 1,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1720": {
+      "currentAddress": "Pacific Surf Life Saving Club Building, 26 Marine Parade, Napier",
+      "historicalVenueId": "4d6537f9b75d1702df46",
+      "method": "exact-label",
+      "totalValidVotes": 19,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 7,
+            "14": 5,
+            "16": 0,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1771": {
+      "currentAddress": "Whakatu Hall, 5 Station Road, Whakatu",
+      "historicalVenueId": "861dba9ce8126a38b903",
+      "method": "exact-label",
+      "totalValidVotes": 67,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 67,
+          "votes": {
+            "5": 0,
+            "10": 6,
+            "13": 22,
+            "14": 34,
+            "16": 0,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1777": {
+      "currentAddress": "Havelock North Function Centre, 30 Te Mata Road, Havelock North",
+      "historicalVenueId": "76099f4cfc030b95cc18",
+      "method": "exact-label",
+      "totalValidVotes": 196,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 155,
+          "votes": {
+            "5": 3,
+            "10": 16,
+            "13": 69,
+            "14": 37,
+            "16": 16,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 41,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 16,
+            "14": 10,
+            "16": 8,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1812": {
+      "currentAddress": "Te Whakaruruhau Kōhanga Reo, 170 Tyndall Road, Gisborne",
+      "historicalVenueId": "1893a3188b4ae75d4e4d",
+      "method": "exact-label",
+      "totalValidVotes": 85,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 9,
+            "14": 4,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 70,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 46,
+            "14": 15,
+            "16": 1,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1829": {
+      "currentAddress": "Waikirikiri School, 7 Pickering Street, Gisborne",
+      "historicalVenueId": "847cc7f3c8eb9863e698",
+      "method": "exact-label",
+      "totalValidVotes": 120,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 9,
+            "14": 10,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 98,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 70,
+            "14": 21,
+            "16": 1,
+            "17": 1,
+            "36": 4,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1830": {
+      "currentAddress": "Martinborough School Hall, 14-16 Dublin Street, Martinborough",
+      "historicalVenueId": "19c2c32855d40d2cca9a",
+      "method": "exact-label",
+      "totalValidVotes": 26,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 10,
+            "14": 6,
+            "16": 4,
+            "17": 2,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1834": {
+      "currentAddress": "St Joseph&#39;s Scout Hall, 46 Royal Street, Upper Hutt Central",
+      "historicalVenueId": "7ecabd9d6c2047959e3f",
+      "method": "exact-label",
+      "totalValidVotes": 12,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 5,
+            "14": 2,
+            "16": 1,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1835": {
+      "currentAddress": "Upper Hutt Baptist Church, 1 Milton Street, Trentham",
+      "historicalVenueId": "2d078c9fc9506dd900c9",
+      "method": "exact-label",
+      "totalValidVotes": 33,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 33,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 20,
+            "14": 5,
+            "16": 3,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1974": {
+      "currentAddress": "Maraekakaho School, 68 Kereru Road, Maraekakaho",
+      "historicalVenueId": "eb2711eabedb4be69230",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 1,
+            "14": 2,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "1980": {
+      "currentAddress": "Treadwell Street Hall, 25A Treadwell Street, Naenae",
+      "historicalVenueId": "b1dd5813d13acad5213c",
+      "method": "exact-label",
+      "totalValidVotes": 44,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 44,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 28,
+            "14": 10,
+            "16": 1,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2029": {
+      "currentAddress": "Arakura School, 209 Wellington Road, Wainuiomata",
+      "historicalVenueId": "46f4728711b8e9a0884e",
+      "method": "exact-label",
+      "totalValidVotes": 93,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 93,
+          "votes": {
+            "5": 1,
+            "10": 6,
+            "13": 52,
+            "14": 15,
+            "16": 3,
+            "17": 9,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2051": {
+      "currentAddress": "Flaxmere Christian Fellowship Church, 220 Flaxmere Avenue, Flaxmere",
+      "historicalVenueId": "1dab86ce2f757418a0b1",
+      "method": "exact-label",
+      "totalValidVotes": 82,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 82,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 53,
+            "14": 15,
+            "16": 2,
+            "17": 3,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2054": {
+      "currentAddress": "Lucknow School Hall, 42 Elliott Crescent, Havelock North",
+      "historicalVenueId": "2d401405cf5732c1af28",
+      "method": "exact-label",
+      "totalValidVotes": 40,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 40,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 24,
+            "14": 11,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2199": {
+      "currentAddress": "Victoria University, The Hub, Kelburn Parade, Kelburn",
+      "historicalVenueId": "5eb1451037a260082af2",
+      "method": "exact-label",
+      "totalValidVotes": 14,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 8,
+            "13": 2,
+            "14": 2,
+            "16": 1,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2338": {
+      "currentAddress": "Eketāhuna Community Centre, 4 Haswell Street, Eketāhuna",
+      "historicalVenueId": "c1804855cdeb00670f7b",
+      "method": "exact-label",
+      "totalValidVotes": 28,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 2,
+            "14": 6,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 7,
+            "14": 4,
+            "16": 0,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2377": {
+      "currentAddress": "Haumoana School Hall, 7 Raymond Road, Haumoana",
+      "historicalVenueId": "cf663bc02f9ebc211b53",
+      "method": "exact-label",
+      "totalValidVotes": 16,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 16,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 10,
+            "14": 2,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2390": {
+      "currentAddress": "Aubyn Live Theatre, 815 St Aubyn Street West, Mahora",
+      "historicalVenueId": "0c60677b993e9695b035",
+      "method": "exact-label",
+      "totalValidVotes": 49,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 49,
+          "votes": {
+            "5": 0,
+            "10": 5,
+            "13": 19,
+            "14": 18,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2393": {
+      "currentAddress": "Pukehāmoamoa School, 11 Matapiro Road, Pukehamoamoa",
+      "historicalVenueId": "bb3b2dfb3b384288c761",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 5,
+            "14": 1,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2395": {
+      "currentAddress": "Frimley School Hall, 202 Frimley Road, Frimley",
+      "historicalVenueId": "c4a95a88df9035ee998b",
+      "method": "exact-label",
+      "totalValidVotes": 56,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 56,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 30,
+            "14": 13,
+            "16": 4,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2397": {
+      "currentAddress": "Hastings Central School Gymnasium, 400 Karamu Road South, Akina",
+      "historicalVenueId": "6c6812b248ea65d0abbe",
+      "method": "exact-label",
+      "totalValidVotes": 75,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 75,
+          "votes": {
+            "5": 1,
+            "10": 8,
+            "13": 50,
+            "14": 9,
+            "16": 2,
+            "17": 2,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2398": {
+      "currentAddress": "Pinehaven Community Hall, 5A Forest Road, Pinehaven",
+      "historicalVenueId": "2be868e36b8f33e5d368",
+      "method": "exact-label",
+      "totalValidVotes": 12,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 6,
+            "14": 4,
+            "16": 1,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2406": {
+      "currentAddress": "Clive Community Hall, 162 Main Road, Clive",
+      "historicalVenueId": "6981ca1c820e5c8588e6",
+      "method": "exact-label",
+      "totalValidVotes": 195,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 113,
+          "votes": {
+            "5": 4,
+            "10": 7,
+            "13": 49,
+            "14": 32,
+            "16": 5,
+            "17": 7,
+            "36": 2,
+            "56": 0,
+            "70": 6
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 82,
+          "votes": {
+            "5": 1,
+            "10": 5,
+            "13": 43,
+            "14": 22,
+            "16": 3,
+            "17": 3,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2412": {
+      "currentAddress": "Hastings Christian School, 1009 Copeland Road, Akina",
+      "historicalVenueId": "91fb10c5a628c215f69b",
+      "method": "exact-label",
+      "totalValidVotes": 60,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 60,
+          "votes": {
+            "5": 2,
+            "10": 2,
+            "13": 32,
+            "14": 16,
+            "16": 2,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2431": {
+      "currentAddress": "St James Anglican Church Hall, 71 Woburn Road, Hutt Central",
+      "historicalVenueId": "946a93301a8419cfda41",
+      "method": "exact-label",
+      "totalValidVotes": 8,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 3,
+            "14": 3,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2637": {
+      "currentAddress": "Puketapu School, 708 Puketapu Road, Puketapu",
+      "historicalVenueId": "25fa610a019a560e5977",
+      "method": "exact-label",
+      "totalValidVotes": 11,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 3,
+            "14": 2,
+            "16": 3,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2658": {
+      "currentAddress": "Maungaraki Baptist Church Centre, 164 Dowse Drive, Maungaraki",
+      "historicalVenueId": "ba5f9b08bb3663615718",
+      "method": "exact-label",
+      "totalValidVotes": 54,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 17,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 7,
+            "14": 3,
+            "16": 1,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 37,
+          "votes": {
+            "5": 2,
+            "10": 12,
+            "13": 8,
+            "14": 8,
+            "16": 3,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2723": {
+      "currentAddress": "Kaiti Hub, TaiTech, 502 Wainui Road, Gisborne",
+      "historicalVenueId": "09ebe1214304534235b6",
+      "method": "exact-label",
+      "totalValidVotes": 899,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 899,
+          "votes": {
+            "5": 2,
+            "10": 41,
+            "13": 602,
+            "14": 196,
+            "16": 6,
+            "17": 19,
+            "36": 8,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2724": {
+      "currentAddress": "Treble Court, Peel Street, Gisborne",
+      "historicalVenueId": "f3fcdf4c343113366ae1",
+      "method": "exact-label",
+      "totalValidVotes": 783,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 646,
+          "votes": {
+            "5": 4,
+            "10": 57,
+            "13": 366,
+            "14": 153,
+            "16": 30,
+            "17": 19,
+            "36": 2,
+            "56": 1,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 137,
+          "votes": {
+            "5": 0,
+            "10": 15,
+            "13": 82,
+            "14": 27,
+            "16": 2,
+            "17": 7,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2777": {
+      "currentAddress": "Waterloo School, 26 Hardy Street, Waterloo",
+      "historicalVenueId": "41cddf53ae61b64efe3f",
+      "method": "exact-label",
+      "totalValidVotes": 15,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 8,
+            "14": 3,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2779": {
+      "currentAddress": "Knox Presbyterian Church Hall, 574 High Street, Boulcott",
+      "historicalVenueId": "61f11cec9dd7867d6987",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 5,
+            "14": 6,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2780": {
+      "currentAddress": "Waiwhetū Marae Meeting House, 21 Puketapu Grove, Waiwhetū",
+      "historicalVenueId": "dd1bc78e395e13174cdf",
+      "method": "exact-label",
+      "totalValidVotes": 36,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 23,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 9,
+            "14": 11,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 7,
+            "14": 4,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2824": {
+      "currentAddress": "Te Pohue School, 44 Richmond Road, Te Pōhue",
+      "historicalVenueId": "bf5402b9a1dc9c82c825",
+      "method": "exact-label",
+      "totalValidVotes": 7,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 2,
+            "14": 2,
+            "16": 1,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2849": {
+      "currentAddress": "Bledisloe School, 30A Meeanee Road, Taradale",
+      "historicalVenueId": "9149bb511e521475cc93",
+      "method": "exact-label",
+      "totalValidVotes": 19,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 9,
+            "14": 1,
+            "16": 2,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2850": {
+      "currentAddress": "Wairoa Community Centre, 33 Marine Parade, Wairoa",
+      "historicalVenueId": "5ce2212b665b2cdd2ff5",
+      "method": "exact-label",
+      "totalValidVotes": 62,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 62,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 41,
+            "14": 14,
+            "16": 2,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2852": {
+      "currentAddress": "Onekawa School, 235 Kennedy Road, Onekawa",
+      "historicalVenueId": "3adb7e1899b93ba2151f",
+      "method": "exact-label",
+      "totalValidVotes": 16,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 16,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 10,
+            "14": 2,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2854": {
+      "currentAddress": "Te Kura o Mohaka, 1978 Mohaka Coast Road, Mohaka",
+      "historicalVenueId": "efbd64faf2e0372ccbf8",
+      "method": "exact-label",
+      "totalValidVotes": 38,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 38,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 31,
+            "14": 4,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2855": {
+      "currentAddress": "Engage Church, 69 Bill Hercock Street, Pirimai",
+      "historicalVenueId": "623f23554399e9b25130",
+      "method": "exact-label",
+      "totalValidVotes": 38,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 38,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 24,
+            "14": 6,
+            "16": 3,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2867": {
+      "currentAddress": "Maraenui Bilingual School, 2A Lister Crescent, Maraenui",
+      "historicalVenueId": "588451b92d0db3e41cc3",
+      "method": "exact-label",
+      "totalValidVotes": 59,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 59,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 41,
+            "14": 11,
+            "16": 0,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2868": {
+      "currentAddress": "Mokotahi Hall, 10 Ratau Street, Māhia",
+      "historicalVenueId": "694a56870fa749e7054a",
+      "method": "exact-label",
+      "totalValidVotes": 39,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 39,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 27,
+            "14": 2,
+            "16": 1,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2869": {
+      "currentAddress": "Frasertown School, 5 Russell Parade, Frasertown",
+      "historicalVenueId": "c8989714b1c908be804a",
+      "method": "exact-label",
+      "totalValidVotes": 38,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 38,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 29,
+            "14": 6,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2893": {
+      "currentAddress": "Napier Central School, 32 Napier Terrace, Bluff Hill",
+      "historicalVenueId": "03c7261621aa39e352a9",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 5,
+            "14": 2,
+            "16": 1,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2894": {
+      "currentAddress": "Napier Intermediate, 3 Jull Street, Napier South",
+      "historicalVenueId": "8b754deae92a0c4b22d8",
+      "method": "exact-label",
+      "totalValidVotes": 24,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 14,
+            "14": 3,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "2994": {
+      "currentAddress": "Petone Working Men&#39;s Club, 47 Udy Street, Petone",
+      "historicalVenueId": "209c1484da6dda6d0f58",
+      "method": "exact-label",
+      "totalValidVotes": 40,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 11,
+            "14": 4,
+            "16": 2,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 16,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 7,
+            "14": 3,
+            "16": 2,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3017": {
+      "currentAddress": "Moera Community Hall, 107 Randwick Crescent, Moera",
+      "historicalVenueId": "77ea23b37598611a26ea",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 3,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3019": {
+      "currentAddress": "St John Hastings Ambulance Hall, 107 Southland Road, St Leonards",
+      "historicalVenueId": "14dc881203b7f57ece56",
+      "method": "exact-label",
+      "totalValidVotes": 45,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 45,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 25,
+            "14": 14,
+            "16": 2,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3021": {
+      "currentAddress": "Wainuiomata Primary School, 1 Homedale Road, Wainuiomata",
+      "historicalVenueId": "a920f8e3562e6181c005",
+      "method": "exact-label",
+      "totalValidVotes": 71,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 71,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 38,
+            "14": 21,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3025": {
+      "currentAddress": "St Aidan&#39;s on the Hill, Church Hall, (corner Poto Road & Stratton Street), Normandale",
+      "historicalVenueId": "1e73317468c8af732bed",
+      "method": "exact-label",
+      "totalValidVotes": 7,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 2,
+            "14": 1,
+            "16": 0,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3026": {
+      "currentAddress": "Kōkiri Marae, 7-9 Barnes Street, Seaview",
+      "historicalVenueId": "cd667285e9b9238bd4da",
+      "method": "exact-label",
+      "totalValidVotes": 66,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 0,
+            "10": 7,
+            "13": 27,
+            "14": 21,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 6,
+            "14": 2,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3029": {
+      "currentAddress": "Kelson School, 52 Taieri Crescent, Kelson",
+      "historicalVenueId": "b06e7723baff521a00c1",
+      "method": "exact-label",
+      "totalValidVotes": 20,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 9,
+            "14": 6,
+            "16": 2,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3045": {
+      "currentAddress": "Ōtāne Hall, 27 Higginson Street, Ōtāne",
+      "historicalVenueId": "5d051ce282cb272cedb5",
+      "method": "exact-label",
+      "totalValidVotes": 73,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 2,
+            "10": 4,
+            "13": 7,
+            "14": 2,
+            "16": 0,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 54,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 32,
+            "14": 15,
+            "16": 2,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3091": {
+      "currentAddress": "Rātā Street School Hall, 73 Rata Street, Naenae",
+      "historicalVenueId": "119a6c1b9dc991c3edeb",
+      "method": "exact-label",
+      "totalValidVotes": 57,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 57,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 38,
+            "14": 9,
+            "16": 0,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3164": {
+      "currentAddress": "Petone Central School, 16 Britannia Street, Petone",
+      "historicalVenueId": "6f57ad929c0f5ae91e86",
+      "method": "exact-label",
+      "totalValidVotes": 12,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 5,
+            "14": 6,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3226": {
+      "currentAddress": "The Terrace School Staffroom, 164 Porangahau Road, Waipukurau",
+      "historicalVenueId": "f40e3a45228b827ef467",
+      "method": "exact-label",
+      "totalValidVotes": 24,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 16,
+            "14": 4,
+            "16": 1,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3232": {
+      "currentAddress": "Gladstone School Hall, 1471 Te Whiti Road, Gladstone",
+      "historicalVenueId": "48eb48ecf4b8e394ac80",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 0,
+            "14": 5,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3241": {
+      "currentAddress": "South End School Hall, 275 High Street South, Carterton",
+      "historicalVenueId": "15ef3615d22138e50ba5",
+      "method": "exact-label",
+      "totalValidVotes": 33,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 33,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 16,
+            "14": 8,
+            "16": 5,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3242": {
+      "currentAddress": "Norsewood & Districts School Staffroom, Coronation Street, Norsewood",
+      "historicalVenueId": "f378a21bb2e72d475e0b",
+      "method": "exact-label",
+      "totalValidVotes": 8,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 3,
+            "14": 2,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3246": {
+      "currentAddress": "Dannevirke South School Hall, Corner Stairs Street & Hunter Street, Dannevirke",
+      "historicalVenueId": "0bbaf0bd97e5fba1775b",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 8,
+            "14": 6,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3248": {
+      "currentAddress": "Douglas Park School Hall, 136 Cole Street, Masterton",
+      "historicalVenueId": "0e352fd1a7b2c24d48ce",
+      "method": "exact-label",
+      "totalValidVotes": 39,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 39,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 17,
+            "14": 10,
+            "16": 4,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3257": {
+      "currentAddress": "Takapau School Hall, 15 Charles Street, Takapau",
+      "historicalVenueId": "18424b18db1f5d86600e",
+      "method": "exact-label",
+      "totalValidVotes": 31,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 31,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 16,
+            "14": 9,
+            "16": 1,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3277": {
+      "currentAddress": "Koraunui School Hall, 17 Kairimu Street, Stokes Valley",
+      "historicalVenueId": "56652dd29852038c5636",
+      "method": "exact-label",
+      "totalValidVotes": 58,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 58,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 32,
+            "14": 18,
+            "16": 3,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3315": {
+      "currentAddress": "Huia Range School Hall, 2 Cole Street, Dannevirke",
+      "historicalVenueId": "2d4ec5384c333a8c4d35",
+      "method": "exact-label",
+      "totalValidVotes": 27,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 27,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 18,
+            "14": 3,
+            "16": 2,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3421": {
+      "currentAddress": "EIT Tairāwhiti, 290 Palmerston Road, Gisborne",
+      "historicalVenueId": "c2ebce11c27781f95d7c",
+      "method": "exact-label",
+      "totalValidVotes": 86,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 86,
+          "votes": {
+            "5": 0,
+            "10": 9,
+            "13": 34,
+            "14": 34,
+            "16": 4,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3422": {
+      "currentAddress": "Tairawhiti Museum, 10 Stout Street, Gisborne",
+      "historicalVenueId": "e0a80fe90c7596bfbe52",
+      "method": "exact-label",
+      "totalValidVotes": 75,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 8,
+            "14": 7,
+            "16": 1,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 56,
+          "votes": {
+            "5": 0,
+            "10": 6,
+            "13": 28,
+            "14": 16,
+            "16": 2,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3428": {
+      "currentAddress": "Gisborne Intermediate School, 156 Roebuck Road, Gisborne",
+      "historicalVenueId": "23fcef5c4a66e8e827ff",
+      "method": "exact-label",
+      "totalValidVotes": 35,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 35,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 30,
+            "14": 3,
+            "16": 0,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3457": {
+      "currentAddress": "Waipawa Library Meeting Room, 64 High Street, Waipawa",
+      "historicalVenueId": "b1b3fd7e75e6dcf03e09",
+      "method": "exact-label",
+      "totalValidVotes": 57,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 57,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 31,
+            "14": 10,
+            "16": 5,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3528": {
+      "currentAddress": "Masterton Primary School Hall, 53 South Road, Masterton",
+      "historicalVenueId": "ffd8c473521651392563",
+      "method": "exact-label",
+      "totalValidVotes": 23,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 23,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 13,
+            "14": 2,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3588": {
+      "currentAddress": "Taradale Town Hall, 8 Meeanee Road, Taradale",
+      "historicalVenueId": "b3dc72bb91ce2a6d7f02",
+      "method": "exact-label",
+      "totalValidVotes": 283,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 233,
+          "votes": {
+            "5": 4,
+            "10": 19,
+            "13": 119,
+            "14": 52,
+            "16": 13,
+            "17": 15,
+            "36": 2,
+            "56": 0,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 50,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 22,
+            "14": 17,
+            "16": 5,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3604": {
+      "currentAddress": "Elsthorpe Community Hall, 7 Kenderine Road, Elsthorpe",
+      "historicalVenueId": "54dc177c69b0450f8a3d",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3747": {
+      "currentAddress": "Napier Old Boys Marist RFC, 9 Clyde Jeffery Drive, Poraiti",
+      "historicalVenueId": "fe64f30f0a5f7f0e01ec",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 1,
+            "14": 3,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3753": {
+      "currentAddress": "Tamatea Community Church, 1 York Avenue, Tamatea",
+      "historicalVenueId": "a28863b1ea6cfa214709",
+      "method": "exact-label",
+      "totalValidVotes": 208,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 136,
+          "votes": {
+            "5": 3,
+            "10": 13,
+            "13": 68,
+            "14": 36,
+            "16": 6,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 72,
+          "votes": {
+            "5": 1,
+            "10": 7,
+            "13": 39,
+            "14": 12,
+            "16": 8,
+            "17": 3,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    },
+    "3755": {
+      "currentAddress": "PAK&#39;nSAVE Napier, 25 Munroe Street, Napier South",
+      "historicalVenueId": "59d693b3cc7cafaf12ec",
+      "method": "exact-label",
+      "totalValidVotes": 715,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 622,
+          "votes": {
+            "5": 8,
+            "10": 37,
+            "13": 345,
+            "14": 160,
+            "16": 24,
+            "17": 25,
+            "36": 6,
+            "56": 2,
+            "70": 6
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 93,
+          "votes": {
+            "5": 1,
+            "10": 7,
+            "13": 51,
+            "14": 19,
+            "16": 1,
+            "17": 7,
+            "36": 3,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "67"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

@@ -1,0 +1,946 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "47",
+  "name": "Tāmaki",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "49",
+      "name": "Tāmaki"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "391": {
+      "currentAddress": "Remuera Intermediate School, 55 Ascot Avenue, Remuera",
+      "historicalVenueId": "74973518f5dfe0357ea1",
+      "method": "exact-label",
+      "totalValidVotes": 29,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 29,
+          "votes": {
+            "5": 4,
+            "10": 5,
+            "13": 5,
+            "14": 0,
+            "16": 12,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "417": {
+      "currentAddress": "Point England Primary School, 130 Point England Road, Point England",
+      "historicalVenueId": "eea324cb818ff088117d",
+      "method": "exact-label",
+      "totalValidVotes": 28,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 28,
+          "votes": {
+            "5": 3,
+            "10": 0,
+            "13": 16,
+            "14": 0,
+            "16": 4,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "446": {
+      "currentAddress": "Mission Bay Guide Hall, 87 Patteson Avenue, Mission Bay",
+      "historicalVenueId": "af4ff0211eaaa9069d08",
+      "method": "exact-label",
+      "totalValidVotes": 319,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 319,
+          "votes": {
+            "5": 62,
+            "10": 31,
+            "13": 43,
+            "14": 1,
+            "16": 158,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "468": {
+      "currentAddress": "St John&#39;s Theological College, Wesley Hall, 202-210 St John&#39;s Road, St Johns",
+      "historicalVenueId": "f93050335ec2d640c1cc",
+      "method": "exact-label",
+      "totalValidVotes": 2578,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1854,
+          "votes": {
+            "5": 231,
+            "10": 164,
+            "13": 243,
+            "14": 14,
+            "16": 1082,
+            "17": 61,
+            "36": 4,
+            "56": 2,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 724,
+          "votes": {
+            "5": 77,
+            "10": 86,
+            "13": 135,
+            "14": 4,
+            "16": 352,
+            "17": 31,
+            "36": 0,
+            "56": 1,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "547": {
+      "currentAddress": "Auckland Netball Centre, 7 Allison Ferguson Drive, St Johns",
+      "historicalVenueId": "9ad91f0606d337040148",
+      "method": "exact-label",
+      "totalValidVotes": 772,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 772,
+          "votes": {
+            "5": 99,
+            "10": 63,
+            "13": 96,
+            "14": 4,
+            "16": 475,
+            "17": 12,
+            "36": 0,
+            "56": 1,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "607": {
+      "currentAddress": "St Heliers Church & Community Centre, 100 St Heliers Bay Road, St Heliers",
+      "historicalVenueId": "43f23527db50e02eb5af",
+      "method": "exact-label",
+      "totalValidVotes": 5189,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 4676,
+          "votes": {
+            "5": 751,
+            "10": 337,
+            "13": 413,
+            "14": 4,
+            "16": 2969,
+            "17": 119,
+            "36": 1,
+            "56": 1,
+            "70": 14
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 513,
+          "votes": {
+            "5": 79,
+            "10": 37,
+            "13": 75,
+            "14": 0,
+            "16": 285,
+            "17": 17,
+            "36": 2,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "613": {
+      "currentAddress": "Remuera Baptist Church, 641 Remuera Road, Remuera",
+      "historicalVenueId": "6140da9e63e3483da234",
+      "method": "exact-label",
+      "totalValidVotes": 1742,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1330,
+          "votes": {
+            "5": 173,
+            "10": 123,
+            "13": 171,
+            "14": 2,
+            "16": 776,
+            "17": 43,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 412,
+          "votes": {
+            "5": 58,
+            "10": 45,
+            "13": 68,
+            "14": 2,
+            "16": 209,
+            "17": 16,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "641": {
+      "currentAddress": "Ōrākei Community Centre, 156 Kepa Road, Ōrākei",
+      "historicalVenueId": "634f954fbc1979afa69f",
+      "method": "exact-label",
+      "totalValidVotes": 3199,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2726,
+          "votes": {
+            "5": 426,
+            "10": 260,
+            "13": 346,
+            "14": 16,
+            "16": 1539,
+            "17": 72,
+            "36": 4,
+            "56": 1,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 473,
+          "votes": {
+            "5": 59,
+            "10": 61,
+            "13": 79,
+            "14": 4,
+            "16": 225,
+            "17": 13,
+            "36": 1,
+            "56": 2,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "716": {
+      "currentAddress": "Salvation Army Community Centre, 18 Allright Place, Mt Wellington",
+      "historicalVenueId": "e095a57295826c403e7a",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 2,
+            "10": 3,
+            "13": 8,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "815": {
+      "currentAddress": "Edmund Hillary Retirement Village Reception Building, 221 Abbotts Way, Remuera",
+      "historicalVenueId": "bebcf711587397fd48b2",
+      "method": "exact-label",
+      "totalValidVotes": 141,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 86,
+          "votes": {
+            "5": 12,
+            "10": 5,
+            "13": 14,
+            "14": 0,
+            "16": 54,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 8,
+            "10": 7,
+            "13": 7,
+            "14": 0,
+            "16": 28,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "820": {
+      "currentAddress": "St Aidan&#39;s Anglican Church, Social Lounge, 5 Ascot Avenue, Remuera",
+      "historicalVenueId": "7414f0db36577fc16b94",
+      "method": "exact-label",
+      "totalValidVotes": 150,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 150,
+          "votes": {
+            "5": 16,
+            "10": 17,
+            "13": 30,
+            "14": 0,
+            "16": 82,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "1348": {
+      "currentAddress": "Ōrākei Primary School, 1 Grace Street, Ōrākei",
+      "historicalVenueId": "93f7a07bd13869d1a66f",
+      "method": "exact-label",
+      "totalValidVotes": 332,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 332,
+          "votes": {
+            "5": 55,
+            "10": 18,
+            "13": 39,
+            "14": 1,
+            "16": 189,
+            "17": 8,
+            "36": 1,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "1366": {
+      "currentAddress": "St Heliers School, 126-160 St Heliers Bay Road, St Heliers",
+      "historicalVenueId": "e01145fdffa032b4d484",
+      "method": "exact-label",
+      "totalValidVotes": 552,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 552,
+          "votes": {
+            "5": 73,
+            "10": 51,
+            "13": 80,
+            "14": 1,
+            "16": 309,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "1847": {
+      "currentAddress": "St Aidan&#39;s Anglican Church Hall, 5 Ascot Avenue, Remuera",
+      "historicalVenueId": "a2acccc2e688fd9fc18f",
+      "method": "exact-label",
+      "totalValidVotes": 36,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 36,
+          "votes": {
+            "5": 3,
+            "10": 5,
+            "13": 6,
+            "14": 0,
+            "16": 17,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "1848": {
+      "currentAddress": "St Mark&#39;s Church, Lounge, 95 Remuera Road, Remuera",
+      "historicalVenueId": "0f3c14e508b863745e55",
+      "method": "exact-label",
+      "totalValidVotes": 28,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 28,
+          "votes": {
+            "5": 2,
+            "10": 1,
+            "13": 4,
+            "14": 0,
+            "16": 19,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "2005": {
+      "currentAddress": "Mountainside Lutheran Church, 1 Harris Road, Mt Wellington",
+      "historicalVenueId": "f15a93d8a71ef627ae9a",
+      "method": "exact-label",
+      "totalValidVotes": 32,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 32,
+          "votes": {
+            "5": 7,
+            "10": 1,
+            "13": 4,
+            "14": 0,
+            "16": 13,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "2215": {
+      "currentAddress": "Kohimarama School, 112 Kohimarama Road, Kohimarama",
+      "historicalVenueId": "26585128ce20cd6c2732",
+      "method": "exact-label",
+      "totalValidVotes": 731,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 731,
+          "votes": {
+            "5": 88,
+            "10": 80,
+            "13": 111,
+            "14": 7,
+            "16": 392,
+            "17": 28,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "2220": {
+      "currentAddress": "Glendowie Primary School, 217 Riddell Road, Glendowie",
+      "historicalVenueId": "088cc347b552bbac4a3b",
+      "method": "exact-label",
+      "totalValidVotes": 536,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 536,
+          "votes": {
+            "5": 57,
+            "10": 57,
+            "13": 83,
+            "14": 3,
+            "16": 303,
+            "17": 12,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "2226": {
+      "currentAddress": "St Thomas&#39;s School, 113 Allum Street, Kohimarama",
+      "historicalVenueId": "5f4e42824dd8660ebe87",
+      "method": "exact-label",
+      "totalValidVotes": 502,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 502,
+          "votes": {
+            "5": 63,
+            "10": 58,
+            "13": 65,
+            "14": 2,
+            "16": 277,
+            "17": 18,
+            "36": 1,
+            "56": 2,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "2232": {
+      "currentAddress": "St Thomas Tāmaki Church, 368 Kohimarama Road, Kohimarama",
+      "historicalVenueId": "9c939848b54dd73b670a",
+      "method": "exact-label",
+      "totalValidVotes": 2115,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1645,
+          "votes": {
+            "5": 239,
+            "10": 125,
+            "13": 195,
+            "14": 5,
+            "16": 996,
+            "17": 48,
+            "36": 3,
+            "56": 1,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 470,
+          "votes": {
+            "5": 55,
+            "10": 67,
+            "13": 83,
+            "14": 1,
+            "16": 208,
+            "17": 24,
+            "36": 2,
+            "56": 0,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "2233": {
+      "currentAddress": "Glen Taylor School, 172 West Tamaki Road, Glendowie",
+      "historicalVenueId": "ea62b6f671b658afb618",
+      "method": "exact-label",
+      "totalValidVotes": 303,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 303,
+          "votes": {
+            "5": 27,
+            "10": 50,
+            "13": 75,
+            "14": 1,
+            "16": 121,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "2238": {
+      "currentAddress": "Tāmaki College, 109-115 Taniwha Street, Glen Innes",
+      "historicalVenueId": "1da90b2770eaf9cb1036",
+      "method": "exact-label",
+      "totalValidVotes": 192,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 192,
+          "votes": {
+            "5": 10,
+            "10": 23,
+            "13": 98,
+            "14": 6,
+            "16": 37,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3197": {
+      "currentAddress": "Tāmaki Ex-Services Association Hall, 19 Turua Street, St Heliers",
+      "historicalVenueId": "0b075d741449bd22644e",
+      "method": "exact-label",
+      "totalValidVotes": 530,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 530,
+          "votes": {
+            "5": 60,
+            "10": 51,
+            "13": 75,
+            "14": 1,
+            "16": 299,
+            "17": 27,
+            "36": 1,
+            "56": 1,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3230": {
+      "currentAddress": "Ellerslie Kindergarten, 122 Celtic Crescent, Ellerslie",
+      "historicalVenueId": "f309d5cf7673ca1bcbc6",
+      "method": "exact-label",
+      "totalValidVotes": 19,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 6,
+            "14": 0,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3314": {
+      "currentAddress": "Stonefields School, 81 Tihi Street, Stonefields",
+      "historicalVenueId": "cf44a5f476cd41d048ef",
+      "method": "exact-label",
+      "totalValidVotes": 672,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 672,
+          "votes": {
+            "5": 87,
+            "10": 70,
+            "13": 92,
+            "14": 4,
+            "16": 361,
+            "17": 27,
+            "36": 2,
+            "56": 1,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3316": {
+      "currentAddress": "Meadowbank School, 68 Waiatarua Road, Remuera",
+      "historicalVenueId": "9981381042b132349f5a",
+      "method": "exact-label",
+      "totalValidVotes": 599,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 599,
+          "votes": {
+            "5": 78,
+            "10": 92,
+            "13": 108,
+            "14": 6,
+            "16": 275,
+            "17": 11,
+            "36": 3,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3322": {
+      "currentAddress": "PAK’nSAVE Glen Innes, 182 Apirana Avenue, Glen Innes",
+      "historicalVenueId": "ec5634b56442be21e822",
+      "method": "exact-label",
+      "totalValidVotes": 4200,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3771,
+          "votes": {
+            "5": 398,
+            "10": 357,
+            "13": 961,
+            "14": 27,
+            "16": 1824,
+            "17": 101,
+            "36": 6,
+            "56": 2,
+            "70": 17
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 429,
+          "votes": {
+            "5": 33,
+            "10": 52,
+            "13": 159,
+            "14": 3,
+            "16": 151,
+            "17": 13,
+            "36": 3,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3390": {
+      "currentAddress": "Panmure Library, 7-13 Pilkington Road, Panmure",
+      "historicalVenueId": "f5d8ab46fc513e3c49ce",
+      "method": "exact-label",
+      "totalValidVotes": 89,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 89,
+          "votes": {
+            "5": 10,
+            "10": 7,
+            "13": 35,
+            "14": 0,
+            "16": 31,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3427": {
+      "currentAddress": "Ruapōtaka Marae, 106 Line Road, Glen Innes",
+      "historicalVenueId": "3cb07e6b9c3e15f81afe",
+      "method": "exact-label",
+      "totalValidVotes": 636,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 496,
+          "votes": {
+            "5": 37,
+            "10": 58,
+            "13": 208,
+            "14": 8,
+            "16": 152,
+            "17": 16,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 140,
+          "votes": {
+            "5": 6,
+            "10": 18,
+            "13": 76,
+            "14": 6,
+            "16": 24,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3470": {
+      "currentAddress": "The Warehouse Mt Wellington Lunn Avenue, 101 Lunn Avenue, Mt Wellington",
+      "historicalVenueId": "a1942a25a7d4a538ae5f",
+      "method": "exact-label",
+      "totalValidVotes": 2018,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2018,
+          "votes": {
+            "5": 255,
+            "10": 178,
+            "13": 298,
+            "14": 9,
+            "16": 1169,
+            "17": 62,
+            "36": 7,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3532": {
+      "currentAddress": "Te Whare Rangimarie, 7-13 Pilkington Road, Panmure",
+      "historicalVenueId": "f64e1e4273ab08c24e46",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 12,
+            "14": 1,
+            "16": 3,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    },
+    "3593": {
+      "currentAddress": "Auckland University of Technology, Level 4, Building WA, 55 Wellesley Street, Auckland City",
+      "historicalVenueId": "e4211c7fd6272a4478d2",
+      "method": "exact-label",
+      "totalValidVotes": 44,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 44,
+          "votes": {
+            "5": 4,
+            "10": 18,
+            "13": 6,
+            "14": 0,
+            "16": 12,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "49"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

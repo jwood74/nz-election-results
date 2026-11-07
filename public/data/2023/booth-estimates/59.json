@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "59",
+  "name": "Wellington North",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "60",
+      "name": "Wellington Central"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "1469": {
+      "currentAddress": "Ngaio Town Hall, 1 Ottawa Road, Ngaio",
+      "historicalVenueId": "7e858067954fd29246f4",
+      "method": "exact-label",
+      "totalValidVotes": 29,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 2,
+            "10": 4,
+            "13": 4,
+            "14": 1,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 0,
+            "10": 9,
+            "13": 3,
+            "14": 1,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "1478": {
+      "currentAddress": "Newtown School Hall, Corner Riddiford Street & Mein Street, Newtown",
+      "historicalVenueId": "1b1e29d0a96244c932dd",
+      "method": "exact-label",
+      "totalValidVotes": 139,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 60,
+          "votes": {
+            "5": 8,
+            "10": 21,
+            "13": 20,
+            "14": 0,
+            "16": 6,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 79,
+          "votes": {
+            "5": 3,
+            "10": 23,
+            "13": 29,
+            "14": 2,
+            "16": 15,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "1495": {
+      "currentAddress": "Kelburn Normal School Hall, 16 Kowhai Road, Kelburn",
+      "historicalVenueId": "a47d29fc7c33440ad1c5",
+      "method": "exact-label",
+      "totalValidVotes": 883,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 883,
+          "votes": {
+            "5": 56,
+            "10": 236,
+            "13": 263,
+            "14": 15,
+            "16": 237,
+            "17": 13,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "1496": {
+      "currentAddress": "St Teresa&#39;s Parish Hall, 301 Karori Road, Karori",
+      "historicalVenueId": "5130c186f4ad329d370c",
+      "method": "exact-label",
+      "totalValidVotes": 458,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 458,
+          "votes": {
+            "5": 20,
+            "10": 97,
+            "13": 138,
+            "14": 8,
+            "16": 139,
+            "17": 26,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "1499": {
+      "currentAddress": "Karori Baptist Church, 161/163 Karori Road, Karori",
+      "historicalVenueId": "abcceaa17d958c30c9d9",
+      "method": "exact-label",
+      "totalValidVotes": 460,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 460,
+          "votes": {
+            "5": 30,
+            "10": 77,
+            "13": 152,
+            "14": 7,
+            "16": 146,
+            "17": 12,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "1672": {
+      "currentAddress": "Ōtari School Hall, 166 Wilton Road, Wilton",
+      "historicalVenueId": "a38f9ce9fad95dd89dc5",
+      "method": "exact-label",
+      "totalValidVotes": 246,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 246,
+          "votes": {
+            "5": 5,
+            "10": 85,
+            "13": 81,
+            "14": 3,
+            "16": 50,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2199": {
+      "currentAddress": "Victoria University, The Hub, Kelburn Parade, Kelburn",
+      "historicalVenueId": "5eb1451037a260082af2",
+      "method": "exact-label",
+      "totalValidVotes": 1967,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1967,
+          "votes": {
+            "5": 43,
+            "10": 1246,
+            "13": 285,
+            "14": 82,
+            "16": 197,
+            "17": 14,
+            "36": 6,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2228": {
+      "currentAddress": "Vogelmorn Hall, 13 Vennell Street, Mornington",
+      "historicalVenueId": "e3189a7acad9d7a52bc0",
+      "method": "exact-label",
+      "totalValidVotes": 112,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 52,
+          "votes": {
+            "5": 2,
+            "10": 30,
+            "13": 12,
+            "14": 3,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 60,
+          "votes": {
+            "5": 3,
+            "10": 18,
+            "13": 18,
+            "14": 0,
+            "16": 17,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2368": {
+      "currentAddress": "Eastbourne Library, 38 Rimu Street, Eastbourne",
+      "historicalVenueId": "68aa7f239e7875f97a8a",
+      "method": "exact-label",
+      "totalValidVotes": 9,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2468": {
+      "currentAddress": "Kilbirnie & Lyall Bay Community Centre, 56-58 Bay Road, Kilbirnie",
+      "historicalVenueId": "6d89ea5aa3d691c4dd63",
+      "method": "exact-label",
+      "totalValidVotes": 209,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 185,
+          "votes": {
+            "5": 12,
+            "10": 46,
+            "13": 48,
+            "14": 2,
+            "16": 69,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 2,
+            "10": 8,
+            "13": 7,
+            "14": 1,
+            "16": 4,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2570": {
+      "currentAddress": "Roseneath School Hall, 13 Maida Vale Road, Roseneath",
+      "historicalVenueId": "d673668a58a65db0d1cd",
+      "method": "exact-label",
+      "totalValidVotes": 43,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 43,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 13,
+            "14": 1,
+            "16": 21,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2586": {
+      "currentAddress": "Wellington Bridge Club, 17 Tinakori Road, Thorndon",
+      "historicalVenueId": "0d2588254310e368625a",
+      "method": "exact-label",
+      "totalValidVotes": 345,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 345,
+          "votes": {
+            "5": 14,
+            "10": 92,
+            "13": 109,
+            "14": 3,
+            "16": 86,
+            "17": 11,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2659": {
+      "currentAddress": "Miramar & Maupuia Community Centre, 27 Chelsea Street, Miramar",
+      "historicalVenueId": "9a623fb74acd5e3a7f94",
+      "method": "exact-label",
+      "totalValidVotes": 84,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 72,
+          "votes": {
+            "5": 2,
+            "10": 25,
+            "13": 14,
+            "14": 4,
+            "16": 19,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 2,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2662": {
+      "currentAddress": "Brooklyn Community Centre, 18 Harrison Street, Brooklyn",
+      "historicalVenueId": "b49a01dbc332f506791f",
+      "method": "exact-label",
+      "totalValidVotes": 1909,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1078,
+          "votes": {
+            "5": 41,
+            "10": 304,
+            "13": 325,
+            "14": 21,
+            "16": 304,
+            "17": 31,
+            "36": 2,
+            "56": 2,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 831,
+          "votes": {
+            "5": 20,
+            "10": 274,
+            "13": 239,
+            "14": 15,
+            "16": 169,
+            "17": 26,
+            "36": 4,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2772": {
+      "currentAddress": "Karori West Normal School Hall, 19 Allington Road, Karori",
+      "historicalVenueId": "436487104f3cc7e4991c",
+      "method": "exact-label",
+      "totalValidVotes": 797,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 797,
+          "votes": {
+            "5": 21,
+            "10": 203,
+            "13": 266,
+            "14": 7,
+            "16": 214,
+            "17": 22,
+            "36": 3,
+            "56": 2,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "2773": {
+      "currentAddress": "Karori Normal School, 2 Donald Street, Karori",
+      "historicalVenueId": "86a1dcd93b0385099d80",
+      "method": "exact-label",
+      "totalValidVotes": 660,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 660,
+          "votes": {
+            "5": 47,
+            "10": 126,
+            "13": 210,
+            "14": 6,
+            "16": 225,
+            "17": 22,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "3641": {
+      "currentAddress": "Wellington International Airport, Airside, Stewart Duff Drive, Rongotai",
+      "historicalVenueId": "b7a3d48e6558ec409f1b",
+      "method": "exact-label",
+      "totalValidVotes": 32,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 32,
+          "votes": {
+            "5": 2,
+            "10": 9,
+            "13": 7,
+            "14": 0,
+            "16": 9,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "3792": {
+      "currentAddress": "Wellington Regional Hospital, Main Concourse, Ground Floor, Adelaide Road, Newtown",
+      "historicalVenueId": "7201d73e20e2b5a7ed28",
+      "method": "exact-label",
+      "totalValidVotes": 184,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 184,
+          "votes": {
+            "5": 8,
+            "10": 66,
+            "13": 60,
+            "14": 5,
+            "16": 30,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    },
+    "3798": {
+      "currentAddress": "Kapiti Uniting Parish, 9 Taiata Street, Waikanae Beach",
+      "historicalVenueId": "af635b708e64221e1722",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 3,
+            "14": 0,
+            "16": 13,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "60"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

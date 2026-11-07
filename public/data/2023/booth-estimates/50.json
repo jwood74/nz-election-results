@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "50",
+  "name": "Tauranga",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "52",
+      "name": "Tauranga"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "733": {
+      "currentAddress": "Tauranga Primary School Hall, 31 Fifth Avenue, Tauranga",
+      "historicalVenueId": "4c74d88b275021301267",
+      "method": "exact-label",
+      "totalValidVotes": 367,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 367,
+          "votes": {
+            "5": 36,
+            "10": 46,
+            "13": 65,
+            "14": 8,
+            "16": 159,
+            "17": 34,
+            "36": 0,
+            "56": 1,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "735": {
+      "currentAddress": "Papamoa Community Centre, 15 Gravatt Road, Papamoa Beach",
+      "historicalVenueId": "e9b395bddccb481ba09c",
+      "method": "exact-label",
+      "totalValidVotes": 50,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 37,
+          "votes": {
+            "5": 7,
+            "10": 4,
+            "13": 4,
+            "14": 0,
+            "16": 18,
+            "17": 0,
+            "36": 0,
+            "56": 1,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 1,
+            "14": 1,
+            "16": 6,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "871": {
+      "currentAddress": "Baden-Powell Centre, Ila Park, 46 Harrisfield Drive, Hairini",
+      "historicalVenueId": "c9ac076cd62cebc8bcb8",
+      "method": "exact-label",
+      "totalValidVotes": 37,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 17,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 5,
+            "14": 1,
+            "16": 8,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 5,
+            "14": 1,
+            "16": 6,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "1044": {
+      "currentAddress": "Ōtūmoetai Primary School, 236 Otumoetai Road, Ōtūmoetai",
+      "historicalVenueId": "e3f7ffae16ad101545d1",
+      "method": "exact-label",
+      "totalValidVotes": 1042,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 1042,
+          "votes": {
+            "5": 99,
+            "10": 114,
+            "13": 210,
+            "14": 9,
+            "16": 401,
+            "17": 137,
+            "36": 8,
+            "56": 2,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "1471": {
+      "currentAddress": "Ōtūmoetai Intermediate School, 5 Charles Street, Ōtūmoetai",
+      "historicalVenueId": "300cc1f7ecfb4568d630",
+      "method": "exact-label",
+      "totalValidVotes": 380,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 380,
+          "votes": {
+            "5": 37,
+            "10": 43,
+            "13": 84,
+            "14": 6,
+            "16": 131,
+            "17": 47,
+            "36": 4,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "1943": {
+      "currentAddress": "Arataki Community Centre, Zambuk Way, off Grenada Street, Mount Maunganui",
+      "historicalVenueId": "88b0999b52495ea94994",
+      "method": "exact-label",
+      "totalValidVotes": 115,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 94,
+          "votes": {
+            "5": 10,
+            "10": 10,
+            "13": 14,
+            "14": 0,
+            "16": 43,
+            "17": 10,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 2,
+            "10": 1,
+            "13": 5,
+            "14": 0,
+            "16": 8,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "1982": {
+      "currentAddress": "Mount Maunganui Intermediate School Hall, 21 Lodge Avenue, Mount Maunganui",
+      "historicalVenueId": "d255d578a97511e829c0",
+      "method": "exact-label",
+      "totalValidVotes": 45,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 45,
+          "votes": {
+            "5": 6,
+            "10": 11,
+            "13": 9,
+            "14": 1,
+            "16": 8,
+            "17": 4,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "2071": {
+      "currentAddress": "Taumata School, 145 Mortlake Heights, Pyes Pa",
+      "historicalVenueId": "36933efbe5b8cb60f2a9",
+      "method": "exact-label",
+      "totalValidVotes": 351,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 109,
+          "votes": {
+            "5": 17,
+            "10": 4,
+            "13": 12,
+            "14": 1,
+            "16": 65,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 242,
+          "votes": {
+            "5": 32,
+            "10": 22,
+            "13": 37,
+            "14": 1,
+            "16": 109,
+            "17": 23,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "2230": {
+      "currentAddress": "Welcome Bay Hall, 244 Welcome Bay Road, Welcome Bay",
+      "historicalVenueId": "c0427b7a6f4a85f98418",
+      "method": "exact-label",
+      "totalValidVotes": 67,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 44,
+          "votes": {
+            "5": 11,
+            "10": 3,
+            "13": 5,
+            "14": 0,
+            "16": 22,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 23,
+          "votes": {
+            "5": 2,
+            "10": 3,
+            "13": 5,
+            "14": 1,
+            "16": 7,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "3160": {
+      "currentAddress": "Te Puke War Memorial Hall, 130 Jellicoe Street, Te Puke",
+      "historicalVenueId": "cce57096bc369b4990f2",
+      "method": "exact-label",
+      "totalValidVotes": 55,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 43,
+          "votes": {
+            "5": 6,
+            "10": 3,
+            "13": 8,
+            "14": 2,
+            "16": 19,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 4,
+            "14": 0,
+            "16": 1,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "3465": {
+      "currentAddress": "St Mary&#39;s Anglican Church Hall, 33 Girven Road (corner Marlin Street), Mount Maunganui",
+      "historicalVenueId": "9174472bd878d73208b5",
+      "method": "exact-label",
+      "totalValidVotes": 64,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 42,
+          "votes": {
+            "5": 6,
+            "10": 3,
+            "13": 4,
+            "14": 1,
+            "16": 27,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 5,
+            "10": 2,
+            "13": 3,
+            "14": 2,
+            "16": 6,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "3467": {
+      "currentAddress": "Changepoint Church, 131 Poike Road, Poike",
+      "historicalVenueId": "2739f1b63d8d3b1b376d",
+      "method": "exact-label",
+      "totalValidVotes": 120,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 79,
+          "votes": {
+            "5": 8,
+            "10": 2,
+            "13": 10,
+            "14": 0,
+            "16": 43,
+            "17": 8,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 41,
+          "votes": {
+            "5": 2,
+            "10": 3,
+            "13": 6,
+            "14": 1,
+            "16": 15,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    },
+    "3502": {
+      "currentAddress": "St. John&#39;s Anglican Church, 94 Bureta Road, Bureta",
+      "historicalVenueId": "d4baadddba587b230be9",
+      "method": "exact-label",
+      "totalValidVotes": 967,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 286,
+          "votes": {
+            "5": 40,
+            "10": 19,
+            "13": 62,
+            "14": 2,
+            "16": 124,
+            "17": 30,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 681,
+          "votes": {
+            "5": 89,
+            "10": 66,
+            "13": 106,
+            "14": 6,
+            "16": 300,
+            "17": 76,
+            "36": 2,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "52"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

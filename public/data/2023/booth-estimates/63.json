@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "63",
+  "name": "Whangārei",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "64",
+      "name": "Whangārei"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "508": {
+      "currentAddress": "Waipu Coronation Hall, 47 The Centre, Waipu",
+      "historicalVenueId": "bc93dce2ced35510b37e",
+      "method": "exact-label",
+      "totalValidVotes": 2316,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1672,
+          "votes": {
+            "5": 188,
+            "10": 128,
+            "13": 296,
+            "14": 7,
+            "16": 777,
+            "17": 205,
+            "36": 3,
+            "56": 0,
+            "70": 24
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 644,
+          "votes": {
+            "5": 52,
+            "10": 51,
+            "13": 102,
+            "14": 9,
+            "16": 240,
+            "17": 106,
+            "36": 3,
+            "56": 1,
+            "70": 42
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "831": {
+      "currentAddress": "Poroti School, 673 Mangakahia Road, Poroti",
+      "historicalVenueId": "2e986ae105fc9b24b953",
+      "method": "exact-label",
+      "totalValidVotes": 25,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 25,
+          "votes": {
+            "5": 5,
+            "10": 0,
+            "13": 4,
+            "14": 0,
+            "16": 4,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "845": {
+      "currentAddress": "Kokopu School Library, 921 Kokopu Road, Kokopu",
+      "historicalVenueId": "5c1a1b32a0ec605a80ad",
+      "method": "exact-label",
+      "totalValidVotes": 104,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 104,
+          "votes": {
+            "5": 14,
+            "10": 5,
+            "13": 12,
+            "14": 0,
+            "16": 38,
+            "17": 23,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1013": {
+      "currentAddress": "Ngunguru Community Hall, 1879 Ngunguru Road, Ngunguru",
+      "historicalVenueId": "a4ebc6909faff55c6e11",
+      "method": "exact-label",
+      "totalValidVotes": 1138,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 725,
+          "votes": {
+            "5": 58,
+            "10": 92,
+            "13": 147,
+            "14": 4,
+            "16": 304,
+            "17": 78,
+            "36": 2,
+            "56": 1,
+            "70": 11
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 413,
+          "votes": {
+            "5": 24,
+            "10": 63,
+            "13": 94,
+            "14": 8,
+            "16": 133,
+            "17": 55,
+            "36": 1,
+            "56": 1,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1498": {
+      "currentAddress": "Maungatapere School Hall, Mangakahia Road, Maungatapere",
+      "historicalVenueId": "f71547f308561343879f",
+      "method": "exact-label",
+      "totalValidVotes": 293,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 293,
+          "votes": {
+            "5": 42,
+            "10": 14,
+            "13": 41,
+            "14": 2,
+            "16": 116,
+            "17": 35,
+            "36": 5,
+            "56": 1,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1501": {
+      "currentAddress": "Tikipunga High School Hall, 194 Corks Road, Tikipunga",
+      "historicalVenueId": "9667e868731e39baec89",
+      "method": "exact-label",
+      "totalValidVotes": 268,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 268,
+          "votes": {
+            "5": 30,
+            "10": 20,
+            "13": 76,
+            "14": 5,
+            "16": 69,
+            "17": 48,
+            "36": 1,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1502": {
+      "currentAddress": "Maungakaramea School Library, Tangihua Road, Maungakaramea",
+      "historicalVenueId": "90716fb8860a95226e29",
+      "method": "exact-label",
+      "totalValidVotes": 53,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 53,
+          "votes": {
+            "5": 3,
+            "10": 1,
+            "13": 7,
+            "14": 0,
+            "16": 29,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1768": {
+      "currentAddress": "Whangarei Bowling Club, 2 Second Avenue, Avenues",
+      "historicalVenueId": "9a047390d5eef87ec2d5",
+      "method": "exact-label",
+      "totalValidVotes": 309,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 309,
+          "votes": {
+            "5": 23,
+            "10": 46,
+            "13": 76,
+            "14": 8,
+            "16": 75,
+            "17": 47,
+            "36": 3,
+            "56": 2,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1800": {
+      "currentAddress": "Otaika Valley School, Classroom 3, Valley View Road, Ōtaika",
+      "historicalVenueId": "7e62ca11e381b74a19eb",
+      "method": "exact-label",
+      "totalValidVotes": 315,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 315,
+          "votes": {
+            "5": 31,
+            "10": 17,
+            "13": 48,
+            "14": 4,
+            "16": 110,
+            "17": 58,
+            "36": 2,
+            "56": 1,
+            "70": 25
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1819": {
+      "currentAddress": "Glenbervie School Hall, 151 Ngunguru Road, Glenbervie",
+      "historicalVenueId": "005af7cad61fd20a94a1",
+      "method": "exact-label",
+      "totalValidVotes": 303,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 303,
+          "votes": {
+            "5": 21,
+            "10": 14,
+            "13": 60,
+            "14": 2,
+            "16": 133,
+            "17": 53,
+            "36": 1,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1894": {
+      "currentAddress": "Mt Manaia Bowling Club, 1341 Whangārei Heads Road, Parua Bay",
+      "historicalVenueId": "a750d2a024c76f3370a0",
+      "method": "exact-label",
+      "totalValidVotes": 1361,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 777,
+          "votes": {
+            "5": 89,
+            "10": 97,
+            "13": 173,
+            "14": 5,
+            "16": 294,
+            "17": 91,
+            "36": 3,
+            "56": 0,
+            "70": 7
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 584,
+          "votes": {
+            "5": 64,
+            "10": 76,
+            "13": 113,
+            "14": 2,
+            "16": 192,
+            "17": 81,
+            "36": 6,
+            "56": 0,
+            "70": 22
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "1908": {
+      "currentAddress": "St. John&#39;s Golden Church, Leigh Hall, 149 Kamo Road, Kensington",
+      "historicalVenueId": "6a3755e0eafb3743e4fc",
+      "method": "exact-label",
+      "totalValidVotes": 371,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 371,
+          "votes": {
+            "5": 21,
+            "10": 27,
+            "13": 113,
+            "14": 0,
+            "16": 115,
+            "17": 73,
+            "36": 1,
+            "56": 1,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "2006": {
+      "currentAddress": "Onerahi Bowling Club, 35 Alamein Avenue, Onerahi",
+      "historicalVenueId": "7eb8fc492ac25ef94a67",
+      "method": "exact-label",
+      "totalValidVotes": 2396,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1735,
+          "votes": {
+            "5": 159,
+            "10": 178,
+            "13": 454,
+            "14": 12,
+            "16": 640,
+            "17": 230,
+            "36": 4,
+            "56": 0,
+            "70": 17
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 661,
+          "votes": {
+            "5": 45,
+            "10": 57,
+            "13": 181,
+            "14": 14,
+            "16": 177,
+            "17": 127,
+            "36": 1,
+            "56": 0,
+            "70": 22
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "2370": {
+      "currentAddress": "Maunu Primary School Hall, 13 Austin Road, Maunu",
+      "historicalVenueId": "0cbea3bbf2d48a46a42c",
+      "method": "exact-label",
+      "totalValidVotes": 644,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 644,
+          "votes": {
+            "5": 67,
+            "10": 46,
+            "13": 89,
+            "14": 8,
+            "16": 333,
+            "17": 65,
+            "36": 1,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "3340": {
+      "currentAddress": "New World Mangawhai Car Park, 83 Molesworth Drive, Mangawhai Heads",
+      "historicalVenueId": "5c0da8b1e044a8e8ab5f",
+      "method": "exact-label",
+      "totalValidVotes": 75,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 62,
+          "votes": {
+            "5": 7,
+            "10": 5,
+            "13": 5,
+            "14": 2,
+            "16": 29,
+            "17": 8,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 4,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    },
+    "3529": {
+      "currentAddress": "Te Kura Kaupapa Māori o Te Rāwhitiroa Whare, 42 Vinegar Hill Road, Tikipunga",
+      "historicalVenueId": "8c376ff047a5e3f5ad60",
+      "method": "exact-label",
+      "totalValidVotes": 47,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 47,
+          "votes": {
+            "5": 2,
+            "10": 3,
+            "13": 9,
+            "14": 4,
+            "16": 18,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "64"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "52",
+  "name": "Upper Harbour",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "55",
+      "name": "Upper Harbour"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "579": {
+      "currentAddress": "Milford Shopping Centre, 24 Milford Road, Milford",
+      "historicalVenueId": "8ec3ee9ce84b87f784cf",
+      "method": "exact-label",
+      "totalValidVotes": 269,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 230,
+          "votes": {
+            "5": 18,
+            "10": 20,
+            "13": 48,
+            "14": 0,
+            "16": 130,
+            "17": 8,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 39,
+          "votes": {
+            "5": 2,
+            "10": 2,
+            "13": 1,
+            "14": 1,
+            "16": 29,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "710": {
+      "currentAddress": "Hobsonville School, 104 Hobsonville Road, Hobsonville",
+      "historicalVenueId": "5a05da655694ff505b4a",
+      "method": "exact-label",
+      "totalValidVotes": 378,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 378,
+          "votes": {
+            "5": 42,
+            "10": 36,
+            "13": 64,
+            "14": 6,
+            "16": 189,
+            "17": 21,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "898": {
+      "currentAddress": "Pinehurst School, 75 Bush Road, Albany",
+      "historicalVenueId": "914d8e3d4afef690a419",
+      "method": "exact-label",
+      "totalValidVotes": 65,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 65,
+          "votes": {
+            "5": 5,
+            "10": 6,
+            "13": 6,
+            "14": 0,
+            "16": 41,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "939": {
+      "currentAddress": "Bayview Primary School, 60 Bayview Road, Glenfield",
+      "historicalVenueId": "ce680997f6c82df2dd0f",
+      "method": "exact-label",
+      "totalValidVotes": 819,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 819,
+          "votes": {
+            "5": 74,
+            "10": 103,
+            "13": 215,
+            "14": 3,
+            "16": 333,
+            "17": 49,
+            "36": 1,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "949": {
+      "currentAddress": "Glenfield Primary School, 101 Chivalry Road, Glenfield",
+      "historicalVenueId": "de3c1b63f1ad5b5e3bf1",
+      "method": "exact-label",
+      "totalValidVotes": 68,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 68,
+          "votes": {
+            "5": 3,
+            "10": 7,
+            "13": 28,
+            "14": 0,
+            "16": 25,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "984": {
+      "currentAddress": "Marina View School, 97 Marina View Drive, West Harbour",
+      "historicalVenueId": "e45f3a0ad43fb25d0d14",
+      "method": "exact-label",
+      "totalValidVotes": 1643,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 983,
+          "votes": {
+            "5": 88,
+            "10": 49,
+            "13": 158,
+            "14": 3,
+            "16": 631,
+            "17": 28,
+            "36": 4,
+            "56": 1,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 660,
+          "votes": {
+            "5": 70,
+            "10": 51,
+            "13": 137,
+            "14": 4,
+            "16": 346,
+            "17": 21,
+            "36": 5,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "995": {
+      "currentAddress": "Upper Harbour Primary School, 140 Kyle Road, Greenhithe",
+      "historicalVenueId": "66f03119576b153cfd6f",
+      "method": "exact-label",
+      "totalValidVotes": 277,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 277,
+          "votes": {
+            "5": 23,
+            "10": 14,
+            "13": 29,
+            "14": 0,
+            "16": 192,
+            "17": 11,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "1876": {
+      "currentAddress": "Greenhithe Community Hall, 7 Greenhithe Road, Greenhithe",
+      "historicalVenueId": "4d0aac21a3aa2307968e",
+      "method": "exact-label",
+      "totalValidVotes": 334,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 334,
+          "votes": {
+            "5": 44,
+            "10": 31,
+            "13": 45,
+            "14": 1,
+            "16": 167,
+            "17": 19,
+            "36": 2,
+            "56": 0,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "2066": {
+      "currentAddress": "Massey Matters, Massey Community Hub, 385 Don Buck Road, Massey",
+      "historicalVenueId": "11f43a8add81c5de3322",
+      "method": "exact-label",
+      "totalValidVotes": 1006,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 681,
+          "votes": {
+            "5": 46,
+            "10": 46,
+            "13": 320,
+            "14": 6,
+            "16": 218,
+            "17": 29,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 325,
+          "votes": {
+            "5": 19,
+            "10": 24,
+            "13": 138,
+            "14": 4,
+            "16": 101,
+            "17": 21,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "2336": {
+      "currentAddress": "Kowhai Kids Centre, 265 Albany Highway, Rosedale",
+      "historicalVenueId": "0e6c42d807c1dba20386",
+      "method": "exact-label",
+      "totalValidVotes": 84,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 52,
+          "votes": {
+            "5": 13,
+            "10": 6,
+            "13": 3,
+            "14": 0,
+            "16": 27,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 32,
+          "votes": {
+            "5": 4,
+            "10": 1,
+            "13": 4,
+            "14": 0,
+            "16": 22,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "2491": {
+      "currentAddress": "Meadowood Community House, Unsworth Heights, 55 Meadowood Drive, Glenfield",
+      "historicalVenueId": "5f99786bbc7f37c7e2e0",
+      "method": "exact-label",
+      "totalValidVotes": 2248,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1531,
+          "votes": {
+            "5": 140,
+            "10": 107,
+            "13": 298,
+            "14": 10,
+            "16": 859,
+            "17": 61,
+            "36": 5,
+            "56": 0,
+            "70": 8
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 717,
+          "votes": {
+            "5": 55,
+            "10": 64,
+            "13": 167,
+            "14": 2,
+            "16": 352,
+            "17": 34,
+            "36": 5,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "2503": {
+      "currentAddress": "Hobsonville Point Primary School, 18 De Havilland Road, Hobsonville",
+      "historicalVenueId": "ea31e60290f93848c8c4",
+      "method": "exact-label",
+      "totalValidVotes": 567,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 567,
+          "votes": {
+            "5": 46,
+            "10": 71,
+            "13": 98,
+            "14": 5,
+            "16": 288,
+            "17": 31,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "2705": {
+      "currentAddress": "Westgate Baptist Church, 67 Hobsonville Road, West Harbour",
+      "historicalVenueId": "9b167dd9f50be57c74f5",
+      "method": "exact-label",
+      "totalValidVotes": 1523,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1172,
+          "votes": {
+            "5": 111,
+            "10": 60,
+            "13": 229,
+            "14": 8,
+            "16": 659,
+            "17": 71,
+            "36": 1,
+            "56": 0,
+            "70": 7
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 351,
+          "votes": {
+            "5": 34,
+            "10": 28,
+            "13": 97,
+            "14": 4,
+            "16": 135,
+            "17": 25,
+            "36": 2,
+            "56": 1,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "2892": {
+      "currentAddress": "Sunnynook Baptist Church, 138 Sunnynook Road, Sunnynook",
+      "historicalVenueId": "a0e44109832072186629",
+      "method": "exact-label",
+      "totalValidVotes": 619,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 494,
+          "votes": {
+            "5": 44,
+            "10": 58,
+            "13": 97,
+            "14": 1,
+            "16": 259,
+            "17": 21,
+            "36": 2,
+            "56": 0,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 125,
+          "votes": {
+            "5": 9,
+            "10": 15,
+            "13": 36,
+            "14": 1,
+            "16": 48,
+            "17": 10,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "2913": {
+      "currentAddress": "Westfield Mall, Centre Court, 219 Don McKinnon Drive, Albany",
+      "historicalVenueId": "51bd901b0661c9882918",
+      "method": "exact-label",
+      "totalValidVotes": 942,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 869,
+          "votes": {
+            "5": 76,
+            "10": 66,
+            "13": 103,
+            "14": 3,
+            "16": 566,
+            "17": 23,
+            "36": 3,
+            "56": 0,
+            "70": 8
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 73,
+          "votes": {
+            "5": 7,
+            "10": 7,
+            "13": 10,
+            "14": 1,
+            "16": 45,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "3005": {
+      "currentAddress": "St Thomas More Catholic Church Hall, 4 St Thomas More Lane, Glenfield",
+      "historicalVenueId": "b0d7d494685e44082416",
+      "method": "exact-label",
+      "totalValidVotes": 906,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 560,
+          "votes": {
+            "5": 47,
+            "10": 37,
+            "13": 148,
+            "14": 2,
+            "16": 286,
+            "17": 16,
+            "36": 2,
+            "56": 2,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 346,
+          "votes": {
+            "5": 27,
+            "10": 35,
+            "13": 98,
+            "14": 2,
+            "16": 146,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "3463": {
+      "currentAddress": "PAK&#39;nSAVE Silverdale, Portacom, 20 Hibiscus Coast Highway, Silverdale",
+      "historicalVenueId": "2705d633d0353a2d964b",
+      "method": "exact-label",
+      "totalValidVotes": 17,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 17,
+          "votes": {
+            "5": 3,
+            "10": 3,
+            "13": 3,
+            "14": 1,
+            "16": 7,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "3508": {
+      "currentAddress": "Te Manawa Library Community Hub, 11 Kōhūhū Lane, Westgate",
+      "historicalVenueId": "b65ddf3f9ce8e40e9c13",
+      "method": "exact-label",
+      "totalValidVotes": 1520,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1309,
+          "votes": {
+            "5": 117,
+            "10": 131,
+            "13": 256,
+            "14": 11,
+            "16": 671,
+            "17": 63,
+            "36": 2,
+            "56": 0,
+            "70": 7
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 211,
+          "votes": {
+            "5": 12,
+            "10": 24,
+            "13": 59,
+            "14": 3,
+            "16": 96,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "3630": {
+      "currentAddress": "Waitākere Hospital, Main Entrance Foyer, 55-75 Lincoln Road, Henderson",
+      "historicalVenueId": "94c6805097c57a90c459",
+      "method": "exact-label",
+      "totalValidVotes": 63,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 63,
+          "votes": {
+            "5": 4,
+            "10": 7,
+            "13": 25,
+            "14": 2,
+            "16": 23,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    },
+    "3829": {
+      "currentAddress": "Reformed Church of the North Shore, 74 Trias Road, Tōtara Vale",
+      "historicalVenueId": "0d9860a1334d741a280f",
+      "method": "exact-label",
+      "totalValidVotes": 375,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 375,
+          "votes": {
+            "5": 25,
+            "10": 46,
+            "13": 79,
+            "14": 2,
+            "16": 174,
+            "17": 21,
+            "36": 3,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "55"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

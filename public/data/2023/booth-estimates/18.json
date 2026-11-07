@@ -1,0 +1,1232 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "18",
+  "name": "Kaikōura",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "unchanged",
+  "related2023": [
+    {
+      "id": "17",
+      "name": "Kaikōura"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "423": {
+      "currentAddress": "Waiau School, 11 Montrose Street (corner Leslie Street), Waiau",
+      "historicalVenueId": "002f510a37ab3fe34c31",
+      "method": "exact-label",
+      "totalValidVotes": 242,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 242,
+          "votes": {
+            "5": 33,
+            "10": 12,
+            "13": 40,
+            "14": 1,
+            "16": 121,
+            "17": 19,
+            "36": 2,
+            "56": 1,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "424": {
+      "currentAddress": "Rotherham School, Library, 71 George Street, Rotherham",
+      "historicalVenueId": "ee184ad408dc61dd98cf",
+      "method": "exact-label",
+      "totalValidVotes": 185,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 185,
+          "votes": {
+            "5": 28,
+            "10": 7,
+            "13": 32,
+            "14": 1,
+            "16": 92,
+            "17": 12,
+            "36": 2,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "517": {
+      "currentAddress": "Oxford Jaycee&#39;s Hall, 56 Main Street, Oxford",
+      "historicalVenueId": "b72c3dfd551fcaa53d72",
+      "method": "exact-label",
+      "totalValidVotes": 45,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 28,
+          "votes": {
+            "5": 6,
+            "10": 3,
+            "13": 7,
+            "14": 0,
+            "16": 7,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 17,
+          "votes": {
+            "5": 6,
+            "10": 0,
+            "13": 1,
+            "14": 0,
+            "16": 6,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "611": {
+      "currentAddress": "Waipara School, Harakeke Room, 2 Loffhagen Drive, Waipara",
+      "historicalVenueId": "83c218e2f60a7998b89b",
+      "method": "exact-label",
+      "totalValidVotes": 170,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 170,
+          "votes": {
+            "5": 30,
+            "10": 9,
+            "13": 16,
+            "14": 1,
+            "16": 61,
+            "17": 31,
+            "36": 3,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "647": {
+      "currentAddress": "Loburn School Te Kura Aromauka, Mt Thomas Room, 73 Hodgsons Road, Loburn",
+      "historicalVenueId": "80b45492962f02e2f0e4",
+      "method": "exact-label",
+      "totalValidVotes": 561,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 561,
+          "votes": {
+            "5": 105,
+            "10": 33,
+            "13": 89,
+            "14": 4,
+            "16": 227,
+            "17": 55,
+            "36": 0,
+            "56": 0,
+            "70": 20
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1437": {
+      "currentAddress": "Okaramio Community Hall, 2356 State Highway 6, Okaramio",
+      "historicalVenueId": "31c43bc9e344d41c2919",
+      "method": "exact-label",
+      "totalValidVotes": 128,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 128,
+          "votes": {
+            "5": 33,
+            "10": 5,
+            "13": 12,
+            "14": 0,
+            "16": 51,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1438": {
+      "currentAddress": "Marlborough Boys&#39; College, Pavilion, 5 Stephenson Street, Blenheim",
+      "historicalVenueId": "c4a9a97362c54cb20488",
+      "method": "exact-label",
+      "totalValidVotes": 235,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 235,
+          "votes": {
+            "5": 34,
+            "10": 21,
+            "13": 66,
+            "14": 2,
+            "16": 71,
+            "17": 19,
+            "36": 2,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1439": {
+      "currentAddress": "Waihōpai Valley Community Hall, 1605 Waihōpai Valley Road, Waihōpai",
+      "historicalVenueId": "82c6ea5957077e3fb2fa",
+      "method": "exact-label",
+      "totalValidVotes": 80,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 80,
+          "votes": {
+            "5": 16,
+            "10": 2,
+            "13": 7,
+            "14": 0,
+            "16": 45,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1442": {
+      "currentAddress": "Seddon School, Staff Room, 15 Redwood Street, Seddon",
+      "historicalVenueId": "ad47c645f5d0ef2feaad",
+      "method": "exact-label",
+      "totalValidVotes": 315,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 315,
+          "votes": {
+            "5": 55,
+            "10": 15,
+            "13": 47,
+            "14": 2,
+            "16": 147,
+            "17": 23,
+            "36": 5,
+            "56": 0,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1539": {
+      "currentAddress": "Tihiraki North Loburn School, Karetu Hall, 817 Loburn Whiterock Road, North Loburn",
+      "historicalVenueId": "52f3ca81f92ddce2166f",
+      "method": "exact-label",
+      "totalValidVotes": 146,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 146,
+          "votes": {
+            "5": 23,
+            "10": 13,
+            "13": 31,
+            "14": 1,
+            "16": 54,
+            "17": 7,
+            "36": 0,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1540": {
+      "currentAddress": "Sefton Public Hall, 591 Upper Sefton Road, Sefton",
+      "historicalVenueId": "e83140dc0d027570de78",
+      "method": "exact-label",
+      "totalValidVotes": 296,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 296,
+          "votes": {
+            "5": 31,
+            "10": 17,
+            "13": 69,
+            "14": 0,
+            "16": 125,
+            "17": 29,
+            "36": 5,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1571": {
+      "currentAddress": "Linkwater Memorial Hall, 1351 Queen Charlotte Drive, Linkwater",
+      "historicalVenueId": "ffb4aaac141cd78b8818",
+      "method": "exact-label",
+      "totalValidVotes": 219,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 219,
+          "votes": {
+            "5": 36,
+            "10": 29,
+            "13": 27,
+            "14": 2,
+            "16": 92,
+            "17": 26,
+            "36": 0,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1580": {
+      "currentAddress": "Rai Valley Area School & Community Library, 6700 Main Road, Rai Valley",
+      "historicalVenueId": "0eed5073847ff3723735",
+      "method": "exact-label",
+      "totalValidVotes": 182,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 182,
+          "votes": {
+            "5": 41,
+            "10": 9,
+            "13": 29,
+            "14": 1,
+            "16": 52,
+            "17": 28,
+            "36": 0,
+            "56": 0,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1631": {
+      "currentAddress": "Canvastown School, Te Hora Room, 5044 State Highway 6, Canvastown",
+      "historicalVenueId": "abb33116f22aad737e0d",
+      "method": "exact-label",
+      "totalValidVotes": 137,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 137,
+          "votes": {
+            "5": 23,
+            "10": 10,
+            "13": 25,
+            "14": 0,
+            "16": 53,
+            "17": 17,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "1714": {
+      "currentAddress": "Ashley Rakahuri School, 4 Boundary Road (corner Fawcetts Road), Ashley",
+      "historicalVenueId": "df401d6102235ce8a136",
+      "method": "exact-label",
+      "totalValidVotes": 437,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 437,
+          "votes": {
+            "5": 56,
+            "10": 26,
+            "13": 76,
+            "14": 2,
+            "16": 210,
+            "17": 28,
+            "36": 1,
+            "56": 0,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2106": {
+      "currentAddress": "Connect, 8 Beaver Road (corner High Street), Blenheim",
+      "historicalVenueId": "4e3bb2409f49b55b12d9",
+      "method": "exact-label",
+      "totalValidVotes": 201,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 201,
+          "votes": {
+            "5": 18,
+            "10": 17,
+            "13": 56,
+            "14": 0,
+            "16": 64,
+            "17": 32,
+            "36": 3,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2114": {
+      "currentAddress": "Springlands School Hall, 17 Aston Street (off Murphys Road), Blenheim",
+      "historicalVenueId": "77145407a414d2e030d9",
+      "method": "exact-label",
+      "totalValidVotes": 394,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 394,
+          "votes": {
+            "5": 51,
+            "10": 41,
+            "13": 72,
+            "14": 0,
+            "16": 190,
+            "17": 26,
+            "36": 0,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2116": {
+      "currentAddress": "Whitney Street School Hall, 9 Whitney Street, Blenheim",
+      "historicalVenueId": "c368b5984bbc1dcf8813",
+      "method": "exact-label",
+      "totalValidVotes": 291,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 291,
+          "votes": {
+            "5": 33,
+            "10": 37,
+            "13": 96,
+            "14": 1,
+            "16": 76,
+            "17": 29,
+            "36": 1,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2117": {
+      "currentAddress": "Witherlea School Hall, 216 Weld Street, Blenheim",
+      "historicalVenueId": "c8a5b5c708ed7caa45d7",
+      "method": "exact-label",
+      "totalValidVotes": 468,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 468,
+          "votes": {
+            "5": 85,
+            "10": 38,
+            "13": 111,
+            "14": 0,
+            "16": 174,
+            "17": 32,
+            "36": 3,
+            "56": 1,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2196": {
+      "currentAddress": "Marlborough Library Te Kahu o Waipuna, 15 High Street, Blenheim",
+      "historicalVenueId": "026d7be564c28fac85b8",
+      "method": "exact-label",
+      "totalValidVotes": 5239,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 4765,
+          "votes": {
+            "5": 720,
+            "10": 479,
+            "13": 1059,
+            "14": 25,
+            "16": 1920,
+            "17": 371,
+            "36": 12,
+            "56": 3,
+            "70": 31
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 474,
+          "votes": {
+            "5": 70,
+            "10": 61,
+            "13": 96,
+            "14": 5,
+            "16": 170,
+            "17": 30,
+            "36": 4,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2269": {
+      "currentAddress": "Queen Charlotte College Whare Ako, 173 Waikawa Road, Picton",
+      "historicalVenueId": "36958d0be93d5515dc3a",
+      "method": "exact-label",
+      "totalValidVotes": 278,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 278,
+          "votes": {
+            "5": 26,
+            "10": 25,
+            "13": 71,
+            "14": 3,
+            "16": 107,
+            "17": 30,
+            "36": 2,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2271": {
+      "currentAddress": "Spring Creek School, 52 Ferry Road, Spring Creek",
+      "historicalVenueId": "999840ecc8d092b88429",
+      "method": "exact-label",
+      "totalValidVotes": 257,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 257,
+          "votes": {
+            "5": 27,
+            "10": 27,
+            "13": 59,
+            "14": 1,
+            "16": 90,
+            "17": 34,
+            "36": 2,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2273": {
+      "currentAddress": "Mayfield School Hall, 79 Hutcheson Street, Blenheim",
+      "historicalVenueId": "421222184a1c48a1f709",
+      "method": "exact-label",
+      "totalValidVotes": 278,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 278,
+          "votes": {
+            "5": 30,
+            "10": 11,
+            "13": 67,
+            "14": 3,
+            "16": 91,
+            "17": 52,
+            "36": 1,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2274": {
+      "currentAddress": "Picton School Hall, 25 York Street (between Buller Street & Broadway), Picton",
+      "historicalVenueId": "085e0abb7ecf3b775b95",
+      "method": "exact-label",
+      "totalValidVotes": 146,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 146,
+          "votes": {
+            "5": 12,
+            "10": 12,
+            "13": 51,
+            "14": 2,
+            "16": 37,
+            "17": 19,
+            "36": 3,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2280": {
+      "currentAddress": "Tua Marina School Hall, Campbells Road, Tuamarina",
+      "historicalVenueId": "d263ae58f4c35ba612d5",
+      "method": "exact-label",
+      "totalValidVotes": 183,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 183,
+          "votes": {
+            "5": 47,
+            "10": 13,
+            "13": 34,
+            "14": 0,
+            "16": 60,
+            "17": 20,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2281": {
+      "currentAddress": "Havelock School Hall, 47 Main Road, Havelock",
+      "historicalVenueId": "9593c2107f0fb0095f33",
+      "method": "exact-label",
+      "totalValidVotes": 404,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 112,
+          "votes": {
+            "5": 16,
+            "10": 8,
+            "13": 26,
+            "14": 0,
+            "16": 47,
+            "17": 11,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 292,
+          "votes": {
+            "5": 65,
+            "10": 26,
+            "13": 52,
+            "14": 1,
+            "16": 90,
+            "17": 35,
+            "36": 1,
+            "56": 0,
+            "70": 17
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2328": {
+      "currentAddress": "Leithfield School, Hall, 64 Old Main North Road, Leithfield",
+      "historicalVenueId": "d1522de38b140c931740",
+      "method": "exact-label",
+      "totalValidVotes": 324,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 324,
+          "votes": {
+            "5": 34,
+            "10": 31,
+            "13": 72,
+            "14": 3,
+            "16": 111,
+            "17": 35,
+            "36": 2,
+            "56": 1,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2482": {
+      "currentAddress": "Stadium 2000, Programmes Room, 26 Redwood Street entrance, Blenheim",
+      "historicalVenueId": "241f212d7fe7d392b106",
+      "method": "exact-label",
+      "totalValidVotes": 2949,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2519,
+          "votes": {
+            "5": 426,
+            "10": 171,
+            "13": 510,
+            "14": 13,
+            "16": 1074,
+            "17": 224,
+            "36": 6,
+            "56": 2,
+            "70": 24
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 430,
+          "votes": {
+            "5": 68,
+            "10": 43,
+            "13": 95,
+            "14": 0,
+            "16": 160,
+            "17": 23,
+            "36": 2,
+            "56": 0,
+            "70": 17
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2488": {
+      "currentAddress": "Kaiapoi Library and Service Centre, Ruataniwha Room, 176 Williams Street, Kaiapoi",
+      "historicalVenueId": "16349fbf65aa26ddf334",
+      "method": "reviewed-label",
+      "totalValidVotes": 41,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 41,
+          "votes": {
+            "5": 7,
+            "10": 7,
+            "13": 7,
+            "14": 0,
+            "16": 9,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2707": {
+      "currentAddress": "Marlborough District Council Reception, 15 Seymour Street, Blenheim",
+      "historicalVenueId": "6afbaecea3e0c20c29bb",
+      "method": "exact-label",
+      "totalValidVotes": 176,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 176,
+          "votes": {
+            "5": 20,
+            "10": 10,
+            "13": 32,
+            "14": 2,
+            "16": 81,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "2880": {
+      "currentAddress": "Renwick Community Memorial Hall, 27 High Street, Renwick",
+      "historicalVenueId": "fe6143dbd3d015909043",
+      "method": "exact-label",
+      "totalValidVotes": 1199,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 493,
+          "votes": {
+            "5": 88,
+            "10": 27,
+            "13": 86,
+            "14": 2,
+            "16": 232,
+            "17": 40,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 706,
+          "votes": {
+            "5": 133,
+            "10": 36,
+            "13": 118,
+            "14": 0,
+            "16": 318,
+            "17": 58,
+            "36": 3,
+            "56": 0,
+            "70": 20
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3064": {
+      "currentAddress": "Hāpuku School Te Kura o Hāpuku, 596 Kincaid Road (State Highway 1), Hapuku",
+      "historicalVenueId": "77101ef67a90d42dc1a0",
+      "method": "exact-label",
+      "totalValidVotes": 58,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 58,
+          "votes": {
+            "5": 5,
+            "10": 5,
+            "13": 10,
+            "14": 0,
+            "16": 32,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3065": {
+      "currentAddress": "Kaikōura Suburban School Library, 425 Schoolhouse Road, Kaikōura",
+      "historicalVenueId": "a678609a40ca3fb011e2",
+      "method": "exact-label",
+      "totalValidVotes": 154,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 154,
+          "votes": {
+            "5": 24,
+            "10": 7,
+            "13": 19,
+            "14": 0,
+            "16": 88,
+            "17": 10,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3073": {
+      "currentAddress": "Rarangi Fire Station Community Centre, 252 Rarangi Beach Road, Rārangi",
+      "historicalVenueId": "2131c6f15fa76bc10f37",
+      "method": "exact-label",
+      "totalValidVotes": 163,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 163,
+          "votes": {
+            "5": 23,
+            "10": 19,
+            "13": 40,
+            "14": 0,
+            "16": 56,
+            "17": 11,
+            "36": 2,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3086": {
+      "currentAddress": "Amuri Area School, Community Room, School Road, Culverden",
+      "historicalVenueId": "9797375fb219a5fd4223",
+      "method": "exact-label",
+      "totalValidVotes": 355,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 355,
+          "votes": {
+            "5": 41,
+            "10": 9,
+            "13": 37,
+            "14": 0,
+            "16": 230,
+            "17": 21,
+            "36": 0,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3099": {
+      "currentAddress": "Wairau Valley School Library, 30 Morse Street, Wairau Valley",
+      "historicalVenueId": "9c7243cfbdf4bd2bc4ba",
+      "method": "exact-label",
+      "totalValidVotes": 197,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 197,
+          "votes": {
+            "5": 43,
+            "10": 16,
+            "13": 32,
+            "14": 0,
+            "16": 69,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3105": {
+      "currentAddress": "Waikari School, 23 Princes Street, Waikari",
+      "historicalVenueId": "449db971c58291357321",
+      "method": "exact-label",
+      "totalValidVotes": 229,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 229,
+          "votes": {
+            "5": 25,
+            "10": 11,
+            "13": 45,
+            "14": 0,
+            "16": 113,
+            "17": 19,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3107": {
+      "currentAddress": "Hawarden Community Library at Hurunui College, 2 Tenterden Street, Hawarden",
+      "historicalVenueId": "3a926a9428573eeb101d",
+      "method": "exact-label",
+      "totalValidVotes": 316,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 316,
+          "votes": {
+            "5": 50,
+            "10": 22,
+            "13": 34,
+            "14": 0,
+            "16": 168,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 13
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3112": {
+      "currentAddress": "NMIT Marlborough Campus, Main Entrance, 85 Budge Street, Blenheim",
+      "historicalVenueId": "1955eb4e46ac7c339b1a",
+      "method": "exact-label",
+      "totalValidVotes": 267,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 267,
+          "votes": {
+            "5": 27,
+            "10": 21,
+            "13": 89,
+            "14": 1,
+            "16": 73,
+            "17": 30,
+            "36": 1,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3114": {
+      "currentAddress": "St Ninians Church Hall, 1 Riley Crescent (corner Alabama Road), Blenheim",
+      "historicalVenueId": "989f9c3ecc9ab0821ff2",
+      "method": "exact-label",
+      "totalValidVotes": 311,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 311,
+          "votes": {
+            "5": 46,
+            "10": 14,
+            "13": 64,
+            "14": 1,
+            "16": 111,
+            "17": 43,
+            "36": 2,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3115": {
+      "currentAddress": "Ward School Library, 63 Duncan Street, Ward",
+      "historicalVenueId": "19eb3c90eb49764719f7",
+      "method": "exact-label",
+      "totalValidVotes": 134,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 134,
+          "votes": {
+            "5": 30,
+            "10": 6,
+            "13": 13,
+            "14": 1,
+            "16": 68,
+            "17": 9,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3274": {
+      "currentAddress": "McAlpines Pipe Band Hall, 8A Ashley Street, Rangiora",
+      "historicalVenueId": "c5fb9e6bc41711538034",
+      "method": "reviewed-label",
+      "totalValidVotes": 964,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 847,
+          "votes": {
+            "5": 117,
+            "10": 63,
+            "13": 133,
+            "14": 2,
+            "16": 397,
+            "17": 81,
+            "36": 1,
+            "56": 0,
+            "70": 17
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 117,
+          "votes": {
+            "5": 9,
+            "10": 9,
+            "13": 19,
+            "14": 0,
+            "16": 55,
+            "17": 12,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3660": {
+      "currentAddress": "Springlands Mall, 133 Middle Renwick Road, Blenheim",
+      "historicalVenueId": "dac79af7b12d6adbf851",
+      "method": "exact-label",
+      "totalValidVotes": 2098,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1732,
+          "votes": {
+            "5": 247,
+            "10": 82,
+            "13": 409,
+            "14": 7,
+            "16": 796,
+            "17": 133,
+            "36": 3,
+            "56": 1,
+            "70": 18
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 366,
+          "votes": {
+            "5": 50,
+            "10": 24,
+            "13": 75,
+            "14": 2,
+            "16": 160,
+            "17": 40,
+            "36": 2,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    },
+    "3662": {
+      "currentAddress": "Cheviot Library and Service Centre, 39 Hall Street, Cheviot",
+      "historicalVenueId": "85b3c4be20d4ce195420",
+      "method": "exact-label",
+      "totalValidVotes": 307,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 307,
+          "votes": {
+            "5": 52,
+            "10": 21,
+            "13": 46,
+            "14": 0,
+            "16": 149,
+            "17": 27,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "17"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

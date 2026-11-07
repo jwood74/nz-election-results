@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "1",
+  "name": "Auckland Central",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "1",
+      "name": "Auckland Central"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "378": {
+      "currentAddress": "Mulberry Grove School, 271 Shoal Bay Road, Tryphena",
+      "historicalVenueId": "2733cbe602c3b6f56c3e",
+      "method": "exact-label",
+      "totalValidVotes": 146,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 54,
+          "votes": {
+            "5": 6,
+            "10": 19,
+            "13": 15,
+            "14": 0,
+            "16": 5,
+            "17": 6,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 92,
+          "votes": {
+            "5": 6,
+            "10": 13,
+            "13": 34,
+            "14": 1,
+            "16": 18,
+            "17": 10,
+            "36": 0,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "380": {
+      "currentAddress": "All Saints Anglican Church, 284 Ponsonby Road, Ponsonby",
+      "historicalVenueId": "3cf30c6b52451fef488d",
+      "method": "exact-label",
+      "totalValidVotes": 3690,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2862,
+          "votes": {
+            "5": 400,
+            "10": 470,
+            "13": 601,
+            "14": 23,
+            "16": 1210,
+            "17": 83,
+            "36": 3,
+            "56": 2,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 828,
+          "votes": {
+            "5": 91,
+            "10": 135,
+            "13": 195,
+            "14": 9,
+            "16": 322,
+            "17": 33,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "396": {
+      "currentAddress": "Richmond Road School, 113 Richmond Road, Grey Lynn",
+      "historicalVenueId": "3d2b88a43e36e7cee642",
+      "method": "exact-label",
+      "totalValidVotes": 219,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 219,
+          "votes": {
+            "5": 15,
+            "10": 48,
+            "13": 58,
+            "14": 5,
+            "16": 68,
+            "17": 9,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "523": {
+      "currentAddress": "Ostend Memorial Hall, 29 Belgium Street, Ostend",
+      "historicalVenueId": "b8e35113f73346db7417",
+      "method": "exact-label",
+      "totalValidVotes": 377,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 377,
+          "votes": {
+            "5": 21,
+            "10": 76,
+            "13": 132,
+            "14": 3,
+            "16": 77,
+            "17": 48,
+            "36": 1,
+            "56": 0,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "579": {
+      "currentAddress": "Milford Shopping Centre, 24 Milford Road, Milford",
+      "historicalVenueId": "8ec3ee9ce84b87f784cf",
+      "method": "exact-label",
+      "totalValidVotes": 33,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 33,
+          "votes": {
+            "5": 8,
+            "10": 5,
+            "13": 4,
+            "14": 0,
+            "16": 16,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "592": {
+      "currentAddress": "Onetangi Community Hall, 9 Third Avenue, Onetangi",
+      "historicalVenueId": "1966d5d5cf8c9b3291c1",
+      "method": "exact-label",
+      "totalValidVotes": 306,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 306,
+          "votes": {
+            "5": 25,
+            "10": 50,
+            "13": 89,
+            "14": 2,
+            "16": 96,
+            "17": 33,
+            "36": 1,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "613": {
+      "currentAddress": "Remuera Baptist Church, 641 Remuera Road, Remuera",
+      "historicalVenueId": "6140da9e63e3483da234",
+      "method": "exact-label",
+      "totalValidVotes": 36,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 6,
+            "10": 1,
+            "13": 3,
+            "14": 0,
+            "16": 14,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 0,
+            "14": 1,
+            "16": 9,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "826": {
+      "currentAddress": "Aotea Community Art Gallery, Schoolmaster&#39;s House, 80 Hector Sanderson Road, Claris",
+      "historicalVenueId": "60eb922f48e22fe3eb75",
+      "method": "exact-label",
+      "totalValidVotes": 97,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 97,
+          "votes": {
+            "5": 3,
+            "10": 19,
+            "13": 28,
+            "14": 2,
+            "16": 17,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 13
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "1055": {
+      "currentAddress": "Church@onetwosix Hall, 126 Point Chevalier Road, Point Chevalier",
+      "historicalVenueId": "c1565ef1f001e4bbc51a",
+      "method": "exact-label",
+      "totalValidVotes": 88,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 74,
+          "votes": {
+            "5": 6,
+            "10": 20,
+            "13": 18,
+            "14": 2,
+            "16": 21,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 5,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "1293": {
+      "currentAddress": "Ponsonby Primary School, 44 Curran Street, Ponsonby",
+      "historicalVenueId": "4a7f60bf3ba566a80602",
+      "method": "exact-label",
+      "totalValidVotes": 462,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 189,
+          "votes": {
+            "5": 30,
+            "10": 22,
+            "13": 21,
+            "14": 0,
+            "16": 102,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 273,
+          "votes": {
+            "5": 34,
+            "10": 37,
+            "13": 42,
+            "14": 2,
+            "16": 133,
+            "17": 13,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "1330": {
+      "currentAddress": "St Mary&#39;s College, 11 New Street, Ponsonby",
+      "historicalVenueId": "bd7473db7b2bda3c0abf",
+      "method": "exact-label",
+      "totalValidVotes": 682,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 394,
+          "votes": {
+            "5": 58,
+            "10": 44,
+            "13": 66,
+            "14": 3,
+            "16": 207,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 288,
+          "votes": {
+            "5": 37,
+            "10": 40,
+            "13": 51,
+            "14": 6,
+            "16": 133,
+            "17": 12,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "1838": {
+      "currentAddress": "Grey Lynn Community Centre, 510 Richmond Road, Grey Lynn",
+      "historicalVenueId": "edea5dcae18a7fb919e0",
+      "method": "exact-label",
+      "totalValidVotes": 680,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 611,
+          "votes": {
+            "5": 68,
+            "10": 144,
+            "13": 141,
+            "14": 9,
+            "16": 211,
+            "17": 18,
+            "36": 1,
+            "56": 2,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 69,
+          "votes": {
+            "5": 9,
+            "10": 16,
+            "13": 26,
+            "14": 1,
+            "16": 13,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "1848": {
+      "currentAddress": "St Mark&#39;s Church, Lounge, 95 Remuera Road, Remuera",
+      "historicalVenueId": "0f3c14e508b863745e55",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 4,
+            "10": 5,
+            "13": 6,
+            "14": 0,
+            "16": 4,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "2562": {
+      "currentAddress": "Pitt Street Methodist Church, Theatre, 78 Pitt Street, Auckland City",
+      "historicalVenueId": "843d8d8f855c5fa1c8d2",
+      "method": "exact-label",
+      "totalValidVotes": 868,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 481,
+          "votes": {
+            "5": 25,
+            "10": 180,
+            "13": 121,
+            "14": 12,
+            "16": 104,
+            "17": 19,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 387,
+          "votes": {
+            "5": 23,
+            "10": 108,
+            "13": 117,
+            "14": 9,
+            "16": 77,
+            "17": 12,
+            "36": 2,
+            "56": 2,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "2913": {
+      "currentAddress": "Westfield Mall, Centre Court, 219 Don McKinnon Drive, Albany",
+      "historicalVenueId": "51bd901b0661c9882918",
+      "method": "exact-label",
+      "totalValidVotes": 77,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 65,
+          "votes": {
+            "5": 4,
+            "10": 12,
+            "13": 7,
+            "14": 0,
+            "16": 38,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 1,
+            "10": 5,
+            "13": 1,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "3593": {
+      "currentAddress": "Auckland University of Technology, Level 4, Building WA, 55 Wellesley Street, Auckland City",
+      "historicalVenueId": "e4211c7fd6272a4478d2",
+      "method": "exact-label",
+      "totalValidVotes": 310,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 310,
+          "votes": {
+            "5": 15,
+            "10": 151,
+            "13": 47,
+            "14": 7,
+            "16": 67,
+            "17": 2,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    },
+    "3598": {
+      "currentAddress": "Morra Hall, 115 Ocean View Road, Oneroa",
+      "historicalVenueId": "7615a8cd6e1da881a35f",
+      "method": "exact-label",
+      "totalValidVotes": 350,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 350,
+          "votes": {
+            "5": 13,
+            "10": 49,
+            "13": 125,
+            "14": 7,
+            "16": 104,
+            "17": 32,
+            "36": 3,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "1"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "25",
+  "name": "Mt Albert",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "24",
+      "name": "Mt Albert"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "380": {
+      "currentAddress": "All Saints Anglican Church, 284 Ponsonby Road, Ponsonby",
+      "historicalVenueId": "3cf30c6b52451fef488d",
+      "method": "exact-label",
+      "totalValidVotes": 459,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 340,
+          "votes": {
+            "5": 27,
+            "10": 92,
+            "13": 47,
+            "14": 3,
+            "16": 145,
+            "17": 11,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 119,
+          "votes": {
+            "5": 4,
+            "10": 31,
+            "13": 36,
+            "14": 3,
+            "16": 39,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "396": {
+      "currentAddress": "Richmond Road School, 113 Richmond Road, Grey Lynn",
+      "historicalVenueId": "3d2b88a43e36e7cee642",
+      "method": "exact-label",
+      "totalValidVotes": 98,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 98,
+          "votes": {
+            "5": 7,
+            "10": 29,
+            "13": 27,
+            "14": 0,
+            "16": 26,
+            "17": 2,
+            "36": 3,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "671": {
+      "currentAddress": "Waterview Methodist Church Hall, 1547 Great North Road, Fir Street entrance, Waterview",
+      "historicalVenueId": "8099e208a65f4616ea1b",
+      "method": "exact-label",
+      "totalValidVotes": 37,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 0,
+            "10": 8,
+            "13": 6,
+            "14": 1,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 3,
+            "10": 2,
+            "13": 8,
+            "14": 0,
+            "16": 3,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "1055": {
+      "currentAddress": "Church@onetwosix Hall, 126 Point Chevalier Road, Point Chevalier",
+      "historicalVenueId": "c1565ef1f001e4bbc51a",
+      "method": "exact-label",
+      "totalValidVotes": 2759,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2150,
+          "votes": {
+            "5": 160,
+            "10": 404,
+            "13": 575,
+            "14": 19,
+            "16": 835,
+            "17": 79,
+            "36": 2,
+            "56": 3,
+            "70": 8
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 609,
+          "votes": {
+            "5": 35,
+            "10": 130,
+            "13": 191,
+            "14": 6,
+            "16": 193,
+            "17": 25,
+            "36": 4,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "1139": {
+      "currentAddress": "Edendale Primary School Hall, 419A Sandringham Road, Sandringham",
+      "historicalVenueId": "ebf56ba37e85b3134a3e",
+      "method": "exact-label",
+      "totalValidVotes": 720,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 720,
+          "votes": {
+            "5": 43,
+            "10": 129,
+            "13": 261,
+            "14": 6,
+            "16": 215,
+            "17": 29,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "1341": {
+      "currentAddress": "Ōwairaka District School Hall, 113 Richardson Road, Ōwairaka",
+      "historicalVenueId": "9e06dd741338d661ad78",
+      "method": "exact-label",
+      "totalValidVotes": 409,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 409,
+          "votes": {
+            "5": 26,
+            "10": 93,
+            "13": 116,
+            "14": 3,
+            "16": 132,
+            "17": 16,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "1838": {
+      "currentAddress": "Grey Lynn Community Centre, 510 Richmond Road, Grey Lynn",
+      "historicalVenueId": "edea5dcae18a7fb919e0",
+      "method": "exact-label",
+      "totalValidVotes": 4418,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3257,
+          "votes": {
+            "5": 259,
+            "10": 962,
+            "13": 852,
+            "14": 57,
+            "16": 927,
+            "17": 77,
+            "36": 8,
+            "56": 5,
+            "70": 9
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 1161,
+          "votes": {
+            "5": 74,
+            "10": 290,
+            "13": 343,
+            "14": 25,
+            "16": 331,
+            "17": 36,
+            "36": 4,
+            "56": 3,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "2045": {
+      "currentAddress": "Onehunga Community Centre, 83 Church Street, Onehunga",
+      "historicalVenueId": "5cb6d30bab383e237819",
+      "method": "exact-label",
+      "totalValidVotes": 37,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 29,
+          "votes": {
+            "5": 9,
+            "10": 4,
+            "13": 7,
+            "14": 0,
+            "16": 8,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 5,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "2255": {
+      "currentAddress": "Waterview Primary School Hall, 16 Herdman Street, Waterview",
+      "historicalVenueId": "6aa1a7419c3b092dda0d",
+      "method": "exact-label",
+      "totalValidVotes": 8,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 1,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    },
+    "3593": {
+      "currentAddress": "Auckland University of Technology, Level 4, Building WA, 55 Wellesley Street, Auckland City",
+      "historicalVenueId": "e4211c7fd6272a4478d2",
+      "method": "exact-label",
+      "totalValidVotes": 81,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 81,
+          "votes": {
+            "5": 5,
+            "10": 37,
+            "13": 15,
+            "14": 2,
+            "16": 14,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "24"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

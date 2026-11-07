@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "23",
+  "name": "Manurewa",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "22",
+      "name": "Manurewa"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "853": {
+      "currentAddress": "St Luke&#39;s Anglican Church Hall, 3 Russell Road, Manurewa",
+      "historicalVenueId": "511cf446b58742811687",
+      "method": "exact-label",
+      "totalValidVotes": 702,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 484,
+          "votes": {
+            "5": 16,
+            "10": 16,
+            "13": 248,
+            "14": 11,
+            "16": 141,
+            "17": 35,
+            "36": 2,
+            "56": 1,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 218,
+          "votes": {
+            "5": 9,
+            "10": 10,
+            "13": 128,
+            "14": 7,
+            "16": 43,
+            "17": 8,
+            "36": 3,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1145": {
+      "currentAddress": "Clendon Park School Hall, 145 Rowandale Avenue, Manurewa",
+      "historicalVenueId": "fd72869463a7eb24f743",
+      "method": "exact-label",
+      "totalValidVotes": 298,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 298,
+          "votes": {
+            "5": 4,
+            "10": 10,
+            "13": 193,
+            "14": 5,
+            "16": 52,
+            "17": 11,
+            "36": 3,
+            "56": 1,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1152": {
+      "currentAddress": "Rowandale School Hall, 73 Rowandale Avenue, Manurewa",
+      "historicalVenueId": "0d622ea9b1538f2e0aea",
+      "method": "exact-label",
+      "totalValidVotes": 260,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 260,
+          "votes": {
+            "5": 4,
+            "10": 10,
+            "13": 178,
+            "14": 8,
+            "16": 45,
+            "17": 10,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1154": {
+      "currentAddress": "Manurewa East School Hall, Gate 6, 10 Scotts Road, Manurewa East",
+      "historicalVenueId": "156238666632ca49b013",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 11,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1343": {
+      "currentAddress": "Hillpark School Hall, 57 Grande Vue Road, Manurewa",
+      "historicalVenueId": "3476fbced9de4fd77cb1",
+      "method": "exact-label",
+      "totalValidVotes": 686,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 686,
+          "votes": {
+            "5": 48,
+            "10": 44,
+            "13": 250,
+            "14": 9,
+            "16": 263,
+            "17": 36,
+            "36": 3,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1579": {
+      "currentAddress": "Puhinui School Hall, 116 Puhinui Road, Papatoetoe",
+      "historicalVenueId": "a935a88d58925a0ea725",
+      "method": "exact-label",
+      "totalValidVotes": 528,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 528,
+          "votes": {
+            "5": 31,
+            "10": 23,
+            "13": 244,
+            "14": 5,
+            "16": 175,
+            "17": 29,
+            "36": 4,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1638": {
+      "currentAddress": "Youthline Manukau, 145 Saint George Street, Papatoetoe",
+      "historicalVenueId": "fb7c584d71961911aaf7",
+      "method": "exact-label",
+      "totalValidVotes": 574,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 327,
+          "votes": {
+            "5": 14,
+            "10": 29,
+            "13": 141,
+            "14": 4,
+            "16": 126,
+            "17": 10,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 247,
+          "votes": {
+            "5": 7,
+            "10": 26,
+            "13": 108,
+            "14": 1,
+            "16": 79,
+            "17": 17,
+            "36": 2,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1803": {
+      "currentAddress": "Papatoetoe High School, 19 Nicholson Avenue, Papatoetoe",
+      "historicalVenueId": "c665dd1173f12ab42981",
+      "method": "exact-label",
+      "totalValidVotes": 142,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 142,
+          "votes": {
+            "5": 3,
+            "10": 7,
+            "13": 75,
+            "14": 2,
+            "16": 50,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1923": {
+      "currentAddress": "The Gardens School Hall, 101 Charles Prevost Drive, The Gardens",
+      "historicalVenueId": "ea4550a358e62b38a6f6",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 1,
+            "14": 0,
+            "16": 3,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1948": {
+      "currentAddress": "Weymouth Primary School Hall, 23 Evans Road, Weymouth",
+      "historicalVenueId": "582d2174207f75de7129",
+      "method": "exact-label",
+      "totalValidVotes": 385,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 385,
+          "votes": {
+            "5": 19,
+            "10": 28,
+            "13": 186,
+            "14": 13,
+            "16": 88,
+            "17": 22,
+            "36": 1,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "1950": {
+      "currentAddress": "Roscommon School Hall, 23 Burundi Avenue, Clendon Park",
+      "historicalVenueId": "23212868a09841c95ba7",
+      "method": "exact-label",
+      "totalValidVotes": 349,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 349,
+          "votes": {
+            "5": 6,
+            "10": 18,
+            "13": 241,
+            "14": 11,
+            "16": 44,
+            "17": 15,
+            "36": 3,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2140": {
+      "currentAddress": "Kedgley Intermediate School, 181 Portage Road, Māngere East",
+      "historicalVenueId": "705255ccfaf0a697a0e6",
+      "method": "exact-label",
+      "totalValidVotes": 67,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 67,
+          "votes": {
+            "5": 0,
+            "10": 5,
+            "13": 48,
+            "14": 0,
+            "16": 9,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2183": {
+      "currentAddress": "Manurewa Library, Community Room, 7 Hill Road, Manurewa",
+      "historicalVenueId": "5cf0f67f6ca0c073eb03",
+      "method": "exact-label",
+      "totalValidVotes": 1915,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1515,
+          "votes": {
+            "5": 71,
+            "10": 80,
+            "13": 636,
+            "14": 13,
+            "16": 583,
+            "17": 78,
+            "36": 4,
+            "56": 2,
+            "70": 7
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 400,
+          "votes": {
+            "5": 16,
+            "10": 23,
+            "13": 198,
+            "14": 4,
+            "16": 123,
+            "17": 19,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2184": {
+      "currentAddress": "Weymouth Community Hall, 11 Beihlers Road, Weymouth",
+      "historicalVenueId": "747751e75b3b02d30a5c",
+      "method": "exact-label",
+      "totalValidVotes": 170,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 170,
+          "votes": {
+            "5": 8,
+            "10": 11,
+            "13": 75,
+            "14": 3,
+            "16": 46,
+            "17": 13,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2305": {
+      "currentAddress": "Manurewa South School Hall, Totara Road entrance, Manurewa",
+      "historicalVenueId": "fcc108de97671c40d56f",
+      "method": "exact-label",
+      "totalValidVotes": 14,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 10,
+            "14": 0,
+            "16": 2,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2329": {
+      "currentAddress": "Everglade School Hall, 64 Everglade Drive, Goodwood Heights",
+      "historicalVenueId": "13279dc2bd37fa931e6c",
+      "method": "exact-label",
+      "totalValidVotes": 47,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 47,
+          "votes": {
+            "5": 5,
+            "10": 3,
+            "13": 19,
+            "14": 1,
+            "16": 13,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2453": {
+      "currentAddress": "Papatūānuku Kōkiri Marae, 141R Robertson Road, Māngere",
+      "historicalVenueId": "e33ad1c1faecc18b8de5",
+      "method": "exact-label",
+      "totalValidVotes": 35,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 11,
+            "14": 1,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 12,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2916": {
+      "currentAddress": "St Anne&#39;s Catholic Church Hall, 126 Russell Road, Manurewa",
+      "historicalVenueId": "1f78d6790fa0284bac12",
+      "method": "exact-label",
+      "totalValidVotes": 1164,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 733,
+          "votes": {
+            "5": 9,
+            "10": 30,
+            "13": 411,
+            "14": 8,
+            "16": 210,
+            "17": 33,
+            "36": 2,
+            "56": 1,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 431,
+          "votes": {
+            "5": 12,
+            "10": 25,
+            "13": 275,
+            "14": 9,
+            "16": 75,
+            "17": 12,
+            "36": 4,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "2976": {
+      "currentAddress": "Tupu Youth Library, 102 Dawson Road, Clover Park",
+      "historicalVenueId": "64a3c9c90d7a77039cd5",
+      "method": "exact-label",
+      "totalValidVotes": 26,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 22,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3084": {
+      "currentAddress": "MIT Manukau Campus, The Atrium, Corner Manukau Station Road & Davies Avenue, Manukau City Centre",
+      "historicalVenueId": "baf9ca4c35e4c4ea5663",
+      "method": "exact-label",
+      "totalValidVotes": 249,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 249,
+          "votes": {
+            "5": 7,
+            "10": 39,
+            "13": 95,
+            "14": 7,
+            "16": 71,
+            "17": 16,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3178": {
+      "currentAddress": "Homai School Hall, 89 Browns Road, Manurewa",
+      "historicalVenueId": "6635a7fef2468c41f443",
+      "method": "exact-label",
+      "totalValidVotes": 188,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 188,
+          "votes": {
+            "5": 3,
+            "10": 11,
+            "13": 104,
+            "14": 4,
+            "16": 54,
+            "17": 3,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3193": {
+      "currentAddress": "Te Matauranga School Hall, 206 Finlayson Avenue, Clendon Park",
+      "historicalVenueId": "0b9202c8748655073b22",
+      "method": "exact-label",
+      "totalValidVotes": 428,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 428,
+          "votes": {
+            "5": 7,
+            "10": 22,
+            "13": 289,
+            "14": 7,
+            "16": 79,
+            "17": 8,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3231": {
+      "currentAddress": "Sancta Maria College, 319 Te Irirangi Drive, Flat Bush",
+      "historicalVenueId": "eac5a47a2016f4337561",
+      "method": "exact-label",
+      "totalValidVotes": 15,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 6,
+            "14": 1,
+            "16": 6,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3405": {
+      "currentAddress": "Papatoetoe War Memorial Library, 30 Wallace Road, Papatoetoe",
+      "historicalVenueId": "8604146c2b3ee37e1f1b",
+      "method": "exact-label",
+      "totalValidVotes": 1225,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1225,
+          "votes": {
+            "5": 36,
+            "10": 66,
+            "13": 631,
+            "14": 9,
+            "16": 388,
+            "17": 61,
+            "36": 5,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3551": {
+      "currentAddress": "Randwick Park School Hall, Magic Way entrance, Randwick Park",
+      "historicalVenueId": "3e58f5b39b38fd3c0b6a",
+      "method": "exact-label",
+      "totalValidVotes": 24,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 13,
+            "14": 1,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3564": {
+      "currentAddress": "Elmwood Village Community Centre, 131 Hill Road, Manurewa",
+      "historicalVenueId": "680675e1dfe73b917151",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 5,
+            "14": 0,
+            "16": 7,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3681": {
+      "currentAddress": "The Warehouse Auckland Airport, 1 John Goulter Drive, Māngere Airport Oaks",
+      "historicalVenueId": "591b927c338b32d964cf",
+      "method": "exact-label",
+      "totalValidVotes": 142,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 142,
+          "votes": {
+            "5": 3,
+            "10": 10,
+            "13": 63,
+            "14": 4,
+            "16": 45,
+            "17": 7,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    },
+    "3705": {
+      "currentAddress": "Southmall Manurewa, Centre Court, 185/201 Great South Road, Manurewa",
+      "historicalVenueId": "0c0432dee62bdd665dba",
+      "method": "exact-label",
+      "totalValidVotes": 240,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 240,
+          "votes": {
+            "5": 5,
+            "10": 9,
+            "13": 145,
+            "14": 2,
+            "16": 54,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "22"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

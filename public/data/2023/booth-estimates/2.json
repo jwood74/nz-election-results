@@ -1,0 +1,1210 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "2",
+  "name": "Banks Peninsula",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "unchanged",
+  "related2023": [
+    {
+      "id": "2",
+      "name": "Banks Peninsula"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "370": {
+      "currentAddress": "University of Otago, ISB Link, 65 Albany Street (corner Albany Street and Cumberland Street), Dunedin North",
+      "historicalVenueId": "ddd857dca41db745d8e1",
+      "method": "reviewed-label",
+      "totalValidVotes": 59,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 46,
+          "votes": {
+            "5": 0,
+            "10": 21,
+            "13": 7,
+            "14": 1,
+            "16": 8,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 3,
+            "10": 5,
+            "13": 1,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "374": {
+      "currentAddress": "Te Waka Unua School Hall, 476 Ferry Road (corner Ferry Road & Hopkins Street), Woolston",
+      "historicalVenueId": "23d8b7a038a49c3df56f",
+      "method": "exact-label",
+      "totalValidVotes": 271,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 271,
+          "votes": {
+            "5": 15,
+            "10": 57,
+            "13": 105,
+            "14": 6,
+            "16": 43,
+            "17": 22,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "441": {
+      "currentAddress": "Motukarara Community Hall, 112 Park Road, Motukarara",
+      "historicalVenueId": "9477cdef82969740d0a4",
+      "method": "exact-label",
+      "totalValidVotes": 71,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 71,
+          "votes": {
+            "5": 16,
+            "10": 8,
+            "13": 14,
+            "14": 1,
+            "16": 24,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "497": {
+      "currentAddress": "South West Baptist Church, Cobham Hall, 51 Cobham Street, Spreydon",
+      "historicalVenueId": "42740c39e5afc1b2bd53",
+      "method": "exact-label",
+      "totalValidVotes": 49,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 49,
+          "votes": {
+            "5": 4,
+            "10": 5,
+            "13": 10,
+            "14": 1,
+            "16": 20,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "531": {
+      "currentAddress": "Westfield Riccarton, Level 2, 129 Riccarton Road, Riccarton",
+      "historicalVenueId": "e75beac8734c3495c2fc",
+      "method": "exact-label",
+      "totalValidVotes": 660,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 584,
+          "votes": {
+            "5": 56,
+            "10": 87,
+            "13": 147,
+            "14": 3,
+            "16": 216,
+            "17": 36,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 76,
+          "votes": {
+            "5": 5,
+            "10": 10,
+            "13": 16,
+            "14": 0,
+            "16": 33,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "559": {
+      "currentAddress": "Mt Pleasant Community Centre, 3 McCormacks Bay Road, Mount Pleasant",
+      "historicalVenueId": "e5c06e0825efff8e47e4",
+      "method": "exact-label",
+      "totalValidVotes": 2567,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1923,
+          "votes": {
+            "5": 194,
+            "10": 316,
+            "13": 421,
+            "14": 7,
+            "16": 802,
+            "17": 76,
+            "36": 2,
+            "56": 1,
+            "70": 8
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 644,
+          "votes": {
+            "5": 58,
+            "10": 99,
+            "13": 144,
+            "14": 4,
+            "16": 237,
+            "17": 38,
+            "36": 3,
+            "56": 0,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "562": {
+      "currentAddress": "Te Hāpua: Halswell Centre, Piharau Room, 341 Halswell Road, Halswell",
+      "historicalVenueId": "91f9a4eaae0b3b182d54",
+      "method": "exact-label",
+      "totalValidVotes": 4453,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3756,
+          "votes": {
+            "5": 371,
+            "10": 433,
+            "13": 907,
+            "14": 15,
+            "16": 1659,
+            "17": 180,
+            "36": 13,
+            "56": 1,
+            "70": 10
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 697,
+          "votes": {
+            "5": 75,
+            "10": 93,
+            "13": 180,
+            "14": 5,
+            "16": 240,
+            "17": 48,
+            "36": 4,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "618": {
+      "currentAddress": "Ara Woolston Campus, Student Services Building, Corner Ensors Road & Sullivan Avenue, Woolston",
+      "historicalVenueId": "055a5381542f67b66929",
+      "method": "exact-label",
+      "totalValidVotes": 306,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 154,
+          "votes": {
+            "5": 9,
+            "10": 36,
+            "13": 58,
+            "14": 1,
+            "16": 23,
+            "17": 12,
+            "36": 0,
+            "56": 0,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 152,
+          "votes": {
+            "5": 5,
+            "10": 32,
+            "13": 56,
+            "14": 1,
+            "16": 25,
+            "17": 12,
+            "36": 2,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "830": {
+      "currentAddress": "Governors Bay Community Centre, 1 Cresswell Avenue, Governors Bay",
+      "historicalVenueId": "cc30cb27bcb43022f2e4",
+      "method": "exact-label",
+      "totalValidVotes": 375,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 375,
+          "votes": {
+            "5": 30,
+            "10": 74,
+            "13": 97,
+            "14": 1,
+            "16": 116,
+            "17": 29,
+            "36": 0,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "873": {
+      "currentAddress": "St Andrew&#39;s Anglican Church, 148 Main Road, Redcliffs",
+      "historicalVenueId": "ba6a4f6cd81932bb8c41",
+      "method": "exact-label",
+      "totalValidVotes": 277,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 277,
+          "votes": {
+            "5": 26,
+            "10": 51,
+            "13": 47,
+            "14": 0,
+            "16": 108,
+            "17": 22,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "883": {
+      "currentAddress": "Lincoln Event Centre, 15 Meijer Drive, Lincoln",
+      "historicalVenueId": "2ce60d9c01fdb8bc5542",
+      "method": "exact-label",
+      "totalValidVotes": 74,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 58,
+          "votes": {
+            "5": 6,
+            "10": 10,
+            "13": 12,
+            "14": 0,
+            "16": 25,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 16,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 1,
+            "14": 0,
+            "16": 13,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "886": {
+      "currentAddress": "Bush Inn Centre, corner Riccarton Road & Waimairi Road, Upper Riccarton",
+      "historicalVenueId": "e9ca5b1e01568e3b1511",
+      "method": "exact-label",
+      "totalValidVotes": 81,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 81,
+          "votes": {
+            "5": 10,
+            "10": 11,
+            "13": 14,
+            "14": 1,
+            "16": 37,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1292": {
+      "currentAddress": "Hillview Christian Junior School, 150 Wilsons Road, St Martins",
+      "historicalVenueId": "d20dee2ae8244d50acb8",
+      "method": "exact-label",
+      "totalValidVotes": 472,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 472,
+          "votes": {
+            "5": 30,
+            "10": 87,
+            "13": 133,
+            "14": 2,
+            "16": 129,
+            "17": 36,
+            "36": 0,
+            "56": 1,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1313": {
+      "currentAddress": "Sumner School, 21 Colenso Street, Dryden Street West entrance, Sumner",
+      "historicalVenueId": "444422de80485a85e415",
+      "method": "exact-label",
+      "totalValidVotes": 743,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 743,
+          "votes": {
+            "5": 63,
+            "10": 165,
+            "13": 154,
+            "14": 2,
+            "16": 259,
+            "17": 39,
+            "36": 4,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1325": {
+      "currentAddress": "Huntsbury Community Centre, 30H Huntsbury Avenue, Huntsbury",
+      "historicalVenueId": "5c8f55d70e003456abe4",
+      "method": "exact-label",
+      "totalValidVotes": 294,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 294,
+          "votes": {
+            "5": 25,
+            "10": 68,
+            "13": 76,
+            "14": 1,
+            "16": 83,
+            "17": 13,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1414": {
+      "currentAddress": "Somerfield School Hall, 42 Studholme Street, Somerfield",
+      "historicalVenueId": "70fed7b4d51555047831",
+      "method": "exact-label",
+      "totalValidVotes": 559,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 559,
+          "votes": {
+            "5": 44,
+            "10": 119,
+            "13": 147,
+            "14": 9,
+            "16": 137,
+            "17": 32,
+            "36": 4,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1622": {
+      "currentAddress": "St Martin&#39;s Church, Neave Room, 50 Lincoln Road, Spreydon",
+      "historicalVenueId": "902f76b77bf5cea65cc4",
+      "method": "exact-label",
+      "totalValidVotes": 26,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 4,
+            "10": 1,
+            "13": 8,
+            "14": 0,
+            "16": 7,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1626": {
+      "currentAddress": "Little River School, 46 Western Valley Road, Little River",
+      "historicalVenueId": "0ac7f07fdc7a57f5ee61",
+      "method": "exact-label",
+      "totalValidVotes": 365,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 365,
+          "votes": {
+            "5": 39,
+            "10": 71,
+            "13": 87,
+            "14": 3,
+            "16": 93,
+            "17": 37,
+            "36": 0,
+            "56": 1,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1686": {
+      "currentAddress": "St Mark&#39;s Church Hall, 101 Opawa Road (Vincent Place entrance), Opawa",
+      "historicalVenueId": "0b4a97523d31e138600e",
+      "method": "exact-label",
+      "totalValidVotes": 93,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 93,
+          "votes": {
+            "5": 7,
+            "10": 22,
+            "13": 30,
+            "14": 0,
+            "16": 18,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1700": {
+      "currentAddress": "St Peter&#39;s Parish Centre Hall, 11 Fisher Avenue, Beckenham",
+      "historicalVenueId": "08e90aacdebc90ad3deb",
+      "method": "exact-label",
+      "totalValidVotes": 107,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 107,
+          "votes": {
+            "5": 14,
+            "10": 12,
+            "13": 28,
+            "14": 2,
+            "16": 27,
+            "17": 14,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1734": {
+      "currentAddress": "The Tannery, Metropolitan Lounge, 3 Garlands Road, Woolston",
+      "historicalVenueId": "47368f790f142fb51f57",
+      "method": "exact-label",
+      "totalValidVotes": 145,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 145,
+          "votes": {
+            "5": 17,
+            "10": 52,
+            "13": 38,
+            "14": 0,
+            "16": 23,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "1738": {
+      "currentAddress": "Landsdowne Community Centre, 8 Landsdowne Terrace, Cashmere",
+      "historicalVenueId": "c631d705b5988ceae2a1",
+      "method": "exact-label",
+      "totalValidVotes": 429,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 429,
+          "votes": {
+            "5": 34,
+            "10": 86,
+            "13": 104,
+            "14": 2,
+            "16": 140,
+            "17": 23,
+            "36": 3,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2079": {
+      "currentAddress": "Wigram Primary School Te Piki Kāhu, 5 The Runway, Wigram",
+      "historicalVenueId": "3486b049241774c50f3d",
+      "method": "exact-label",
+      "totalValidVotes": 52,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 52,
+          "votes": {
+            "5": 5,
+            "10": 6,
+            "13": 11,
+            "14": 0,
+            "16": 18,
+            "17": 9,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2159": {
+      "currentAddress": "Beckenham Te Kura o Pūroto School Hall, 71 Sandwich Road, Beckenham",
+      "historicalVenueId": "69c9a529a2aa0e4e461e",
+      "method": "exact-label",
+      "totalValidVotes": 128,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 128,
+          "votes": {
+            "5": 7,
+            "10": 40,
+            "13": 27,
+            "14": 2,
+            "16": 28,
+            "17": 13,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2246": {
+      "currentAddress": "Mt Pleasant School Hall, 82 Major Hornbrook Road, Mount Pleasant",
+      "historicalVenueId": "3d322845bc243b3b501b",
+      "method": "exact-label",
+      "totalValidVotes": 412,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 412,
+          "votes": {
+            "5": 37,
+            "10": 61,
+            "13": 83,
+            "14": 3,
+            "16": 161,
+            "17": 25,
+            "36": 2,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2424": {
+      "currentAddress": "Wharenui School Hall, 32 Matipo Street, Riccarton",
+      "historicalVenueId": "283757dd9e04823c61ef",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 0,
+            "10": 6,
+            "13": 6,
+            "14": 0,
+            "16": 4,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2675": {
+      "currentAddress": "Cashmere Primary School Hall, 135 Hackthorne Road, Cashmere",
+      "historicalVenueId": "153573ef1b9471498ea0",
+      "method": "exact-label",
+      "totalValidVotes": 596,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 596,
+          "votes": {
+            "5": 69,
+            "10": 91,
+            "13": 99,
+            "14": 5,
+            "16": 256,
+            "17": 30,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2701": {
+      "currentAddress": "Diamond Harbour School Hall, 13 Hunters Road, Diamond Harbour",
+      "historicalVenueId": "fb61e1a4209018be9591",
+      "method": "exact-label",
+      "totalValidVotes": 399,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 399,
+          "votes": {
+            "5": 31,
+            "10": 97,
+            "13": 103,
+            "14": 3,
+            "16": 95,
+            "17": 34,
+            "36": 3,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2711": {
+      "currentAddress": "Redcliffs School Hall, 113 Beachville Road, Redcliffs",
+      "historicalVenueId": "9a6ccb92cb2c6bf00e8a",
+      "method": "exact-label",
+      "totalValidVotes": 240,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 240,
+          "votes": {
+            "5": 32,
+            "10": 43,
+            "13": 59,
+            "14": 0,
+            "16": 83,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2712": {
+      "currentAddress": "Fendalton Community Centre, 170 Clyde Road, Fendalton",
+      "historicalVenueId": "8cdfdb505e2526cf1585",
+      "method": "exact-label",
+      "totalValidVotes": 51,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 38,
+          "votes": {
+            "5": 7,
+            "10": 3,
+            "13": 16,
+            "14": 0,
+            "16": 9,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 3,
+            "10": 2,
+            "13": 2,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2789": {
+      "currentAddress": "Akaroa Fire Station, 49 Beach Road, Akaroa",
+      "historicalVenueId": "437d4baf5fec756bb7e9",
+      "method": "exact-label",
+      "totalValidVotes": 518,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 518,
+          "votes": {
+            "5": 60,
+            "10": 73,
+            "13": 115,
+            "14": 4,
+            "16": 213,
+            "17": 26,
+            "36": 2,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2885": {
+      "currentAddress": "St Mary&#39;s Anglican Church Hall, 329 Halswell Road, Halswell",
+      "historicalVenueId": "1953990ebd58c47d891a",
+      "method": "exact-label",
+      "totalValidVotes": 650,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 650,
+          "votes": {
+            "5": 57,
+            "10": 52,
+            "13": 170,
+            "14": 1,
+            "16": 266,
+            "17": 51,
+            "36": 1,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2895": {
+      "currentAddress": "St John&#39;s Church Hall, 2 St Johns Street (corner Ferry Road), Woolston",
+      "historicalVenueId": "ce7ebe5ef0a5a816240e",
+      "method": "exact-label",
+      "totalValidVotes": 2146,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1577,
+          "votes": {
+            "5": 96,
+            "10": 225,
+            "13": 650,
+            "14": 14,
+            "16": 373,
+            "17": 126,
+            "36": 4,
+            "56": 1,
+            "70": 17
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 569,
+          "votes": {
+            "5": 39,
+            "10": 105,
+            "13": 221,
+            "14": 5,
+            "16": 93,
+            "17": 63,
+            "36": 7,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2914": {
+      "currentAddress": "Woolston Club, Kellaway Room, 43 Hargood Street, Garden Gate entrance, Woolston",
+      "historicalVenueId": "e220b1b45e3f2f4e8e0f",
+      "method": "exact-label",
+      "totalValidVotes": 225,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 225,
+          "votes": {
+            "5": 18,
+            "10": 43,
+            "13": 70,
+            "14": 1,
+            "16": 47,
+            "17": 29,
+            "36": 5,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2917": {
+      "currentAddress": "Oaklands School Hall, 37 Cunningham Place, Halswell",
+      "historicalVenueId": "410a9fd121125f78f7d6",
+      "method": "exact-label",
+      "totalValidVotes": 434,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 434,
+          "votes": {
+            "5": 46,
+            "10": 64,
+            "13": 103,
+            "14": 1,
+            "16": 154,
+            "17": 30,
+            "36": 2,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "2984": {
+      "currentAddress": "Heathcote Valley School Hall, 61 Bridle Path Road, Heathcote Valley",
+      "historicalVenueId": "bbe135959c7f114a0cc8",
+      "method": "exact-label",
+      "totalValidVotes": 691,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 691,
+          "votes": {
+            "5": 61,
+            "10": 143,
+            "13": 216,
+            "14": 3,
+            "16": 183,
+            "17": 39,
+            "36": 3,
+            "56": 3,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "3034": {
+      "currentAddress": "Mingimingi Hautoa Knights Stream School Hall, 1 Killarney Avenue, Halswell",
+      "historicalVenueId": "961393dcfb7a3feb389a",
+      "method": "exact-label",
+      "totalValidVotes": 105,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 105,
+          "votes": {
+            "5": 4,
+            "10": 12,
+            "13": 31,
+            "14": 0,
+            "16": 44,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "3336": {
+      "currentAddress": "Christchurch International Airport, International Departure Lounge - AIRSIDE, 30 Durey Road, Harewood",
+      "historicalVenueId": "6e2e17e69149ab758812",
+      "method": "exact-label",
+      "totalValidVotes": 55,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 5,
+            "10": 14,
+            "13": 8,
+            "14": 1,
+            "16": 19,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "3402": {
+      "currentAddress": "EFKS Church Hall Christchurch, 7 Vili Place, Woolston",
+      "historicalVenueId": "b34fb9600e8df6bd5c37",
+      "method": "exact-label",
+      "totalValidVotes": 57,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 57,
+          "votes": {
+            "5": 3,
+            "10": 14,
+            "13": 21,
+            "14": 0,
+            "16": 16,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "3452": {
+      "currentAddress": "Lyttelton Mt Herbert Community Facility, 25 Canterbury Street, Lyttelton",
+      "historicalVenueId": "74d19230f31fef184af1",
+      "method": "exact-label",
+      "totalValidVotes": 1415,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1118,
+          "votes": {
+            "5": 66,
+            "10": 386,
+            "13": 364,
+            "14": 20,
+            "16": 168,
+            "17": 57,
+            "36": 3,
+            "56": 1,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 297,
+          "votes": {
+            "5": 12,
+            "10": 114,
+            "13": 77,
+            "14": 8,
+            "16": 41,
+            "17": 16,
+            "36": 2,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "3626": {
+      "currentAddress": "Hoon Hay Community Centre, 90 Hoon Hay Road, Hoon Hay",
+      "historicalVenueId": "3c8eb3e73acd67ef72ba",
+      "method": "exact-label",
+      "totalValidVotes": 209,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 209,
+          "votes": {
+            "5": 12,
+            "10": 34,
+            "13": 45,
+            "14": 0,
+            "16": 96,
+            "17": 12,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    },
+    "3716": {
+      "currentAddress": "Te Pou Toetoe, Linwood Pool, Weka Room, 141 Smith Street, Linwood",
+      "historicalVenueId": "bfedd19c86dca6655f7d",
+      "method": "exact-label",
+      "totalValidVotes": 191,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 191,
+          "votes": {
+            "5": 14,
+            "10": 27,
+            "13": 75,
+            "14": 1,
+            "16": 34,
+            "17": 12,
+            "36": 1,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "2"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

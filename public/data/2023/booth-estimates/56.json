@@ -1,0 +1,1208 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "56",
+  "name": "Waitākere",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "28",
+      "name": "New Lynn"
+    },
+    {
+      "id": "19",
+      "name": "Kelston"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "416": {
+      "currentAddress": "Avondale Intermediate School Hall, 12 Holly Street, Avondale",
+      "historicalVenueId": "4b470dbf740e18026092",
+      "method": "exact-label",
+      "totalValidVotes": 388,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 388,
+          "votes": {
+            "5": 18,
+            "10": 55,
+            "13": 157,
+            "14": 5,
+            "16": 111,
+            "17": 17,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "511": {
+      "currentAddress": "Waiatarua Community Hall, 911 West Coast Road, Waiatarua",
+      "historicalVenueId": "9ffd992578f1bf436c0d",
+      "method": "exact-label",
+      "totalValidVotes": 242,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 242,
+          "votes": {
+            "5": 20,
+            "10": 44,
+            "13": 44,
+            "14": 5,
+            "16": 87,
+            "17": 15,
+            "36": 3,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "581": {
+      "currentAddress": "Blockhouse Bay Community Church, 76 Dundale Avenue, Blockhouse Bay",
+      "historicalVenueId": "dcb1a5f6ed52a3f7c6f1",
+      "method": "exact-label",
+      "totalValidVotes": 694,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 542,
+          "votes": {
+            "5": 35,
+            "10": 52,
+            "13": 134,
+            "14": 3,
+            "16": 282,
+            "17": 16,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 152,
+          "votes": {
+            "5": 8,
+            "10": 14,
+            "13": 57,
+            "14": 0,
+            "16": 56,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "646": {
+      "currentAddress": "Barnett Hall, 2 North Piha Road, Piha",
+      "historicalVenueId": "2c88bad4114240ed6ad6",
+      "method": "exact-label",
+      "totalValidVotes": 334,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 334,
+          "votes": {
+            "5": 26,
+            "10": 85,
+            "13": 78,
+            "14": 7,
+            "16": 87,
+            "17": 28,
+            "36": 3,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "658": {
+      "currentAddress": "Huia Community Hall, 1253 Huia Road, Huia",
+      "historicalVenueId": "f9608098d512ee11c852",
+      "method": "exact-label",
+      "totalValidVotes": 191,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 191,
+          "votes": {
+            "5": 18,
+            "10": 46,
+            "13": 62,
+            "14": 5,
+            "16": 34,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "671": {
+      "currentAddress": "Waterview Methodist Church Hall, 1547 Great North Road, Fir Street entrance, Waterview",
+      "historicalVenueId": "8099e208a65f4616ea1b",
+      "method": "exact-label",
+      "totalValidVotes": 1214,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 824,
+          "votes": {
+            "5": 68,
+            "10": 163,
+            "13": 283,
+            "14": 14,
+            "16": 221,
+            "17": 35,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 390,
+          "votes": {
+            "5": 24,
+            "10": 81,
+            "13": 138,
+            "14": 5,
+            "16": 105,
+            "17": 10,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "715": {
+      "currentAddress": "Oratia District School Hall, 1 Shaw Road, Oratia",
+      "historicalVenueId": "f709504c59dbcf224224",
+      "method": "exact-label",
+      "totalValidVotes": 782,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 782,
+          "votes": {
+            "5": 75,
+            "10": 142,
+            "13": 169,
+            "14": 4,
+            "16": 310,
+            "17": 40,
+            "36": 1,
+            "56": 1,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1004": {
+      "currentAddress": "St Giles Presbyterian Church, 1 Flanshaw Road, Te Atatū South",
+      "historicalVenueId": "27057e82a2e0aa34b015",
+      "method": "exact-label",
+      "totalValidVotes": 71,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 71,
+          "votes": {
+            "5": 7,
+            "10": 8,
+            "13": 20,
+            "14": 1,
+            "16": 30,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1055": {
+      "currentAddress": "Church@onetwosix Hall, 126 Point Chevalier Road, Point Chevalier",
+      "historicalVenueId": "c1565ef1f001e4bbc51a",
+      "method": "exact-label",
+      "totalValidVotes": 151,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 118,
+          "votes": {
+            "5": 10,
+            "10": 32,
+            "13": 29,
+            "14": 4,
+            "16": 28,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 33,
+          "votes": {
+            "5": 1,
+            "10": 5,
+            "13": 14,
+            "14": 0,
+            "16": 10,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1073": {
+      "currentAddress": "Glen Eden Primary School Hall, 3 Glenview Road, Glen Eden",
+      "historicalVenueId": "1b0b526f059afaa55101",
+      "method": "exact-label",
+      "totalValidVotes": 500,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 500,
+          "votes": {
+            "5": 31,
+            "10": 62,
+            "13": 213,
+            "14": 6,
+            "16": 120,
+            "17": 42,
+            "36": 4,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1183": {
+      "currentAddress": "Ranui Pacific Islanders Presbyterian Church, 35 Armada Drive, Ranui",
+      "historicalVenueId": "bf4c85785448eabddc6d",
+      "method": "exact-label",
+      "totalValidVotes": 487,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 415,
+          "votes": {
+            "5": 38,
+            "10": 78,
+            "13": 107,
+            "14": 3,
+            "16": 139,
+            "17": 31,
+            "36": 0,
+            "56": 0,
+            "70": 9
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 72,
+          "votes": {
+            "5": 5,
+            "10": 14,
+            "13": 24,
+            "14": 1,
+            "16": 23,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1187": {
+      "currentAddress": "Te Atatū Peninsula Community Centre, 595 Te Atatū Road, Te Atatū Peninsula",
+      "historicalVenueId": "68983f30452be103640c",
+      "method": "exact-label",
+      "totalValidVotes": 109,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 88,
+          "votes": {
+            "5": 10,
+            "10": 21,
+            "13": 24,
+            "14": 1,
+            "16": 27,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 12,
+            "14": 0,
+            "16": 3,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1283": {
+      "currentAddress": "Blockhouse Bay Baptist Church, 504 Blockhouse Bay Road, Blockhouse Bay",
+      "historicalVenueId": "f105c67e6248a79269cb",
+      "method": "exact-label",
+      "totalValidVotes": 2691,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2180,
+          "votes": {
+            "5": 181,
+            "10": 167,
+            "13": 511,
+            "14": 13,
+            "16": 1139,
+            "17": 97,
+            "36": 6,
+            "56": 1,
+            "70": 13
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 511,
+          "votes": {
+            "5": 34,
+            "10": 49,
+            "13": 131,
+            "14": 3,
+            "16": 242,
+            "17": 37,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1368": {
+      "currentAddress": "Avondale Primary School Hall, 4 Crayford Street West, Avondale",
+      "historicalVenueId": "718bdc769ea51049ef02",
+      "method": "exact-label",
+      "totalValidVotes": 450,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 450,
+          "votes": {
+            "5": 28,
+            "10": 118,
+            "13": 197,
+            "14": 5,
+            "16": 66,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1369": {
+      "currentAddress": "Blockhouse Bay Primary School Hall, 584 Blockhouse Bay Road, Blockhouse Bay",
+      "historicalVenueId": "0d185f79e5c30cff46b0",
+      "method": "exact-label",
+      "totalValidVotes": 584,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 584,
+          "votes": {
+            "5": 52,
+            "10": 72,
+            "13": 128,
+            "14": 3,
+            "16": 280,
+            "17": 26,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1494": {
+      "currentAddress": "Henderson Valley Primary School Hall, 389 Henderson Valley Road, Henderson",
+      "historicalVenueId": "a218df2171793e7bdd44",
+      "method": "exact-label",
+      "totalValidVotes": 369,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 369,
+          "votes": {
+            "5": 43,
+            "10": 67,
+            "13": 78,
+            "14": 3,
+            "16": 106,
+            "17": 49,
+            "36": 4,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1641": {
+      "currentAddress": "Kaurilands School Hall, 109 Atkinson Road, Titirangi",
+      "historicalVenueId": "1d8b51e223a932f8aa77",
+      "method": "exact-label",
+      "totalValidVotes": 718,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 718,
+          "votes": {
+            "5": 61,
+            "10": 145,
+            "13": 182,
+            "14": 4,
+            "16": 250,
+            "17": 35,
+            "36": 3,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "1838": {
+      "currentAddress": "Grey Lynn Community Centre, 510 Richmond Road, Grey Lynn",
+      "historicalVenueId": "edea5dcae18a7fb919e0",
+      "method": "exact-label",
+      "totalValidVotes": 54,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 41,
+          "votes": {
+            "5": 4,
+            "10": 17,
+            "13": 6,
+            "14": 1,
+            "16": 8,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 1,
+            "14": 2,
+            "16": 2,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "2016": {
+      "currentAddress": "Sturges West Community House, 58 Summerland Drive, Henderson",
+      "historicalVenueId": "930ae241913b05a1aa8e",
+      "method": "exact-label",
+      "totalValidVotes": 152,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 129,
+          "votes": {
+            "5": 16,
+            "10": 19,
+            "13": 25,
+            "14": 1,
+            "16": 55,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 23,
+          "votes": {
+            "5": 5,
+            "10": 0,
+            "13": 6,
+            "14": 1,
+            "16": 10,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "2086": {
+      "currentAddress": "Green Bay Community House, 1 Barron Drive, Green Bay",
+      "historicalVenueId": "86c4896c91d5d84fc7ee",
+      "method": "exact-label",
+      "totalValidVotes": 434,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 434,
+          "votes": {
+            "5": 39,
+            "10": 62,
+            "13": 125,
+            "14": 3,
+            "16": 149,
+            "17": 27,
+            "36": 2,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "2096": {
+      "currentAddress": "New Lynn Sea Scout Hall, 37 Margan Avenue, New Lynn",
+      "historicalVenueId": "b12291139c9d3ad80122",
+      "method": "exact-label",
+      "totalValidVotes": 310,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 310,
+          "votes": {
+            "5": 19,
+            "10": 36,
+            "13": 104,
+            "14": 3,
+            "16": 108,
+            "17": 17,
+            "36": 3,
+            "56": 2,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "2107": {
+      "currentAddress": "Glenavon School Hall, 340 Blockhouse Bay Road, Blockhouse Bay",
+      "historicalVenueId": "931a649a33c91708488a",
+      "method": "exact-label",
+      "totalValidVotes": 368,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 368,
+          "votes": {
+            "5": 16,
+            "10": 35,
+            "13": 169,
+            "14": 3,
+            "16": 111,
+            "17": 16,
+            "36": 0,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "2110": {
+      "currentAddress": "Green Bay Primary School Hall, 131 Godley Road, Green Bay",
+      "historicalVenueId": "81b1fc401a9ff4381ad3",
+      "method": "exact-label",
+      "totalValidVotes": 699,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 699,
+          "votes": {
+            "5": 56,
+            "10": 114,
+            "13": 181,
+            "14": 7,
+            "16": 249,
+            "17": 51,
+            "36": 5,
+            "56": 2,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "2111": {
+      "currentAddress": "Fruitvale School Hall, 40 Fruitvale Road, New Lynn",
+      "historicalVenueId": "9146a083697ada4dc41c",
+      "method": "exact-label",
+      "totalValidVotes": 603,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 603,
+          "votes": {
+            "5": 29,
+            "10": 108,
+            "13": 229,
+            "14": 7,
+            "16": 163,
+            "17": 43,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "2112": {
+      "currentAddress": "Woodlands Park School Hall, 202 Woodlands Park Road, Titirangi",
+      "historicalVenueId": "48ceb92a2de79137824e",
+      "method": "exact-label",
+      "totalValidVotes": 585,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 585,
+          "votes": {
+            "5": 62,
+            "10": 125,
+            "13": 133,
+            "14": 6,
+            "16": 196,
+            "17": 26,
+            "36": 5,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "2120": {
+      "currentAddress": "Laingholm Primary School Hall, 54 Victory Road, Laingholm",
+      "historicalVenueId": "bde76df250ad4e73bf59",
+      "method": "exact-label",
+      "totalValidVotes": 589,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 589,
+          "votes": {
+            "5": 46,
+            "10": 125,
+            "13": 151,
+            "14": 8,
+            "16": 170,
+            "17": 44,
+            "36": 8,
+            "56": 0,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "2255": {
+      "currentAddress": "Waterview Primary School Hall, 16 Herdman Street, Waterview",
+      "historicalVenueId": "6aa1a7419c3b092dda0d",
+      "method": "exact-label",
+      "totalValidVotes": 161,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 161,
+          "votes": {
+            "5": 11,
+            "10": 43,
+            "13": 56,
+            "14": 5,
+            "16": 29,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "2998": {
+      "currentAddress": "Glendene School Hall, 60 Barrys Road, Glendene",
+      "historicalVenueId": "9ed708f4ccc57c18b918",
+      "method": "exact-label",
+      "totalValidVotes": 516,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 516,
+          "votes": {
+            "5": 23,
+            "10": 46,
+            "13": 230,
+            "14": 10,
+            "16": 140,
+            "17": 33,
+            "36": 3,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19"
+      ]
+    },
+    "2999": {
+      "currentAddress": "Kōnini School Hall, 44 Withers Road, Glen Eden",
+      "historicalVenueId": "733a3e3f4414ea1e8f1f",
+      "method": "exact-label",
+      "totalValidVotes": 505,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 505,
+          "votes": {
+            "5": 44,
+            "10": 97,
+            "13": 132,
+            "14": 2,
+            "16": 169,
+            "17": 22,
+            "36": 2,
+            "56": 0,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "3020": {
+      "currentAddress": "Prospect School Hall, 76 Rosier Road, Glen Eden",
+      "historicalVenueId": "65331ef8711a107ac6c8",
+      "method": "exact-label",
+      "totalValidVotes": 688,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 688,
+          "votes": {
+            "5": 46,
+            "10": 73,
+            "13": 285,
+            "14": 5,
+            "16": 189,
+            "17": 56,
+            "36": 3,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "3162": {
+      "currentAddress": "St Leonards Road School Hall, 15 St Leonards Road, Kelston",
+      "historicalVenueId": "421ae7d97cffa217c062",
+      "method": "exact-label",
+      "totalValidVotes": 844,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 844,
+          "votes": {
+            "5": 44,
+            "10": 64,
+            "13": 392,
+            "14": 11,
+            "16": 250,
+            "17": 37,
+            "36": 4,
+            "56": 2,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "3363": {
+      "currentAddress": "Pan African Community Centre, 3131 Great North Road, New Lynn",
+      "historicalVenueId": "774e9132e8500b8fc94f",
+      "method": "exact-label",
+      "totalValidVotes": 638,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 405,
+          "votes": {
+            "5": 27,
+            "10": 64,
+            "13": 112,
+            "14": 7,
+            "16": 168,
+            "17": 11,
+            "36": 2,
+            "56": 0,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 233,
+          "votes": {
+            "5": 12,
+            "10": 33,
+            "13": 82,
+            "14": 6,
+            "16": 83,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "3387": {
+      "currentAddress": "Suburbs Rugby Football Club, 130 Portage Road, New Lynn",
+      "historicalVenueId": "dc8034f48e860e1756a6",
+      "method": "exact-label",
+      "totalValidVotes": 1937,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1393,
+          "votes": {
+            "5": 120,
+            "10": 163,
+            "13": 360,
+            "14": 13,
+            "16": 597,
+            "17": 92,
+            "36": 4,
+            "56": 0,
+            "70": 8
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 544,
+          "votes": {
+            "5": 40,
+            "10": 80,
+            "13": 153,
+            "14": 11,
+            "16": 197,
+            "17": 28,
+            "36": 1,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "3508": {
+      "currentAddress": "Te Manawa Library Community Hub, 11 Kōhūhū Lane, Westgate",
+      "historicalVenueId": "b65ddf3f9ce8e40e9c13",
+      "method": "exact-label",
+      "totalValidVotes": 282,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 245,
+          "votes": {
+            "5": 28,
+            "10": 41,
+            "13": 45,
+            "14": 7,
+            "16": 96,
+            "17": 18,
+            "36": 3,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 37,
+          "votes": {
+            "5": 2,
+            "10": 8,
+            "13": 10,
+            "14": 0,
+            "16": 8,
+            "17": 3,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "3513": {
+      "currentAddress": "Kumeū Community Centre, 35 Access Road, Kumeū",
+      "historicalVenueId": "400eba075117f4c1464c",
+      "method": "exact-label",
+      "totalValidVotes": 81,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 72,
+          "votes": {
+            "5": 11,
+            "10": 19,
+            "13": 13,
+            "14": 1,
+            "16": 21,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 2,
+            "14": 0,
+            "16": 2,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "28"
+      ]
+    },
+    "3620": {
+      "currentAddress": "Hub West, Rua Back Room, 29 Corban Avenue, Henderson",
+      "historicalVenueId": "8ae813711c92b61b50e3",
+      "method": "exact-label",
+      "totalValidVotes": 952,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 611,
+          "votes": {
+            "5": 49,
+            "10": 77,
+            "13": 249,
+            "14": 14,
+            "16": 165,
+            "17": 34,
+            "36": 1,
+            "56": 2,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 341,
+          "votes": {
+            "5": 12,
+            "10": 32,
+            "13": 182,
+            "14": 5,
+            "16": 61,
+            "17": 24,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19"
+      ]
+    },
+    "3630": {
+      "currentAddress": "Waitākere Hospital, Main Entrance Foyer, 55-75 Lincoln Road, Henderson",
+      "historicalVenueId": "94c6805097c57a90c459",
+      "method": "exact-label",
+      "totalValidVotes": 229,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 229,
+          "votes": {
+            "5": 13,
+            "10": 27,
+            "13": 95,
+            "14": 2,
+            "16": 65,
+            "17": 15,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    },
+    "3779": {
+      "currentAddress": "Te Pai Centre, 31-35 Te Pai Place, Henderson",
+      "historicalVenueId": "57482575ac30d2e5d28f",
+      "method": "exact-label",
+      "totalValidVotes": 266,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 226,
+          "votes": {
+            "5": 28,
+            "10": 27,
+            "13": 65,
+            "14": 3,
+            "16": 76,
+            "17": 12,
+            "36": 3,
+            "56": 0,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 40,
+          "votes": {
+            "5": 5,
+            "10": 4,
+            "13": 13,
+            "14": 2,
+            "16": 11,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "19",
+        "28"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "41",
+  "name": "Remutaka",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "42",
+      "name": "Remutaka"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "548": {
+      "currentAddress": "Belmont Hall, 711 Western Hutt Road, Belmont",
+      "historicalVenueId": "373b56f98bc33e48c690",
+      "method": "exact-label",
+      "totalValidVotes": 132,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 132,
+          "votes": {
+            "5": 6,
+            "10": 25,
+            "13": 47,
+            "14": 2,
+            "16": 40,
+            "17": 5,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "582": {
+      "currentAddress": "Wainuiomata War Memorial Hall, 1 Queen Street, Wainuiomata",
+      "historicalVenueId": "64960aa7a61b680d8cbc",
+      "method": "exact-label",
+      "totalValidVotes": 34,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 18,
+            "14": 2,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 4,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1019": {
+      "currentAddress": "Garage of Private House, 1 Betty Watt Grove, Riverstone Terraces",
+      "historicalVenueId": "da8ae6725f95b13cac78",
+      "method": "exact-label",
+      "totalValidVotes": 382,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 382,
+          "votes": {
+            "5": 38,
+            "10": 18,
+            "13": 118,
+            "14": 2,
+            "16": 172,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1110": {
+      "currentAddress": "St Hilda&#39;s Church Hall, 35 Cruickshank Road, Clouston Park",
+      "historicalVenueId": "dea26b7cbfd21ddebbcf",
+      "method": "exact-label",
+      "totalValidVotes": 419,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 419,
+          "votes": {
+            "5": 35,
+            "10": 30,
+            "13": 181,
+            "14": 2,
+            "16": 115,
+            "17": 30,
+            "36": 2,
+            "56": 1,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1134": {
+      "currentAddress": "Fraser Crescent School Hall, 16 Redwood Street, Elderslea",
+      "historicalVenueId": "0681e4aa7ca8627a12af",
+      "method": "exact-label",
+      "totalValidVotes": 538,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 538,
+          "votes": {
+            "5": 46,
+            "10": 50,
+            "13": 191,
+            "14": 3,
+            "16": 167,
+            "17": 47,
+            "36": 5,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1135": {
+      "currentAddress": "Plateau School, 12A Molloys Road, Te Mārua",
+      "historicalVenueId": "6539f1541f4ffae5695c",
+      "method": "exact-label",
+      "totalValidVotes": 354,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 354,
+          "votes": {
+            "5": 25,
+            "10": 38,
+            "13": 116,
+            "14": 3,
+            "16": 128,
+            "17": 33,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1136": {
+      "currentAddress": "Totara Park School Hall, 16 California Drive, Totara Park",
+      "historicalVenueId": "202b482bd788a7a4e2f5",
+      "method": "exact-label",
+      "totalValidVotes": 732,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 732,
+          "votes": {
+            "5": 58,
+            "10": 83,
+            "13": 297,
+            "14": 4,
+            "16": 185,
+            "17": 45,
+            "36": 2,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1590": {
+      "currentAddress": "Birchville School Hall, 16 Gemstone Drive, Birchville",
+      "historicalVenueId": "79d006d14228c779f989",
+      "method": "exact-label",
+      "totalValidVotes": 581,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 581,
+          "votes": {
+            "5": 46,
+            "10": 68,
+            "13": 200,
+            "14": 9,
+            "16": 164,
+            "17": 58,
+            "36": 4,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1591": {
+      "currentAddress": "Mangaroa School Hall, 93 Flux Road, Mangaroa",
+      "historicalVenueId": "9d2f10ae813b9b3f34c3",
+      "method": "exact-label",
+      "totalValidVotes": 364,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 364,
+          "votes": {
+            "5": 50,
+            "10": 29,
+            "13": 78,
+            "14": 0,
+            "16": 157,
+            "17": 31,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1593": {
+      "currentAddress": "St Brendan&#39;s School Hall, 56 Palmer Crescent, Heretaunga",
+      "historicalVenueId": "ad90bafdadea929fd93f",
+      "method": "exact-label",
+      "totalValidVotes": 607,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 607,
+          "votes": {
+            "5": 39,
+            "10": 69,
+            "13": 209,
+            "14": 6,
+            "16": 216,
+            "17": 33,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1595": {
+      "currentAddress": "Avalon School Hall, 10 Gordon Street, Avalon",
+      "historicalVenueId": "6ec3ab318f1355052e9d",
+      "method": "exact-label",
+      "totalValidVotes": 352,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 352,
+          "votes": {
+            "5": 22,
+            "10": 37,
+            "13": 124,
+            "14": 4,
+            "16": 122,
+            "17": 21,
+            "36": 1,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1597": {
+      "currentAddress": "Trentham School Hall, 2 Moonshine Road, Trentham",
+      "historicalVenueId": "f895853fa5c5c607b90d",
+      "method": "exact-label",
+      "totalValidVotes": 771,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 771,
+          "votes": {
+            "5": 37,
+            "10": 86,
+            "13": 304,
+            "14": 10,
+            "16": 216,
+            "17": 61,
+            "36": 8,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1602": {
+      "currentAddress": "Te Kura o Hau Karetu (Māoribank School Hall), 32 Hillside Drive, Māoribank",
+      "historicalVenueId": "016264191170c848eb45",
+      "method": "exact-label",
+      "totalValidVotes": 334,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 334,
+          "votes": {
+            "5": 27,
+            "10": 36,
+            "13": 141,
+            "14": 4,
+            "16": 76,
+            "17": 27,
+            "36": 4,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1604": {
+      "currentAddress": "Avalon Intermediate School Hall, 1041 High Street, Avalon",
+      "historicalVenueId": "8d57507e7bbcf070ad31",
+      "method": "exact-label",
+      "totalValidVotes": 425,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 425,
+          "votes": {
+            "5": 14,
+            "10": 44,
+            "13": 182,
+            "14": 7,
+            "16": 114,
+            "17": 23,
+            "36": 3,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1605": {
+      "currentAddress": "Oxford Crescent School Hall, 5 Oxford Crescent, Ebdentown",
+      "historicalVenueId": "091d4518828ee568ae78",
+      "method": "exact-label",
+      "totalValidVotes": 397,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 397,
+          "votes": {
+            "5": 28,
+            "10": 56,
+            "13": 143,
+            "14": 3,
+            "16": 94,
+            "17": 44,
+            "36": 4,
+            "56": 1,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1834": {
+      "currentAddress": "St Joseph&#39;s Scout Hall, 46 Royal Street, Upper Hutt Central",
+      "historicalVenueId": "7ecabd9d6c2047959e3f",
+      "method": "exact-label",
+      "totalValidVotes": 295,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 295,
+          "votes": {
+            "5": 8,
+            "10": 27,
+            "13": 130,
+            "14": 1,
+            "16": 89,
+            "17": 23,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1835": {
+      "currentAddress": "Upper Hutt Baptist Church, 1 Milton Street, Trentham",
+      "historicalVenueId": "2d078c9fc9506dd900c9",
+      "method": "exact-label",
+      "totalValidVotes": 536,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 536,
+          "votes": {
+            "5": 41,
+            "10": 54,
+            "13": 201,
+            "14": 3,
+            "16": 167,
+            "17": 35,
+            "36": 1,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "1980": {
+      "currentAddress": "Treadwell Street Hall, 25A Treadwell Street, Naenae",
+      "historicalVenueId": "b1dd5813d13acad5213c",
+      "method": "exact-label",
+      "totalValidVotes": 310,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 310,
+          "votes": {
+            "5": 15,
+            "10": 36,
+            "13": 165,
+            "14": 5,
+            "16": 39,
+            "17": 29,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "2199": {
+      "currentAddress": "Victoria University, The Hub, Kelburn Parade, Kelburn",
+      "historicalVenueId": "5eb1451037a260082af2",
+      "method": "exact-label",
+      "totalValidVotes": 73,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 73,
+          "votes": {
+            "5": 0,
+            "10": 34,
+            "13": 19,
+            "14": 4,
+            "16": 6,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "2398": {
+      "currentAddress": "Pinehaven Community Hall, 5A Forest Road, Pinehaven",
+      "historicalVenueId": "2be868e36b8f33e5d368",
+      "method": "exact-label",
+      "totalValidVotes": 446,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 446,
+          "votes": {
+            "5": 35,
+            "10": 85,
+            "13": 140,
+            "14": 1,
+            "16": 124,
+            "17": 34,
+            "36": 2,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "2431": {
+      "currentAddress": "St James Anglican Church Hall, 71 Woburn Road, Hutt Central",
+      "historicalVenueId": "946a93301a8419cfda41",
+      "method": "exact-label",
+      "totalValidVotes": 52,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 52,
+          "votes": {
+            "5": 3,
+            "10": 8,
+            "13": 20,
+            "14": 1,
+            "16": 16,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "2658": {
+      "currentAddress": "Maungaraki Baptist Church Centre, 164 Dowse Drive, Maungaraki",
+      "historicalVenueId": "ba5f9b08bb3663615718",
+      "method": "exact-label",
+      "totalValidVotes": 34,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 5,
+            "14": 1,
+            "16": 9,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 3,
+            "14": 0,
+            "16": 6,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "2777": {
+      "currentAddress": "Waterloo School, 26 Hardy Street, Waterloo",
+      "historicalVenueId": "41cddf53ae61b64efe3f",
+      "method": "exact-label",
+      "totalValidVotes": 28,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 28,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 13,
+            "14": 0,
+            "16": 8,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "2779": {
+      "currentAddress": "Knox Presbyterian Church Hall, 574 High Street, Boulcott",
+      "historicalVenueId": "61f11cec9dd7867d6987",
+      "method": "exact-label",
+      "totalValidVotes": 58,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 58,
+          "votes": {
+            "5": 3,
+            "10": 3,
+            "13": 28,
+            "14": 2,
+            "16": 17,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "2994": {
+      "currentAddress": "Petone Working Men&#39;s Club, 47 Udy Street, Petone",
+      "historicalVenueId": "209c1484da6dda6d0f58",
+      "method": "exact-label",
+      "totalValidVotes": 180,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 144,
+          "votes": {
+            "5": 15,
+            "10": 6,
+            "13": 64,
+            "14": 0,
+            "16": 45,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 36,
+          "votes": {
+            "5": 2,
+            "10": 3,
+            "13": 13,
+            "14": 1,
+            "16": 10,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "3000": {
+      "currentAddress": "Eastern Hutt School, 83 Kings Crescent, Hutt Central",
+      "historicalVenueId": "b7701a65ada1a81c759a",
+      "method": "exact-label",
+      "totalValidVotes": 38,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 38,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 17,
+            "14": 0,
+            "16": 13,
+            "17": 2,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "3017": {
+      "currentAddress": "Moera Community Hall, 107 Randwick Crescent, Moera",
+      "historicalVenueId": "77ea23b37598611a26ea",
+      "method": "exact-label",
+      "totalValidVotes": 11,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 5,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "3021": {
+      "currentAddress": "Wainuiomata Primary School, 1 Homedale Road, Wainuiomata",
+      "historicalVenueId": "a920f8e3562e6181c005",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 1,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "3091": {
+      "currentAddress": "Rātā Street School Hall, 73 Rata Street, Naenae",
+      "historicalVenueId": "119a6c1b9dc991c3edeb",
+      "method": "exact-label",
+      "totalValidVotes": 539,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 539,
+          "votes": {
+            "5": 24,
+            "10": 77,
+            "13": 274,
+            "14": 7,
+            "16": 78,
+            "17": 40,
+            "36": 1,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    },
+    "3277": {
+      "currentAddress": "Koraunui School Hall, 17 Kairimu Street, Stokes Valley",
+      "historicalVenueId": "56652dd29852038c5636",
+      "method": "exact-label",
+      "totalValidVotes": 670,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 670,
+          "votes": {
+            "5": 42,
+            "10": 77,
+            "13": 241,
+            "14": 6,
+            "16": 171,
+            "17": 71,
+            "36": 5,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "42"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

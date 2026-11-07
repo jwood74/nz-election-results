@@ -2,3 +2,5 @@ data/2023/raw/*.csv -text
 data/2023/source/current-electorates.xml -text
 data/2023/**/*.json text eol=lf
 public/data/2023/**/*.json text eol=lf
+data/booth-matching/source/*.xml -text
+data/booth-matching/**/*.json text eol=lf

@@ -1,0 +1,938 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "7",
+  "name": "Dunedin",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "unchanged",
+  "related2023": [
+    {
+      "id": "8",
+      "name": "Dunedin"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "370": {
+      "currentAddress": "University of Otago, ISB Link, 65 Albany Street (corner Albany Street and Cumberland Street), Dunedin North",
+      "historicalVenueId": "ddd857dca41db745d8e1",
+      "method": "reviewed-label",
+      "totalValidVotes": 3917,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3319,
+          "votes": {
+            "5": 143,
+            "10": 1699,
+            "13": 576,
+            "14": 76,
+            "16": 516,
+            "17": 50,
+            "36": 6,
+            "56": 2,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 598,
+          "votes": {
+            "5": 22,
+            "10": 215,
+            "13": 118,
+            "14": 16,
+            "16": 125,
+            "17": 27,
+            "36": 1,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "400": {
+      "currentAddress": "Waihemo Service Centre, 54 Tiverton Street, Palmerston",
+      "historicalVenueId": "d29d46002dc99c0f3d4f",
+      "method": "exact-label",
+      "totalValidVotes": 10,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 10,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 3,
+            "14": 0,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "422": {
+      "currentAddress": "Nations Church, 334 King Edward Street, South Dunedin",
+      "historicalVenueId": "8880f67ed16f62581c61",
+      "method": "exact-label",
+      "totalValidVotes": 704,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 579,
+          "votes": {
+            "5": 36,
+            "10": 84,
+            "13": 239,
+            "14": 4,
+            "16": 154,
+            "17": 40,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 125,
+          "votes": {
+            "5": 6,
+            "10": 20,
+            "13": 39,
+            "14": 2,
+            "16": 34,
+            "17": 11,
+            "36": 0,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "449": {
+      "currentAddress": "Sawyers Bay School, 99 Stevenson Avenue, Sawyers Bay",
+      "historicalVenueId": "2128c5acf8a5450b5bd5",
+      "method": "exact-label",
+      "totalValidVotes": 411,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 411,
+          "votes": {
+            "5": 34,
+            "10": 56,
+            "13": 157,
+            "14": 3,
+            "16": 100,
+            "17": 36,
+            "36": 3,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "453": {
+      "currentAddress": "Carisbrook School, 217 South Road, Caversham",
+      "historicalVenueId": "fbcb8af2b312ffcf2917",
+      "method": "exact-label",
+      "totalValidVotes": 92,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 92,
+          "votes": {
+            "5": 5,
+            "10": 9,
+            "13": 43,
+            "14": 0,
+            "16": 7,
+            "17": 11,
+            "36": 3,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "454": {
+      "currentAddress": "Grant&#39;s Braes School, 137 Belford Street, Waverley",
+      "historicalVenueId": "44e3eb961b24f5abcac2",
+      "method": "exact-label",
+      "totalValidVotes": 689,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 689,
+          "votes": {
+            "5": 64,
+            "10": 74,
+            "13": 212,
+            "14": 3,
+            "16": 257,
+            "17": 40,
+            "36": 0,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "610": {
+      "currentAddress": "Port Chalmers Town Hall, 1 Grey Street, Port Chalmers",
+      "historicalVenueId": "b9abc4e115ceac0b04c8",
+      "method": "exact-label",
+      "totalValidVotes": 1415,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 938,
+          "votes": {
+            "5": 43,
+            "10": 213,
+            "13": 405,
+            "14": 15,
+            "16": 136,
+            "17": 95,
+            "36": 2,
+            "56": 1,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 477,
+          "votes": {
+            "5": 23,
+            "10": 130,
+            "13": 189,
+            "14": 7,
+            "16": 58,
+            "17": 47,
+            "36": 0,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "682": {
+      "currentAddress": "Portobello School, 30 Harrington Point Road, Portobello",
+      "historicalVenueId": "869f0f6579cb375a275a",
+      "method": "exact-label",
+      "totalValidVotes": 367,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 367,
+          "votes": {
+            "5": 25,
+            "10": 83,
+            "13": 140,
+            "14": 2,
+            "16": 71,
+            "17": 28,
+            "36": 3,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "776": {
+      "currentAddress": "Long Beach Community Hall, 22 Driver Street, Long Beach",
+      "historicalVenueId": "861dbe3e74774d1c5d60",
+      "method": "exact-label",
+      "totalValidVotes": 108,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 108,
+          "votes": {
+            "5": 10,
+            "10": 32,
+            "13": 27,
+            "14": 1,
+            "16": 20,
+            "17": 8,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1529": {
+      "currentAddress": "Macandrew Bay School, 488 Portobello Road, Macandrew Bay",
+      "historicalVenueId": "f4bfb3ce025d17f01fa9",
+      "method": "exact-label",
+      "totalValidVotes": 595,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 595,
+          "votes": {
+            "5": 32,
+            "10": 140,
+            "13": 222,
+            "14": 5,
+            "16": 135,
+            "17": 35,
+            "36": 3,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1558": {
+      "currentAddress": "Halfway Bush School Hall, 54 Ashmore Street, Halfway Bush",
+      "historicalVenueId": "31fa3a3f4fab6ebe5337",
+      "method": "exact-label",
+      "totalValidVotes": 417,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 417,
+          "votes": {
+            "5": 26,
+            "10": 48,
+            "13": 199,
+            "14": 0,
+            "16": 87,
+            "17": 31,
+            "36": 4,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1559": {
+      "currentAddress": "Bradford School, 42A Bradford Street, Bradford",
+      "historicalVenueId": "1d46d16d7c8727d341bb",
+      "method": "exact-label",
+      "totalValidVotes": 203,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 203,
+          "votes": {
+            "5": 13,
+            "10": 28,
+            "13": 78,
+            "14": 5,
+            "16": 56,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1567": {
+      "currentAddress": "Wakari School Hall, 150 Helensburgh Road, Wakari",
+      "historicalVenueId": "638327fb47e407a79cf7",
+      "method": "exact-label",
+      "totalValidVotes": 748,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 748,
+          "votes": {
+            "5": 40,
+            "10": 133,
+            "13": 259,
+            "14": 6,
+            "16": 207,
+            "17": 62,
+            "36": 1,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1845": {
+      "currentAddress": "Ōpoho School, 96 Signal Hill Road, Ōpoho",
+      "historicalVenueId": "c686b10294def72712f0",
+      "method": "exact-label",
+      "totalValidVotes": 368,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 368,
+          "votes": {
+            "5": 21,
+            "10": 130,
+            "13": 116,
+            "14": 11,
+            "16": 48,
+            "17": 24,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1856": {
+      "currentAddress": "Brockville School, 263 Brockville Road, Brockville",
+      "historicalVenueId": "b404cdc847b58469428a",
+      "method": "exact-label",
+      "totalValidVotes": 583,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 131,
+          "votes": {
+            "5": 15,
+            "10": 16,
+            "13": 69,
+            "14": 0,
+            "16": 24,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 452,
+          "votes": {
+            "5": 21,
+            "10": 46,
+            "13": 257,
+            "14": 2,
+            "16": 59,
+            "17": 36,
+            "36": 4,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1857": {
+      "currentAddress": "Dunedin North Intermediate School, Design Lobby, 34 North Road, North East Valley",
+      "historicalVenueId": "bd325317f79359457986",
+      "method": "exact-label",
+      "totalValidVotes": 588,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 588,
+          "votes": {
+            "5": 32,
+            "10": 157,
+            "13": 206,
+            "14": 9,
+            "16": 97,
+            "17": 38,
+            "36": 0,
+            "56": 3,
+            "70": 17
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "1863": {
+      "currentAddress": "Ravensbourne School, 8 Wanaka Street, Ravensbourne",
+      "historicalVenueId": "2bce14b014ab477ec27a",
+      "method": "exact-label",
+      "totalValidVotes": 322,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 322,
+          "votes": {
+            "5": 19,
+            "10": 73,
+            "13": 124,
+            "14": 3,
+            "16": 50,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2163": {
+      "currentAddress": "Pacific Trust Otago, 350 South Road, Caversham",
+      "historicalVenueId": "a6c55bb73d4d0883b852",
+      "method": "exact-label",
+      "totalValidVotes": 56,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 34,
+          "votes": {
+            "5": 0,
+            "10": 7,
+            "13": 23,
+            "14": 1,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 10,
+            "14": 0,
+            "16": 4,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2193": {
+      "currentAddress": "Lake Wānaka Centre, Armstrong Room, 89 Ardmore Street, Wānaka",
+      "historicalVenueId": "a93fc4c6aae0db73ea9b",
+      "method": "exact-label",
+      "totalValidVotes": 49,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 41,
+          "votes": {
+            "5": 7,
+            "10": 8,
+            "13": 8,
+            "14": 1,
+            "16": 16,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 3,
+            "14": 0,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2322": {
+      "currentAddress": "Tainui School Library, 41 Tahuna Road, Tainui",
+      "historicalVenueId": "8a6a6d4c32a260efb64d",
+      "method": "exact-label",
+      "totalValidVotes": 120,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 120,
+          "votes": {
+            "5": 12,
+            "10": 18,
+            "13": 43,
+            "14": 2,
+            "16": 25,
+            "17": 10,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2330": {
+      "currentAddress": "Musselburgh Baptist Church, 131 Musselburgh Rise, Musselburgh",
+      "historicalVenueId": "f5f7d12b64721bee5ce3",
+      "method": "exact-label",
+      "totalValidVotes": 116,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 116,
+          "votes": {
+            "5": 13,
+            "10": 10,
+            "13": 34,
+            "14": 0,
+            "16": 31,
+            "17": 14,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2333": {
+      "currentAddress": "Andersons Bay School, 92 Jeffery Street, Andersons Bay",
+      "historicalVenueId": "f6f7d1b4cf822051b424",
+      "method": "exact-label",
+      "totalValidVotes": 132,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 132,
+          "votes": {
+            "5": 13,
+            "10": 18,
+            "13": 31,
+            "14": 0,
+            "16": 48,
+            "17": 11,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2451": {
+      "currentAddress": "Meridian Mall, off Hanover Street opposite Pagani, 285 George Street, Dunedin Central",
+      "historicalVenueId": "47af8e50bb681e56143f",
+      "method": "reviewed-label",
+      "totalValidVotes": 3621,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3206,
+          "votes": {
+            "5": 185,
+            "10": 867,
+            "13": 993,
+            "14": 39,
+            "16": 796,
+            "17": 145,
+            "36": 9,
+            "56": 6,
+            "70": 12
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 415,
+          "votes": {
+            "5": 18,
+            "10": 95,
+            "13": 150,
+            "14": 7,
+            "16": 90,
+            "17": 25,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2643": {
+      "currentAddress": "Balmacewen Bowling Club, 31 Balmacewen Road, Māori Hill",
+      "historicalVenueId": "d9346246eab372d33043",
+      "method": "exact-label",
+      "totalValidVotes": 1548,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1048,
+          "votes": {
+            "5": 82,
+            "10": 166,
+            "13": 321,
+            "14": 2,
+            "16": 397,
+            "17": 54,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 500,
+          "votes": {
+            "5": 42,
+            "10": 70,
+            "13": 124,
+            "14": 6,
+            "16": 203,
+            "17": 32,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "2920": {
+      "currentAddress": "Al Huda Mosque, 21 Clyde Street, Dunedin North",
+      "historicalVenueId": "d760a668f1f9cba02367",
+      "method": "exact-label",
+      "totalValidVotes": 49,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 49,
+          "votes": {
+            "5": 1,
+            "10": 16,
+            "13": 15,
+            "14": 1,
+            "16": 8,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "3067": {
+      "currentAddress": "George Street Normal School Hall, 989 George Street, Woodhaugh",
+      "historicalVenueId": "e2d448a1b348989240f6",
+      "method": "exact-label",
+      "totalValidVotes": 354,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 354,
+          "votes": {
+            "5": 22,
+            "10": 84,
+            "13": 126,
+            "14": 5,
+            "16": 66,
+            "17": 23,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "3128": {
+      "currentAddress": "Mornington School Hall, 34 Elgin Road, Mornington",
+      "historicalVenueId": "af7e09f5d7516efb07a2",
+      "method": "exact-label",
+      "totalValidVotes": 1220,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 256,
+          "votes": {
+            "5": 18,
+            "10": 43,
+            "13": 87,
+            "14": 3,
+            "16": 79,
+            "17": 14,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 964,
+          "votes": {
+            "5": 56,
+            "10": 150,
+            "13": 372,
+            "14": 11,
+            "16": 233,
+            "17": 81,
+            "36": 3,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "3408": {
+      "currentAddress": "The Warehouse South Dunedin, 64 Hillside Road, South Dunedin",
+      "historicalVenueId": "d5aed5e0db8f8fb7dd08",
+      "method": "exact-label",
+      "totalValidVotes": 2169,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2169,
+          "votes": {
+            "5": 132,
+            "10": 409,
+            "13": 848,
+            "14": 16,
+            "16": 509,
+            "17": 151,
+            "36": 10,
+            "56": 0,
+            "70": 22
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "3425": {
+      "currentAddress": "Chatsford Events Centre, Elmwood Drive, Mosgiel",
+      "historicalVenueId": "0acacd185245836af71f",
+      "method": "exact-label",
+      "totalValidVotes": 21,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 3,
+            "14": 0,
+            "16": 6,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 4,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    },
+    "3690": {
+      "currentAddress": "Former The Warehouse Building, 161 Gordon Road, Mosgiel",
+      "historicalVenueId": "e5040a29790d8be974e5",
+      "method": "exact-label",
+      "totalValidVotes": 215,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 170,
+          "votes": {
+            "5": 7,
+            "10": 29,
+            "13": 69,
+            "14": 1,
+            "16": 49,
+            "17": 10,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 45,
+          "votes": {
+            "5": 3,
+            "10": 10,
+            "13": 13,
+            "14": 0,
+            "16": 11,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "8"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "22",
+  "name": "Māngere",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "21",
+      "name": "Māngere"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "404": {
+      "currentAddress": "Te Kura Kaupapa Māori a Rohe o Māngere, 7 Comet Crescent, Māngere",
+      "historicalVenueId": "4663575916eea64b8365",
+      "method": "exact-label",
+      "totalValidVotes": 103,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 103,
+          "votes": {
+            "5": 0,
+            "10": 8,
+            "13": 78,
+            "14": 2,
+            "16": 11,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "602": {
+      "currentAddress": "CCS Disability Action, Yarnton House, 14 Erson Avenue, Royal Oak",
+      "historicalVenueId": "507891cfb2a4c77b736b",
+      "method": "exact-label",
+      "totalValidVotes": 8,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 6,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "978": {
+      "currentAddress": "Makaurau Marae, 8 Ruaiti Road, Ihumatao",
+      "historicalVenueId": "8d3171f94f343b99a160",
+      "method": "exact-label",
+      "totalValidVotes": 48,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 7,
+            "14": 5,
+            "16": 1,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 30,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 15,
+            "14": 7,
+            "16": 4,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "1143": {
+      "currentAddress": "Robertson Road School, 205 Robertson Road, Māngere",
+      "historicalVenueId": "31023d7b138199bd7f9b",
+      "method": "exact-label",
+      "totalValidVotes": 301,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 301,
+          "votes": {
+            "5": 3,
+            "10": 20,
+            "13": 206,
+            "14": 2,
+            "16": 45,
+            "17": 14,
+            "36": 1,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "1151": {
+      "currentAddress": "Māngere East Primary School, 21 Yates Road, Māngere East",
+      "historicalVenueId": "bd0dc93a957d057fc3b6",
+      "method": "exact-label",
+      "totalValidVotes": 542,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 542,
+          "votes": {
+            "5": 5,
+            "10": 27,
+            "13": 413,
+            "14": 6,
+            "16": 50,
+            "17": 18,
+            "36": 4,
+            "56": 3,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "1294": {
+      "currentAddress": "Favona School, 50 Wakefield Street, Cardrona Place entrance, Favona",
+      "historicalVenueId": "9bd31ccaa7031b55c93e",
+      "method": "exact-label",
+      "totalValidVotes": 336,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 336,
+          "votes": {
+            "5": 2,
+            "10": 28,
+            "13": 237,
+            "14": 9,
+            "16": 28,
+            "17": 13,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "1347": {
+      "currentAddress": "Nga Iwi School, 60 Mascot Avenue, Māngere",
+      "historicalVenueId": "57b9e362af6871f0368a",
+      "method": "exact-label",
+      "totalValidVotes": 419,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 419,
+          "votes": {
+            "5": 1,
+            "10": 18,
+            "13": 311,
+            "14": 9,
+            "16": 40,
+            "17": 18,
+            "36": 3,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "1638": {
+      "currentAddress": "Youthline Manukau, 145 Saint George Street, Papatoetoe",
+      "historicalVenueId": "fb7c584d71961911aaf7",
+      "method": "exact-label",
+      "totalValidVotes": 81,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 69,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 45,
+            "14": 1,
+            "16": 13,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 7,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2045": {
+      "currentAddress": "Onehunga Community Centre, 83 Church Street, Onehunga",
+      "historicalVenueId": "5cb6d30bab383e237819",
+      "method": "exact-label",
+      "totalValidVotes": 109,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 73,
+          "votes": {
+            "5": 1,
+            "10": 10,
+            "13": 28,
+            "14": 3,
+            "16": 25,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 36,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 22,
+            "14": 1,
+            "16": 8,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2136": {
+      "currentAddress": "St Anthony Catholic Parish Hall, 20 Kirkbride Road, Māngere Bridge",
+      "historicalVenueId": "81495d43c4892e761e1a",
+      "method": "exact-label",
+      "totalValidVotes": 558,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 345,
+          "votes": {
+            "5": 12,
+            "10": 22,
+            "13": 200,
+            "14": 7,
+            "16": 70,
+            "17": 21,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 213,
+          "votes": {
+            "5": 5,
+            "10": 21,
+            "13": 125,
+            "14": 7,
+            "16": 36,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2140": {
+      "currentAddress": "Kedgley Intermediate School, 181 Portage Road, Māngere East",
+      "historicalVenueId": "705255ccfaf0a697a0e6",
+      "method": "exact-label",
+      "totalValidVotes": 471,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 471,
+          "votes": {
+            "5": 9,
+            "10": 30,
+            "13": 256,
+            "14": 13,
+            "16": 126,
+            "17": 20,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2142": {
+      "currentAddress": "St Therese Catholic Parish Hall, 10 Wickman Way, Māngere East",
+      "historicalVenueId": "bcbe3cceb7251e18adbd",
+      "method": "exact-label",
+      "totalValidVotes": 875,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 585,
+          "votes": {
+            "5": 3,
+            "10": 26,
+            "13": 469,
+            "14": 11,
+            "16": 50,
+            "17": 8,
+            "36": 4,
+            "56": 1,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 290,
+          "votes": {
+            "5": 3,
+            "10": 12,
+            "13": 239,
+            "14": 3,
+            "16": 16,
+            "17": 3,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2257": {
+      "currentAddress": "Al-Madinah School, 8 Westney Road, Māngere",
+      "historicalVenueId": "55b85459584639260f11",
+      "method": "exact-label",
+      "totalValidVotes": 575,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 330,
+          "votes": {
+            "5": 7,
+            "10": 19,
+            "13": 182,
+            "14": 4,
+            "16": 99,
+            "17": 7,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 245,
+          "votes": {
+            "5": 5,
+            "10": 15,
+            "13": 167,
+            "14": 0,
+            "16": 48,
+            "17": 6,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2422": {
+      "currentAddress": "Māngere Memorial Hall, Domain Road, Māngere Bridge",
+      "historicalVenueId": "18308625e441ad1990cd",
+      "method": "exact-label",
+      "totalValidVotes": 1831,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1189,
+          "votes": {
+            "5": 70,
+            "10": 169,
+            "13": 470,
+            "14": 21,
+            "16": 351,
+            "17": 54,
+            "36": 7,
+            "56": 2,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 642,
+          "votes": {
+            "5": 39,
+            "10": 90,
+            "13": 277,
+            "14": 12,
+            "16": 149,
+            "17": 32,
+            "36": 2,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2453": {
+      "currentAddress": "Papatūānuku Kōkiri Marae, 141R Robertson Road, Māngere",
+      "historicalVenueId": "e33ad1c1faecc18b8de5",
+      "method": "exact-label",
+      "totalValidVotes": 881,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 677,
+          "votes": {
+            "5": 14,
+            "10": 25,
+            "13": 467,
+            "14": 17,
+            "16": 114,
+            "17": 17,
+            "36": 3,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 204,
+          "votes": {
+            "5": 1,
+            "10": 16,
+            "13": 132,
+            "14": 13,
+            "16": 26,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2456": {
+      "currentAddress": "Free Church of Tonga - Mounga &#39;Olive, 47 Favona Road, Favona",
+      "historicalVenueId": "4a8217f1caf69488fe47",
+      "method": "exact-label",
+      "totalValidVotes": 317,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 104,
+          "votes": {
+            "5": 3,
+            "10": 5,
+            "13": 71,
+            "14": 0,
+            "16": 21,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 213,
+          "votes": {
+            "5": 1,
+            "10": 15,
+            "13": 139,
+            "14": 4,
+            "16": 36,
+            "17": 9,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "2976": {
+      "currentAddress": "Tupu Youth Library, 102 Dawson Road, Clover Park",
+      "historicalVenueId": "64a3c9c90d7a77039cd5",
+      "method": "exact-label",
+      "totalValidVotes": 8,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 6,
+            "14": 1,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "3084": {
+      "currentAddress": "MIT Manukau Campus, The Atrium, Corner Manukau Station Road & Davies Avenue, Manukau City Centre",
+      "historicalVenueId": "baf9ca4c35e4c4ea5663",
+      "method": "exact-label",
+      "totalValidVotes": 56,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 56,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 35,
+            "14": 1,
+            "16": 8,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "3405": {
+      "currentAddress": "Papatoetoe War Memorial Library, 30 Wallace Road, Papatoetoe",
+      "historicalVenueId": "8604146c2b3ee37e1f1b",
+      "method": "exact-label",
+      "totalValidVotes": 229,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 229,
+          "votes": {
+            "5": 4,
+            "10": 9,
+            "13": 125,
+            "14": 4,
+            "16": 66,
+            "17": 10,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "3674": {
+      "currentAddress": "De La Salle College, 81 Gray Avenue, Māngere East",
+      "historicalVenueId": "fcf0617b82af6abcddfc",
+      "method": "exact-label",
+      "totalValidVotes": 374,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 7,
+            "14": 2,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 360,
+          "votes": {
+            "5": 11,
+            "10": 26,
+            "13": 205,
+            "14": 8,
+            "16": 74,
+            "17": 17,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    },
+    "3681": {
+      "currentAddress": "The Warehouse Auckland Airport, 1 John Goulter Drive, Māngere Airport Oaks",
+      "historicalVenueId": "591b927c338b32d964cf",
+      "method": "exact-label",
+      "totalValidVotes": 778,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 778,
+          "votes": {
+            "5": 20,
+            "10": 67,
+            "13": 415,
+            "14": 17,
+            "16": 215,
+            "17": 17,
+            "36": 4,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "21"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

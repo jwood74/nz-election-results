@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "29",
+  "name": "Nelson",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "unchanged",
+  "related2023": [
+    {
+      "id": "27",
+      "name": "Nelson"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "649": {
+      "currentAddress": "Appleby School, 19 Moutere Highway, Appleby",
+      "historicalVenueId": "cf4e5ec2994cbbc6f796",
+      "method": "exact-label",
+      "totalValidVotes": 82,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 82,
+          "votes": {
+            "5": 10,
+            "10": 5,
+            "13": 18,
+            "14": 1,
+            "16": 38,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "709": {
+      "currentAddress": "Brightwater School, 106 Ellis Street, Brightwater",
+      "historicalVenueId": "af12e0d29c03d89f8416",
+      "method": "exact-label",
+      "totalValidVotes": 46,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 46,
+          "votes": {
+            "5": 8,
+            "10": 1,
+            "13": 10,
+            "14": 0,
+            "16": 23,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "714": {
+      "currentAddress": "Enner Glynn School, 10 The Ridgeway, Enner Glynn",
+      "historicalVenueId": "e8e2f34ffb291365d481",
+      "method": "exact-label",
+      "totalValidVotes": 557,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 557,
+          "votes": {
+            "5": 59,
+            "10": 60,
+            "13": 168,
+            "14": 2,
+            "16": 176,
+            "17": 34,
+            "36": 2,
+            "56": 0,
+            "70": 19
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "1357": {
+      "currentAddress": "Clifton Terrace School, 888 Atawhai Drive, Marybank",
+      "historicalVenueId": "db93304c74d06ae54e32",
+      "method": "exact-label",
+      "totalValidVotes": 612,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 612,
+          "votes": {
+            "5": 58,
+            "10": 86,
+            "13": 157,
+            "14": 6,
+            "16": 195,
+            "17": 58,
+            "36": 3,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "1363": {
+      "currentAddress": "Broadgreen Intermediate School, 193 Nayland Road, Stoke",
+      "historicalVenueId": "b407b60ced3c6465432c",
+      "method": "exact-label",
+      "totalValidVotes": 929,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 929,
+          "votes": {
+            "5": 104,
+            "10": 79,
+            "13": 273,
+            "14": 8,
+            "16": 312,
+            "17": 65,
+            "36": 5,
+            "56": 4,
+            "70": 29
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "1574": {
+      "currentAddress": "Victory Community Centre, 2 Totara Street, Toi Toi",
+      "historicalVenueId": "df18f0bfcb41f2cd5a07",
+      "method": "exact-label",
+      "totalValidVotes": 1294,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 767,
+          "votes": {
+            "5": 40,
+            "10": 138,
+            "13": 385,
+            "14": 11,
+            "16": 123,
+            "17": 30,
+            "36": 3,
+            "56": 2,
+            "70": 6
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 527,
+          "votes": {
+            "5": 35,
+            "10": 67,
+            "13": 246,
+            "14": 1,
+            "16": 112,
+            "17": 29,
+            "36": 5,
+            "56": 0,
+            "70": 14
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "1707": {
+      "currentAddress": "Hope School, 316 Paton Road, Hope",
+      "historicalVenueId": "0ae9e9144fc9d3c34504",
+      "method": "exact-label",
+      "totalValidVotes": 384,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 384,
+          "votes": {
+            "5": 84,
+            "10": 36,
+            "13": 47,
+            "14": 2,
+            "16": 157,
+            "17": 30,
+            "36": 2,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "1711": {
+      "currentAddress": "Garin College, 35 Champion Road, Richmond",
+      "historicalVenueId": "65314c586e32f69f2d12",
+      "method": "exact-label",
+      "totalValidVotes": 675,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 675,
+          "votes": {
+            "5": 77,
+            "10": 72,
+            "13": 162,
+            "14": 2,
+            "16": 271,
+            "17": 46,
+            "36": 1,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "1712": {
+      "currentAddress": "Richmond Library, 280 Queen Street, Richmond",
+      "historicalVenueId": "b8c6431e432e3a061ada",
+      "method": "exact-label",
+      "totalValidVotes": 3420,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2918,
+          "votes": {
+            "5": 358,
+            "10": 269,
+            "13": 855,
+            "14": 10,
+            "16": 1151,
+            "17": 138,
+            "36": 3,
+            "56": 2,
+            "70": 29
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 502,
+          "votes": {
+            "5": 49,
+            "10": 55,
+            "13": 146,
+            "14": 0,
+            "16": 158,
+            "17": 48,
+            "36": 3,
+            "56": 2,
+            "70": 14
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "2024": {
+      "currentAddress": "Elma Turner Library, 27 Halifax Street, Nelson",
+      "historicalVenueId": "5ae0bf5c84f7c2893184",
+      "method": "exact-label",
+      "totalValidVotes": 4703,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3983,
+          "votes": {
+            "5": 330,
+            "10": 874,
+            "13": 1176,
+            "14": 23,
+            "16": 1211,
+            "17": 201,
+            "36": 6,
+            "56": 3,
+            "70": 29
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 720,
+          "votes": {
+            "5": 57,
+            "10": 169,
+            "13": 202,
+            "14": 16,
+            "16": 138,
+            "17": 56,
+            "36": 5,
+            "56": 6,
+            "70": 24
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "2074": {
+      "currentAddress": "Pūtangitangi Greenmeadows Centre, corner Main Road Stoke & Songer Street, Stoke",
+      "historicalVenueId": "1c63d5dc3175b603ff9a",
+      "method": "exact-label",
+      "totalValidVotes": 5234,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 4248,
+          "votes": {
+            "5": 441,
+            "10": 407,
+            "13": 1417,
+            "14": 15,
+            "16": 1485,
+            "17": 293,
+            "36": 11,
+            "56": 1,
+            "70": 25
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 986,
+          "votes": {
+            "5": 111,
+            "10": 110,
+            "13": 302,
+            "14": 9,
+            "16": 278,
+            "17": 78,
+            "36": 9,
+            "56": 1,
+            "70": 31
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "3058": {
+      "currentAddress": "Tāhunanui School, 69 Muritai Street, Tāhunanui",
+      "historicalVenueId": "830d0104a71f25b770a7",
+      "method": "exact-label",
+      "totalValidVotes": 343,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 343,
+          "votes": {
+            "5": 37,
+            "10": 43,
+            "13": 101,
+            "14": 1,
+            "16": 94,
+            "17": 36,
+            "36": 2,
+            "56": 0,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "3385": {
+      "currentAddress": "Club Waimea, 345 Lower Queen Street, Richmond",
+      "historicalVenueId": "4d662baa1974fb99b82d",
+      "method": "exact-label",
+      "totalValidVotes": 1076,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 699,
+          "votes": {
+            "5": 92,
+            "10": 60,
+            "13": 187,
+            "14": 1,
+            "16": 285,
+            "17": 38,
+            "36": 2,
+            "56": 0,
+            "70": 6
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 377,
+          "votes": {
+            "5": 44,
+            "10": 19,
+            "13": 91,
+            "14": 0,
+            "16": 174,
+            "17": 29,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    },
+    "3552": {
+      "currentAddress": "Nelson Central Kindergarten, 51B Brook Street, The Brook",
+      "historicalVenueId": "52f6b78463138271bcef",
+      "method": "exact-label",
+      "totalValidVotes": 188,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 188,
+          "votes": {
+            "5": 9,
+            "10": 48,
+            "13": 42,
+            "14": 2,
+            "16": 38,
+            "17": 27,
+            "36": 0,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "27"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

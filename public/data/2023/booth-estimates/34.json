@@ -1,0 +1,1581 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "34",
+  "name": "Ōtāhuhu",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "37",
+      "name": "Panmure-Ōtāhuhu"
+    },
+    {
+      "id": "4",
+      "name": "Botany"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "417": {
+      "currentAddress": "Point England Primary School, 130 Point England Road, Point England",
+      "historicalVenueId": "eea324cb818ff088117d",
+      "method": "exact-label",
+      "totalValidVotes": 189,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 189,
+          "votes": {
+            "5": 5,
+            "10": 17,
+            "13": 83,
+            "14": 4,
+            "16": 51,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "547": {
+      "currentAddress": "Auckland Netball Centre, 7 Allison Ferguson Drive, St Johns",
+      "historicalVenueId": "9ad91f0606d337040148",
+      "method": "exact-label",
+      "totalValidVotes": 51,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 51,
+          "votes": {
+            "5": 8,
+            "10": 4,
+            "13": 9,
+            "14": 4,
+            "16": 21,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "613": {
+      "currentAddress": "Remuera Baptist Church, 641 Remuera Road, Remuera",
+      "historicalVenueId": "6140da9e63e3483da234",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 1,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "716": {
+      "currentAddress": "Salvation Army Community Centre, 18 Allright Place, Mt Wellington",
+      "historicalVenueId": "e095a57295826c403e7a",
+      "method": "exact-label",
+      "totalValidVotes": 142,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 142,
+          "votes": {
+            "5": 9,
+            "10": 13,
+            "13": 61,
+            "14": 3,
+            "16": 43,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "806": {
+      "currentAddress": "Bailey Road School Hall, 19 Bailey Road, Mt Wellington",
+      "historicalVenueId": "0d13ef34a9a8b5d806cb",
+      "method": "exact-label",
+      "totalValidVotes": 42,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 42,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 17,
+            "14": 0,
+            "16": 14,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "815": {
+      "currentAddress": "Edmund Hillary Retirement Village Reception Building, 221 Abbotts Way, Remuera",
+      "historicalVenueId": "bebcf711587397fd48b2",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 4,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1047": {
+      "currentAddress": "Otahuhu College, 74-78 Mangere Road, Ōtāhuhu",
+      "historicalVenueId": "fc453aea85ce4c432361",
+      "method": "exact-label",
+      "totalValidVotes": 198,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 198,
+          "votes": {
+            "5": 11,
+            "10": 28,
+            "13": 98,
+            "14": 0,
+            "16": 44,
+            "17": 8,
+            "36": 0,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1048": {
+      "currentAddress": "Ōtāhuhu Primary School, 41 Station Road, Ōtāhuhu",
+      "historicalVenueId": "f62b158432cb2307d040",
+      "method": "exact-label",
+      "totalValidVotes": 284,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 284,
+          "votes": {
+            "5": 13,
+            "10": 20,
+            "13": 166,
+            "14": 1,
+            "16": 62,
+            "17": 15,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1151": {
+      "currentAddress": "Māngere East Primary School, 21 Yates Road, Māngere East",
+      "historicalVenueId": "bd0dc93a957d057fc3b6",
+      "method": "exact-label",
+      "totalValidVotes": 12,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 9,
+            "14": 0,
+            "16": 0,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1297": {
+      "currentAddress": "Mayfield School, 12 Pearl Baker Drive, Ōtara",
+      "historicalVenueId": "e8a9adc7d5245e4efa7d",
+      "method": "exact-label",
+      "totalValidVotes": 346,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 346,
+          "votes": {
+            "5": 1,
+            "10": 24,
+            "13": 281,
+            "14": 3,
+            "16": 19,
+            "17": 10,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1335": {
+      "currentAddress": "Bairds Mainfreight Primary School, 12 Edward Avenue, Ōtara",
+      "historicalVenueId": "f5feef4f5ca245bb163a",
+      "method": "exact-label",
+      "totalValidVotes": 224,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 224,
+          "votes": {
+            "5": 2,
+            "10": 13,
+            "13": 173,
+            "14": 4,
+            "16": 13,
+            "17": 16,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1338": {
+      "currentAddress": "Wymondley Road School, 77 Wymondley Road, Ōtara",
+      "historicalVenueId": "c423d4a7472510717e3f",
+      "method": "exact-label",
+      "totalValidVotes": 163,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 163,
+          "votes": {
+            "5": 1,
+            "10": 15,
+            "13": 127,
+            "14": 1,
+            "16": 8,
+            "17": 5,
+            "36": 0,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1354": {
+      "currentAddress": "Somerville Intermediate School, 39 Somerville Road, Somerville",
+      "historicalVenueId": "04b14ff92c2b1487d41a",
+      "method": "exact-label",
+      "totalValidVotes": 360,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 360,
+          "votes": {
+            "5": 40,
+            "10": 17,
+            "13": 56,
+            "14": 1,
+            "16": 210,
+            "17": 18,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1358": {
+      "currentAddress": "Kia Aroha College, 51 Othello Drive, Flat Bush",
+      "historicalVenueId": "a781465d5e295d886025",
+      "method": "exact-label",
+      "totalValidVotes": 247,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 247,
+          "votes": {
+            "5": 6,
+            "10": 22,
+            "13": 165,
+            "14": 1,
+            "16": 33,
+            "17": 12,
+            "36": 1,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1401": {
+      "currentAddress": "Botany Downs Primary School, 35 Mirrabooka Avenue, Botany Downs",
+      "historicalVenueId": "04c4e7ab0b90eeaa6aba",
+      "method": "exact-label",
+      "totalValidVotes": 412,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 412,
+          "votes": {
+            "5": 43,
+            "10": 28,
+            "13": 86,
+            "14": 1,
+            "16": 212,
+            "17": 23,
+            "36": 3,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1579": {
+      "currentAddress": "Puhinui School Hall, 116 Puhinui Road, Papatoetoe",
+      "historicalVenueId": "a935a88d58925a0ea725",
+      "method": "exact-label",
+      "totalValidVotes": 55,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 2,
+            "10": 5,
+            "13": 27,
+            "14": 0,
+            "16": 13,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1638": {
+      "currentAddress": "Youthline Manukau, 145 Saint George Street, Papatoetoe",
+      "historicalVenueId": "fb7c584d71961911aaf7",
+      "method": "exact-label",
+      "totalValidVotes": 323,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 158,
+          "votes": {
+            "5": 9,
+            "10": 8,
+            "13": 51,
+            "14": 2,
+            "16": 74,
+            "17": 10,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 165,
+          "votes": {
+            "5": 4,
+            "10": 15,
+            "13": 78,
+            "14": 0,
+            "16": 57,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1772": {
+      "currentAddress": "Our Lady Star of the Sea School, 14 Oakridge Way, Northpark",
+      "historicalVenueId": "504eac94b0b321c0ceb9",
+      "method": "exact-label",
+      "totalValidVotes": 309,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 309,
+          "votes": {
+            "5": 26,
+            "10": 21,
+            "13": 38,
+            "14": 0,
+            "16": 196,
+            "17": 14,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1802": {
+      "currentAddress": "Papatoetoe East Primary School, 138 Tui Road, Papatoetoe",
+      "historicalVenueId": "702d118d0eed250458e1",
+      "method": "exact-label",
+      "totalValidVotes": 459,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 459,
+          "votes": {
+            "5": 25,
+            "10": 30,
+            "13": 233,
+            "14": 4,
+            "16": 128,
+            "17": 24,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1803": {
+      "currentAddress": "Papatoetoe High School, 19 Nicholson Avenue, Papatoetoe",
+      "historicalVenueId": "c665dd1173f12ab42981",
+      "method": "exact-label",
+      "totalValidVotes": 188,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 188,
+          "votes": {
+            "5": 7,
+            "10": 12,
+            "13": 85,
+            "14": 1,
+            "16": 71,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "1825": {
+      "currentAddress": "Ferguson Intermediate School, 20-40 Ferguson Road, Ōtara",
+      "historicalVenueId": "fe2e1b08107c548b632f",
+      "method": "exact-label",
+      "totalValidVotes": 516,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 516,
+          "votes": {
+            "5": 3,
+            "10": 25,
+            "13": 390,
+            "14": 7,
+            "16": 34,
+            "17": 34,
+            "36": 3,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4",
+        "37"
+      ]
+    },
+    "1849": {
+      "currentAddress": "Sir Edmund Hillary Collegiate, 2 Franklyne Road, Ōtara",
+      "historicalVenueId": "27f3341f793ce2b96406",
+      "method": "exact-label",
+      "totalValidVotes": 240,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 240,
+          "votes": {
+            "5": 0,
+            "10": 29,
+            "13": 183,
+            "14": 3,
+            "16": 13,
+            "17": 4,
+            "36": 3,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2005": {
+      "currentAddress": "Mountainside Lutheran Church, 1 Harris Road, Mt Wellington",
+      "historicalVenueId": "f15a93d8a71ef627ae9a",
+      "method": "exact-label",
+      "totalValidVotes": 112,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 112,
+          "votes": {
+            "5": 11,
+            "10": 13,
+            "13": 37,
+            "14": 0,
+            "16": 43,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2045": {
+      "currentAddress": "Onehunga Community Centre, 83 Church Street, Onehunga",
+      "historicalVenueId": "5cb6d30bab383e237819",
+      "method": "exact-label",
+      "totalValidVotes": 45,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 29,
+          "votes": {
+            "5": 1,
+            "10": 7,
+            "13": 8,
+            "14": 0,
+            "16": 10,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 16,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 10,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2055": {
+      "currentAddress": "Sylvia Park School Hall, 3 Longford Street, Mt Wellington",
+      "historicalVenueId": "573fb1e8c1d96f54ebbe",
+      "method": "exact-label",
+      "totalValidVotes": 68,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 68,
+          "votes": {
+            "5": 3,
+            "10": 9,
+            "13": 25,
+            "14": 3,
+            "16": 19,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2238": {
+      "currentAddress": "Tāmaki College, 109-115 Taniwha Street, Glen Innes",
+      "historicalVenueId": "1da90b2770eaf9cb1036",
+      "method": "exact-label",
+      "totalValidVotes": 20,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 14,
+            "14": 0,
+            "16": 1,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2279": {
+      "currentAddress": "Cockle Bay Playcentre, 17 Pah Road, Cockle Bay",
+      "historicalVenueId": "4cf545f6f590ddb11ada",
+      "method": "exact-label",
+      "totalValidVotes": 345,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 345,
+          "votes": {
+            "5": 44,
+            "10": 33,
+            "13": 42,
+            "14": 1,
+            "16": 193,
+            "17": 14,
+            "36": 0,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2304": {
+      "currentAddress": "Panama Road School, 139 Panama Road, Ōtāhuhu",
+      "historicalVenueId": "536066913e5bda8b1da6",
+      "method": "exact-label",
+      "totalValidVotes": 521,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 521,
+          "votes": {
+            "5": 17,
+            "10": 42,
+            "13": 318,
+            "14": 7,
+            "16": 94,
+            "17": 19,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2316": {
+      "currentAddress": "Fairburn School, 10 Pukeora Road, Ōtāhuhu",
+      "historicalVenueId": "675e7581b3b996140a5f",
+      "method": "exact-label",
+      "totalValidVotes": 235,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 235,
+          "votes": {
+            "5": 11,
+            "10": 32,
+            "13": 124,
+            "14": 3,
+            "16": 44,
+            "17": 11,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2317": {
+      "currentAddress": "Ōtāhuhu Intermediate School, 22-24 Luke Street, Ōtāhuhu",
+      "historicalVenueId": "02c4905b07042899dc93",
+      "method": "exact-label",
+      "totalValidVotes": 341,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 341,
+          "votes": {
+            "5": 10,
+            "10": 26,
+            "13": 204,
+            "14": 2,
+            "16": 70,
+            "17": 7,
+            "36": 5,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2453": {
+      "currentAddress": "Papatūānuku Kōkiri Marae, 141R Robertson Road, Māngere",
+      "historicalVenueId": "e33ad1c1faecc18b8de5",
+      "method": "exact-label",
+      "totalValidVotes": 35,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 17,
+            "14": 2,
+            "16": 1,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 7,
+            "14": 1,
+            "16": 2,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "2778": {
+      "currentAddress": "Baverstock Oaks School, 21 Baverstock Road, Flat Bush",
+      "historicalVenueId": "c1b9812017c0c3728181",
+      "method": "exact-label",
+      "totalValidVotes": 700,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 700,
+          "votes": {
+            "5": 36,
+            "10": 32,
+            "13": 139,
+            "14": 2,
+            "16": 448,
+            "17": 9,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2788": {
+      "currentAddress": "Elim Christian College, Golflands Campus, 94 Golfland Drive, Botany",
+      "historicalVenueId": "af05c5595ad2476d305b",
+      "method": "exact-label",
+      "totalValidVotes": 426,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 426,
+          "votes": {
+            "5": 39,
+            "10": 30,
+            "13": 61,
+            "14": 3,
+            "16": 252,
+            "17": 25,
+            "36": 0,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2947": {
+      "currentAddress": "Cockle Bay School, 24 Sandspit Road, Howick",
+      "historicalVenueId": "4b6edfbc7f9c0aef516c",
+      "method": "exact-label",
+      "totalValidVotes": 533,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 533,
+          "votes": {
+            "5": 68,
+            "10": 37,
+            "13": 66,
+            "14": 3,
+            "16": 312,
+            "17": 21,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2976": {
+      "currentAddress": "Tupu Youth Library, 102 Dawson Road, Clover Park",
+      "historicalVenueId": "64a3c9c90d7a77039cd5",
+      "method": "exact-label",
+      "totalValidVotes": 1151,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1151,
+          "votes": {
+            "5": 10,
+            "10": 44,
+            "13": 898,
+            "14": 17,
+            "16": 118,
+            "17": 30,
+            "36": 7,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4",
+        "37"
+      ]
+    },
+    "2980": {
+      "currentAddress": "Willowbank School, 56 Middlefield Drive, Dannemora",
+      "historicalVenueId": "fc9811a36c1f38ae5587",
+      "method": "exact-label",
+      "totalValidVotes": 764,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 764,
+          "votes": {
+            "5": 52,
+            "10": 39,
+            "13": 117,
+            "14": 4,
+            "16": 482,
+            "17": 39,
+            "36": 2,
+            "56": 1,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3018": {
+      "currentAddress": "Point View Primary School, 25 Kilkenny Drive, Dannemora",
+      "historicalVenueId": "49f4cb1007f5c08579ac",
+      "method": "exact-label",
+      "totalValidVotes": 696,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 696,
+          "votes": {
+            "5": 73,
+            "10": 39,
+            "13": 89,
+            "14": 3,
+            "16": 445,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3084": {
+      "currentAddress": "MIT Manukau Campus, The Atrium, Corner Manukau Station Road & Davies Avenue, Manukau City Centre",
+      "historicalVenueId": "baf9ca4c35e4c4ea5663",
+      "method": "exact-label",
+      "totalValidVotes": 159,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 159,
+          "votes": {
+            "5": 7,
+            "10": 16,
+            "13": 70,
+            "14": 0,
+            "16": 55,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4",
+        "37"
+      ]
+    },
+    "3106": {
+      "currentAddress": "Panmure District School Hall, 87 Mt Wellington Highway, Mt Wellington",
+      "historicalVenueId": "4c67f983d9470ffe16cd",
+      "method": "exact-label",
+      "totalValidVotes": 139,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 139,
+          "votes": {
+            "5": 16,
+            "10": 12,
+            "13": 36,
+            "14": 0,
+            "16": 64,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3142": {
+      "currentAddress": "Stanhope Road School Hall, 2B Harris Road, Mt Wellington",
+      "historicalVenueId": "da9afe7577e3b0f7cc28",
+      "method": "exact-label",
+      "totalValidVotes": 60,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 60,
+          "votes": {
+            "5": 4,
+            "10": 10,
+            "13": 14,
+            "14": 1,
+            "16": 27,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3213": {
+      "currentAddress": "Elim Christian Centre, 159 Botany Road, Botany Downs",
+      "historicalVenueId": "48b9608015ea397255dc",
+      "method": "exact-label",
+      "totalValidVotes": 538,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 538,
+          "votes": {
+            "5": 49,
+            "10": 33,
+            "13": 99,
+            "14": 1,
+            "16": 294,
+            "17": 25,
+            "36": 3,
+            "56": 2,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3231": {
+      "currentAddress": "Sancta Maria College, 319 Te Irirangi Drive, Flat Bush",
+      "historicalVenueId": "eac5a47a2016f4337561",
+      "method": "exact-label",
+      "totalValidVotes": 247,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 247,
+          "votes": {
+            "5": 18,
+            "10": 17,
+            "13": 67,
+            "14": 2,
+            "16": 129,
+            "17": 3,
+            "36": 2,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3273": {
+      "currentAddress": "Pakuranga Golf Club, 199 Botany Road, Botany",
+      "historicalVenueId": "995ed5f3db583c3d6863",
+      "method": "exact-label",
+      "totalValidVotes": 1494,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1494,
+          "votes": {
+            "5": 133,
+            "10": 48,
+            "13": 174,
+            "14": 0,
+            "16": 1069,
+            "17": 43,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3314": {
+      "currentAddress": "Stonefields School, 81 Tihi Street, Stonefields",
+      "historicalVenueId": "cf44a5f476cd41d048ef",
+      "method": "exact-label",
+      "totalValidVotes": 33,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 33,
+          "votes": {
+            "5": 3,
+            "10": 5,
+            "13": 7,
+            "14": 0,
+            "16": 16,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3322": {
+      "currentAddress": "PAK’nSAVE Glen Innes, 182 Apirana Avenue, Glen Innes",
+      "historicalVenueId": "ec5634b56442be21e822",
+      "method": "exact-label",
+      "totalValidVotes": 967,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 828,
+          "votes": {
+            "5": 33,
+            "10": 65,
+            "13": 466,
+            "14": 10,
+            "16": 185,
+            "17": 40,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 139,
+          "votes": {
+            "5": 6,
+            "10": 13,
+            "13": 84,
+            "14": 1,
+            "16": 22,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3390": {
+      "currentAddress": "Panmure Library, 7-13 Pilkington Road, Panmure",
+      "historicalVenueId": "f5d8ab46fc513e3c49ce",
+      "method": "exact-label",
+      "totalValidVotes": 1023,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1023,
+          "votes": {
+            "5": 77,
+            "10": 106,
+            "13": 414,
+            "14": 6,
+            "16": 338,
+            "17": 46,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3405": {
+      "currentAddress": "Papatoetoe War Memorial Library, 30 Wallace Road, Papatoetoe",
+      "historicalVenueId": "8604146c2b3ee37e1f1b",
+      "method": "exact-label",
+      "totalValidVotes": 486,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 486,
+          "votes": {
+            "5": 21,
+            "10": 40,
+            "13": 229,
+            "14": 2,
+            "16": 150,
+            "17": 32,
+            "36": 2,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3414": {
+      "currentAddress": "Auckland Taiwanese Presbyterian Church, 158 Pakuranga Road, Pakuranga",
+      "historicalVenueId": "87ed30931134c7823c13",
+      "method": "exact-label",
+      "totalValidVotes": 21,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 2,
+            "10": 2,
+            "13": 1,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3418": {
+      "currentAddress": "Highland Park Library, 16 Highland Park Drive, Highland Park",
+      "historicalVenueId": "6e975cdd8a17626bdd5c",
+      "method": "exact-label",
+      "totalValidVotes": 1408,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1178,
+          "votes": {
+            "5": 112,
+            "10": 60,
+            "13": 184,
+            "14": 1,
+            "16": 736,
+            "17": 49,
+            "36": 5,
+            "56": 1,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 230,
+          "votes": {
+            "5": 22,
+            "10": 17,
+            "13": 56,
+            "14": 0,
+            "16": 104,
+            "17": 15,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3419": {
+      "currentAddress": "Trinity Methodist Church Hall, 474 Pakuranga Road, Pakuranga",
+      "historicalVenueId": "6b2e18c6bbd74229a76d",
+      "method": "exact-label",
+      "totalValidVotes": 129,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 115,
+          "votes": {
+            "5": 14,
+            "10": 11,
+            "13": 20,
+            "14": 1,
+            "16": 61,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 11,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3427": {
+      "currentAddress": "Ruapōtaka Marae, 106 Line Road, Glen Innes",
+      "historicalVenueId": "3cb07e6b9c3e15f81afe",
+      "method": "exact-label",
+      "totalValidVotes": 297,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 231,
+          "votes": {
+            "5": 2,
+            "10": 11,
+            "13": 158,
+            "14": 14,
+            "16": 26,
+            "17": 10,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 66,
+          "votes": {
+            "5": 1,
+            "10": 6,
+            "13": 55,
+            "14": 0,
+            "16": 2,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3470": {
+      "currentAddress": "The Warehouse Mt Wellington Lunn Avenue, 101 Lunn Avenue, Mt Wellington",
+      "historicalVenueId": "a1942a25a7d4a538ae5f",
+      "method": "exact-label",
+      "totalValidVotes": 306,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 306,
+          "votes": {
+            "5": 30,
+            "10": 40,
+            "13": 82,
+            "14": 3,
+            "16": 117,
+            "17": 10,
+            "36": 3,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3532": {
+      "currentAddress": "Te Whare Rangimarie, 7-13 Pilkington Road, Panmure",
+      "historicalVenueId": "f64e1e4273ab08c24e46",
+      "method": "exact-label",
+      "totalValidVotes": 361,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 361,
+          "votes": {
+            "5": 24,
+            "10": 40,
+            "13": 155,
+            "14": 3,
+            "16": 101,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    },
+    "3550": {
+      "currentAddress": "Old Flat Bush School Hall, Corner Murphys Road & Flat Bush Road, Flat Bush",
+      "historicalVenueId": "0feebfeab091ca0aef85",
+      "method": "exact-label",
+      "totalValidVotes": 141,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 79,
+          "votes": {
+            "5": 6,
+            "10": 2,
+            "13": 22,
+            "14": 0,
+            "16": 45,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 62,
+          "votes": {
+            "5": 3,
+            "10": 4,
+            "13": 17,
+            "14": 0,
+            "16": 33,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3561": {
+      "currentAddress": "Ormiston Activity Centre, Barry Curtis Park, Chapel Road, Flat Bush",
+      "historicalVenueId": "66de83a8d3a620038dfb",
+      "method": "exact-label",
+      "totalValidVotes": 111,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 111,
+          "votes": {
+            "5": 5,
+            "10": 11,
+            "13": 42,
+            "14": 2,
+            "16": 41,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3681": {
+      "currentAddress": "The Warehouse Auckland Airport, 1 John Goulter Drive, Māngere Airport Oaks",
+      "historicalVenueId": "591b927c338b32d964cf",
+      "method": "exact-label",
+      "totalValidVotes": 68,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 68,
+          "votes": {
+            "5": 4,
+            "10": 3,
+            "13": 34,
+            "14": 1,
+            "16": 20,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "37"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

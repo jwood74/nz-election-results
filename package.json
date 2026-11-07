@@ -8,7 +8,12 @@
     "check:feed": "node scripts/check-feed.mjs",
     "history:build": "node scripts/build-history.mjs",
     "history:check": "node scripts/build-history.mjs --check",
-    "history:download": "node scripts/download-history.mjs"
+    "history:download": "node scripts/download-history.mjs",
+    "booths:capture": "node scripts/capture-booth-metadata.mjs",
+    "booths:audit": "node scripts/audit-booth-matches.mjs",
+    "booths:backtest": "node scripts/backtest-booth-matches.mjs",
+    "booths:build": "node scripts/build-booth-estimates.mjs",
+    "booths:check": "node scripts/build-booth-estimates.mjs --check"
   },
   "engines": {
     "node": ">=22"

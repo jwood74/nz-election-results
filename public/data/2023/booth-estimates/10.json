@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "10",
+  "name": "Epsom",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "11",
+      "name": "Epsom"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "391": {
+      "currentAddress": "Remuera Intermediate School, 55 Ascot Avenue, Remuera",
+      "historicalVenueId": "74973518f5dfe0357ea1",
+      "method": "exact-label",
+      "totalValidVotes": 269,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 269,
+          "votes": {
+            "5": 31,
+            "10": 21,
+            "13": 63,
+            "14": 1,
+            "16": 127,
+            "17": 17,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "468": {
+      "currentAddress": "St John&#39;s Theological College, Wesley Hall, 202-210 St John&#39;s Road, St Johns",
+      "historicalVenueId": "f93050335ec2d640c1cc",
+      "method": "exact-label",
+      "totalValidVotes": 103,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 84,
+          "votes": {
+            "5": 12,
+            "10": 5,
+            "13": 11,
+            "14": 0,
+            "16": 51,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 0,
+            "14": 0,
+            "16": 14,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "602": {
+      "currentAddress": "CCS Disability Action, Yarnton House, 14 Erson Avenue, Royal Oak",
+      "historicalVenueId": "507891cfb2a4c77b736b",
+      "method": "exact-label",
+      "totalValidVotes": 100,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 100,
+          "votes": {
+            "5": 13,
+            "10": 11,
+            "13": 22,
+            "14": 0,
+            "16": 49,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "607": {
+      "currentAddress": "St Heliers Church & Community Centre, 100 St Heliers Bay Road, St Heliers",
+      "historicalVenueId": "43f23527db50e02eb5af",
+      "method": "exact-label",
+      "totalValidVotes": 34,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 4,
+            "10": 4,
+            "13": 4,
+            "14": 0,
+            "16": 14,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 3,
+            "14": 0,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "613": {
+      "currentAddress": "Remuera Baptist Church, 641 Remuera Road, Remuera",
+      "historicalVenueId": "6140da9e63e3483da234",
+      "method": "exact-label",
+      "totalValidVotes": 1365,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1095,
+          "votes": {
+            "5": 187,
+            "10": 62,
+            "13": 93,
+            "14": 1,
+            "16": 713,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 270,
+          "votes": {
+            "5": 32,
+            "10": 15,
+            "13": 28,
+            "14": 0,
+            "16": 173,
+            "17": 7,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "641": {
+      "currentAddress": "Ōrākei Community Centre, 156 Kepa Road, Ōrākei",
+      "historicalVenueId": "634f954fbc1979afa69f",
+      "method": "exact-label",
+      "totalValidVotes": 262,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 234,
+          "votes": {
+            "5": 32,
+            "10": 15,
+            "13": 28,
+            "14": 1,
+            "16": 149,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 28,
+          "votes": {
+            "5": 4,
+            "10": 3,
+            "13": 5,
+            "14": 0,
+            "16": 10,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "815": {
+      "currentAddress": "Edmund Hillary Retirement Village Reception Building, 221 Abbotts Way, Remuera",
+      "historicalVenueId": "bebcf711587397fd48b2",
+      "method": "exact-label",
+      "totalValidVotes": 98,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 90,
+          "votes": {
+            "5": 12,
+            "10": 1,
+            "13": 9,
+            "14": 0,
+            "16": 64,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 3,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "820": {
+      "currentAddress": "St Aidan&#39;s Anglican Church, Social Lounge, 5 Ascot Avenue, Remuera",
+      "historicalVenueId": "7414f0db36577fc16b94",
+      "method": "exact-label",
+      "totalValidVotes": 1488,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1488,
+          "votes": {
+            "5": 260,
+            "10": 64,
+            "13": 127,
+            "14": 4,
+            "16": 977,
+            "17": 34,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "1271": {
+      "currentAddress": "Cornwall Park District School Hall, 193 Greenlane West Road, Greenlane",
+      "historicalVenueId": "38be2cb308385b6df3a9",
+      "method": "exact-label",
+      "totalValidVotes": 358,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 358,
+          "votes": {
+            "5": 37,
+            "10": 24,
+            "13": 60,
+            "14": 6,
+            "16": 206,
+            "17": 10,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "1847": {
+      "currentAddress": "St Aidan&#39;s Anglican Church Hall, 5 Ascot Avenue, Remuera",
+      "historicalVenueId": "a2acccc2e688fd9fc18f",
+      "method": "exact-label",
+      "totalValidVotes": 440,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 440,
+          "votes": {
+            "5": 64,
+            "10": 31,
+            "13": 38,
+            "14": 4,
+            "16": 272,
+            "17": 18,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "1848": {
+      "currentAddress": "St Mark&#39;s Church, Lounge, 95 Remuera Road, Remuera",
+      "historicalVenueId": "0f3c14e508b863745e55",
+      "method": "exact-label",
+      "totalValidVotes": 678,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 678,
+          "votes": {
+            "5": 96,
+            "10": 46,
+            "13": 76,
+            "14": 2,
+            "16": 427,
+            "17": 19,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "1872": {
+      "currentAddress": "Epsom Normal Primary School, 41 The Drive, Epsom",
+      "historicalVenueId": "cc0a3cef893063d4bddd",
+      "method": "exact-label",
+      "totalValidVotes": 816,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 816,
+          "votes": {
+            "5": 78,
+            "10": 69,
+            "13": 137,
+            "14": 0,
+            "16": 492,
+            "17": 16,
+            "36": 1,
+            "56": 2,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "1886": {
+      "currentAddress": "Victoria Avenue School, 282 Victoria Avenue, Remuera",
+      "historicalVenueId": "a87c8d93e3e523047f03",
+      "method": "exact-label",
+      "totalValidVotes": 677,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 677,
+          "votes": {
+            "5": 112,
+            "10": 55,
+            "13": 64,
+            "14": 1,
+            "16": 408,
+            "17": 9,
+            "36": 0,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "2045": {
+      "currentAddress": "Onehunga Community Centre, 83 Church Street, Onehunga",
+      "historicalVenueId": "5cb6d30bab383e237819",
+      "method": "exact-label",
+      "totalValidVotes": 65,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 4,
+            "10": 4,
+            "13": 11,
+            "14": 0,
+            "16": 31,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 10,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 4,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "2415": {
+      "currentAddress": "St George&#39;s Anglican Church Hall, 19 Ranfurly Road, Epsom",
+      "historicalVenueId": "9f271810438a1c33b088",
+      "method": "exact-label",
+      "totalValidVotes": 408,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 408,
+          "votes": {
+            "5": 57,
+            "10": 28,
+            "13": 79,
+            "14": 5,
+            "16": 195,
+            "17": 20,
+            "36": 0,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "2596": {
+      "currentAddress": "Logan Campbell Retirement Village, Reception Building, 187 Campbell Road, Greenlane",
+      "historicalVenueId": "800dc6af0cd5c0e98709",
+      "method": "exact-label",
+      "totalValidVotes": 114,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 89,
+          "votes": {
+            "5": 17,
+            "10": 7,
+            "13": 9,
+            "14": 0,
+            "16": 52,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 25,
+          "votes": {
+            "5": 2,
+            "10": 5,
+            "13": 6,
+            "14": 2,
+            "16": 10,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "3125": {
+      "currentAddress": "Royal Oak Primary School Hall, Chandler Avenue, 663 Manukau Road entrance, Royal Oak",
+      "historicalVenueId": "4ef65812028c09ba2bac",
+      "method": "exact-label",
+      "totalValidVotes": 86,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 86,
+          "votes": {
+            "5": 5,
+            "10": 7,
+            "13": 21,
+            "14": 0,
+            "16": 41,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "3188": {
+      "currentAddress": "Three Kings School, 944 Mount Eden Road, Three Kings",
+      "historicalVenueId": "bc970b109358295bf00a",
+      "method": "exact-label",
+      "totalValidVotes": 32,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 32,
+          "votes": {
+            "5": 2,
+            "10": 4,
+            "13": 3,
+            "14": 1,
+            "16": 18,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "3316": {
+      "currentAddress": "Meadowbank School, 68 Waiatarua Road, Remuera",
+      "historicalVenueId": "9981381042b132349f5a",
+      "method": "exact-label",
+      "totalValidVotes": 37,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 37,
+          "votes": {
+            "5": 6,
+            "10": 3,
+            "13": 6,
+            "14": 0,
+            "16": 21,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "3322": {
+      "currentAddress": "PAK’nSAVE Glen Innes, 182 Apirana Avenue, Glen Innes",
+      "historicalVenueId": "ec5634b56442be21e822",
+      "method": "exact-label",
+      "totalValidVotes": 9,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 4,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "3470": {
+      "currentAddress": "The Warehouse Mt Wellington Lunn Avenue, 101 Lunn Avenue, Mt Wellington",
+      "historicalVenueId": "a1942a25a7d4a538ae5f",
+      "method": "exact-label",
+      "totalValidVotes": 103,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 103,
+          "votes": {
+            "5": 17,
+            "10": 3,
+            "13": 11,
+            "14": 0,
+            "16": 64,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    },
+    "3593": {
+      "currentAddress": "Auckland University of Technology, Level 4, Building WA, 55 Wellesley Street, Auckland City",
+      "historicalVenueId": "e4211c7fd6272a4478d2",
+      "method": "exact-label",
+      "totalValidVotes": 82,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 82,
+          "votes": {
+            "5": 9,
+            "10": 29,
+            "13": 8,
+            "14": 1,
+            "16": 27,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "11"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

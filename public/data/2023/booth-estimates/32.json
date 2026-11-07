@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "32",
+  "name": "Northcote",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "31",
+      "name": "Northcote"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "538": {
+      "currentAddress": "St Luke&#39;s Methodist Church, Ground Floor, 16 Greenslade Crescent, Northcote",
+      "historicalVenueId": "f9e3b50a69c8b5f38abb",
+      "method": "exact-label",
+      "totalValidVotes": 228,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 228,
+          "votes": {
+            "5": 21,
+            "10": 36,
+            "13": 52,
+            "14": 4,
+            "16": 91,
+            "17": 9,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "579": {
+      "currentAddress": "Milford Shopping Centre, 24 Milford Road, Milford",
+      "historicalVenueId": "8ec3ee9ce84b87f784cf",
+      "method": "exact-label",
+      "totalValidVotes": 463,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 410,
+          "votes": {
+            "5": 26,
+            "10": 43,
+            "13": 82,
+            "14": 2,
+            "16": 218,
+            "17": 24,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 53,
+          "votes": {
+            "5": 3,
+            "10": 5,
+            "13": 14,
+            "14": 2,
+            "16": 17,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "612": {
+      "currentAddress": "Maria Assumpta Parish Hall, 198 Beach Haven Road, Beach Haven",
+      "historicalVenueId": "a603c6c7c7c6593b4fb0",
+      "method": "exact-label",
+      "totalValidVotes": 1459,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1162,
+          "votes": {
+            "5": 97,
+            "10": 179,
+            "13": 400,
+            "14": 11,
+            "16": 359,
+            "17": 70,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 297,
+          "votes": {
+            "5": 14,
+            "10": 51,
+            "13": 105,
+            "14": 1,
+            "16": 79,
+            "17": 26,
+            "36": 1,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "906": {
+      "currentAddress": "Zion Hill Methodist Church Hall, 237 Onewa Road, Birkenhead",
+      "historicalVenueId": "4c6b48293fa246ba1590",
+      "method": "exact-label",
+      "totalValidVotes": 577,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 263,
+          "votes": {
+            "5": 29,
+            "10": 35,
+            "13": 63,
+            "14": 2,
+            "16": 103,
+            "17": 16,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 314,
+          "votes": {
+            "5": 23,
+            "10": 49,
+            "13": 70,
+            "14": 4,
+            "16": 137,
+            "17": 12,
+            "36": 3,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "911": {
+      "currentAddress": "The Beach Haven Hall, 336 Rangatira Road, Beach Haven",
+      "historicalVenueId": "92124044b071aad46b21",
+      "method": "exact-label",
+      "totalValidVotes": 625,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 625,
+          "votes": {
+            "5": 56,
+            "10": 110,
+            "13": 168,
+            "14": 7,
+            "16": 195,
+            "17": 51,
+            "36": 4,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "939": {
+      "currentAddress": "Bayview Primary School, 60 Bayview Road, Glenfield",
+      "historicalVenueId": "ce680997f6c82df2dd0f",
+      "method": "exact-label",
+      "totalValidVotes": 30,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 30,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 11,
+            "14": 0,
+            "16": 11,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "949": {
+      "currentAddress": "Glenfield Primary School, 101 Chivalry Road, Glenfield",
+      "historicalVenueId": "de3c1b63f1ad5b5e3bf1",
+      "method": "exact-label",
+      "totalValidVotes": 258,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 258,
+          "votes": {
+            "5": 15,
+            "10": 28,
+            "13": 70,
+            "14": 0,
+            "16": 107,
+            "17": 9,
+            "36": 0,
+            "56": 2,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1254": {
+      "currentAddress": "Birkenhead Baptist Church Hall, 25 Birkdale Road, Birkdale",
+      "historicalVenueId": "9b5090edb191be9a4b0c",
+      "method": "exact-label",
+      "totalValidVotes": 427,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 427,
+          "votes": {
+            "5": 46,
+            "10": 82,
+            "13": 107,
+            "14": 2,
+            "16": 136,
+            "17": 28,
+            "36": 1,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1458": {
+      "currentAddress": "Northcote Primary School, 2 Lake Road (corner Onewa Road & Lake Road), Northcote",
+      "historicalVenueId": "4e20e1bfd47a22299da5",
+      "method": "exact-label",
+      "totalValidVotes": 600,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 600,
+          "votes": {
+            "5": 66,
+            "10": 79,
+            "13": 124,
+            "14": 2,
+            "16": 267,
+            "17": 19,
+            "36": 1,
+            "56": 3,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1459": {
+      "currentAddress": "Willow Park School, 13 Compton Street, Northcote",
+      "historicalVenueId": "7b611d25ed2e0a445cfb",
+      "method": "exact-label",
+      "totalValidVotes": 937,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 937,
+          "votes": {
+            "5": 83,
+            "10": 116,
+            "13": 206,
+            "14": 8,
+            "16": 429,
+            "17": 44,
+            "36": 4,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1516": {
+      "currentAddress": "Birkenhead Primary School, 77 Mokoia Road, Birkenhead",
+      "historicalVenueId": "6d49368351aa040a19fc",
+      "method": "exact-label",
+      "totalValidVotes": 484,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 484,
+          "votes": {
+            "5": 42,
+            "10": 87,
+            "13": 84,
+            "14": 3,
+            "16": 217,
+            "17": 23,
+            "36": 3,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1639": {
+      "currentAddress": "Windy Ridge School, 54 Seaview Road, Glenfield",
+      "historicalVenueId": "aa5e4e124662e029f34c",
+      "method": "exact-label",
+      "totalValidVotes": 531,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 531,
+          "votes": {
+            "5": 36,
+            "10": 64,
+            "13": 132,
+            "14": 5,
+            "16": 238,
+            "17": 17,
+            "36": 4,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1691": {
+      "currentAddress": "Marlborough Primary School, 4 Wykeham Place, Glenfield",
+      "historicalVenueId": "0e4830157a7ca4b453f2",
+      "method": "exact-label",
+      "totalValidVotes": 348,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 348,
+          "votes": {
+            "5": 32,
+            "10": 50,
+            "13": 77,
+            "14": 4,
+            "16": 154,
+            "17": 13,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1735": {
+      "currentAddress": "Birkdale North School, 213 Birkdale Road, Birkdale",
+      "historicalVenueId": "0d623ff745bb6de93e11",
+      "method": "exact-label",
+      "totalValidVotes": 306,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 306,
+          "votes": {
+            "5": 27,
+            "10": 48,
+            "13": 88,
+            "14": 7,
+            "16": 94,
+            "17": 27,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1736": {
+      "currentAddress": "Birkdale Intermediate School, 200 Birkdale Road, Birkdale",
+      "historicalVenueId": "4e00ad963841af6e938d",
+      "method": "exact-label",
+      "totalValidVotes": 597,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 597,
+          "votes": {
+            "5": 47,
+            "10": 101,
+            "13": 199,
+            "14": 7,
+            "16": 164,
+            "17": 41,
+            "36": 6,
+            "56": 2,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "1841": {
+      "currentAddress": "Beach Haven Primary School, 50 Tramway Road, Beach Haven",
+      "historicalVenueId": "e0dea1be5d32bba63c5c",
+      "method": "exact-label",
+      "totalValidVotes": 320,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 320,
+          "votes": {
+            "5": 20,
+            "10": 66,
+            "13": 98,
+            "14": 1,
+            "16": 97,
+            "17": 13,
+            "36": 2,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "2085": {
+      "currentAddress": "Beach Haven Community House, 130 Beach Haven Road, Beach Haven",
+      "historicalVenueId": "c1baff3bbd644cb540ec",
+      "method": "exact-label",
+      "totalValidVotes": 556,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 556,
+          "votes": {
+            "5": 49,
+            "10": 104,
+            "13": 165,
+            "14": 0,
+            "16": 171,
+            "17": 28,
+            "36": 5,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "2491": {
+      "currentAddress": "Meadowood Community House, Unsworth Heights, 55 Meadowood Drive, Glenfield",
+      "historicalVenueId": "5f99786bbc7f37c7e2e0",
+      "method": "exact-label",
+      "totalValidVotes": 37,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 27,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 3,
+            "14": 0,
+            "16": 17,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 10,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 2,
+            "14": 0,
+            "16": 2,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "2892": {
+      "currentAddress": "Sunnynook Baptist Church, 138 Sunnynook Road, Sunnynook",
+      "historicalVenueId": "a0e44109832072186629",
+      "method": "exact-label",
+      "totalValidVotes": 75,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 66,
+          "votes": {
+            "5": 3,
+            "10": 8,
+            "13": 11,
+            "14": 0,
+            "16": 36,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 0,
+            "14": 2,
+            "16": 4,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "2921": {
+      "currentAddress": "Northcote Point Senior Citizens Association Hall, 119 Queen Street, Northcote Point",
+      "historicalVenueId": "67cf253a1d020cad8892",
+      "method": "exact-label",
+      "totalValidVotes": 440,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 440,
+          "votes": {
+            "5": 50,
+            "10": 51,
+            "13": 91,
+            "14": 4,
+            "16": 215,
+            "17": 15,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "3005": {
+      "currentAddress": "St Thomas More Catholic Church Hall, 4 St Thomas More Lane, Glenfield",
+      "historicalVenueId": "b0d7d494685e44082416",
+      "method": "exact-label",
+      "totalValidVotes": 156,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 109,
+          "votes": {
+            "5": 11,
+            "10": 8,
+            "13": 34,
+            "14": 1,
+            "16": 37,
+            "17": 9,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 47,
+          "votes": {
+            "5": 4,
+            "10": 5,
+            "13": 12,
+            "14": 0,
+            "16": 16,
+            "17": 7,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "3113": {
+      "currentAddress": "Sunnybrae Normal School, 36 Sunnybrae Road, Northcote",
+      "historicalVenueId": "2ee03fecb1cfbfdfe270",
+      "method": "exact-label",
+      "totalValidVotes": 560,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 560,
+          "votes": {
+            "5": 52,
+            "10": 83,
+            "13": 125,
+            "14": 3,
+            "16": 244,
+            "17": 25,
+            "36": 0,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "3476": {
+      "currentAddress": "Onewa Christian Community Hall, 172 Hinemoa Street, Birkenhead",
+      "historicalVenueId": "9d45104b84ee9c50093a",
+      "method": "exact-label",
+      "totalValidVotes": 466,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 466,
+          "votes": {
+            "5": 28,
+            "10": 92,
+            "13": 95,
+            "14": 0,
+            "16": 198,
+            "17": 25,
+            "36": 1,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "3477": {
+      "currentAddress": "Verran Primary School, 136 Verran Road, Birkdale",
+      "historicalVenueId": "c7bac1ee196db86016c5",
+      "method": "exact-label",
+      "totalValidVotes": 296,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 296,
+          "votes": {
+            "5": 30,
+            "10": 49,
+            "13": 68,
+            "14": 4,
+            "16": 107,
+            "17": 12,
+            "36": 4,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "3508": {
+      "currentAddress": "Te Manawa Library Community Hub, 11 Kōhūhū Lane, Westgate",
+      "historicalVenueId": "b65ddf3f9ce8e40e9c13",
+      "method": "exact-label",
+      "totalValidVotes": 21,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 4,
+            "10": 1,
+            "13": 4,
+            "14": 0,
+            "16": 8,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "3593": {
+      "currentAddress": "Auckland University of Technology, Level 4, Building WA, 55 Wellesley Street, Auckland City",
+      "historicalVenueId": "e4211c7fd6272a4478d2",
+      "method": "exact-label",
+      "totalValidVotes": 48,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 48,
+          "votes": {
+            "5": 3,
+            "10": 19,
+            "13": 9,
+            "14": 2,
+            "16": 11,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    },
+    "3829": {
+      "currentAddress": "Reformed Church of the North Shore, 74 Trias Road, Tōtara Vale",
+      "historicalVenueId": "0d9860a1334d741a280f",
+      "method": "exact-label",
+      "totalValidVotes": 9,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 4,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "31"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

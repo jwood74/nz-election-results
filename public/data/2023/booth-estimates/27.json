@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "27",
+  "name": "Mt Roskill",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "25",
+      "name": "Mt Roskill"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "581": {
+      "currentAddress": "Blockhouse Bay Community Church, 76 Dundale Avenue, Blockhouse Bay",
+      "historicalVenueId": "dcb1a5f6ed52a3f7c6f1",
+      "method": "exact-label",
+      "totalValidVotes": 1540,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1137,
+          "votes": {
+            "5": 87,
+            "10": 79,
+            "13": 307,
+            "14": 7,
+            "16": 572,
+            "17": 47,
+            "36": 1,
+            "56": 1,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 403,
+          "votes": {
+            "5": 26,
+            "10": 37,
+            "13": 129,
+            "14": 1,
+            "16": 176,
+            "17": 17,
+            "36": 2,
+            "56": 2,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "602": {
+      "currentAddress": "CCS Disability Action, Yarnton House, 14 Erson Avenue, Royal Oak",
+      "historicalVenueId": "507891cfb2a4c77b736b",
+      "method": "exact-label",
+      "totalValidVotes": 168,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 168,
+          "votes": {
+            "5": 18,
+            "10": 16,
+            "13": 43,
+            "14": 0,
+            "16": 83,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "1139": {
+      "currentAddress": "Edendale Primary School Hall, 419A Sandringham Road, Sandringham",
+      "historicalVenueId": "ebf56ba37e85b3134a3e",
+      "method": "exact-label",
+      "totalValidVotes": 127,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 127,
+          "votes": {
+            "5": 11,
+            "10": 30,
+            "13": 42,
+            "14": 2,
+            "16": 37,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "1283": {
+      "currentAddress": "Blockhouse Bay Baptist Church, 504 Blockhouse Bay Road, Blockhouse Bay",
+      "historicalVenueId": "f105c67e6248a79269cb",
+      "method": "exact-label",
+      "totalValidVotes": 387,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 340,
+          "votes": {
+            "5": 32,
+            "10": 17,
+            "13": 78,
+            "14": 1,
+            "16": 190,
+            "17": 12,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 47,
+          "votes": {
+            "5": 2,
+            "10": 9,
+            "13": 15,
+            "14": 1,
+            "16": 16,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "1319": {
+      "currentAddress": "Hillsborough Primary School, 18 Belfast Street, Hillsborough",
+      "historicalVenueId": "2e0ec5c01473d8e88c05",
+      "method": "exact-label",
+      "totalValidVotes": 632,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 632,
+          "votes": {
+            "5": 60,
+            "10": 58,
+            "13": 131,
+            "14": 10,
+            "16": 305,
+            "17": 36,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "1341": {
+      "currentAddress": "Ōwairaka District School Hall, 113 Richardson Road, Ōwairaka",
+      "historicalVenueId": "9e06dd741338d661ad78",
+      "method": "exact-label",
+      "totalValidVotes": 54,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 54,
+          "votes": {
+            "5": 2,
+            "10": 6,
+            "13": 31,
+            "14": 2,
+            "16": 7,
+            "17": 0,
+            "36": 1,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "1369": {
+      "currentAddress": "Blockhouse Bay Primary School Hall, 584 Blockhouse Bay Road, Blockhouse Bay",
+      "historicalVenueId": "0d185f79e5c30cff46b0",
+      "method": "exact-label",
+      "totalValidVotes": 51,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 51,
+          "votes": {
+            "5": 1,
+            "10": 4,
+            "13": 12,
+            "14": 2,
+            "16": 30,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "2045": {
+      "currentAddress": "Onehunga Community Centre, 83 Church Street, Onehunga",
+      "historicalVenueId": "5cb6d30bab383e237819",
+      "method": "exact-label",
+      "totalValidVotes": 318,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 284,
+          "votes": {
+            "5": 18,
+            "10": 39,
+            "13": 62,
+            "14": 1,
+            "16": 140,
+            "17": 17,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 34,
+          "votes": {
+            "5": 4,
+            "10": 2,
+            "13": 14,
+            "14": 1,
+            "16": 13,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "2593": {
+      "currentAddress": "Waikōwhai Primary School, 381 Hillsborough Road, Hillsborough",
+      "historicalVenueId": "02287b739f4626e9267d",
+      "method": "exact-label",
+      "totalValidVotes": 442,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 442,
+          "votes": {
+            "5": 37,
+            "10": 43,
+            "13": 118,
+            "14": 4,
+            "16": 204,
+            "17": 13,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "3125": {
+      "currentAddress": "Royal Oak Primary School Hall, Chandler Avenue, 663 Manukau Road entrance, Royal Oak",
+      "historicalVenueId": "4ef65812028c09ba2bac",
+      "method": "exact-label",
+      "totalValidVotes": 20,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 4,
+            "10": 1,
+            "13": 1,
+            "14": 0,
+            "16": 13,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "3143": {
+      "currentAddress": "Royal Oak Intermediate School Hall, 74 Symonds Street, Trafalgar Street entrance, Royal Oak",
+      "historicalVenueId": "2b5c9e7a1e74327a0c7a",
+      "method": "exact-label",
+      "totalValidVotes": 32,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 32,
+          "votes": {
+            "5": 3,
+            "10": 2,
+            "13": 12,
+            "14": 3,
+            "16": 11,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "3188": {
+      "currentAddress": "Three Kings School, 944 Mount Eden Road, Three Kings",
+      "historicalVenueId": "bc970b109358295bf00a",
+      "method": "exact-label",
+      "totalValidVotes": 336,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 336,
+          "votes": {
+            "5": 30,
+            "10": 49,
+            "13": 83,
+            "14": 4,
+            "16": 144,
+            "17": 9,
+            "36": 1,
+            "56": 2,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "3387": {
+      "currentAddress": "Suburbs Rugby Football Club, 130 Portage Road, New Lynn",
+      "historicalVenueId": "dc8034f48e860e1756a6",
+      "method": "exact-label",
+      "totalValidVotes": 40,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 8,
+            "14": 0,
+            "16": 9,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 9,
+            "14": 1,
+            "16": 5,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    },
+    "3839": {
+      "currentAddress": "Auckland Deaf Society, 16 Hillsborough Road, Three Kings",
+      "historicalVenueId": "79bafbb295a80469a87d",
+      "method": "exact-label",
+      "totalValidVotes": 13,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 13,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 6,
+            "14": 0,
+            "16": 4,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "25"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

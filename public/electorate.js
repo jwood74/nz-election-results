@@ -1,4 +1,5 @@
-import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature, partyTintClass, electoratePartyHistory, partyVoteComparison } from './model.js';
+import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature, partyTintClass } from './model.js';
+import { boothEstimate, matchedBoothSwing } from './booth-swing.js';
 import { $, int, pct, pp, changeClass, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 
 const id = new URLSearchParams(location.search).get('id');
@@ -21,37 +22,36 @@ async function loadHistory() {
     const index = await staticJson('/data/2023/index.json');
     if (index.schemaVersion !== 1 || index.year !== 2023 || !Array.isArray(index.partyMappings)) throw new Error('Invalid historical index');
     historicalMapping = index.currentElectorates?.[id];
-    if (historicalMapping?.canCompare) {
-      const related = historicalMapping.related2023;
-      if (related.length !== 1 || !/^\d+$/.test(related[0].id)) throw new Error('Ambiguous historical electorate mapping');
-      const data = await staticJson(`/data/2023/electorates/${related[0].id}.json`);
-      if (data.id !== related[0].id || data.year !== 2023 || data.name !== related[0].name) throw new Error('Historical electorate mismatch');
-      historicalBaseline = electoratePartyHistory(data, index.partyMappings);
-      if (!historicalBaseline) throw new Error('Invalid historical party results');
-    }
+    const data = await staticJson(`/data/2023/booth-estimates/${id}.json`);
+    if (data.schemaVersion !== 1 || data.year !== 2023 || data.electorateId !== id || data.status !== 'estimated-matched-booth-baseline' || !Array.isArray(data.mappedPartyIds) || !data.booths) throw new Error('Invalid matched-booth baseline');
+    historicalBaseline = data;
     historyLoaded = true;
   } catch { historyFailed = true; }
   renderHistoryNote();
-  if (detail) renderDetail();
+  renderBooths();
 }
-function renderHistoryNote() {
+function renderHistoryNote(swing = matchedBoothSwing([...booths.values()], historicalBaseline)) {
   const note = $('history-note');
   if (historyFailed) note.textContent = '2023 comparison unavailable. Live results are unaffected.';
   else if (!historyLoaded) note.textContent = 'Loading the saved 2023 reference and boundary mapping…';
-  else if (!historicalMapping) note.textContent = 'No reviewed 2023 electorate mapping is available. No electorate-wide change is shown.';
-  else if (!historicalMapping.canCompare) note.textContent = `Boundaries changed or reconfigured. Related 2023 electorate(s): ${historicalMapping.related2023.map(e=>e.name).join(', ')}. These are not equivalent populations; electorate-wide change is deliberately not shown.`;
-  else note.textContent = `2023 reference: ${historicalMapping.related2023[0].name}. Boundaries unchanged in the 2025 review. Party-vote change is in percentage points vs final 2023 results including special votes, not a forecast or a matched-count estimate. Unmapped parties show —.`;
-  if (historyLoaded && historicalMapping) {
-    const link = node('a', ' Mapping and source notes ↗'); link.href = '/data/2023/index.json'; link.target = '_blank'; link.rel = 'noopener'; note.append(link);
+  else {
+    note.textContent = `Estimated swing: ${int(swing.matchedBooths)} / ${int(swing.reportedBooths)} fresh loaded booths with party votes matched (${pct(swing.coveragePercent)} of their party votes). Share uses all electorate votes; 2023 % and swing use only the same matched booths on both sides, weighted by each election’s valid votes. `;
+    note.textContent += swing.matchedBooths ? `Matched totals: ${int(swing.currentVotes)} current and ${int(swing.previousVotes)} estimated 2023 valid party votes. ` : 'No comparable booth votes yet; swing shows —. ';
+    if (swing.matchedBooths < swing.reportedBooths || boothBusy || failedBatches || [...booths.values()].some(b => b.stale || b.unavailable)) note.textContent += 'Incomplete coverage: unmatched, stale, unavailable and not-yet-loaded booths are excluded from swing, not from the headline result. ';
+    if (!historicalMapping?.canCompare) note.textContent += `Boundaries changed: historical votes from related seats (${historicalBaseline.related2023.map(e => e.name).join(', ')}) at matched venues are an approximate population allocation, not verified notional results. `;
+    note.textContent += 'Assumes combined 2023 advance + election-day votes because the current feed does not identify count category. Special votes are excluded from the baseline. Unmapped parties show —. This is an estimate, not a forecast.';
   }
-  note.classList.toggle('stale', Boolean(historyFailed || historyLoaded && !historicalMapping?.canCompare));
+  if (historyLoaded && historicalMapping) {
+    const link = node('a', ' Estimated baseline and source notes ↗'); link.href = `/data/2023/booth-estimates/${id}.json`; link.target = '_blank'; link.rel = 'noopener'; note.append(link);
+  }
+  note.classList.toggle('stale', Boolean(historyFailed || historyLoaded && (!historicalMapping?.canCompare || swing.matchedBooths < swing.reportedBooths || !swing.matchedBooths)));
 }
 
 function renderWatch() {
   $('watch').textContent = watchlist.has(id) ? '★ Watching electorate' : '☆ Watch electorate';
   $('watch').setAttribute('aria-pressed', String(watchlist.has(id)));
 }
-function summary(body, items, votes, changes = new Map()) {
+function summary(body, items, votes, changes = new Map(), comparisons = new Map()) {
   body.replaceChildren();
   for (const item of items) {
     const tr = node('tr', null, partyTintClass(item.party ? item.partyId : item.id));
@@ -60,8 +60,10 @@ function summary(body, items, votes, changes = new Map()) {
     markChange(tr, name, changes.get(item.id), item);
     cell(tr, int(item.votes), 'num'); cell(tr, pct(voteShare(item.votes, votes)), 'num');
     if (body.id === 'electorate-party-rows') {
-      const comparison = partyVoteComparison(item, votes, historicalBaseline);
-      cell(tr, pct(comparison.previousPercent), 'num'); cell(tr, pp(comparison.change), `num ${changeClass(comparison.change)}`);
+      const comparison = comparisons.get(item.id);
+      cell(tr, pct(comparison?.previousPercent), 'num');
+      const swing = cell(tr, pp(comparison?.change), `num ${changeClass(comparison?.change)}`);
+      swing.title = comparison?.currentPercent == null ? 'No comparable matched-booth votes.' : `Matched-booth share: ${pct(comparison.currentPercent)} now vs ${pct(comparison.previousPercent)} in 2023. Headline Share includes all electorate votes.`;
     }
     body.append(tr);
   }
@@ -79,7 +81,6 @@ function renderDetail() {
   $('party-informals').textContent = `${int(detail.partyInformals)} informal party votes`;
   $('detail-changes').textContent = `${candidateChanges.size} candidate rows and ${partyChanges.size} party rows changed.${progressChanged ? ' Counting progress changed.' : ''} Highlights compare votes with the previous successful refresh in this tab; the first load establishes a baseline.`;
   summary($('candidate-rows'), detail.candidates, detail.candidateVotes, candidateChanges);
-  summary($('electorate-party-rows'), detail.parties, detail.partyVotes, partyChanges);
   renderBooths();
 }
 function renderStatus() {
@@ -106,17 +107,25 @@ function header(row, text, key, numeric = false, tint = '') {
   th.append(button); row.append(th);
 }
 function renderBooths() {
+  const swing = matchedBoothSwing([...booths.values()], historicalBaseline);
+  renderHistoryNote(swing);
+  if (detail) summary($('electorate-party-rows'), detail.parties, detail.partyVotes, partyChanges, swing.comparisons);
   const focus = document.activeElement;
   const focusSort = focus?.dataset.boothSort, focusFile = focus?.dataset.file;
   const items = competitors();
   const head = node('tr');
   header(head, 'Booth / address', 'name'); header(head, 'Status', 'reported'); header(head, 'Valid votes', 'total', true);
+  header(head, 'Estimated 2023 votes', 'estimated2023', true);
   for (const item of items) header(head, voteType === 'parties' ? item.abbreviation || item.name : item.name, item.id, true, partyTintClass(voteType === 'candidates' ? item.partyId : item.id));
   header(head, 'Source updated · NZ', 'updated'); $('booth-head').replaceChildren(head);
   $('booth-caption').textContent = `Booth ${voteType === 'candidates' ? 'candidate' : 'party'} ${metric === 'votes' ? 'votes' : 'vote percentages'}`;
-  const rows = filterBooths([...booths.values()], { search: $('booth-search').value, status: $('booth-status').value, sortKey, direction, voteType, metric });
+  const rows = filterBooths([...booths.values()], { search: $('booth-search').value, status: $('booth-status').value, sortKey: sortKey === 'estimated2023' ? 'name' : sortKey, direction, voteType, metric });
+  if (sortKey === 'estimated2023') rows.sort((a,b) => {
+    const av = boothEstimate(a, historicalBaseline)?.totalValidVotes, bv = boothEstimate(b, historicalBaseline)?.totalValidVotes;
+    return av == null && bv == null ? a.name.localeCompare(b.name) : av == null ? 1 : bv == null ? -1 : (av - bv) * direction || a.name.localeCompare(b.name);
+  });
   $('booth-count').textContent = `${rows.length} shown · ${booths.size} / ${total || '—'} files loaded`;
-  if (!rows.length) message($('booth-rows'), boothBusy && !booths.size ? 'Loading booth files…' : failedBatches && !booths.size ? 'Booth feeds unavailable. Retrying automatically.' : 'No matching booths.', items.length + 4);
+  if (!rows.length) message($('booth-rows'), boothBusy && !booths.size ? 'Loading booth files…' : failedBatches && !booths.size ? 'Booth feeds unavailable. Retrying automatically.' : 'No matching booths.', items.length + 5);
   else {
     $('booth-rows').replaceChildren();
     for (const booth of rows) {
@@ -132,6 +141,9 @@ function renderBooths() {
       }
       cell(tr, booth.unavailable ? 'Unavailable' : booth.stale ? 'Stale · retained' : booth.reported ? 'Reported' : 'Awaiting results', booth.stale || booth.unavailable ? 'stale' : 'meta');
       cell(tr, int(boothValue(booth, 'total', voteType, metric)), 'num');
+      const estimate = boothEstimate(booth, historicalBaseline);
+      const estimated = cell(tr, int(estimate?.totalValidVotes), 'num');
+      estimated.title = estimate ? 'Estimated 2023 valid party votes: advance + election-day at this matched venue, from related historical electorates. Not a prediction of current votes or candidate votes.' : 'No matched 2023 party-vote estimate for this booth.';
       for (const item of items) {
         const value = boothValue(booth, item.id, voteType, metric);
         cell(tr, metric === 'percent' ? pct(value) : int(value), `num ${partyTintClass(voteType === 'candidates' ? item.partyId : item.id)}`.trim());

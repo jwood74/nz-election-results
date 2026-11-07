@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "5",
+  "name": "Christchurch East",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "6",
+      "name": "Christchurch East"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "395": {
+      "currentAddress": "Ottawa Gardens Preschool, 49 Ottawa Road, Wainoni",
+      "historicalVenueId": "097055bc212443ba83ac",
+      "method": "exact-label",
+      "totalValidVotes": 228,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 228,
+          "votes": {
+            "5": 23,
+            "10": 27,
+            "13": 96,
+            "14": 0,
+            "16": 40,
+            "17": 22,
+            "36": 2,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "531": {
+      "currentAddress": "Westfield Riccarton, Level 2, 129 Riccarton Road, Riccarton",
+      "historicalVenueId": "e75beac8734c3495c2fc",
+      "method": "exact-label",
+      "totalValidVotes": 238,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 190,
+          "votes": {
+            "5": 8,
+            "10": 40,
+            "13": 55,
+            "14": 3,
+            "16": 60,
+            "17": 8,
+            "36": 1,
+            "56": 1,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 48,
+          "votes": {
+            "5": 1,
+            "10": 11,
+            "13": 11,
+            "14": 1,
+            "16": 16,
+            "17": 3,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "559": {
+      "currentAddress": "Mt Pleasant Community Centre, 3 McCormacks Bay Road, Mount Pleasant",
+      "historicalVenueId": "e5c06e0825efff8e47e4",
+      "method": "exact-label",
+      "totalValidVotes": 37,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 0,
+            "10": 5,
+            "13": 3,
+            "14": 0,
+            "16": 11,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 16,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 5,
+            "14": 0,
+            "16": 5,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "618": {
+      "currentAddress": "Ara Woolston Campus, Student Services Building, Corner Ensors Road & Sullivan Avenue, Woolston",
+      "historicalVenueId": "055a5381542f67b66929",
+      "method": "exact-label",
+      "totalValidVotes": 33,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 4,
+            "10": 4,
+            "13": 1,
+            "14": 0,
+            "16": 6,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 5,
+            "14": 1,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "684": {
+      "currentAddress": "Ōrauwhata: Bishopdale Library and Community Centre, 13 Bishopdale Court, Bishopdale",
+      "historicalVenueId": "b274a0230c38deaf4f10",
+      "method": "exact-label",
+      "totalValidVotes": 65,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 65,
+          "votes": {
+            "5": 8,
+            "10": 9,
+            "13": 14,
+            "14": 0,
+            "16": 22,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "822": {
+      "currentAddress": "North New Brighton Community Centre, 88 Marine Parade, North New Brighton",
+      "historicalVenueId": "0cef907a67927d32a1da",
+      "method": "exact-label",
+      "totalValidVotes": 424,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 424,
+          "votes": {
+            "5": 28,
+            "10": 78,
+            "13": 118,
+            "14": 11,
+            "16": 106,
+            "17": 33,
+            "36": 0,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "851": {
+      "currentAddress": "Haeata Community Campus, 240 Breezes Road, Aranui",
+      "historicalVenueId": "b2b77e23d8771ae14a3e",
+      "method": "exact-label",
+      "totalValidVotes": 402,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 168,
+          "votes": {
+            "5": 8,
+            "10": 15,
+            "13": 87,
+            "14": 3,
+            "16": 24,
+            "17": 19,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 234,
+          "votes": {
+            "5": 9,
+            "10": 25,
+            "13": 114,
+            "14": 7,
+            "16": 34,
+            "17": 30,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "886": {
+      "currentAddress": "Bush Inn Centre, corner Riccarton Road & Waimairi Road, Upper Riccarton",
+      "historicalVenueId": "e9ca5b1e01568e3b1511",
+      "method": "exact-label",
+      "totalValidVotes": 40,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 40,
+          "votes": {
+            "5": 1,
+            "10": 7,
+            "13": 10,
+            "14": 1,
+            "16": 17,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "957": {
+      "currentAddress": "Pareawa Banks Avenue School Hall, 57 Averill Street, Richmond",
+      "historicalVenueId": "895152242daf3b9b46bc",
+      "method": "exact-label",
+      "totalValidVotes": 288,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 288,
+          "votes": {
+            "5": 24,
+            "10": 51,
+            "13": 95,
+            "14": 2,
+            "16": 77,
+            "17": 18,
+            "36": 2,
+            "56": 1,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "1032": {
+      "currentAddress": "Redwood Primary School Hall, 51 Prestons Road, Redwood",
+      "historicalVenueId": "4f5e2cbdcb7e392aabf2",
+      "method": "exact-label",
+      "totalValidVotes": 26,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 2,
+            "10": 1,
+            "13": 7,
+            "14": 0,
+            "16": 12,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "1200": {
+      "currentAddress": "Mairehau High School Hall, 440 Hills Road, Mairehau",
+      "historicalVenueId": "43ca8a407a416bdc6a2d",
+      "method": "exact-label",
+      "totalValidVotes": 139,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 139,
+          "votes": {
+            "5": 9,
+            "10": 15,
+            "13": 48,
+            "14": 1,
+            "16": 40,
+            "17": 9,
+            "36": 0,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "1734": {
+      "currentAddress": "The Tannery, Metropolitan Lounge, 3 Garlands Road, Woolston",
+      "historicalVenueId": "47368f790f142fb51f57",
+      "method": "exact-label",
+      "totalValidVotes": 14,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 5,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "1746": {
+      "currentAddress": "Aranui Library, Whānau Room, 109 Aldershot Street, Aranui",
+      "historicalVenueId": "5ea92a41493ccfa565bc",
+      "method": "exact-label",
+      "totalValidVotes": 696,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 696,
+          "votes": {
+            "5": 35,
+            "10": 69,
+            "13": 378,
+            "14": 9,
+            "16": 96,
+            "17": 55,
+            "36": 6,
+            "56": 2,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "2895": {
+      "currentAddress": "St John&#39;s Church Hall, 2 St Johns Street (corner Ferry Road), Woolston",
+      "historicalVenueId": "ce7ebe5ef0a5a816240e",
+      "method": "exact-label",
+      "totalValidVotes": 116,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 77,
+          "votes": {
+            "5": 12,
+            "10": 14,
+            "13": 23,
+            "14": 1,
+            "16": 19,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 39,
+          "votes": {
+            "5": 1,
+            "10": 12,
+            "13": 14,
+            "14": 2,
+            "16": 2,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "2914": {
+      "currentAddress": "Woolston Club, Kellaway Room, 43 Hargood Street, Garden Gate entrance, Woolston",
+      "historicalVenueId": "e220b1b45e3f2f4e8e0f",
+      "method": "exact-label",
+      "totalValidVotes": 25,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 25,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 13,
+            "14": 0,
+            "16": 5,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3095": {
+      "currentAddress": "Nova Montessori School, 53 Owles Terrace, New Brighton",
+      "historicalVenueId": "c902bda4a9d3b8c69a7a",
+      "method": "exact-label",
+      "totalValidVotes": 210,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 210,
+          "votes": {
+            "5": 9,
+            "10": 46,
+            "13": 74,
+            "14": 8,
+            "16": 42,
+            "17": 13,
+            "36": 0,
+            "56": 1,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3123": {
+      "currentAddress": "Kidsfirst Kindergarten Woolley Street, 63 Woolley Street, Avondale",
+      "historicalVenueId": "d0217a9311c9d81c7f2a",
+      "method": "exact-label",
+      "totalValidVotes": 324,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 324,
+          "votes": {
+            "5": 34,
+            "10": 34,
+            "13": 109,
+            "14": 4,
+            "16": 93,
+            "17": 27,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3161": {
+      "currentAddress": "Rāwhiti School Hall, 150 Leaver Terrace, North New Brighton",
+      "historicalVenueId": "7cfa48e91d546e2d0256",
+      "method": "exact-label",
+      "totalValidVotes": 414,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 414,
+          "votes": {
+            "5": 21,
+            "10": 77,
+            "13": 159,
+            "14": 6,
+            "16": 68,
+            "17": 36,
+            "36": 5,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3264": {
+      "currentAddress": "Delta Community Support Trust, 101 North Avon Road, Richmond",
+      "historicalVenueId": "04d4db1ecb1cc7f9120e",
+      "method": "exact-label",
+      "totalValidVotes": 660,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 452,
+          "votes": {
+            "5": 20,
+            "10": 87,
+            "13": 187,
+            "14": 3,
+            "16": 90,
+            "17": 31,
+            "36": 3,
+            "56": 0,
+            "70": 4
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 208,
+          "votes": {
+            "5": 11,
+            "10": 46,
+            "13": 51,
+            "14": 2,
+            "16": 48,
+            "17": 22,
+            "36": 7,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3266": {
+      "currentAddress": "Burwood Hospital, Ground Floor, Main Foyer, 300 Burwood Road, Burwood",
+      "historicalVenueId": "4e5a48320d2271db5aaf",
+      "method": "exact-label",
+      "totalValidVotes": 775,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 775,
+          "votes": {
+            "5": 57,
+            "10": 92,
+            "13": 277,
+            "14": 4,
+            "16": 239,
+            "17": 59,
+            "36": 1,
+            "56": 2,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3274": {
+      "currentAddress": "McAlpines Pipe Band Hall, 8A Ashley Street, Rangiora",
+      "historicalVenueId": "c5fb9e6bc41711538034",
+      "method": "reviewed-label",
+      "totalValidVotes": 24,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 17,
+          "votes": {
+            "5": 4,
+            "10": 0,
+            "13": 7,
+            "14": 0,
+            "16": 4,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 3,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3320": {
+      "currentAddress": "Shirley Boys & Avonside Girls High School, Te Paeroa, 209 Travis Road, North New Brighton",
+      "historicalVenueId": "59189ce5913391b0cb73",
+      "method": "exact-label",
+      "totalValidVotes": 330,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 330,
+          "votes": {
+            "5": 20,
+            "10": 56,
+            "13": 113,
+            "14": 0,
+            "16": 85,
+            "17": 28,
+            "36": 4,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3336": {
+      "currentAddress": "Christchurch International Airport, International Departure Lounge - AIRSIDE, 30 Durey Road, Harewood",
+      "historicalVenueId": "6e2e17e69149ab758812",
+      "method": "exact-label",
+      "totalValidVotes": 31,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 31,
+          "votes": {
+            "5": 4,
+            "10": 3,
+            "13": 8,
+            "14": 0,
+            "16": 13,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3402": {
+      "currentAddress": "EFKS Church Hall Christchurch, 7 Vili Place, Woolston",
+      "historicalVenueId": "b34fb9600e8df6bd5c37",
+      "method": "exact-label",
+      "totalValidVotes": 7,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 3,
+            "14": 1,
+            "16": 0,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    },
+    "3716": {
+      "currentAddress": "Te Pou Toetoe, Linwood Pool, Weka Room, 141 Smith Street, Linwood",
+      "historicalVenueId": "bfedd19c86dca6655f7d",
+      "method": "exact-label",
+      "totalValidVotes": 94,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 94,
+          "votes": {
+            "5": 4,
+            "10": 12,
+            "13": 39,
+            "14": 2,
+            "16": 27,
+            "17": 4,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "6"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

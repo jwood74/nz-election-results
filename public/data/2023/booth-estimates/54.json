@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "54",
+  "name": "Waimakariri",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "unchanged",
+  "related2023": [
+    {
+      "id": "57",
+      "name": "Waimakariri"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "370": {
+      "currentAddress": "University of Otago, ISB Link, 65 Albany Street (corner Albany Street and Cumberland Street), Dunedin North",
+      "historicalVenueId": "ddd857dca41db745d8e1",
+      "method": "reviewed-label",
+      "totalValidVotes": 23,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 23,
+          "votes": {
+            "5": 1,
+            "10": 14,
+            "13": 1,
+            "14": 1,
+            "16": 5,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "505": {
+      "currentAddress": "Waikuku Beach Hall, (corner Park Terrace & Domain Road), Waikuku Beach",
+      "historicalVenueId": "25c52a4c9f3599405540",
+      "method": "exact-label",
+      "totalValidVotes": 340,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 340,
+          "votes": {
+            "5": 30,
+            "10": 55,
+            "13": 89,
+            "14": 6,
+            "16": 103,
+            "17": 30,
+            "36": 1,
+            "56": 0,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "517": {
+      "currentAddress": "Oxford Jaycee&#39;s Hall, 56 Main Street, Oxford",
+      "historicalVenueId": "b72c3dfd551fcaa53d72",
+      "method": "exact-label",
+      "totalValidVotes": 2083,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1376,
+          "votes": {
+            "5": 192,
+            "10": 117,
+            "13": 304,
+            "14": 5,
+            "16": 545,
+            "17": 117,
+            "36": 5,
+            "56": 1,
+            "70": 15
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 707,
+          "votes": {
+            "5": 92,
+            "10": 65,
+            "13": 131,
+            "14": 3,
+            "16": 260,
+            "17": 74,
+            "36": 4,
+            "56": 1,
+            "70": 30
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "531": {
+      "currentAddress": "Westfield Riccarton, Level 2, 129 Riccarton Road, Riccarton",
+      "historicalVenueId": "e75beac8734c3495c2fc",
+      "method": "exact-label",
+      "totalValidVotes": 225,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 200,
+          "votes": {
+            "5": 19,
+            "10": 28,
+            "13": 25,
+            "14": 2,
+            "16": 114,
+            "17": 4,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 25,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 7,
+            "14": 0,
+            "16": 11,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "618": {
+      "currentAddress": "Ara Woolston Campus, Student Services Building, Corner Ensors Road & Sullivan Avenue, Woolston",
+      "historicalVenueId": "055a5381542f67b66929",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 4,
+            "10": 0,
+            "13": 3,
+            "14": 0,
+            "16": 5,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "647": {
+      "currentAddress": "Loburn School Te Kura Aromauka, Mt Thomas Room, 73 Hodgsons Road, Loburn",
+      "historicalVenueId": "80b45492962f02e2f0e4",
+      "method": "exact-label",
+      "totalValidVotes": 31,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 31,
+          "votes": {
+            "5": 2,
+            "10": 6,
+            "13": 6,
+            "14": 0,
+            "16": 10,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "684": {
+      "currentAddress": "Ōrauwhata: Bishopdale Library and Community Centre, 13 Bishopdale Court, Bishopdale",
+      "historicalVenueId": "b274a0230c38deaf4f10",
+      "method": "exact-label",
+      "totalValidVotes": 1275,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1275,
+          "votes": {
+            "5": 107,
+            "10": 88,
+            "13": 288,
+            "14": 2,
+            "16": 685,
+            "17": 62,
+            "36": 1,
+            "56": 2,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "886": {
+      "currentAddress": "Bush Inn Centre, corner Riccarton Road & Waimairi Road, Upper Riccarton",
+      "historicalVenueId": "e9ca5b1e01568e3b1511",
+      "method": "exact-label",
+      "totalValidVotes": 51,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 51,
+          "votes": {
+            "5": 7,
+            "10": 4,
+            "13": 8,
+            "14": 0,
+            "16": 23,
+            "17": 4,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "1032": {
+      "currentAddress": "Redwood Primary School Hall, 51 Prestons Road, Redwood",
+      "historicalVenueId": "4f5e2cbdcb7e392aabf2",
+      "method": "exact-label",
+      "totalValidVotes": 95,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 95,
+          "votes": {
+            "5": 13,
+            "10": 5,
+            "13": 20,
+            "14": 1,
+            "16": 46,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "1189": {
+      "currentAddress": "Eyreton Hall, Corner Mandeville & South Eyre Road, Eyreton",
+      "historicalVenueId": "6ba02307d1b5579eaa14",
+      "method": "exact-label",
+      "totalValidVotes": 261,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 261,
+          "votes": {
+            "5": 41,
+            "10": 17,
+            "13": 30,
+            "14": 1,
+            "16": 136,
+            "17": 20,
+            "36": 2,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "1696": {
+      "currentAddress": "Northcity Church Hall, 95A Sawyers Arms Road, Papanui",
+      "historicalVenueId": "766b14ddd7fd145ce5d9",
+      "method": "exact-label",
+      "totalValidVotes": 89,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 68,
+          "votes": {
+            "5": 3,
+            "10": 3,
+            "13": 14,
+            "14": 0,
+            "16": 40,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 13,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "1714": {
+      "currentAddress": "Ashley Rakahuri School, 4 Boundary Road (corner Fawcetts Road), Ashley",
+      "historicalVenueId": "df401d6102235ce8a136",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 9,
+            "10": 0,
+            "13": 3,
+            "14": 0,
+            "16": 8,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "2488": {
+      "currentAddress": "Kaiapoi Library and Service Centre, Ruataniwha Room, 176 Williams Street, Kaiapoi",
+      "historicalVenueId": "16349fbf65aa26ddf334",
+      "method": "reviewed-label",
+      "totalValidVotes": 5296,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 4542,
+          "votes": {
+            "5": 446,
+            "10": 331,
+            "13": 1386,
+            "14": 20,
+            "16": 1747,
+            "17": 398,
+            "36": 14,
+            "56": 5,
+            "70": 28
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 754,
+          "votes": {
+            "5": 76,
+            "10": 78,
+            "13": 217,
+            "14": 3,
+            "16": 258,
+            "17": 55,
+            "36": 7,
+            "56": 1,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "2617": {
+      "currentAddress": "Harewood Playcentre, 719 Harewood Road, Harewood",
+      "historicalVenueId": "89bac292dad41a41c16b",
+      "method": "exact-label",
+      "totalValidVotes": 53,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 53,
+          "votes": {
+            "5": 4,
+            "10": 2,
+            "13": 13,
+            "14": 0,
+            "16": 29,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "2827": {
+      "currentAddress": "Cotswold Mātāhae School Hall, 50 Cotswold Avenue, Bishopdale",
+      "historicalVenueId": "3e3b0991d97228c3e214",
+      "method": "exact-label",
+      "totalValidVotes": 362,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 362,
+          "votes": {
+            "5": 44,
+            "10": 32,
+            "13": 78,
+            "14": 0,
+            "16": 169,
+            "17": 18,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "3208": {
+      "currentAddress": "Bishopdale School Te Kura o Papakōhatu Hall, 465 Greers Road, Bishopdale",
+      "historicalVenueId": "c5bb34961be14037f6f1",
+      "method": "exact-label",
+      "totalValidVotes": 20,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 5,
+            "14": 0,
+            "16": 9,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "3228": {
+      "currentAddress": "Ōhoka School Community Sports & Event Centre, 261 Jacksons Road, Ōhoka",
+      "historicalVenueId": "aec77cf9eb79b21983bd",
+      "method": "exact-label",
+      "totalValidVotes": 561,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 561,
+          "votes": {
+            "5": 75,
+            "10": 48,
+            "13": 97,
+            "14": 0,
+            "16": 269,
+            "17": 36,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "3274": {
+      "currentAddress": "McAlpines Pipe Band Hall, 8A Ashley Street, Rangiora",
+      "historicalVenueId": "c5fb9e6bc41711538034",
+      "method": "reviewed-label",
+      "totalValidVotes": 6528,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 5361,
+          "votes": {
+            "5": 568,
+            "10": 273,
+            "13": 1248,
+            "14": 14,
+            "16": 2597,
+            "17": 418,
+            "36": 8,
+            "56": 4,
+            "70": 27
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 1167,
+          "votes": {
+            "5": 132,
+            "10": 122,
+            "13": 267,
+            "14": 7,
+            "16": 460,
+            "17": 77,
+            "36": 6,
+            "56": 2,
+            "70": 14
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    },
+    "3336": {
+      "currentAddress": "Christchurch International Airport, International Departure Lounge - AIRSIDE, 30 Durey Road, Harewood",
+      "historicalVenueId": "6e2e17e69149ab758812",
+      "method": "exact-label",
+      "totalValidVotes": 71,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 71,
+          "votes": {
+            "5": 13,
+            "10": 7,
+            "13": 14,
+            "14": 0,
+            "16": 33,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "57"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

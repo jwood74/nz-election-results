@@ -1,0 +1,913 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "43",
+  "name": "Selwyn",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "45",
+      "name": "Selwyn"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "370": {
+      "currentAddress": "University of Otago, ISB Link, 65 Albany Street (corner Albany Street and Cumberland Street), Dunedin North",
+      "historicalVenueId": "ddd857dca41db745d8e1",
+      "method": "reviewed-label",
+      "totalValidVotes": 38,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 30,
+          "votes": {
+            "5": 0,
+            "10": 6,
+            "13": 3,
+            "14": 0,
+            "16": 14,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 2,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "441": {
+      "currentAddress": "Motukarara Community Hall, 112 Park Road, Motukarara",
+      "historicalVenueId": "9477cdef82969740d0a4",
+      "method": "exact-label",
+      "totalValidVotes": 111,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 111,
+          "votes": {
+            "5": 11,
+            "10": 6,
+            "13": 20,
+            "14": 0,
+            "16": 53,
+            "17": 15,
+            "36": 2,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "517": {
+      "currentAddress": "Oxford Jaycee&#39;s Hall, 56 Main Street, Oxford",
+      "historicalVenueId": "b72c3dfd551fcaa53d72",
+      "method": "exact-label",
+      "totalValidVotes": 8,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 4,
+            "10": 0,
+            "13": 0,
+            "14": 0,
+            "16": 3,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "531": {
+      "currentAddress": "Westfield Riccarton, Level 2, 129 Riccarton Road, Riccarton",
+      "historicalVenueId": "e75beac8734c3495c2fc",
+      "method": "exact-label",
+      "totalValidVotes": 519,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 442,
+          "votes": {
+            "5": 57,
+            "10": 56,
+            "13": 59,
+            "14": 2,
+            "16": 241,
+            "17": 8,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 77,
+          "votes": {
+            "5": 8,
+            "10": 12,
+            "13": 15,
+            "14": 0,
+            "16": 33,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "556": {
+      "currentAddress": "Mt Hutt Memorial Hall, Function Room, 160 Main Street, Methven",
+      "historicalVenueId": "d98d2e421525d83ca6e6",
+      "method": "exact-label",
+      "totalValidVotes": 31,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 20,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 2,
+            "14": 0,
+            "16": 12,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 1,
+            "14": 0,
+            "16": 9,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "562": {
+      "currentAddress": "Te Hāpua: Halswell Centre, Piharau Room, 341 Halswell Road, Halswell",
+      "historicalVenueId": "91f9a4eaae0b3b182d54",
+      "method": "exact-label",
+      "totalValidVotes": 338,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 291,
+          "votes": {
+            "5": 42,
+            "10": 20,
+            "13": 35,
+            "14": 0,
+            "16": 163,
+            "17": 20,
+            "36": 0,
+            "56": 1,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 47,
+          "votes": {
+            "5": 9,
+            "10": 3,
+            "13": 10,
+            "14": 2,
+            "16": 18,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "604": {
+      "currentAddress": "Selwyn District Council, 2 Norman Kirk Drive, Rolleston",
+      "historicalVenueId": "08513c4d7606c0b2ed6f",
+      "method": "exact-label",
+      "totalValidVotes": 6974,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 5167,
+          "votes": {
+            "5": 640,
+            "10": 456,
+            "13": 1008,
+            "14": 19,
+            "16": 2540,
+            "17": 310,
+            "36": 10,
+            "56": 3,
+            "70": 28
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 1807,
+          "votes": {
+            "5": 194,
+            "10": 182,
+            "13": 413,
+            "14": 7,
+            "16": 774,
+            "17": 117,
+            "36": 7,
+            "56": 3,
+            "70": 30
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "698": {
+      "currentAddress": "Springston South Soldiers Memorial Hall, 433 Days Road, Springston South",
+      "historicalVenueId": "f46761ca39e55a14782a",
+      "method": "exact-label",
+      "totalValidVotes": 139,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 139,
+          "votes": {
+            "5": 22,
+            "10": 11,
+            "13": 17,
+            "14": 0,
+            "16": 73,
+            "17": 11,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "883": {
+      "currentAddress": "Lincoln Event Centre, 15 Meijer Drive, Lincoln",
+      "historicalVenueId": "2ce60d9c01fdb8bc5542",
+      "method": "exact-label",
+      "totalValidVotes": 4578,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3635,
+          "votes": {
+            "5": 438,
+            "10": 346,
+            "13": 617,
+            "14": 18,
+            "16": 1931,
+            "17": 164,
+            "36": 5,
+            "56": 1,
+            "70": 9
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 943,
+          "votes": {
+            "5": 83,
+            "10": 100,
+            "13": 179,
+            "14": 9,
+            "16": 449,
+            "17": 67,
+            "36": 4,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "886": {
+      "currentAddress": "Bush Inn Centre, corner Riccarton Road & Waimairi Road, Upper Riccarton",
+      "historicalVenueId": "e9ca5b1e01568e3b1511",
+      "method": "exact-label",
+      "totalValidVotes": 124,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 124,
+          "votes": {
+            "5": 16,
+            "10": 11,
+            "13": 24,
+            "14": 0,
+            "16": 64,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "954": {
+      "currentAddress": "Walnut Ave Pavilion, 66 Walnut Avenue, Ashburton",
+      "historicalVenueId": "8d3d649c6b571c2fc5a4",
+      "method": "reviewed-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 3,
+            "10": 0,
+            "13": 0,
+            "14": 0,
+            "16": 2,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "1062": {
+      "currentAddress": "Kirwee Model School, 34 School Lane, Kirwee",
+      "historicalVenueId": "c51b20d0c5a1935ffb5c",
+      "method": "exact-label",
+      "totalValidVotes": 446,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 446,
+          "votes": {
+            "5": 56,
+            "10": 21,
+            "13": 74,
+            "14": 2,
+            "16": 228,
+            "17": 36,
+            "36": 2,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "1078": {
+      "currentAddress": "Darfield High School Hall, 7 McLaughlins Road, Darfield",
+      "historicalVenueId": "d7af8d1d2b26aa1bb019",
+      "method": "exact-label",
+      "totalValidVotes": 860,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 860,
+          "votes": {
+            "5": 148,
+            "10": 56,
+            "13": 129,
+            "14": 4,
+            "16": 404,
+            "17": 61,
+            "36": 9,
+            "56": 1,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "1118": {
+      "currentAddress": "Tinwald War Memorial Hall, 10 Graham Street (corner McMurdo Street), Ashburton",
+      "historicalVenueId": "f230b0cc20c951ec0022",
+      "method": "exact-label",
+      "totalValidVotes": 15,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 1,
+            "14": 1,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 3,
+            "10": 0,
+            "13": 0,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "1472": {
+      "currentAddress": "Rakaia Community Centre, 55 Elizabeth Avenue (corner Mackie Street), Rakaia",
+      "historicalVenueId": "fb1ef33960c2bf7d83bd",
+      "method": "exact-label",
+      "totalValidVotes": 47,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 47,
+          "votes": {
+            "5": 5,
+            "10": 1,
+            "13": 5,
+            "14": 0,
+            "16": 29,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "1668": {
+      "currentAddress": "Windwhistle School, 11 Rakaia Gorge Road, Windwhistle",
+      "historicalVenueId": "8b7afec4bdaeed381b04",
+      "method": "exact-label",
+      "totalValidVotes": 84,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 84,
+          "votes": {
+            "5": 16,
+            "10": 5,
+            "13": 11,
+            "14": 0,
+            "16": 41,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "1756": {
+      "currentAddress": "Ashburton Event Centre, 211A Wills Street, Ashburton",
+      "historicalVenueId": "31f4276db4bf73b0070c",
+      "method": "reviewed-label",
+      "totalValidVotes": 32,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 6,
+            "10": 2,
+            "13": 0,
+            "14": 0,
+            "16": 14,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 1,
+            "14": 0,
+            "16": 4,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2015": {
+      "currentAddress": "Ararira Springs Primary School, 18 Russ Drive, Lincoln",
+      "historicalVenueId": "d365341b907233fd14da",
+      "method": "exact-label",
+      "totalValidVotes": 699,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 699,
+          "votes": {
+            "5": 72,
+            "10": 107,
+            "13": 142,
+            "14": 2,
+            "16": 301,
+            "17": 24,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2177": {
+      "currentAddress": "Greendale Hall, 166 Greendale Road, Greendale",
+      "historicalVenueId": "d603885e8117aafc689a",
+      "method": "exact-label",
+      "totalValidVotes": 117,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 117,
+          "votes": {
+            "5": 22,
+            "10": 6,
+            "13": 28,
+            "14": 0,
+            "16": 53,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2179": {
+      "currentAddress": "Dunsandel Community Centre, 1456 Tramway Road, Dunsandel",
+      "historicalVenueId": "93c902d489acde12bb35",
+      "method": "exact-label",
+      "totalValidVotes": 330,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 330,
+          "votes": {
+            "5": 43,
+            "10": 18,
+            "13": 47,
+            "14": 2,
+            "16": 174,
+            "17": 34,
+            "36": 0,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2343": {
+      "currentAddress": "St Joseph&#39;s Parish Centre, 1981 Telegraph Road, Darfield",
+      "historicalVenueId": "2e8bacc156a6ad512ed0",
+      "method": "exact-label",
+      "totalValidVotes": 1907,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1907,
+          "votes": {
+            "5": 262,
+            "10": 90,
+            "13": 320,
+            "14": 3,
+            "16": 1018,
+            "17": 136,
+            "36": 7,
+            "56": 3,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2519": {
+      "currentAddress": "West Rolleston School, 327 Dunns Crossing Road, Rolleston",
+      "historicalVenueId": "540ecedc3c9c06820729",
+      "method": "exact-label",
+      "totalValidVotes": 914,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 914,
+          "votes": {
+            "5": 113,
+            "10": 93,
+            "13": 194,
+            "14": 8,
+            "16": 404,
+            "17": 54,
+            "36": 3,
+            "56": 1,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2712": {
+      "currentAddress": "Fendalton Community Centre, 170 Clyde Road, Fendalton",
+      "historicalVenueId": "8cdfdb505e2526cf1585",
+      "method": "exact-label",
+      "totalValidVotes": 29,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 3,
+            "14": 0,
+            "16": 13,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 0,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2885": {
+      "currentAddress": "St Mary&#39;s Anglican Church Hall, 329 Halswell Road, Halswell",
+      "historicalVenueId": "1953990ebd58c47d891a",
+      "method": "exact-label",
+      "totalValidVotes": 24,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 4,
+            "10": 2,
+            "13": 3,
+            "14": 0,
+            "16": 14,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "2910": {
+      "currentAddress": "Hei Hei Community Centre, 12 Wycola Avenue, Hei Hei",
+      "historicalVenueId": "ed9523d7e87e659e4d68",
+      "method": "exact-label",
+      "totalValidVotes": 217,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 191,
+          "votes": {
+            "5": 22,
+            "10": 11,
+            "13": 58,
+            "14": 0,
+            "16": 83,
+            "17": 13,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 26,
+          "votes": {
+            "5": 8,
+            "10": 2,
+            "13": 5,
+            "14": 0,
+            "16": 8,
+            "17": 1,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "3034": {
+      "currentAddress": "Mingimingi Hautoa Knights Stream School Hall, 1 Killarney Avenue, Halswell",
+      "historicalVenueId": "961393dcfb7a3feb389a",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 0,
+            "14": 0,
+            "16": 2,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "3336": {
+      "currentAddress": "Christchurch International Airport, International Departure Lounge - AIRSIDE, 30 Durey Road, Harewood",
+      "historicalVenueId": "6e2e17e69149ab758812",
+      "method": "exact-label",
+      "totalValidVotes": 71,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 71,
+          "votes": {
+            "5": 3,
+            "10": 3,
+            "13": 13,
+            "14": 2,
+            "16": 45,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "3343": {
+      "currentAddress": "Selwyn Sports Centre, 70 Broadlands Drive, Rolleston",
+      "historicalVenueId": "613ffaa544288a3c3029",
+      "method": "exact-label",
+      "totalValidVotes": 2801,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2801,
+          "votes": {
+            "5": 319,
+            "10": 223,
+            "13": 493,
+            "14": 5,
+            "16": 1524,
+            "17": 113,
+            "36": 7,
+            "56": 2,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    },
+    "3687": {
+      "currentAddress": "Harvard Community Lounge, Wigram Village Green, Corsair Drive, Wigram",
+      "historicalVenueId": "68d85eb2c2380d4788c9",
+      "method": "exact-label",
+      "totalValidVotes": 120,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 98,
+          "votes": {
+            "5": 16,
+            "10": 6,
+            "13": 14,
+            "14": 0,
+            "16": 57,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 2,
+            "10": 4,
+            "13": 3,
+            "14": 0,
+            "16": 11,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "45"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

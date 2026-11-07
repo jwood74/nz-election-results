@@ -1,0 +1,835 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "31",
+  "name": "North Shore",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "30",
+      "name": "North Shore"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "579": {
+      "currentAddress": "Milford Shopping Centre, 24 Milford Road, Milford",
+      "historicalVenueId": "8ec3ee9ce84b87f784cf",
+      "method": "exact-label",
+      "totalValidVotes": 7828,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 6926,
+          "votes": {
+            "5": 855,
+            "10": 445,
+            "13": 1097,
+            "14": 14,
+            "16": 4097,
+            "17": 244,
+            "36": 9,
+            "56": 4,
+            "70": 17
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 902,
+          "votes": {
+            "5": 104,
+            "10": 92,
+            "13": 156,
+            "14": 5,
+            "16": 448,
+            "17": 52,
+            "36": 1,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "906": {
+      "currentAddress": "Zion Hill Methodist Church Hall, 237 Onewa Road, Birkenhead",
+      "historicalVenueId": "4c6b48293fa246ba1590",
+      "method": "exact-label",
+      "totalValidVotes": 19,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 11,
+          "votes": {
+            "5": 1,
+            "10": 3,
+            "13": 0,
+            "14": 0,
+            "16": 4,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 0,
+            "14": 0,
+            "16": 2,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "938": {
+      "currentAddress": "Sunnynook Primary School, 35 Lyford Crescent, Sunnynook",
+      "historicalVenueId": "f14d986ea4dcc380c966",
+      "method": "exact-label",
+      "totalValidVotes": 359,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 359,
+          "votes": {
+            "5": 37,
+            "10": 30,
+            "13": 79,
+            "14": 2,
+            "16": 174,
+            "17": 19,
+            "36": 2,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "939": {
+      "currentAddress": "Bayview Primary School, 60 Bayview Road, Glenfield",
+      "historicalVenueId": "ce680997f6c82df2dd0f",
+      "method": "exact-label",
+      "totalValidVotes": 7,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 3,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "955": {
+      "currentAddress": "Forrest Hill Presbyterian Church Hall, 151 Forrest Hill Road, Forrest Hill",
+      "historicalVenueId": "8145ae5221e6b977980e",
+      "method": "exact-label",
+      "totalValidVotes": 654,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 654,
+          "votes": {
+            "5": 40,
+            "10": 47,
+            "13": 135,
+            "14": 4,
+            "16": 353,
+            "17": 34,
+            "36": 3,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "979": {
+      "currentAddress": "Milford Primary School, 34 Shakespeare Road, Milford",
+      "historicalVenueId": "fa5d32527617fef47380",
+      "method": "exact-label",
+      "totalValidVotes": 394,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 394,
+          "votes": {
+            "5": 51,
+            "10": 34,
+            "13": 70,
+            "14": 1,
+            "16": 208,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "1688": {
+      "currentAddress": "Hauraki Primary School, 82 Jutland Road, Hauraki",
+      "historicalVenueId": "352f792eba7a79dfa3e0",
+      "method": "exact-label",
+      "totalValidVotes": 409,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 409,
+          "votes": {
+            "5": 58,
+            "10": 42,
+            "13": 92,
+            "14": 2,
+            "16": 175,
+            "17": 19,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "1975": {
+      "currentAddress": "Rangitoto College, 564 East Coast Road, Mairangi Bay",
+      "historicalVenueId": "ae0879b54ba5d10f9579",
+      "method": "exact-label",
+      "totalValidVotes": 846,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 743,
+          "votes": {
+            "5": 100,
+            "10": 47,
+            "13": 59,
+            "14": 1,
+            "16": 495,
+            "17": 22,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 103,
+          "votes": {
+            "5": 9,
+            "10": 11,
+            "13": 13,
+            "14": 1,
+            "16": 58,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2491": {
+      "currentAddress": "Meadowood Community House, Unsworth Heights, 55 Meadowood Drive, Glenfield",
+      "historicalVenueId": "5f99786bbc7f37c7e2e0",
+      "method": "exact-label",
+      "totalValidVotes": 121,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 103,
+          "votes": {
+            "5": 8,
+            "10": 11,
+            "13": 16,
+            "14": 0,
+            "16": 60,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 1,
+            "14": 0,
+            "16": 11,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2508": {
+      "currentAddress": "Mairangi Bay Community Church, 49 Maxwelton Drive, Mairangi Bay",
+      "historicalVenueId": "18a606d0b7bad92059c0",
+      "method": "exact-label",
+      "totalValidVotes": 1032,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 689,
+          "votes": {
+            "5": 80,
+            "10": 54,
+            "13": 113,
+            "14": 0,
+            "16": 401,
+            "17": 14,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 343,
+          "votes": {
+            "5": 35,
+            "10": 24,
+            "13": 55,
+            "14": 2,
+            "16": 173,
+            "17": 23,
+            "36": 1,
+            "56": 0,
+            "70": 11
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2520": {
+      "currentAddress": "Devonport Community House, 32 Clarence Street, Devonport",
+      "historicalVenueId": "f78628f466b9ad3d9863",
+      "method": "exact-label",
+      "totalValidVotes": 632,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 632,
+          "votes": {
+            "5": 62,
+            "10": 122,
+            "13": 181,
+            "14": 5,
+            "16": 196,
+            "17": 28,
+            "36": 1,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2521": {
+      "currentAddress": "Campbells Bay Primary School, 77 Aberdeen Road, Campbells Bay",
+      "historicalVenueId": "6057550b7d826017c13b",
+      "method": "exact-label",
+      "totalValidVotes": 608,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 608,
+          "votes": {
+            "5": 66,
+            "10": 57,
+            "13": 96,
+            "14": 2,
+            "16": 347,
+            "17": 25,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2538": {
+      "currentAddress": "Devonport Yacht Club, 25 King Edward Parade, Devonport",
+      "historicalVenueId": "a4770b9bc1ef246f6725",
+      "method": "exact-label",
+      "totalValidVotes": 329,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 329,
+          "votes": {
+            "5": 37,
+            "10": 54,
+            "13": 89,
+            "14": 0,
+            "16": 112,
+            "17": 12,
+            "36": 1,
+            "56": 2,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2770": {
+      "currentAddress": "Bayswater Primary School, 181 Bayswater Avenue, Bayswater",
+      "historicalVenueId": "f77a55cc008cf490571c",
+      "method": "exact-label",
+      "totalValidVotes": 775,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 775,
+          "votes": {
+            "5": 76,
+            "10": 137,
+            "13": 196,
+            "14": 6,
+            "16": 267,
+            "17": 37,
+            "36": 5,
+            "56": 2,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2829": {
+      "currentAddress": "Westlake Boys High School, 30 Forrest Hill Road, Forrest Hill",
+      "historicalVenueId": "8b9a26dd943e86205573",
+      "method": "exact-label",
+      "totalValidVotes": 335,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 335,
+          "votes": {
+            "5": 30,
+            "10": 27,
+            "13": 66,
+            "14": 0,
+            "16": 183,
+            "17": 13,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2857": {
+      "currentAddress": "Milford Bowling Club, 20 Commodore Parry Road, Castor Bay",
+      "historicalVenueId": "94ec74a9c70d7fe03e81",
+      "method": "exact-label",
+      "totalValidVotes": 405,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 405,
+          "votes": {
+            "5": 48,
+            "10": 38,
+            "13": 68,
+            "14": 2,
+            "16": 197,
+            "17": 24,
+            "36": 1,
+            "56": 1,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2892": {
+      "currentAddress": "Sunnynook Baptist Church, 138 Sunnynook Road, Sunnynook",
+      "historicalVenueId": "a0e44109832072186629",
+      "method": "exact-label",
+      "totalValidVotes": 1954,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1463,
+          "votes": {
+            "5": 147,
+            "10": 125,
+            "13": 243,
+            "14": 7,
+            "16": 832,
+            "17": 63,
+            "36": 3,
+            "56": 0,
+            "70": 6
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 491,
+          "votes": {
+            "5": 31,
+            "10": 46,
+            "13": 112,
+            "14": 3,
+            "16": 230,
+            "17": 30,
+            "36": 4,
+            "56": 1,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "2913": {
+      "currentAddress": "Westfield Mall, Centre Court, 219 Don McKinnon Drive, Albany",
+      "historicalVenueId": "51bd901b0661c9882918",
+      "method": "exact-label",
+      "totalValidVotes": 628,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 580,
+          "votes": {
+            "5": 54,
+            "10": 48,
+            "13": 69,
+            "14": 1,
+            "16": 373,
+            "17": 18,
+            "36": 2,
+            "56": 3,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 48,
+          "votes": {
+            "5": 3,
+            "10": 7,
+            "13": 9,
+            "14": 0,
+            "16": 27,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3005": {
+      "currentAddress": "St Thomas More Catholic Church Hall, 4 St Thomas More Lane, Glenfield",
+      "historicalVenueId": "b0d7d494685e44082416",
+      "method": "exact-label",
+      "totalValidVotes": 28,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 2,
+            "10": 2,
+            "13": 4,
+            "14": 0,
+            "16": 9,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 7,
+          "votes": {
+            "5": 0,
+            "10": 2,
+            "13": 2,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3053": {
+      "currentAddress": "Belmont Intermediate School, Gate 2, 10 Winscombe Street, Belmont",
+      "historicalVenueId": "b38d17fb694cb90f4a24",
+      "method": "exact-label",
+      "totalValidVotes": 384,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 384,
+          "votes": {
+            "5": 43,
+            "10": 54,
+            "13": 73,
+            "14": 0,
+            "16": 180,
+            "17": 16,
+            "36": 1,
+            "56": 2,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3057": {
+      "currentAddress": "Stanley Bay Primary School, 15 Russell Street, Stanley Bay",
+      "historicalVenueId": "6849b327df16cb90a81a",
+      "method": "exact-label",
+      "totalValidVotes": 264,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 264,
+          "votes": {
+            "5": 27,
+            "10": 47,
+            "13": 67,
+            "14": 2,
+            "16": 96,
+            "17": 15,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3113": {
+      "currentAddress": "Sunnybrae Normal School, 36 Sunnybrae Road, Northcote",
+      "historicalVenueId": "2ee03fecb1cfbfdfe270",
+      "method": "exact-label",
+      "totalValidVotes": 18,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 5,
+            "14": 1,
+            "16": 6,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3360": {
+      "currentAddress": "St Anne&#39;s Hall, 1 Glencoe Road, Browns Bay",
+      "historicalVenueId": "a4cc8396999f8ad375a0",
+      "method": "exact-label",
+      "totalValidVotes": 15,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 0,
+            "10": 4,
+            "13": 1,
+            "14": 0,
+            "16": 9,
+            "17": 0,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3463": {
+      "currentAddress": "PAK&#39;nSAVE Silverdale, Portacom, 20 Hibiscus Coast Highway, Silverdale",
+      "historicalVenueId": "2705d633d0353a2d964b",
+      "method": "exact-label",
+      "totalValidVotes": 19,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 19,
+          "votes": {
+            "5": 1,
+            "10": 0,
+            "13": 4,
+            "14": 0,
+            "16": 14,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3593": {
+      "currentAddress": "Auckland University of Technology, Level 4, Building WA, 55 Wellesley Street, Auckland City",
+      "historicalVenueId": "e4211c7fd6272a4478d2",
+      "method": "exact-label",
+      "totalValidVotes": 38,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 38,
+          "votes": {
+            "5": 3,
+            "10": 16,
+            "13": 5,
+            "14": 0,
+            "16": 9,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3617": {
+      "currentAddress": "North Shore Hospital, Main Entrance Foyer, Shakespeare Road, Milford",
+      "historicalVenueId": "c3fc43347d7e12dc99c5",
+      "method": "exact-label",
+      "totalValidVotes": 398,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 347,
+          "votes": {
+            "5": 35,
+            "10": 36,
+            "13": 81,
+            "14": 4,
+            "16": 173,
+            "17": 7,
+            "36": 0,
+            "56": 1,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 51,
+          "votes": {
+            "5": 2,
+            "10": 6,
+            "13": 11,
+            "14": 1,
+            "16": 23,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    },
+    "3829": {
+      "currentAddress": "Reformed Church of the North Shore, 74 Trias Road, Tōtara Vale",
+      "historicalVenueId": "0d9860a1334d741a280f",
+      "method": "exact-label",
+      "totalValidVotes": 10,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 10,
+          "votes": {
+            "5": 2,
+            "10": 0,
+            "13": 1,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "30"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

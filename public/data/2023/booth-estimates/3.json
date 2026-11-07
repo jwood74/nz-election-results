@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "3",
+  "name": "Botany",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "4",
+      "name": "Botany"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "1354": {
+      "currentAddress": "Somerville Intermediate School, 39 Somerville Road, Somerville",
+      "historicalVenueId": "04b14ff92c2b1487d41a",
+      "method": "exact-label",
+      "totalValidVotes": 360,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 360,
+          "votes": {
+            "5": 40,
+            "10": 17,
+            "13": 56,
+            "14": 1,
+            "16": 210,
+            "17": 18,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1358": {
+      "currentAddress": "Kia Aroha College, 51 Othello Drive, Flat Bush",
+      "historicalVenueId": "a781465d5e295d886025",
+      "method": "exact-label",
+      "totalValidVotes": 247,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 247,
+          "votes": {
+            "5": 6,
+            "10": 22,
+            "13": 165,
+            "14": 1,
+            "16": 33,
+            "17": 12,
+            "36": 1,
+            "56": 1,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1401": {
+      "currentAddress": "Botany Downs Primary School, 35 Mirrabooka Avenue, Botany Downs",
+      "historicalVenueId": "04c4e7ab0b90eeaa6aba",
+      "method": "exact-label",
+      "totalValidVotes": 412,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 412,
+          "votes": {
+            "5": 43,
+            "10": 28,
+            "13": 86,
+            "14": 1,
+            "16": 212,
+            "17": 23,
+            "36": 3,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1772": {
+      "currentAddress": "Our Lady Star of the Sea School, 14 Oakridge Way, Northpark",
+      "historicalVenueId": "504eac94b0b321c0ceb9",
+      "method": "exact-label",
+      "totalValidVotes": 309,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 309,
+          "votes": {
+            "5": 26,
+            "10": 21,
+            "13": 38,
+            "14": 0,
+            "16": 196,
+            "17": 14,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "1825": {
+      "currentAddress": "Ferguson Intermediate School, 20-40 Ferguson Road, Ōtara",
+      "historicalVenueId": "fe2e1b08107c548b632f",
+      "method": "exact-label",
+      "totalValidVotes": 40,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 40,
+          "votes": {
+            "5": 0,
+            "10": 3,
+            "13": 31,
+            "14": 0,
+            "16": 3,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2279": {
+      "currentAddress": "Cockle Bay Playcentre, 17 Pah Road, Cockle Bay",
+      "historicalVenueId": "4cf545f6f590ddb11ada",
+      "method": "exact-label",
+      "totalValidVotes": 345,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 345,
+          "votes": {
+            "5": 44,
+            "10": 33,
+            "13": 42,
+            "14": 1,
+            "16": 193,
+            "17": 14,
+            "36": 0,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2778": {
+      "currentAddress": "Baverstock Oaks School, 21 Baverstock Road, Flat Bush",
+      "historicalVenueId": "c1b9812017c0c3728181",
+      "method": "exact-label",
+      "totalValidVotes": 700,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 700,
+          "votes": {
+            "5": 36,
+            "10": 32,
+            "13": 139,
+            "14": 2,
+            "16": 448,
+            "17": 9,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2788": {
+      "currentAddress": "Elim Christian College, Golflands Campus, 94 Golfland Drive, Botany",
+      "historicalVenueId": "af05c5595ad2476d305b",
+      "method": "exact-label",
+      "totalValidVotes": 426,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 426,
+          "votes": {
+            "5": 39,
+            "10": 30,
+            "13": 61,
+            "14": 3,
+            "16": 252,
+            "17": 25,
+            "36": 0,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2947": {
+      "currentAddress": "Cockle Bay School, 24 Sandspit Road, Howick",
+      "historicalVenueId": "4b6edfbc7f9c0aef516c",
+      "method": "exact-label",
+      "totalValidVotes": 533,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 533,
+          "votes": {
+            "5": 68,
+            "10": 37,
+            "13": 66,
+            "14": 3,
+            "16": 312,
+            "17": 21,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2976": {
+      "currentAddress": "Tupu Youth Library, 102 Dawson Road, Clover Park",
+      "historicalVenueId": "64a3c9c90d7a77039cd5",
+      "method": "exact-label",
+      "totalValidVotes": 824,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 824,
+          "votes": {
+            "5": 9,
+            "10": 35,
+            "13": 610,
+            "14": 13,
+            "16": 103,
+            "17": 26,
+            "36": 5,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "2980": {
+      "currentAddress": "Willowbank School, 56 Middlefield Drive, Dannemora",
+      "historicalVenueId": "fc9811a36c1f38ae5587",
+      "method": "exact-label",
+      "totalValidVotes": 764,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 764,
+          "votes": {
+            "5": 52,
+            "10": 39,
+            "13": 117,
+            "14": 4,
+            "16": 482,
+            "17": 39,
+            "36": 2,
+            "56": 1,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3018": {
+      "currentAddress": "Point View Primary School, 25 Kilkenny Drive, Dannemora",
+      "historicalVenueId": "49f4cb1007f5c08579ac",
+      "method": "exact-label",
+      "totalValidVotes": 696,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 696,
+          "votes": {
+            "5": 73,
+            "10": 39,
+            "13": 89,
+            "14": 3,
+            "16": 445,
+            "17": 17,
+            "36": 2,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3084": {
+      "currentAddress": "MIT Manukau Campus, The Atrium, Corner Manukau Station Road & Davies Avenue, Manukau City Centre",
+      "historicalVenueId": "baf9ca4c35e4c4ea5663",
+      "method": "exact-label",
+      "totalValidVotes": 72,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 72,
+          "votes": {
+            "5": 4,
+            "10": 9,
+            "13": 26,
+            "14": 0,
+            "16": 30,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3213": {
+      "currentAddress": "Elim Christian Centre, 159 Botany Road, Botany Downs",
+      "historicalVenueId": "48b9608015ea397255dc",
+      "method": "exact-label",
+      "totalValidVotes": 538,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 538,
+          "votes": {
+            "5": 49,
+            "10": 33,
+            "13": 99,
+            "14": 1,
+            "16": 294,
+            "17": 25,
+            "36": 3,
+            "56": 2,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3231": {
+      "currentAddress": "Sancta Maria College, 319 Te Irirangi Drive, Flat Bush",
+      "historicalVenueId": "eac5a47a2016f4337561",
+      "method": "exact-label",
+      "totalValidVotes": 247,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 247,
+          "votes": {
+            "5": 18,
+            "10": 17,
+            "13": 67,
+            "14": 2,
+            "16": 129,
+            "17": 3,
+            "36": 2,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3273": {
+      "currentAddress": "Pakuranga Golf Club, 199 Botany Road, Botany",
+      "historicalVenueId": "995ed5f3db583c3d6863",
+      "method": "exact-label",
+      "totalValidVotes": 1494,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1494,
+          "votes": {
+            "5": 133,
+            "10": 48,
+            "13": 174,
+            "14": 0,
+            "16": 1069,
+            "17": 43,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3414": {
+      "currentAddress": "Auckland Taiwanese Presbyterian Church, 158 Pakuranga Road, Pakuranga",
+      "historicalVenueId": "87ed30931134c7823c13",
+      "method": "exact-label",
+      "totalValidVotes": 21,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 9,
+          "votes": {
+            "5": 2,
+            "10": 2,
+            "13": 1,
+            "14": 0,
+            "16": 2,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3418": {
+      "currentAddress": "Highland Park Library, 16 Highland Park Drive, Highland Park",
+      "historicalVenueId": "6e975cdd8a17626bdd5c",
+      "method": "exact-label",
+      "totalValidVotes": 1408,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1178,
+          "votes": {
+            "5": 112,
+            "10": 60,
+            "13": 184,
+            "14": 1,
+            "16": 736,
+            "17": 49,
+            "36": 5,
+            "56": 1,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 230,
+          "votes": {
+            "5": 22,
+            "10": 17,
+            "13": 56,
+            "14": 0,
+            "16": 104,
+            "17": 15,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3419": {
+      "currentAddress": "Trinity Methodist Church Hall, 474 Pakuranga Road, Pakuranga",
+      "historicalVenueId": "6b2e18c6bbd74229a76d",
+      "method": "exact-label",
+      "totalValidVotes": 129,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 115,
+          "votes": {
+            "5": 14,
+            "10": 11,
+            "13": 20,
+            "14": 1,
+            "16": 61,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 11,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3550": {
+      "currentAddress": "Old Flat Bush School Hall, Corner Murphys Road & Flat Bush Road, Flat Bush",
+      "historicalVenueId": "0feebfeab091ca0aef85",
+      "method": "exact-label",
+      "totalValidVotes": 141,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 79,
+          "votes": {
+            "5": 6,
+            "10": 2,
+            "13": 22,
+            "14": 0,
+            "16": 45,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 62,
+          "votes": {
+            "5": 3,
+            "10": 4,
+            "13": 17,
+            "14": 0,
+            "16": 33,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    },
+    "3561": {
+      "currentAddress": "Ormiston Activity Centre, Barry Curtis Park, Chapel Road, Flat Bush",
+      "historicalVenueId": "66de83a8d3a620038dfb",
+      "method": "exact-label",
+      "totalValidVotes": 111,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 111,
+          "votes": {
+            "5": 5,
+            "10": 11,
+            "13": 42,
+            "14": 2,
+            "16": 41,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "4"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

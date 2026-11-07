@@ -1,0 +1,1040 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "38",
+  "name": "Port Waikato",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "unchanged",
+  "related2023": [
+    {
+      "id": "39",
+      "name": "Port Waikato"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "452": {
+      "currentAddress": "Meremere School, 23 Heather Green Avenue, Meremere",
+      "historicalVenueId": "2102f9609c7149ffd793",
+      "method": "exact-label",
+      "totalValidVotes": 83,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 83,
+          "votes": {
+            "5": 6,
+            "10": 5,
+            "13": 14,
+            "14": 1,
+            "16": 36,
+            "17": 8,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "496": {
+      "currentAddress": "Tuakau Town Hall, 70 George Street, Tuakau",
+      "historicalVenueId": "36a47b073445a041eb21",
+      "method": "exact-label",
+      "totalValidVotes": 2496,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1870,
+          "votes": {
+            "5": 229,
+            "10": 105,
+            "13": 371,
+            "14": 13,
+            "16": 913,
+            "17": 171,
+            "36": 4,
+            "56": 1,
+            "70": 22
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 626,
+          "votes": {
+            "5": 71,
+            "10": 56,
+            "13": 144,
+            "14": 11,
+            "16": 233,
+            "17": 65,
+            "36": 3,
+            "56": 1,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "773": {
+      "currentAddress": "Pukekohe East School, 137 Runciman Road, Pukekohe",
+      "historicalVenueId": "78d215bd53522d193613",
+      "method": "exact-label",
+      "totalValidVotes": 303,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 303,
+          "votes": {
+            "5": 52,
+            "10": 13,
+            "13": 29,
+            "14": 1,
+            "16": 180,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "777": {
+      "currentAddress": "Bombay School, 35 Paparata Road, Bombay",
+      "historicalVenueId": "5eeca7d01b74ef4aab0c",
+      "method": "exact-label",
+      "totalValidVotes": 95,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 95,
+          "votes": {
+            "5": 18,
+            "10": 6,
+            "13": 11,
+            "14": 0,
+            "16": 47,
+            "17": 8,
+            "36": 2,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "780": {
+      "currentAddress": "Ramarama School, 126 Ararimu Road, Ramarama",
+      "historicalVenueId": "aea6f28d99198ba3052f",
+      "method": "exact-label",
+      "totalValidVotes": 32,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 32,
+          "votes": {
+            "5": 4,
+            "10": 2,
+            "13": 3,
+            "14": 0,
+            "16": 20,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "781": {
+      "currentAddress": "Pukekohe Intermediate School, 44 Queen Street, Pukekohe",
+      "historicalVenueId": "29ae4dd2f6e87747ffe7",
+      "method": "exact-label",
+      "totalValidVotes": 1141,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 1141,
+          "votes": {
+            "5": 125,
+            "10": 63,
+            "13": 292,
+            "14": 5,
+            "16": 505,
+            "17": 86,
+            "36": 8,
+            "56": 0,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "783": {
+      "currentAddress": "Valley School, 42 East Street, Pukekohe",
+      "historicalVenueId": "ed229020ea3e5a8fa514",
+      "method": "exact-label",
+      "totalValidVotes": 742,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 742,
+          "votes": {
+            "5": 104,
+            "10": 58,
+            "13": 121,
+            "14": 2,
+            "16": 383,
+            "17": 40,
+            "36": 4,
+            "56": 2,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "926": {
+      "currentAddress": "Aka Aka School, 809 Aka Aka Road, Aka Aka",
+      "historicalVenueId": "b283dc79ad5876f37931",
+      "method": "exact-label",
+      "totalValidVotes": 138,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 138,
+          "votes": {
+            "5": 19,
+            "10": 2,
+            "13": 17,
+            "14": 0,
+            "16": 70,
+            "17": 14,
+            "36": 1,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "933": {
+      "currentAddress": "Buckland School, 72 George Crescent, Buckland",
+      "historicalVenueId": "06c8d7a51c54e376aa43",
+      "method": "exact-label",
+      "totalValidVotes": 430,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 430,
+          "votes": {
+            "5": 65,
+            "10": 26,
+            "13": 53,
+            "14": 0,
+            "16": 227,
+            "17": 30,
+            "36": 1,
+            "56": 1,
+            "70": 14
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "934": {
+      "currentAddress": "Mauku School, 389 Union Road, Mauku",
+      "historicalVenueId": "ef7a247ea68f18c1f119",
+      "method": "exact-label",
+      "totalValidVotes": 308,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 308,
+          "votes": {
+            "5": 52,
+            "10": 16,
+            "13": 35,
+            "14": 1,
+            "16": 164,
+            "17": 24,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "936": {
+      "currentAddress": "Te Paina School, 15 Glass Road, Mercer",
+      "historicalVenueId": "1e00aa7e91987293393f",
+      "method": "exact-label",
+      "totalValidVotes": 71,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 71,
+          "votes": {
+            "5": 11,
+            "10": 4,
+            "13": 9,
+            "14": 0,
+            "16": 36,
+            "17": 9,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "941": {
+      "currentAddress": "Karaka School Hall, 12 Blackbridge Road, Karaka",
+      "historicalVenueId": "e4c779da66c0888fc947",
+      "method": "exact-label",
+      "totalValidVotes": 48,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 48,
+          "votes": {
+            "5": 4,
+            "10": 4,
+            "13": 4,
+            "14": 0,
+            "16": 27,
+            "17": 2,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1093": {
+      "currentAddress": "Mangatāwhiri School, 15 McKenzie Road, Mangatāwhiri",
+      "historicalVenueId": "09c9dbade2612b73e0ef",
+      "method": "exact-label",
+      "totalValidVotes": 202,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 202,
+          "votes": {
+            "5": 37,
+            "10": 3,
+            "13": 18,
+            "14": 0,
+            "16": 119,
+            "17": 14,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1096": {
+      "currentAddress": "Maramarua School, 2200 State Highway 2, Maramarua",
+      "historicalVenueId": "ad4967b80d6b2a0cac3b",
+      "method": "exact-label",
+      "totalValidVotes": 80,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 80,
+          "votes": {
+            "5": 15,
+            "10": 1,
+            "13": 12,
+            "14": 0,
+            "16": 43,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1268": {
+      "currentAddress": "Pukeoware School, 479 Baldhill Road, Pukeoware",
+      "historicalVenueId": "b95fc080687c248184c4",
+      "method": "exact-label",
+      "totalValidVotes": 155,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 155,
+          "votes": {
+            "5": 30,
+            "10": 14,
+            "13": 25,
+            "14": 0,
+            "16": 68,
+            "17": 6,
+            "36": 1,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1269": {
+      "currentAddress": "Puni School, 357 Waiuku Road, Puni",
+      "historicalVenueId": "d9a50b0956d30a8e29ca",
+      "method": "exact-label",
+      "totalValidVotes": 278,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 278,
+          "votes": {
+            "5": 38,
+            "10": 9,
+            "13": 38,
+            "14": 0,
+            "16": 165,
+            "17": 17,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1285": {
+      "currentAddress": "Harrisville School, 202 Harrisville Road, Harrisville",
+      "historicalVenueId": "3804a0b4c77c986620f6",
+      "method": "exact-label",
+      "totalValidVotes": 223,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 223,
+          "votes": {
+            "5": 28,
+            "10": 14,
+            "13": 33,
+            "14": 4,
+            "16": 112,
+            "17": 18,
+            "36": 1,
+            "56": 0,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1316": {
+      "currentAddress": "Te Awa, The Base, Centre Court, Maahanga Drive, Te Rapa",
+      "historicalVenueId": "97970bed436159c81400",
+      "method": "exact-label",
+      "totalValidVotes": 72,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 72,
+          "votes": {
+            "5": 8,
+            "10": 5,
+            "13": 13,
+            "14": 1,
+            "16": 41,
+            "17": 3,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1371": {
+      "currentAddress": "Te Kauwhata College, 50/64 Waerenga Road, Te Kauwhata",
+      "historicalVenueId": "04f98eefa1266e634d1d",
+      "method": "exact-label",
+      "totalValidVotes": 492,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 492,
+          "votes": {
+            "5": 78,
+            "10": 26,
+            "13": 96,
+            "14": 4,
+            "16": 186,
+            "17": 63,
+            "36": 2,
+            "56": 0,
+            "70": 17
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1563": {
+      "currentAddress": "Waipipi School, 100 Creamery Road, Waipipi",
+      "historicalVenueId": "efd204b6f3e3cb11c8dc",
+      "method": "exact-label",
+      "totalValidVotes": 176,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 176,
+          "votes": {
+            "5": 27,
+            "10": 13,
+            "13": 32,
+            "14": 0,
+            "16": 75,
+            "17": 16,
+            "36": 0,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1564": {
+      "currentAddress": "Waiuku College, 43 Constable Road, Waiuku",
+      "historicalVenueId": "e4be01ade3e3fe808330",
+      "method": "exact-label",
+      "totalValidVotes": 363,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 363,
+          "votes": {
+            "5": 32,
+            "10": 30,
+            "13": 68,
+            "14": 4,
+            "16": 144,
+            "17": 56,
+            "36": 3,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1569": {
+      "currentAddress": "Sandspit Road School, 60 Sandspit Road, Waiuku",
+      "historicalVenueId": "4f80de87e94dc7101bd2",
+      "method": "exact-label",
+      "totalValidVotes": 523,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 523,
+          "votes": {
+            "5": 67,
+            "10": 31,
+            "13": 111,
+            "14": 5,
+            "16": 218,
+            "17": 45,
+            "36": 3,
+            "56": 0,
+            "70": 19
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1587": {
+      "currentAddress": "Pukekawa School, 803 Highway 22, Pukekawa",
+      "historicalVenueId": "530be869b6d824a53e3c",
+      "method": "exact-label",
+      "totalValidVotes": 418,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 418,
+          "votes": {
+            "5": 58,
+            "10": 19,
+            "13": 61,
+            "14": 2,
+            "16": 234,
+            "17": 27,
+            "36": 4,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1589": {
+      "currentAddress": "Onewhero Area School, 29 Hall Road, Onewhero",
+      "historicalVenueId": "e6bd77f2a23e996c1ad6",
+      "method": "exact-label",
+      "totalValidVotes": 355,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 355,
+          "votes": {
+            "5": 48,
+            "10": 14,
+            "13": 59,
+            "14": 2,
+            "16": 152,
+            "17": 52,
+            "36": 2,
+            "56": 0,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1649": {
+      "currentAddress": "Tūākau Primary School, 6 School Road, Tūākau",
+      "historicalVenueId": "22e885bf2bf4d748dd6f",
+      "method": "exact-label",
+      "totalValidVotes": 159,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 159,
+          "votes": {
+            "5": 10,
+            "10": 12,
+            "13": 33,
+            "14": 5,
+            "16": 67,
+            "17": 21,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1775": {
+      "currentAddress": "Pōkeno Community Hall, 19 Market Street, Pōkeno",
+      "historicalVenueId": "4cced1b0f4d0c9e0a725",
+      "method": "exact-label",
+      "totalValidVotes": 2403,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1748,
+          "votes": {
+            "5": 244,
+            "10": 70,
+            "13": 283,
+            "14": 9,
+            "16": 984,
+            "17": 105,
+            "36": 4,
+            "56": 2,
+            "70": 11
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 655,
+          "votes": {
+            "5": 47,
+            "10": 30,
+            "13": 156,
+            "14": 8,
+            "16": 326,
+            "17": 48,
+            "36": 5,
+            "56": 0,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1805": {
+      "currentAddress": "Church By The Seashore, 14-16 Torkar Road, Clarks Beach",
+      "historicalVenueId": "bda9c9f3fbbb43140c0a",
+      "method": "exact-label",
+      "totalValidVotes": 476,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 476,
+          "votes": {
+            "5": 49,
+            "10": 27,
+            "13": 88,
+            "14": 3,
+            "16": 247,
+            "17": 39,
+            "36": 2,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1817": {
+      "currentAddress": "Patumāhoe School, 38 Patumāhoe Road, Patumāhoe",
+      "historicalVenueId": "609d747ec96a5e792a85",
+      "method": "exact-label",
+      "totalValidVotes": 685,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 685,
+          "votes": {
+            "5": 74,
+            "10": 41,
+            "13": 83,
+            "14": 4,
+            "16": 415,
+            "17": 42,
+            "36": 8,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "1956": {
+      "currentAddress": "Waerenga School, 1066 Taniwha Road, Waerenga",
+      "historicalVenueId": "98f9fdc12fb2f1e95cb9",
+      "method": "exact-label",
+      "totalValidVotes": 57,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 57,
+          "votes": {
+            "5": 6,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 37,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "2502": {
+      "currentAddress": "Harvest Christian Church, 3 Beach Road, Papakura",
+      "historicalVenueId": "bf96b34a73943d00852b",
+      "method": "exact-label",
+      "totalValidVotes": 24,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 24,
+          "votes": {
+            "5": 2,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 14,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "2601": {
+      "currentAddress": "Waikaretu School, 1448 Waikaretu Valley Road, Waikaretu",
+      "historicalVenueId": "89f8deff4b963ad99b12",
+      "method": "exact-label",
+      "totalValidVotes": 70,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 70,
+          "votes": {
+            "5": 15,
+            "10": 4,
+            "13": 4,
+            "14": 2,
+            "16": 36,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "3347": {
+      "currentAddress": "Drury Community Hall, 10 Tui Street, Drury",
+      "historicalVenueId": "928b5f5871c90ea0c372",
+      "method": "exact-label",
+      "totalValidVotes": 364,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 310,
+          "votes": {
+            "5": 46,
+            "10": 12,
+            "13": 28,
+            "14": 0,
+            "16": 194,
+            "17": 17,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 54,
+          "votes": {
+            "5": 8,
+            "10": 0,
+            "13": 6,
+            "14": 0,
+            "16": 34,
+            "17": 5,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "3348": {
+      "currentAddress": "Papakura Marae, 29 Hunua Road, Papakura",
+      "historicalVenueId": "9932463d281f6a48d2eb",
+      "method": "exact-label",
+      "totalValidVotes": 12,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 12,
+          "votes": {
+            "5": 2,
+            "10": 1,
+            "13": 3,
+            "14": 1,
+            "16": 4,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "3448": {
+      "currentAddress": "Ruawaro Combined School, 76 Bain Road, Huntly",
+      "historicalVenueId": "d98891521a433cbe5c89",
+      "method": "exact-label",
+      "totalValidVotes": 44,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 44,
+          "votes": {
+            "5": 6,
+            "10": 1,
+            "13": 3,
+            "14": 0,
+            "16": 27,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "3486": {
+      "currentAddress": "Bledisloe Park Sports Centre, 5 John Street, Pukekohe",
+      "historicalVenueId": "e10421b92a8ede7254f0",
+      "method": "exact-label",
+      "totalValidVotes": 3619,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3619,
+          "votes": {
+            "5": 461,
+            "10": 157,
+            "13": 618,
+            "14": 20,
+            "16": 2024,
+            "17": 202,
+            "36": 10,
+            "56": 1,
+            "70": 23
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "3501": {
+      "currentAddress": "Karaka Pavilion, NZ Bloodstock Centre, 10 Hinau Road, Karaka",
+      "historicalVenueId": "a0b918c6e72c5f68d160",
+      "method": "exact-label",
+      "totalValidVotes": 135,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 106,
+          "votes": {
+            "5": 15,
+            "10": 3,
+            "13": 14,
+            "14": 1,
+            "16": 67,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 29,
+          "votes": {
+            "5": 6,
+            "10": 2,
+            "13": 2,
+            "14": 2,
+            "16": 15,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "3770": {
+      "currentAddress": "Waiuku Bowling Club, 117 Queen Street, Waiuku",
+      "historicalVenueId": "442e6e82691df877aff7",
+      "method": "exact-label",
+      "totalValidVotes": 1526,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1526,
+          "votes": {
+            "5": 197,
+            "10": 88,
+            "13": 290,
+            "14": 4,
+            "16": 731,
+            "17": 158,
+            "36": 6,
+            "56": 0,
+            "70": 13
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    },
+    "3799": {
+      "currentAddress": "Counties Tennis Centre, 82-86 West Street, Pukekohe",
+      "historicalVenueId": "ddaf188200eaebb3b6b5",
+      "method": "exact-label",
+      "totalValidVotes": 2212,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2212,
+          "votes": {
+            "5": 297,
+            "10": 98,
+            "13": 358,
+            "14": 13,
+            "16": 1216,
+            "17": 168,
+            "36": 1,
+            "56": 2,
+            "70": 14
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "39"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "scope": "venue-label-only-not-production-approval",
+  "reviewer": "assistant-source-label-comparison",
+  "currentMetadataSha256": "984d9b228d9a542deeb232d94d1d41754578db1b3e4200289a5c924f91e1591f",
+  "historicalManifestSha256": "56f09d871b6d1b75727614eebcc25fd67db2c14cb3e08b29d2b23092d3a5e201",
+  "limitations": "These checks compare the saved current and historical venue labels, street addresses and locality only. No historical coordinates, current vote category, current result-file membership or resident-population equivalence has been verified. They are used only in a separately labelled backtest scenario, not production swing or reconstructed results.",
+  "matches": [
+    { "currentPlaceId": "3274", "historicalVenueId": "c5fb9e6bc41711538034", "basis": "McAlpine/McAlpines Pipe Band Hall: both labels specify 8A Ashley Street, Rangiora. Historical landmark text is omitted in the current label. No second historical group at that address/locality was found." },
+    { "currentPlaceId": "2488", "historicalVenueId": "16349fbf65aa26ddf334", "basis": "Kaiapoi Library and Service Centre: both labels specify 176 Williams Street, Kaiapoi. Current label adds Ruataniwha Room. Building-label association only; the room/counting coverage still needs confirmation." },
+    { "currentPlaceId": "2451", "historicalVenueId": "47af8e50bb681e56143f", "basis": "Meridian Mall: both labels specify 285 George Street and access from Hanover Street. Central Dunedin/Dunedin Central word order differs. Entrance/count coverage remains unverified." },
+    { "currentPlaceId": "370", "historicalVenueId": "ddd857dca41db745d8e1", "basis": "University of Otago ISB Link: same venue and 65 Albany Street, Dunedin North. Current label adds the Cumberland Street corner description." },
+    { "currentPlaceId": "1792", "historicalVenueId": "ffb960c7ef7331680c16", "basis": "Thames War Memorial Civic Centre: both labels specify 200 Mary Street, Thames. Current label omits Auditorium. Building-label association only; room/count coverage remains unverified." },
+    { "currentPlaceId": "954", "historicalVenueId": "8d3d649c6b571c2fc5a4", "basis": "Walnut Ave Pavilion/Pavillion: spelling variation, with identical 66 Walnut Avenue, Ashburton." },
+    { "currentPlaceId": "1791", "historicalVenueId": "51bb3f6374d728d2b8b3", "basis": "Waihi Memorial Hall/War Memorial Hall: same 41 Seddon Street, Waihi; current label omits War." },
+    { "currentPlaceId": "1756", "historicalVenueId": "31f4276db4bf73b0070c", "basis": "Ashburton Event Centre/Trust Event Centre: same 211A Wills Street, Ashburton; current label omits Trust." },
+    { "currentPlaceId": "1794", "historicalVenueId": "1a0ad986bfdb1d19fb14", "basis": "Paeroa Memorial Hall/Paeroa & District War Memorial Hall: same 144 Normanby Road, Paeroa. Current label expands the venue name." }
+  ]
+}

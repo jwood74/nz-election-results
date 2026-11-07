@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "36",
+  "name": "Palmerston North",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "36",
+      "name": "Palmerston North"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "451": {
+      "currentAddress": "St Peter&#39;s College, 1 Holdsworth Avenue, Milson",
+      "historicalVenueId": "8d8c689cf6a8ad3c97cf",
+      "method": "exact-label",
+      "totalValidVotes": 528,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 528,
+          "votes": {
+            "5": 64,
+            "10": 39,
+            "13": 141,
+            "14": 2,
+            "16": 215,
+            "17": 26,
+            "36": 4,
+            "56": 0,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "465": {
+      "currentAddress": "Te Manawa Museum, 326 Main Street, Palmerston North Central",
+      "historicalVenueId": "6c24ae54119410d55c7a",
+      "method": "exact-label",
+      "totalValidVotes": 3288,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2784,
+          "votes": {
+            "5": 224,
+            "10": 469,
+            "13": 841,
+            "14": 27,
+            "16": 925,
+            "17": 156,
+            "36": 12,
+            "56": 3,
+            "70": 15
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 504,
+          "votes": {
+            "5": 34,
+            "10": 101,
+            "13": 166,
+            "14": 14,
+            "16": 124,
+            "17": 27,
+            "36": 1,
+            "56": 0,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "975": {
+      "currentAddress": "Cornerstone Christian Education School Hall, 119 Mihaere Drive, Kelvin Grove",
+      "historicalVenueId": "bb4c0338d3ca3cda9d40",
+      "method": "exact-label",
+      "totalValidVotes": 1180,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 1180,
+          "votes": {
+            "5": 114,
+            "10": 83,
+            "13": 284,
+            "14": 11,
+            "16": 506,
+            "17": 89,
+            "36": 4,
+            "56": 0,
+            "70": 18
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "1090": {
+      "currentAddress": "Whakarongo Community Hall, 17 Stoney Creek Road, Whakarongo",
+      "historicalVenueId": "35b2ff41011466ac5256",
+      "method": "exact-label",
+      "totalValidVotes": 238,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 137,
+          "votes": {
+            "5": 21,
+            "10": 10,
+            "13": 23,
+            "14": 0,
+            "16": 75,
+            "17": 6,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 101,
+          "votes": {
+            "5": 18,
+            "10": 11,
+            "13": 24,
+            "14": 3,
+            "16": 36,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "1158": {
+      "currentAddress": "Taonui School, 170 Waughs Road, Taonui",
+      "historicalVenueId": "cb76b5d78b9bd25e9537",
+      "method": "exact-label",
+      "totalValidVotes": 8,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 8,
+          "votes": {
+            "5": 2,
+            "10": 1,
+            "13": 1,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "1644": {
+      "currentAddress": "Awapuni School Hall, 18 Rochester Street, Awapuni",
+      "historicalVenueId": "0f99b12004e61bdbef33",
+      "method": "exact-label",
+      "totalValidVotes": 462,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 462,
+          "votes": {
+            "5": 37,
+            "10": 51,
+            "13": 180,
+            "14": 8,
+            "16": 111,
+            "17": 41,
+            "36": 2,
+            "56": 1,
+            "70": 9
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "1651": {
+      "currentAddress": "Winchester School Hall, 552 Ruahine Street, Hokowhitu",
+      "historicalVenueId": "4c2159d4e6ec963e3604",
+      "method": "exact-label",
+      "totalValidVotes": 521,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 521,
+          "votes": {
+            "5": 48,
+            "10": 74,
+            "13": 147,
+            "14": 9,
+            "16": 185,
+            "17": 25,
+            "36": 2,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "1744": {
+      "currentAddress": "Milson School Hall, 7 Rutland Place, Milson",
+      "historicalVenueId": "d16f0778dfc4b25b12e6",
+      "method": "exact-label",
+      "totalValidVotes": 759,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 759,
+          "votes": {
+            "5": 55,
+            "10": 68,
+            "13": 245,
+            "14": 9,
+            "16": 269,
+            "17": 65,
+            "36": 2,
+            "56": 0,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "1752": {
+      "currentAddress": "Monrad Intermediate School Hall, 228 Botanical Road, Takaro",
+      "historicalVenueId": "387d2134085575c79036",
+      "method": "exact-label",
+      "totalValidVotes": 324,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 324,
+          "votes": {
+            "5": 29,
+            "10": 43,
+            "13": 97,
+            "14": 6,
+            "16": 93,
+            "17": 27,
+            "36": 3,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "2004": {
+      "currentAddress": "River Church, 131 Cambridge Avenue, Ashhurst",
+      "historicalVenueId": "20f39798cd6d368b7f80",
+      "method": "exact-label",
+      "totalValidVotes": 62,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 44,
+          "votes": {
+            "5": 5,
+            "10": 3,
+            "13": 12,
+            "14": 0,
+            "16": 17,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 18,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 5,
+            "14": 1,
+            "16": 5,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "2084": {
+      "currentAddress": "College Street Normal School Hall, 402 College Street, Hokowhitu",
+      "historicalVenueId": "eafb580a8db52d90625d",
+      "method": "exact-label",
+      "totalValidVotes": 617,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 617,
+          "votes": {
+            "5": 58,
+            "10": 74,
+            "13": 181,
+            "14": 8,
+            "16": 240,
+            "17": 19,
+            "36": 1,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "2087": {
+      "currentAddress": "Cloverlea School Hall, 55 Herbert Avenue, Cloverlea",
+      "historicalVenueId": "0ebdaca8c83eac9a5c6f",
+      "method": "exact-label",
+      "totalValidVotes": 491,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 491,
+          "votes": {
+            "5": 48,
+            "10": 42,
+            "13": 175,
+            "14": 1,
+            "16": 137,
+            "17": 48,
+            "36": 4,
+            "56": 0,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "2090": {
+      "currentAddress": "Parkland School Hall, 41 Parkland Crescent, Terrace End",
+      "historicalVenueId": "dd0710fde23ae20c83b6",
+      "method": "exact-label",
+      "totalValidVotes": 561,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 561,
+          "votes": {
+            "5": 40,
+            "10": 71,
+            "13": 167,
+            "14": 8,
+            "16": 183,
+            "17": 50,
+            "36": 4,
+            "56": 1,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "2093": {
+      "currentAddress": "Riverdale School Hall, 95 Slacks Road, Awapuni",
+      "historicalVenueId": "06abfd33790a6aa561ac",
+      "method": "exact-label",
+      "totalValidVotes": 686,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 686,
+          "votes": {
+            "5": 74,
+            "10": 91,
+            "13": 186,
+            "14": 13,
+            "16": 231,
+            "17": 45,
+            "36": 0,
+            "56": 1,
+            "70": 7
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "2234": {
+      "currentAddress": "Newbury School, 906 Rangitikei Line, Newbury",
+      "historicalVenueId": "7f780d2880960c831ded",
+      "method": "exact-label",
+      "totalValidVotes": 33,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 33,
+          "votes": {
+            "5": 5,
+            "10": 2,
+            "13": 14,
+            "14": 2,
+            "16": 7,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "3060": {
+      "currentAddress": "Hokowhitu School Hall, 227 Albert Street, Hokowhitu",
+      "historicalVenueId": "08fcd2895651dce0ae49",
+      "method": "exact-label",
+      "totalValidVotes": 610,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 610,
+          "votes": {
+            "5": 46,
+            "10": 65,
+            "13": 159,
+            "14": 13,
+            "16": 264,
+            "17": 32,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "3072": {
+      "currentAddress": "Russell Street School Hall, 25 Russell Street, Roslyn",
+      "historicalVenueId": "69377f2587bdb8e02cb8",
+      "method": "exact-label",
+      "totalValidVotes": 584,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 584,
+          "votes": {
+            "5": 50,
+            "10": 60,
+            "13": 175,
+            "14": 9,
+            "16": 203,
+            "17": 48,
+            "36": 0,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "3087": {
+      "currentAddress": "Kelvin Grove Community Centre, 68 Kaimanawa Street, Kelvin Grove",
+      "historicalVenueId": "a6044d0201244d21d3b1",
+      "method": "exact-label",
+      "totalValidVotes": 486,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 486,
+          "votes": {
+            "5": 52,
+            "10": 38,
+            "13": 191,
+            "14": 7,
+            "16": 127,
+            "17": 39,
+            "36": 3,
+            "56": 0,
+            "70": 6
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "3094": {
+      "currentAddress": "St Michael&#39;s Church Hall, 52 Pembroke Street, Highbury",
+      "historicalVenueId": "b700c70b5c8ce1069543",
+      "method": "exact-label",
+      "totalValidVotes": 1354,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1069,
+          "votes": {
+            "5": 63,
+            "10": 84,
+            "13": 495,
+            "14": 33,
+            "16": 277,
+            "17": 64,
+            "36": 8,
+            "56": 0,
+            "70": 15
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 285,
+          "votes": {
+            "5": 13,
+            "10": 25,
+            "13": 125,
+            "14": 10,
+            "16": 61,
+            "17": 28,
+            "36": 5,
+            "56": 2,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    },
+    "3098": {
+      "currentAddress": "Roslyn School Hall, 38 Kipling Street, Roslyn",
+      "historicalVenueId": "98f5f51d9afc4dfdc5c9",
+      "method": "exact-label",
+      "totalValidVotes": 358,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 358,
+          "votes": {
+            "5": 24,
+            "10": 38,
+            "13": 127,
+            "14": 5,
+            "16": 94,
+            "17": 31,
+            "36": 1,
+            "56": 0,
+            "70": 12
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "36"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

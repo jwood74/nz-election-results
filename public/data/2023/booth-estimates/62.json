@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "62",
+  "name": "Whangaparāoa",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "63",
+      "name": "Whangaparāoa"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "553": {
+      "currentAddress": "Ōrewa Community Centre, Main Hall, 40-46 Ōrewa Square, Ōrewa",
+      "historicalVenueId": "e89894f4456904545833",
+      "method": "exact-label",
+      "totalValidVotes": 5950,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 5205,
+          "votes": {
+            "5": 574,
+            "10": 265,
+            "13": 852,
+            "14": 13,
+            "16": 2975,
+            "17": 354,
+            "36": 7,
+            "56": 1,
+            "70": 38
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 745,
+          "votes": {
+            "5": 77,
+            "10": 64,
+            "13": 136,
+            "14": 5,
+            "16": 315,
+            "17": 81,
+            "36": 0,
+            "56": 2,
+            "70": 32
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "945": {
+      "currentAddress": "Albany Primary School, 6 Bass Road, Albany",
+      "historicalVenueId": "004951be98a61fdc50f5",
+      "method": "exact-label",
+      "totalValidVotes": 21,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 3,
+            "10": 2,
+            "13": 0,
+            "14": 0,
+            "16": 15,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "1658": {
+      "currentAddress": "Red Beach School Hall, 20 Albert Hall Drive, Red Beach",
+      "historicalVenueId": "6b9e0a20ca8d9b3211b2",
+      "method": "exact-label",
+      "totalValidVotes": 492,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 492,
+          "votes": {
+            "5": 59,
+            "10": 50,
+            "13": 92,
+            "14": 4,
+            "16": 224,
+            "17": 40,
+            "36": 2,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "1659": {
+      "currentAddress": "Orewa Beach School Hall, 280 Centreway Road, Ōrewa",
+      "historicalVenueId": "1aec06e077dc6b9afa07",
+      "method": "exact-label",
+      "totalValidVotes": 501,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 501,
+          "votes": {
+            "5": 62,
+            "10": 44,
+            "13": 101,
+            "14": 6,
+            "16": 211,
+            "17": 41,
+            "36": 4,
+            "56": 1,
+            "70": 10
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "1679": {
+      "currentAddress": "Orewa Primary School Hall, 86 Maire Road, Ōrewa",
+      "historicalVenueId": "18ed574d26fbf813da87",
+      "method": "exact-label",
+      "totalValidVotes": 327,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 327,
+          "votes": {
+            "5": 52,
+            "10": 22,
+            "13": 32,
+            "14": 2,
+            "16": 177,
+            "17": 18,
+            "36": 0,
+            "56": 0,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "1753": {
+      "currentAddress": "Manly Methodist Church, 945 Whangaparāoa Road, Manly",
+      "historicalVenueId": "f04d86edd02cd75322a3",
+      "method": "exact-label",
+      "totalValidVotes": 2382,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1706,
+          "votes": {
+            "5": 233,
+            "10": 91,
+            "13": 285,
+            "14": 5,
+            "16": 906,
+            "17": 123,
+            "36": 3,
+            "56": 0,
+            "70": 19
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 676,
+          "votes": {
+            "5": 60,
+            "10": 46,
+            "13": 109,
+            "14": 2,
+            "16": 307,
+            "17": 88,
+            "36": 3,
+            "56": 1,
+            "70": 20
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "1757": {
+      "currentAddress": "Stanmore Bay Pool and Leisure Centre, Indoor Courts, 159 Brightside Road, Stanmore Bay",
+      "historicalVenueId": "71c7b455d83d2f9b637c",
+      "method": "exact-label",
+      "totalValidVotes": 912,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 912,
+          "votes": {
+            "5": 93,
+            "10": 81,
+            "13": 176,
+            "14": 8,
+            "16": 367,
+            "17": 96,
+            "36": 3,
+            "56": 2,
+            "70": 25
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "1993": {
+      "currentAddress": "Glamorgan School, 145 Glamorgan Drive, Torbay",
+      "historicalVenueId": "75330898e6b578901932",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 0,
+            "13": 0,
+            "14": 1,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "2533": {
+      "currentAddress": "Graceway Baptist Church, 1092 East Coast Road, Redvale",
+      "historicalVenueId": "a310c87872c043876c4a",
+      "method": "exact-label",
+      "totalValidVotes": 55,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 55,
+          "votes": {
+            "5": 4,
+            "10": 4,
+            "13": 9,
+            "14": 0,
+            "16": 23,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "2594": {
+      "currentAddress": "Red Beach Methodist Church, 76 Red Beach Road, Red Beach",
+      "historicalVenueId": "40312f5ff49c15af9d33",
+      "method": "exact-label",
+      "totalValidVotes": 2752,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 2051,
+          "votes": {
+            "5": 235,
+            "10": 122,
+            "13": 384,
+            "14": 7,
+            "16": 1079,
+            "17": 145,
+            "36": 2,
+            "56": 2,
+            "70": 25
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 701,
+          "votes": {
+            "5": 84,
+            "10": 53,
+            "13": 130,
+            "14": 7,
+            "16": 299,
+            "17": 56,
+            "36": 2,
+            "56": 1,
+            "70": 23
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "2913": {
+      "currentAddress": "Westfield Mall, Centre Court, 219 Don McKinnon Drive, Albany",
+      "historicalVenueId": "51bd901b0661c9882918",
+      "method": "exact-label",
+      "totalValidVotes": 1457,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1370,
+          "votes": {
+            "5": 173,
+            "10": 77,
+            "13": 150,
+            "14": 4,
+            "16": 863,
+            "17": 48,
+            "36": 1,
+            "56": 1,
+            "70": 6
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 87,
+          "votes": {
+            "5": 12,
+            "10": 9,
+            "13": 12,
+            "14": 1,
+            "16": 41,
+            "17": 8,
+            "36": 0,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "2961": {
+      "currentAddress": "Coatesville Settlers Hall, 4 Mahoenui Valley Road, Coatesville",
+      "historicalVenueId": "f227a6fb27372ef77428",
+      "method": "exact-label",
+      "totalValidVotes": 359,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 359,
+          "votes": {
+            "5": 66,
+            "10": 27,
+            "13": 31,
+            "14": 1,
+            "16": 191,
+            "17": 11,
+            "36": 2,
+            "56": 0,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "3435": {
+      "currentAddress": "Dairy Flat Community Hall, 4 Postman Road, Dairy Flat",
+      "historicalVenueId": "33564d2c1f998becebe9",
+      "method": "exact-label",
+      "totalValidVotes": 1246,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 816,
+          "votes": {
+            "5": 152,
+            "10": 42,
+            "13": 61,
+            "14": 1,
+            "16": 470,
+            "17": 52,
+            "36": 1,
+            "56": 1,
+            "70": 8
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 430,
+          "votes": {
+            "5": 60,
+            "10": 26,
+            "13": 43,
+            "14": 1,
+            "16": 217,
+            "17": 48,
+            "36": 0,
+            "56": 1,
+            "70": 15
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "3437": {
+      "currentAddress": "Orewa Baptist Church, 1 Centreway Road, access from rear carpark, Ōrewa",
+      "historicalVenueId": "a2bfdb5c092be7458bce",
+      "method": "exact-label",
+      "totalValidVotes": 1338,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1115,
+          "votes": {
+            "5": 146,
+            "10": 52,
+            "13": 175,
+            "14": 2,
+            "16": 612,
+            "17": 80,
+            "36": 2,
+            "56": 3,
+            "70": 6
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 223,
+          "votes": {
+            "5": 23,
+            "10": 21,
+            "13": 30,
+            "14": 0,
+            "16": 107,
+            "17": 20,
+            "36": 0,
+            "56": 0,
+            "70": 4
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "3463": {
+      "currentAddress": "PAK&#39;nSAVE Silverdale, Portacom, 20 Hibiscus Coast Highway, Silverdale",
+      "historicalVenueId": "2705d633d0353a2d964b",
+      "method": "exact-label",
+      "totalValidVotes": 3536,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 3101,
+          "votes": {
+            "5": 436,
+            "10": 157,
+            "13": 383,
+            "14": 13,
+            "16": 1826,
+            "17": 166,
+            "36": 9,
+            "56": 1,
+            "70": 23
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 435,
+          "votes": {
+            "5": 49,
+            "10": 38,
+            "13": 63,
+            "14": 3,
+            "16": 230,
+            "17": 23,
+            "36": 1,
+            "56": 1,
+            "70": 8
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    },
+    "3508": {
+      "currentAddress": "Te Manawa Library Community Hub, 11 Kōhūhū Lane, Westgate",
+      "historicalVenueId": "b65ddf3f9ce8e40e9c13",
+      "method": "exact-label",
+      "totalValidVotes": 27,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 27,
+          "votes": {
+            "5": 4,
+            "10": 1,
+            "13": 5,
+            "14": 0,
+            "16": 14,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "63"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}

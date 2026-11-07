@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "electorateId": "35",
+  "name": "Pakuranga",
+  "status": "estimated-matched-booth-baseline",
+  "boundaryStatus": "changed-or-reconfigured",
+  "related2023": [
+    {
+      "id": "35",
+      "name": "Pakuranga"
+    }
+  ],
+  "mappedPartyIds": [
+    "5",
+    "10",
+    "13",
+    "14",
+    "16",
+    "17",
+    "36",
+    "56",
+    "70"
+  ],
+  "categoryAssumption": "Historical advance and election-day votes combined; current XML does not identify count category.",
+  "populationAssumption": "Historical votes from related electorates at the matched venue; changed-boundary residence allocation is approximate and may omit moved populations.",
+  "booths": {
+    "716": {
+      "currentAddress": "Salvation Army Community Centre, 18 Allright Place, Mt Wellington",
+      "historicalVenueId": "e095a57295826c403e7a",
+      "method": "exact-label",
+      "totalValidVotes": 15,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 15,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 0,
+            "14": 0,
+            "16": 8,
+            "17": 1,
+            "36": 1,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "1354": {
+      "currentAddress": "Somerville Intermediate School, 39 Somerville Road, Somerville",
+      "historicalVenueId": "04b14ff92c2b1487d41a",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 1,
+            "10": 2,
+            "13": 6,
+            "14": 0,
+            "16": 12,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "1401": {
+      "currentAddress": "Botany Downs Primary School, 35 Mirrabooka Avenue, Botany Downs",
+      "historicalVenueId": "04c4e7ab0b90eeaa6aba",
+      "method": "exact-label",
+      "totalValidVotes": 22,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 22,
+          "votes": {
+            "5": 1,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 14,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "1466": {
+      "currentAddress": "Macleans College, Batten House, 2 Macleans Road, Gate 4 entrance, Eastern Beach",
+      "historicalVenueId": "d6963a4da74d2c319705",
+      "method": "exact-label",
+      "totalValidVotes": 423,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 423,
+          "votes": {
+            "5": 59,
+            "10": 32,
+            "13": 45,
+            "14": 1,
+            "16": 253,
+            "17": 16,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "2005": {
+      "currentAddress": "Mountainside Lutheran Church, 1 Harris Road, Mt Wellington",
+      "historicalVenueId": "f15a93d8a71ef627ae9a",
+      "method": "exact-label",
+      "totalValidVotes": 14,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 3,
+            "10": 2,
+            "13": 2,
+            "14": 0,
+            "16": 6,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "2279": {
+      "currentAddress": "Cockle Bay Playcentre, 17 Pah Road, Cockle Bay",
+      "historicalVenueId": "4cf545f6f590ddb11ada",
+      "method": "exact-label",
+      "totalValidVotes": 21,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 21,
+          "votes": {
+            "5": 3,
+            "10": 3,
+            "13": 1,
+            "14": 0,
+            "16": 12,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "2788": {
+      "currentAddress": "Elim Christian College, Golflands Campus, 94 Golfland Drive, Botany",
+      "historicalVenueId": "af05c5595ad2476d305b",
+      "method": "exact-label",
+      "totalValidVotes": 14,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 14,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 4,
+            "14": 0,
+            "16": 7,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "2947": {
+      "currentAddress": "Cockle Bay School, 24 Sandspit Road, Howick",
+      "historicalVenueId": "4b6edfbc7f9c0aef516c",
+      "method": "exact-label",
+      "totalValidVotes": 262,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 262,
+          "votes": {
+            "5": 26,
+            "10": 21,
+            "13": 45,
+            "14": 1,
+            "16": 147,
+            "17": 12,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "2980": {
+      "currentAddress": "Willowbank School, 56 Middlefield Drive, Dannemora",
+      "historicalVenueId": "fc9811a36c1f38ae5587",
+      "method": "exact-label",
+      "totalValidVotes": 10,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 10,
+          "votes": {
+            "5": 2,
+            "10": 0,
+            "13": 2,
+            "14": 0,
+            "16": 5,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3084": {
+      "currentAddress": "MIT Manukau Campus, The Atrium, Corner Manukau Station Road & Davies Avenue, Manukau City Centre",
+      "historicalVenueId": "baf9ca4c35e4c4ea5663",
+      "method": "exact-label",
+      "totalValidVotes": 23,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 23,
+          "votes": {
+            "5": 3,
+            "10": 4,
+            "13": 2,
+            "14": 0,
+            "16": 12,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3213": {
+      "currentAddress": "Elim Christian Centre, 159 Botany Road, Botany Downs",
+      "historicalVenueId": "48b9608015ea397255dc",
+      "method": "exact-label",
+      "totalValidVotes": 74,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 74,
+          "votes": {
+            "5": 5,
+            "10": 7,
+            "13": 11,
+            "14": 0,
+            "16": 46,
+            "17": 2,
+            "36": 0,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3273": {
+      "currentAddress": "Pakuranga Golf Club, 199 Botany Road, Botany",
+      "historicalVenueId": "995ed5f3db583c3d6863",
+      "method": "exact-label",
+      "totalValidVotes": 345,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 345,
+          "votes": {
+            "5": 35,
+            "10": 11,
+            "13": 33,
+            "14": 2,
+            "16": 245,
+            "17": 11,
+            "36": 1,
+            "56": 0,
+            "70": 3
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3322": {
+      "currentAddress": "PAK’nSAVE Glen Innes, 182 Apirana Avenue, Glen Innes",
+      "historicalVenueId": "ec5634b56442be21e822",
+      "method": "exact-label",
+      "totalValidVotes": 6,
+      "categories": {
+        "election-day": {
+          "totalValidVotes": 6,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 2,
+            "14": 0,
+            "16": 3,
+            "17": 0,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3390": {
+      "currentAddress": "Panmure Library, 7-13 Pilkington Road, Panmure",
+      "historicalVenueId": "f5d8ab46fc513e3c49ce",
+      "method": "exact-label",
+      "totalValidVotes": 49,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 49,
+          "votes": {
+            "5": 0,
+            "10": 1,
+            "13": 13,
+            "14": 1,
+            "16": 27,
+            "17": 3,
+            "36": 1,
+            "56": 0,
+            "70": 1
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3414": {
+      "currentAddress": "Auckland Taiwanese Presbyterian Church, 158 Pakuranga Road, Pakuranga",
+      "historicalVenueId": "87ed30931134c7823c13",
+      "method": "exact-label",
+      "totalValidVotes": 293,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 177,
+          "votes": {
+            "5": 30,
+            "10": 11,
+            "13": 21,
+            "14": 1,
+            "16": 108,
+            "17": 5,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 116,
+          "votes": {
+            "5": 12,
+            "10": 6,
+            "13": 34,
+            "14": 1,
+            "16": 52,
+            "17": 7,
+            "36": 0,
+            "56": 0,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3418": {
+      "currentAddress": "Highland Park Library, 16 Highland Park Drive, Highland Park",
+      "historicalVenueId": "6e975cdd8a17626bdd5c",
+      "method": "exact-label",
+      "totalValidVotes": 4454,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 4058,
+          "votes": {
+            "5": 400,
+            "10": 213,
+            "13": 629,
+            "14": 8,
+            "16": 2561,
+            "17": 152,
+            "36": 9,
+            "56": 1,
+            "70": 10
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 396,
+          "votes": {
+            "5": 33,
+            "10": 34,
+            "13": 82,
+            "14": 0,
+            "16": 209,
+            "17": 13,
+            "36": 4,
+            "56": 1,
+            "70": 5
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3419": {
+      "currentAddress": "Trinity Methodist Church Hall, 474 Pakuranga Road, Pakuranga",
+      "historicalVenueId": "6b2e18c6bbd74229a76d",
+      "method": "exact-label",
+      "totalValidVotes": 1969,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 1709,
+          "votes": {
+            "5": 188,
+            "10": 91,
+            "13": 229,
+            "14": 9,
+            "16": 1071,
+            "17": 75,
+            "36": 2,
+            "56": 2,
+            "70": 5
+          }
+        },
+        "election-day": {
+          "totalValidVotes": 260,
+          "votes": {
+            "5": 27,
+            "10": 16,
+            "13": 45,
+            "14": 2,
+            "16": 131,
+            "17": 21,
+            "36": 4,
+            "56": 1,
+            "70": 2
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    },
+    "3470": {
+      "currentAddress": "The Warehouse Mt Wellington Lunn Avenue, 101 Lunn Avenue, Mt Wellington",
+      "historicalVenueId": "a1942a25a7d4a538ae5f",
+      "method": "exact-label",
+      "totalValidVotes": 38,
+      "categories": {
+        "advance": {
+          "totalValidVotes": 38,
+          "votes": {
+            "5": 2,
+            "10": 4,
+            "13": 9,
+            "14": 2,
+            "16": 17,
+            "17": 1,
+            "36": 0,
+            "56": 0,
+            "70": 0
+          }
+        }
+      },
+      "historicalElectorateIds": [
+        "35"
+      ]
+    }
+  },
+  "sources": {
+    "auditSha256": "4e0908da243e8d4518377abd42fd0cf97c0f9d499eea3982d4a4ed434e28ab8b",
+    "boundaryIndexSha256": "1bccbe46107b34d2cecf6f2f814a04cd69e0f17c24e8ddadeee542e850426fe2",
+    "venueLabelReviewsSha256": "0d79cd1dde1194965111d0575c546dcaa93734d8117e6649d318f9c2d4daebf5"
+  }
+}
