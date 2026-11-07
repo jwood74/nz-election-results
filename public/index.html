@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#152b30">
+  <title>NZ election night — results</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#national">Skip to results</a>
+  <header>
+    <div class="masthead"><a href="/" class="brand">NZ / ELECTION NIGHT</a><span class="edition">2026 GENERAL ELECTION</span></div>
+    <div class="heading"><div><p class="eyebrow">THE COUNT, AS IT HAPPENS</p><h1>Aotearoa decides.</h1><p class="intro">The party vote. The numbers to govern. The races to watch.</p></div><button id="refresh" type="button">Refresh results ↻</button></div>
+    <nav aria-label="Page sections"><a href="#national">National picture</a><a href="#coalition">Coalition builder</a><a href="#races">Electorate races</a></nav>
+  </header>
+  <main>
+    <p id="connection" role="status" class="notice">Connecting to the election feed…</p>
+    <section id="national" aria-labelledby="national-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE PARTY VOTE</p><h2 id="national-title">National picture</h2></div><p id="national-time" class="meta">Awaiting source</p></div>
+      <div class="stats">
+        <div><span class="stat-label">Voting places counted</span><strong id="counted">—</strong><span id="counted-detail" class="meta">Awaiting results</span></div>
+        <div><span class="stat-label">Votes cast · source total</span><strong id="votes">—</strong><span class="meta">Not an estimate of turnout</span></div>
+        <div><span class="stat-label">Feed-reported seats</span><strong id="seats">—</strong><span class="meta">Provisional, not a forecast</span></div>
+      </div>
+      <p id="national-empty" class="notice" hidden>No votes reported yet. Results will appear automatically when counting begins.</p>
+      <div class="table-scroll"><table><caption class="sr-only">National party vote and feed-reported seat allocation</caption><thead><tr><th scope="col">Party</th><th scope="col" class="num">Votes</th><th scope="col" class="num">Party vote %</th><th scope="col" class="num">Electorate seats</th><th scope="col" class="num">List seats</th><th scope="col" class="num">Total seats</th></tr></thead><tbody id="party-rows"><tr><td colspan="6">Loading party results…</td></tr></tbody></table></div>
+    </section>
+    <section id="coalition" class="coalition" aria-labelledby="coalition-title">
+      <div><p class="eyebrow">02 / THE NUMBERS TO GOVERN</p><h2 id="coalition-title">Build a combination.</h2><p>Select parties to add their feed-reported seats. A combination is arithmetic, not a prediction or an endorsement.</p><fieldset><legend class="sr-only">Choose parties for a coalition combination</legend><div id="coalition-options" class="party-options">Awaiting parties…</div></fieldset></div>
+      <div class="coalition-total"><span class="stat-label">Selected parties</span><strong id="coalition-seats">—</strong><p id="coalition-status" aria-live="polite">Seat allocation not yet available.</p><p class="meta">Majority uses a 120-seat baseline, increased if the feed reports additional seats. Special votes may change the result.</p></div>
+    </section>
+    <section id="races" aria-labelledby="races-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / THE LOCAL CONTESTS</p><h2 id="races-title">Electorate races</h2></div><span id="race-count" class="meta"></span></div>
+      <p class="meta">Leads are candidate-vote margins, not two-party preferred results. Leading does not mean elected.</p>
+      <div class="race-controls"><div class="view-buttons" role="group" aria-label="Electorate view"><button data-view="closest" aria-pressed="true">Closest races</button><button data-view="all" aria-pressed="false">All electorates</button><button data-view="watchlist" aria-pressed="false">Watchlist</button></div><label>Find an electorate<input id="search" type="search" placeholder="e.g. Auckland Central"></label></div>
+      <p id="race-status" role="status" class="meta">Loading electorate feeds…</p>
+      <div class="table-scroll"><table><caption class="sr-only">Electorate candidate leaders and counting progress</caption><thead><tr><th scope="col"><span class="sr-only">Watch</span></th><th scope="col" aria-sort="none"><button data-sort="name">Electorate ↕</button></th><th scope="col">Leading candidate / party</th><th scope="col" class="num" aria-sort="ascending"><button data-sort="margin">Lead · votes ↕</button></th><th scope="col" class="num" aria-sort="none"><button data-sort="percentPlacesCounted">Places counted ↕</button></th><th scope="col">Source updated · NZ</th></tr></thead><tbody id="race-rows"><tr><td colspan="6">Waiting for electorate results…</td></tr></tbody></table></div>
+    </section>
+    <aside class="method"><h3>About these numbers</h3><p>Results are read from the election XML feed and checked every minute. Party votes and candidate votes are separate contests. Seat allocations are reproduced from the feed, not independently modelled. Early results can be unrepresentative, and final results include special votes.</p><p>This first release covers national results and electorate leads. Electorate and booth drill-down are next.</p></aside>
+  </main>
+  <footer><span>Independent election-night viewer</span><a href="https://media.election.net.nz/xml/" target="_blank" rel="noopener">Source: election XML feed ↗</a><span>All source times are New Zealand local time.</span></footer>
+</body>
+</html>
