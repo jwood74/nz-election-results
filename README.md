@@ -2,6 +2,8 @@
 
 Table-first election-night viewer: national party votes and feed-reported seats, a coalition selector, closest electorate races, search, sorting and a local watchlist. Open an electorate for separate candidate/party totals and sortable, searchable booth results, with votes/percentages toggles and a full-result dialog for each booth. Historic comparisons are follow-up work.
 
+Click **Last Updated** in the electorate table for newest-first order, then click again for oldest-first. Invalid/missing timestamps stay last. Green rows and explicit “Changed” badges highlight changes since the previous successful refresh in the current tab, with signed vote deltas (including negative corrections). First loads/new rows establish a baseline; timestamp-only updates do not highlight. Sorting/filtering does not reset highlights; an unchanged successful refresh clears them. Baselines survive unavailable feeds and stale retained rows. These are in-memory comparisons, not persistent count history or notifications.
+
 ## Run locally
 
 Node 22 or newer:

@@ -8,12 +8,40 @@ export function filterRaces(rows, { view, search, watchlist, sortKey, direction 
   return rows.filter(row => (view !== 'closest' || row.margin != null) &&
     (view !== 'watchlist' || watchlist.has(row.id)) && fold(row.name).includes(fold(search.trim())))
     .sort((a, b) => {
-      const av = a[sortKey], bv = b[sortKey];
+      const value = row => sortKey === 'updated' ? validSourceTime(row.updated) : row[sortKey];
+      const av = value(a), bv = value(b);
       if (av == null && bv == null) return a.name.localeCompare(b.name);
       if (av == null) return 1;
       if (bv == null) return -1;
       return (typeof av === 'string' ? av.localeCompare(bv) : av - bv) * direction || a.name.localeCompare(b.name);
     });
+}
+
+const validSourceTime = value => {
+  const time = sourceTime(value);
+  return Number.isFinite(time) ? time : null;
+};
+
+export const voteSignature = items => (items || []).map(item => [item.id, item.votes]).sort((a,b) => a[0].localeCompare(b[0]));
+export const nationalSignature = row => [row.votes, row.seats, row.listSeats, row.electorateSeats];
+export const electorateSignature = row => [voteSignature(row.candidates), row.placesCounted, row.placesTotal, row.percentPlacesCounted];
+export const boothSignature = row => [voteSignature(row.candidates), voteSignature(row.parties), row.reported, row.issued, row.candidateInformals, row.partyInformals];
+
+// Baselines survive failed/missing rows. New rows establish a baseline, never a change.
+// Keep only one last-good snapshot per row, not a growing count history.
+export function createChangeTracker(signature, key = 'id') {
+  const baseline = new Map();
+  return rows => {
+    const changes = new Map();
+    for (const row of rows) {
+      if (row.unavailable || row.stale) continue;
+      const previous = baseline.get(row[key]);
+      const value = JSON.stringify(signature(row));
+      if (previous && previous.value !== value) changes.set(row[key], previous.row);
+      baseline.set(row[key], { row, value });
+    }
+    return changes;
+  };
 }
 
 // XML timestamps omit an offset. Interpret them in Auckland, not the viewer's timezone.
@@ -33,7 +61,7 @@ export function boothValue(booth, key, voteType, metric) {
   if (key === 'name') return booth.name;
   if (booth.unavailable) return null;
   if (key === 'reported') return Number(booth.reported);
-  if (key === 'updated') return sourceTime(booth.updated);
+  if (key === 'updated') return validSourceTime(booth.updated);
   const total = voteType === 'candidates' ? booth.candidateVotes : booth.partyVotes;
   if (key === 'total') return total;
   const votes = booth[voteType]?.find(item => item.id === key)?.votes;

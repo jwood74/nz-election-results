@@ -8,6 +8,14 @@ export function save(key, value) { try { localStorage.setItem(key, JSON.stringif
 export function node(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 export function cell(row, text, className) { const n = node('td', text, className); row.append(n); return n; }
 export function message(body, text, cols) { const tr = node('tr'); const td = cell(tr, text); td.colSpan = cols; body.replaceChildren(tr); }
+export function markChange(row, label, previous, current, field = 'votes', noun = 'votes') {
+  if (!previous || current.unavailable || current.stale) return;
+  row.classList.add('result-changed');
+  const delta = Number.isFinite(current[field]) && Number.isFinite(previous[field]) ? current[field] - previous[field] : 0;
+  const badge = node('span', `Changed${delta ? ` · ${delta > 0 ? '+' : '−'}${int(Math.abs(delta))} ${noun}` : ''}`, 'change-badge');
+  badge.title = 'Since the previous successful refresh in this tab';
+  label.append(badge);
+}
 export async function get(path) {
   const response = await fetch(`/api/${path}`, { cache: 'no-cache', signal: AbortSignal.timeout(55_000) });
   if (!response.ok) throw new Error(`${path} unavailable`);

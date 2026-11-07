@@ -1,22 +1,26 @@
-import { sourceTime, voteShare, boothValue, filterBooths } from './model.js';
-import { $, int, pct, clock, saved, save, node, cell, message, get } from './ui.js';
+import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature } from './model.js';
+import { $, int, pct, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 
 const id = new URLSearchParams(location.search).get('id');
 const watchlist = saved('nz-watchlist');
 let detail, detailBusy = false, boothBusy = false, detailError = false, checked;
 let voteType = 'candidates', metric = 'votes', sortKey = 'name', direction = 1;
 let booths = new Map(), total = 0, failedBatches = 0, completedBatches = 0, pageCount = 0, selectedFile;
+const trackCandidates = createChangeTracker(row => row.votes), trackParties = createChangeTracker(row => row.votes);
+const trackBooths = createChangeTracker(boothSignature, 'file');
+let candidateChanges = new Map(), partyChanges = new Map(), boothChanges = new Map(), progressChanged = false;
 
 function renderWatch() {
   $('watch').textContent = watchlist.has(id) ? '★ Watching electorate' : '☆ Watch electorate';
   $('watch').setAttribute('aria-pressed', String(watchlist.has(id)));
 }
-function summary(body, items, votes) {
+function summary(body, items, votes, changes = new Map()) {
   body.replaceChildren();
   for (const item of items) {
     const tr = node('tr');
     const name = cell(tr, item.name, 'party-name');
     if (item.party) name.append(node('span', item.party, 'party-sub'));
+    markChange(tr, name, changes.get(item.id), item);
     cell(tr, int(item.votes), 'num'); cell(tr, pct(voteShare(item.votes, votes)), 'num');
     body.append(tr);
   }
@@ -32,8 +36,9 @@ function renderDetail() {
   $('candidate-total').textContent = int(detail.candidateVotes); $('party-total').textContent = int(detail.partyVotes);
   $('candidate-informals').textContent = `${int(detail.candidateInformals)} informal candidate votes`;
   $('party-informals').textContent = `${int(detail.partyInformals)} informal party votes`;
-  summary($('candidate-rows'), detail.candidates, detail.candidateVotes);
-  summary($('electorate-party-rows'), detail.parties, detail.partyVotes);
+  $('detail-changes').textContent = `${candidateChanges.size} candidate rows and ${partyChanges.size} party rows changed.${progressChanged ? ' Counting progress changed.' : ''} Highlights compare votes with the previous successful refresh in this tab; the first load establishes a baseline.`;
+  summary($('candidate-rows'), detail.candidates, detail.candidateVotes, candidateChanges);
+  summary($('electorate-party-rows'), detail.parties, detail.partyVotes, partyChanges);
   renderBooths();
 }
 function renderStatus() {
@@ -82,6 +87,7 @@ function renderBooths() {
         button.addEventListener('click', () => { selectedFile = booth.file; renderDialog(); $('booth-dialog').showModal(); });
         name.append(button);
         name.append(node('span', `File ${booth.file}${booth.hostElectorateId !== id ? ' · hosted outside this electorate' : ''}`, 'party-sub'));
+        markChange(tr, name, boothChanges.get(booth.file), booth, voteType === 'candidates' ? 'candidateVotes' : 'partyVotes', voteType === 'candidates' ? 'candidate votes' : 'party votes');
       }
       cell(tr, booth.unavailable ? 'Unavailable' : booth.stale ? 'Stale · retained' : booth.reported ? 'Reported' : 'Awaiting results', booth.stale || booth.unavailable ? 'stale' : 'meta');
       cell(tr, int(boothValue(booth, 'total', voteType, metric)), 'num');
@@ -101,7 +107,8 @@ function renderBoothStatus() {
   const missing = [...booths.values()].filter(b => b.unavailable).length;
   const stale = [...booths.values()].filter(b => b.stale).length;
   const reported = [...booths.values()].filter(b => b.reported && !b.stale).length;
-  $('booth-progress').textContent = `${boothBusy ? 'Loading' : 'Checked'} ${completedBatches} / ${pageCount || '—'} batches · ${reported} loaded files reported.${failedBatches ? ` ${failedBatches} batches failed; retrying next refresh.` : ''}${missing ? ` ${missing} files unavailable.` : ''}${stale ? ` ${stale} older files retained and marked stale.` : ''} Each row has its own source timestamp.`;
+  const changed = [...booths.values()].filter(b => !b.stale && !b.unavailable && boothChanges.has(b.file)).length;
+  $('booth-progress').textContent = `${boothBusy ? 'Loading' : 'Checked'} ${completedBatches} / ${pageCount || '—'} batches · ${reported} loaded files reported.${failedBatches ? ` ${failedBatches} batches failed; retrying next refresh.` : ''}${missing ? ` ${missing} files unavailable.` : ''}${stale ? ` ${stale} older files retained and marked stale.` : ''} ${changed} booth rows changed since their previous successful refresh in this tab (votes, ballots or reporting status, not timestamps). Each row has its own source timestamp.`;
   $('booth-progress').classList.toggle('stale', failedBatches > 0 || missing > 0 || stale > 0);
 }
 function renderDialog() {
@@ -115,7 +122,12 @@ function renderDialog() {
 async function refreshDetail() {
   if (detailBusy) return;
   detailBusy = true;
-  try { detail = await get(`electorate?id=${id}`); detailError = false; renderDetail(); }
+  try {
+    const next = await get(`electorate?id=${id}`);
+    progressChanged = Boolean(detail && ['placesCounted','placesTotal','percentPlacesCounted'].some(key => detail[key] !== next[key]));
+    candidateChanges = trackCandidates(next.candidates); partyChanges = trackParties(next.parties);
+    detail = next; detailError = false; renderDetail();
+  }
   catch { detailError = true; if (!detail) { message($('candidate-rows'), 'Electorate feed unavailable.', 3); message($('electorate-party-rows'), 'Electorate feed unavailable.', 3); } }
   finally { checked = new Date().toISOString(); detailBusy = false; renderStatus(); }
 }
@@ -127,9 +139,14 @@ async function refreshBooths() {
   renderBooths();
   function accept(batch) {
     if (batch.total !== total || batch.pageCount !== pageCount) throw new Error('Source listing changed during load');
+    const changes = trackBooths(batch.booths);
     for (const booth of batch.booths) {
       seen.add(booth.file);
       const previous = booths.get(booth.file);
+      if (!booth.unavailable) {
+        if (changes.has(booth.file)) boothChanges.set(booth.file, changes.get(booth.file));
+        else boothChanges.delete(booth.file);
+      }
       booths.set(booth.file, booth.unavailable && previous && !previous.unavailable ? { ...previous, stale: true } : booth);
     }
     completedBatches++; renderBooths();

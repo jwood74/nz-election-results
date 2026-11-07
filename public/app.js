@@ -1,9 +1,11 @@
-import { coalition, filterRaces, sourceTime } from './model.js';
-import { $, int, pct, clock, saved, save, node, cell, message, get } from './ui.js';
+import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature } from './model.js';
+import { $, int, pct, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 const selected = saved('nz-coalition');
 const watchlist = saved('nz-watchlist');
 let national, races, busy = false, checked, failures = [];
 let view = 'closest', sortKey = 'margin', direction = 1;
+const trackNational = createChangeTracker(nationalSignature), trackRaces = createChangeTracker(electorateSignature);
+let partyChanges = new Map(), raceChanges = new Map();
 
 function renderNational() {
   $('counted').textContent = pct(national.percentPlacesCounted);
@@ -12,6 +14,7 @@ function renderNational() {
   $('seats').textContent = national.seats > 0 ? int(national.seats) : '—';
   $('national-time').textContent = `Source updated ${clock(national.updated)} NZ`;
   $('national-empty').hidden = national.votes > 0;
+  $('national-changes').textContent = `${partyChanges.size} party rows changed. Highlights compare votes and seats with the previous successful refresh in this tab; the first load establishes a baseline.`;
   $('party-rows').replaceChildren();
   for (const party of national.parties) {
     const tr = node('tr');
@@ -19,6 +22,7 @@ function renderNational() {
     // Only known abbreviations are used as CSS classes.
     const code = ['NAT','LAB','GP','ACT','NZF','TPMAO','OPP'].includes(party.abbreviation) ? party.abbreviation : 'other';
     name.append(node('span', '', `party-dot party-${code}`), document.createTextNode(party.name));
+    markChange(tr, name, partyChanges.get(party.id), party);
     cell(tr, int(party.votes), 'num'); cell(tr, national.votes > 0 ? pct(party.percent) : '—', 'num');
     for (const key of ['electorateSeats', 'listSeats', 'seats']) cell(tr, national.seats > 0 ? int(party[key]) : '—', 'num');
     $('party-rows').append(tr);
@@ -48,6 +52,7 @@ function renderRaces() {
   const rows = filterRaces(races.electorates, { view, search: $('search').value, watchlist, sortKey, direction });
   $('race-count').textContent = `${rows.length} / ${races.electorates.length} electorates`;
   $('race-status').textContent = races.warnings.length ? `${races.warnings.length} electorate feeds unavailable: ${races.warnings.join(', ')}.` : 'Electorate feeds loaded. Each row shows its own source update time.';
+  $('race-status').textContent += ` ${raceChanges.size} electorate rows changed since the previous successful refresh in this tab (candidate votes or counting progress).`;
   for (const button of document.querySelectorAll('[data-sort]')) button.parentElement.setAttribute('aria-sort', button.dataset.sort === sortKey ? (direction === 1 ? 'ascending' : 'descending') : 'none');
   if (!rows.length) { message($('race-rows'), view === 'closest' ? 'No matching races with votes reported yet. Try All electorates.' : view === 'watchlist' ? 'No matching watched electorates. Use the stars in All electorates to add some.' : 'No matching electorates.', 6); return; }
   $('race-rows').replaceChildren();
@@ -62,7 +67,8 @@ function renderRaces() {
     });
     cell(tr).append(watch);
     const link = node('a', row.name); link.href = `/electorate.html?id=${encodeURIComponent(row.id)}`;
-    cell(tr, null, 'party-name').append(link);
+    const name = cell(tr, null, 'party-name'); name.append(link);
+    markChange(tr, name, raceChanges.get(row.id), row, 'candidateVotes', 'candidate votes');
     const leader = cell(tr, row.unavailable ? 'Feed unavailable' : row.tied ? 'Tied for the lead' : row.leader?.name || 'Awaiting votes');
     if (row.leader) leader.append(node('span', row.leader.party, 'party-sub'));
     const margin = cell(tr, int(row.margin), 'num');
@@ -93,12 +99,12 @@ async function refresh() {
     // National results should not wait for the slower, multi-electorate request.
     await Promise.all([
       (async () => {
-        try { national = await get('national'); renderNational(); }
+        try { national = await get('national'); partyChanges = trackNational(national.parties); renderNational(); }
         catch { failures.push('National feed'); if (!national) message($('party-rows'), 'National feed unavailable. Retrying automatically.', 6); }
         renderStatus();
       })(),
       (async () => {
-        try { races = await get('electorates'); renderRaces(); }
+        try { races = await get('electorates'); raceChanges = trackRaces(races.electorates); renderRaces(); }
         catch { failures.push('Electorate feed'); if (!races) { message($('race-rows'), 'Electorate feeds unavailable. Retrying automatically.', 6); $('race-status').textContent = 'Unable to retrieve electorate feeds.'; } }
         renderStatus();
       })(),
@@ -117,7 +123,8 @@ for (const button of document.querySelectorAll('[data-view]')) button.addEventLi
   renderRaces();
 });
 for (const button of document.querySelectorAll('[data-sort]')) button.addEventListener('click', () => {
-  direction = sortKey === button.dataset.sort ? -direction : 1; sortKey = button.dataset.sort; renderRaces();
+  direction = sortKey === button.dataset.sort ? -direction : button.dataset.sort === 'updated' ? -1 : 1;
+  sortKey = button.dataset.sort; renderRaces();
 });
 refresh();
 setInterval(refresh, 60_000);
