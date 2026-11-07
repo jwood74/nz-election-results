@@ -7,6 +7,8 @@ let view = 'closest', sortKey = 'margin', direction = 1;
 const trackNational = createChangeTracker(nationalSignature), trackRaces = createChangeTracker(electorateSignature);
 let partyChanges = new Map(), raceChanges = new Map();
 let history, historyFailed = false;
+// Only known abbreviations are used as CSS classes, with a neutral fallback.
+const partyColourClass = party => `party-${['NAT','LAB','GP','ACT','NZF','TPMAO','OPP'].includes(party.abbreviation) ? party.abbreviation : 'other'}`;
 
 async function loadHistory() {
   try {
@@ -39,9 +41,7 @@ function renderNational() {
   for (const party of national.parties) {
     const tr = node('tr');
     const name = cell(tr, null, 'party-name');
-    // Only known abbreviations are used as CSS classes.
-    const code = ['NAT','LAB','GP','ACT','NZF','TPMAO','OPP'].includes(party.abbreviation) ? party.abbreviation : 'other';
-    name.append(node('span', '', `party-dot party-${code}`), document.createTextNode(party.name));
+    name.append(node('span', '', `party-dot ${partyColourClass(party)}`), document.createTextNode(party.name));
     markChange(tr, name, partyChanges.get(party.id), party);
     cell(tr, int(party.votes), 'num'); cell(tr, national.votes > 0 ? pct(party.percent) : '—', 'num');
     const comparison = partyVoteComparison(party, validPartyVotes, history);
@@ -69,7 +69,7 @@ function renderNational() {
   if ($('coalition-options').dataset.ids !== national.parties.map(p => p.id).sort().join(',')) {
     $('coalition-options').replaceChildren();
     for (const party of [...national.parties].sort((a,b) => a.name.localeCompare(b.name))) {
-      const label = node('label', null, 'party-option');
+      const label = node('label', null, `party-option ${partyColourClass(party)}`);
       const input = document.createElement('input'); input.type = 'checkbox'; input.value = party.id; input.checked = selected.has(party.id);
       input.addEventListener('change', () => { input.checked ? selected.add(party.id) : selected.delete(party.id); save('nz-coalition', selected); renderCoalition(); });
       label.append(input, document.createTextNode(party.name)); $('coalition-options').append(label);
