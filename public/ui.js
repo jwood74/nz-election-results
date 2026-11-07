@@ -2,6 +2,7 @@ import { sourceTime } from './model.js';
 export const $ = id => document.getElementById(id);
 export const int = value => value == null ? '—' : value.toLocaleString('en-NZ');
 export const pct = value => value == null ? '—' : `${value.toFixed(1)}%`;
+export const pp = value => value == null ? '—' : `${Math.abs(value) < 0.05 ? '' : value > 0 ? '+' : '−'}${(Math.abs(value) < 0.05 ? 0 : Math.abs(value)).toFixed(1)} pp`;
 export const clock = value => Number.isFinite(sourceTime(value)) ? new Date(sourceTime(value)).toLocaleString('en-NZ', { timeZone: 'Pacific/Auckland', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '—';
 export function saved(key) { try { const value = JSON.parse(localStorage.getItem(key) || '[]'); return new Set(Array.isArray(value) ? value : []); } catch { return new Set(); } }
 export function save(key, value) { try { localStorage.setItem(key, JSON.stringify([...value])); } catch { /* Storage is optional. */ } }

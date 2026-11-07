@@ -57,6 +57,15 @@ export function sourceTime(value) {
 
 export function voteShare(votes, total) { return total > 0 && votes != null ? votes / total * 100 : null; }
 
+export function partyVoteComparison(party, totalValidVotes, history) {
+  const previous = history?.parties?.find(p => p.currentId === party.id);
+  const previousTotal = history?.totalValidVotes;
+  const validShare = (votes, total) => Number.isFinite(votes) && votes >= 0 && Number.isFinite(total) && total > 0 && votes <= total ? votes / total * 100 : null;
+  const previousPercent = previous ? validShare(previous.votes, previousTotal) : null;
+  const currentPercent = validShare(party.votes, totalValidVotes);
+  return { previousPercent, change: previousPercent != null && currentPercent != null ? currentPercent - previousPercent : null };
+}
+
 // Stable feed party IDs, never candidate IDs or a candidate's ballot position.
 export function partyTintClass(partyId) {
   const tints = { '13': 'party-tint tint-lab', '16': 'party-tint tint-nat', '10': 'party-tint tint-grn', '5': 'party-tint tint-act', '17': 'party-tint tint-nzf' };

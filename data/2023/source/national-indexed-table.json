@@ -1,0 +1,32 @@
+{
+  "year": 2023,
+  "contest": "party",
+  "coverage": "official-final-including-special-votes",
+  "source": {
+    "url": "https://archive.electionresults.govt.nz/electionresults_2023/",
+    "title": "2023 General Election - Official Result",
+    "retrievedOn": "2026-11-07",
+    "method": "manual-transcription-of-search-indexed-official-table",
+    "note": "The archive returned HTTP 403 to direct requests and a fresh Edge browser. These integer vote counts were transcribed from the official table returned by web search, not downloaded as original CSVs. The counts sum to the published total. Do not substitute the 3 November media release, which predates amendments."
+  },
+  "totalValidVotes": 2851211,
+  "parties": [
+    { "name": "National Party", "votes": 1085851 },
+    { "name": "Labour Party", "votes": 767540 },
+    { "name": "Green Party", "votes": 330907 },
+    { "name": "ACT New Zealand", "votes": 246473 },
+    { "name": "New Zealand First Party", "votes": 173553 },
+    { "name": "Te Pāti Māori", "votes": 87844 },
+    { "name": "The Opportunities Party (TOP)", "votes": 63344 },
+    { "name": "New Zealand Loyal", "votes": 34478 },
+    { "name": "NewZeal", "votes": 16126 },
+    { "name": "Aotearoa Legalise Cannabis Party", "votes": 13025 },
+    { "name": "Freedoms NZ", "votes": 9586 },
+    { "name": "DemocracyNZ", "votes": 6786 },
+    { "name": "Animal Justice Party", "votes": 5018 },
+    { "name": "New Conservatives", "votes": 4532 },
+    { "name": "Women’s Rights Party", "votes": 2513 },
+    { "name": "Leighton Baker Party", "votes": 2105 },
+    { "name": "New Nation Party", "votes": 1530 }
+  ]
+}

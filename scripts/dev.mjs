@@ -8,7 +8,7 @@ import booths from '../netlify/functions/booths.mjs';
 
 const root = resolve('public');
 const routes = { '/api/national': national, '/api/electorates': electorates, '/api/electorate': electorate, '/api/booths': booths };
-const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript' };
+const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json' };
 createServer(async (req, res) => {
   try {
     const url = new URL(req.url, 'http://localhost');

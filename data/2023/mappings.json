@@ -1,0 +1,26 @@
+{
+  "partyMappings": {
+    "5": { "name2023": "ACT New Zealand", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "10": { "name2023": "Green Party", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "13": { "name2023": "Labour Party", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "16": { "name2023": "National Party", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "17": { "name2023": "New Zealand First Party", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "14": { "name2023": "Te Pāti Māori", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "36": { "name2023": "Aotearoa Legalise Cannabis Party", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "70": { "name2023": "New Zealand Loyal", "basis": "Same party name in the 2023 table and current XML metadata." },
+    "56": { "name2023": "Women’s Rights Party", "basis": "Same party name in the 2023 table and current XML metadata." }
+  },
+  "unmappedCurrentParties": {
+    "20": "No standalone 2023 party-vote baseline: do not allocate the Freedoms NZ alliance vote to member parties.",
+    "66": "No standalone 2023 party-vote baseline: do not allocate the Freedoms NZ alliance vote to member parties.",
+    "24": "Opportunity Party / The Opportunities Party name change requires explicit continuity verification.",
+    "34": "Conservative Party NZ / New Conservatives name change requires explicit continuity verification.",
+    "52": "Animal Justice Party name change requires explicit continuity verification.",
+    "68": "No verified comparable party-vote baseline in the 2023 table.",
+    "69": "No verified comparable party-vote baseline in the 2023 table.",
+    "71": "No verified comparable party-vote baseline in the 2023 table."
+  },
+  "electorateMappings": {},
+  "boothMappings": {},
+  "localComparisonStatus": "disabled-pending-original-csvs-and-reviewed-boundary-vote-category-matches"
+}

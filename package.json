@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "test": "node --test",
-    "check:feed": "node scripts/check-feed.mjs"
+    "check:feed": "node scripts/check-feed.mjs",
+    "history:build": "node scripts/build-history.mjs",
+    "history:check": "node scripts/build-history.mjs --check",
+    "history:download": "node scripts/download-history.mjs"
   },
   "engines": { "node": ">=22" },
   "dependencies": { "fast-xml-parser": "^5.3.0" }

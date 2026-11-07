@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "contest": "party",
+  "coverage": "official-final-including-special-votes",
+  "source": {
+    "url": "https://archive.electionresults.govt.nz/electionresults_2023/",
+    "title": "2023 General Election - Official Result",
+    "retrievedOn": "2026-11-07",
+    "method": "manual-transcription-of-search-indexed-official-table",
+    "note": "The archive returned HTTP 403 to direct requests and a fresh Edge browser. These integer vote counts were transcribed from the official table returned by web search, not downloaded as original CSVs. The counts sum to the published total. Do not substitute the 3 November media release, which predates amendments."
+  },
+  "hashes": {
+    "sourceSha256": "ae6d40a66f47b55709ce25af166ac72a96c81009ad592858f6e353ba6f680a81",
+    "mappingsSha256": "1b42025dac123f97fff15a0d77b6b9c922d623f6b242a8fb2f99f25e6c8196a7"
+  },
+  "totalValidVotes": 2851211,
+  "allParties": [
+    {
+      "name": "National Party",
+      "votes": 1085851
+    },
+    {
+      "name": "Labour Party",
+      "votes": 767540
+    },
+    {
+      "name": "Green Party",
+      "votes": 330907
+    },
+    {
+      "name": "ACT New Zealand",
+      "votes": 246473
+    },
+    {
+      "name": "New Zealand First Party",
+      "votes": 173553
+    },
+    {
+      "name": "Te Pāti Māori",
+      "votes": 87844
+    },
+    {
+      "name": "The Opportunities Party (TOP)",
+      "votes": 63344
+    },
+    {
+      "name": "New Zealand Loyal",
+      "votes": 34478
+    },
+    {
+      "name": "NewZeal",
+      "votes": 16126
+    },
+    {
+      "name": "Aotearoa Legalise Cannabis Party",
+      "votes": 13025
+    },
+    {
+      "name": "Freedoms NZ",
+      "votes": 9586
+    },
+    {
+      "name": "DemocracyNZ",
+      "votes": 6786
+    },
+    {
+      "name": "Animal Justice Party",
+      "votes": 5018
+    },
+    {
+      "name": "New Conservatives",
+      "votes": 4532
+    },
+    {
+      "name": "Women’s Rights Party",
+      "votes": 2513
+    },
+    {
+      "name": "Leighton Baker Party",
+      "votes": 2105
+    },
+    {
+      "name": "New Nation Party",
+      "votes": 1530
+    }
+  ],
+  "parties": [
+    {
+      "currentId": "5",
+      "name2023": "ACT New Zealand",
+      "votes": 246473,
+      "percent": 8.644502283415713,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "10",
+      "name2023": "Green Party",
+      "votes": 330907,
+      "percent": 11.605840465682828,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "13",
+      "name2023": "Labour Party",
+      "votes": 767540,
+      "percent": 26.919789521014053,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "14",
+      "name2023": "Te Pāti Māori",
+      "votes": 87844,
+      "percent": 3.0809364862860025,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "16",
+      "name2023": "National Party",
+      "votes": 1085851,
+      "percent": 38.08385279097198,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "17",
+      "name2023": "New Zealand First Party",
+      "votes": 173553,
+      "percent": 6.086992509498596,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "36",
+      "name2023": "Aotearoa Legalise Cannabis Party",
+      "votes": 13025,
+      "percent": 0.45682343397244185,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "56",
+      "name2023": "Women’s Rights Party",
+      "votes": 2513,
+      "percent": 0.08813798768312833,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    },
+    {
+      "currentId": "70",
+      "name2023": "New Zealand Loyal",
+      "votes": 34478,
+      "percent": 1.2092405647986066,
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+    }
+  ],
+  "unmappedCurrentParties": {
+    "20": "No standalone 2023 party-vote baseline: do not allocate the Freedoms NZ alliance vote to member parties.",
+    "24": "Opportunity Party / The Opportunities Party name change requires explicit continuity verification.",
+    "34": "Conservative Party NZ / New Conservatives name change requires explicit continuity verification.",
+    "52": "Animal Justice Party name change requires explicit continuity verification.",
+    "66": "No standalone 2023 party-vote baseline: do not allocate the Freedoms NZ alliance vote to member parties.",
+    "68": "No verified comparable party-vote baseline in the 2023 table.",
+    "69": "No verified comparable party-vote baseline in the 2023 table.",
+    "71": "No verified comparable party-vote baseline in the 2023 table."
+  },
+  "localComparisonStatus": "disabled-pending-original-csvs-and-reviewed-boundary-vote-category-matches"
+}

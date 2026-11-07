@@ -1,6 +1,6 @@
 # NZ election night
 
-Table-first election-night viewer: national party votes and feed-reported seats, a coalition selector, closest electorate races, search, sorting and a local watchlist. Open an electorate for separate candidate/party totals and sortable, searchable booth results, with votes/percentages toggles and a full-result dialog for each booth. Historic comparisons are follow-up work.
+Table-first election-night viewer: national party votes, 2023 national share change and feed-reported seats, a coalition selector, closest electorate races, search, sorting and a local watchlist. Open an electorate for separate candidate/party totals and sortable, searchable booth results, with votes/percentages toggles and a full-result dialog for each booth. Local historic comparisons remain disabled pending source downloads and reviewed mappings.
 
 Click **Last Updated** in the electorate table for newest-first order, then click again for oldest-first. Invalid/missing timestamps stay last. Green rows and explicit “Changed” badges highlight changes since the previous successful refresh in the current tab, with signed vote deltas (including negative corrections). First loads/new rows establish a baseline; timestamp-only updates do not highlight. Sorting/filtering does not reset highlights; an unchanged successful refresh clears them. Baselines survive unavailable feeds and stale retained rows. These are in-memory comparisons, not persistent count history or notifications.
 
@@ -48,4 +48,10 @@ This creates a preview deployment. Verify `/api/national`, `/api/electorates`, `
 - All-zero feeds have no leader or usable seat allocation. Ties have no sole leader. The XML `final` attribute is deliberately not used to call winners.
 - Coalition arithmetic uses the reported seat allocation and a minimum 120-seat parliament (increased if reported totals exceed 120). It is not a forecast. Validate the upstream seat field semantics during the live count.
 
-At initial inspection the feed was zeroed with a `2026-11-06T16:19:53` timestamp. Historical HTML returned 403; no historical data or predictions are included.
+## Historical data
+
+The saved national 2023 baseline is served as static JSON, requested once per page independently of live polling. Build it offline with `npm run history:build`, and verify generated output with `npm run history:check`. See [`data/2023/README.md`](data/2023/README.md) for source provenance, explicit party mappings, comparison limitations and the opt-in CSV collector.
+
+The archive blocks direct downloads here. The national baseline is therefore a transparently labelled transcription of its indexed official final table, **not** downloaded CSV originals. Nine directly named parties are mapped; unverified renames/alliances show dashes. Change uses exact valid-vote denominators and includes 2023 special votes. Electorate/booth swing and predictions are not enabled.
+
+At initial inspection the live feed was zeroed with a `2026-11-06T16:19:53` timestamp.

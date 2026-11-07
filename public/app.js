@@ -1,11 +1,24 @@
-import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature } from './model.js';
-import { $, int, pct, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
+import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature, partyVoteComparison } from './model.js';
+import { $, int, pct, pp, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 const selected = saved('nz-coalition');
 const watchlist = saved('nz-watchlist');
 let national, races, busy = false, checked, failures = [];
 let view = 'closest', sortKey = 'margin', direction = 1;
 const trackNational = createChangeTracker(nationalSignature), trackRaces = createChangeTracker(electorateSignature);
 let partyChanges = new Map(), raceChanges = new Map();
+let history, historyFailed = false;
+
+async function loadHistory() {
+  try {
+    // Load static history once per page, independently of live polling.
+    const response = await fetch('/data/2023/national.json', { signal: AbortSignal.timeout(10_000) });
+    if (!response.ok) throw new Error('Historical baseline unavailable');
+    const data = await response.json();
+    if (data.schemaVersion !== 1 || data.year !== 2023 || !Array.isArray(data.parties) || !data.parties.length || !(data.totalValidVotes > 0)) throw new Error('Invalid historical baseline');
+    history = data;
+  } catch { historyFailed = true; }
+  if (national) renderNational();
+}
 
 function renderNational() {
   $('counted').textContent = pct(national.percentPlacesCounted);
@@ -15,6 +28,12 @@ function renderNational() {
   $('national-time').textContent = `Source updated ${clock(national.updated)} NZ`;
   $('national-empty').hidden = national.votes > 0;
   $('national-changes').textContent = `${partyChanges.size} party rows changed. Highlights compare votes and seats with the previous successful refresh in this tab; the first load establishes a baseline.`;
+  $('national-history').textContent = historyFailed ? '2023 baseline unavailable. Live results are unaffected.' : !history ? 'Loading the saved 2023 baseline…' :
+    '2023 final party votes include special votes. Change is in percentage points (pp), not a forecast; early live results may be unrepresentative. Unmapped parties show —. Baseline transcribed from the indexed official table; original CSV download pending.';
+  if (history) {
+    const link = node('a', ' Saved baseline and provenance ↗'); link.href = '/data/2023/national.json'; link.target = '_blank'; link.rel = 'noopener'; $('national-history').append(link);
+  }
+  const validPartyVotes = national.parties.reduce((sum, party) => sum + party.votes, 0);
   $('party-rows').replaceChildren();
   for (const party of national.parties) {
     const tr = node('tr');
@@ -24,6 +43,10 @@ function renderNational() {
     name.append(node('span', '', `party-dot party-${code}`), document.createTextNode(party.name));
     markChange(tr, name, partyChanges.get(party.id), party);
     cell(tr, int(party.votes), 'num'); cell(tr, national.votes > 0 ? pct(party.percent) : '—', 'num');
+    const comparison = partyVoteComparison(party, validPartyVotes, history);
+    const previous = cell(tr, pct(comparison.previousPercent), 'num');
+    if (comparison.previousPercent == null && history) previous.title = history.unmappedCurrentParties?.[party.id] || 'No verified comparable 2023 baseline.';
+    cell(tr, pp(comparison.change), 'num');
     for (const key of ['electorateSeats', 'listSeats', 'seats']) cell(tr, national.seats > 0 ? int(party[key]) : '—', 'num');
     $('party-rows').append(tr);
   }
@@ -100,7 +123,7 @@ async function refresh() {
     await Promise.all([
       (async () => {
         try { national = await get('national'); partyChanges = trackNational(national.parties); renderNational(); }
-        catch { failures.push('National feed'); if (!national) message($('party-rows'), 'National feed unavailable. Retrying automatically.', 6); }
+        catch { failures.push('National feed'); if (!national) message($('party-rows'), 'National feed unavailable. Retrying automatically.', 8); }
         renderStatus();
       })(),
       (async () => {
@@ -126,6 +149,7 @@ for (const button of document.querySelectorAll('[data-sort]')) button.addEventLi
   direction = sortKey === button.dataset.sort ? -direction : button.dataset.sort === 'updated' ? -1 : 1;
   sortKey = button.dataset.sort; renderRaces();
 });
+loadHistory();
 refresh();
 setInterval(refresh, 60_000);
 setInterval(renderStatus, 30_000);
