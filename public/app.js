@@ -29,7 +29,7 @@ function renderNational() {
   $('seats').textContent = national.seats > 0 ? int(national.seats) : '—';
   $('national-time').textContent = `Source updated ${clock(national.updated)} NZ`;
   $('national-empty').hidden = national.votes > 0;
-  $('national-changes').textContent = `${partyChanges.size} party rows changed. Highlights compare votes and seats with the previous successful refresh in this tab; the first load establishes a baseline.`;
+  $('national-changes').textContent = `${partyChanges.size} party rows changed since the previous successful refresh in this tab (votes or seats); the first load establishes a baseline.`;
   $('national-history').textContent = historyFailed ? '2023 baseline unavailable. Live results are unaffected.' : !history ? 'Loading the saved 2023 baseline…' :
     '2023 final party votes are compiled from the saved original CSVs and include special votes. Change shows the percentage-point difference in vote share, not relative percentage growth or a forecast; early live results may be unrepresentative. Unmapped parties show —.';
   if (history) {
@@ -42,7 +42,6 @@ function renderNational() {
     const tr = node('tr');
     const name = cell(tr, null, 'party-name');
     name.append(node('span', '', `party-dot ${partyColourClass(party)}`), document.createTextNode(party.name));
-    markChange(tr, name, partyChanges.get(party.id), party);
     cell(tr, int(party.votes), 'num'); cell(tr, national.votes > 0 ? pct(party.percent) : '—', 'num');
     const comparison = partyVoteComparison(party, validPartyVotes, history);
     const previous = cell(tr, pct(comparison.previousPercent), 'num');
