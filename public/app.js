@@ -1,5 +1,7 @@
 import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature, partyVoteComparison, seatChange, partyTintClass } from './model.js';
 import { $, int, pct, pp, changeClass, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
+import { createCoalitionBalanceView } from './coalition-balance.js';
+const renderCoalitionBalance = createCoalitionBalanceView($('coalition-balance'));
 const selected = saved('nz-coalition');
 const watchlist = saved('nz-watchlist');
 let national, races, busy = false, checked, failures = [];
@@ -77,6 +79,7 @@ function renderNational() {
     $('coalition-options').dataset.ids = national.parties.map(p => p.id).sort().join(',');
   }
   renderCoalition();
+  renderCoalitionBalance(national.parties);
 }
 function renderCoalition() {
   const parties = new Map(national.parties.map(party => [party.id, party]));

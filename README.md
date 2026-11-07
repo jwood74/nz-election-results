@@ -6,6 +6,8 @@ Click **Last Updated** in the electorate table for newest-first order, then clic
 
 The **Seat change** column after national-table **Total seats** shows green **↑ +N** / red **↓ −N** against the completed 2023 Parliament, including the deferred Port Waikato result (National 49; total 123). These are separate from per-refresh highlights. Unchanged parties show **0**; unavailable allocations and unverified mappings show **—**.
 
+The coalition builder includes one proportional seat-balance line: National + NZ First + ACT build from the left, Labour + Green + Te Pāti Māori + Opportunity from the right. Other parties and any unallocated portion of the minimum 120-seat Parliament sit in the neutral middle. The midpoint marks more-than-half control; the majority count increases with overhang seats. Hover, focus or tap a segment for the party name and seat count; Escape dismisses the tooltip. Zero-seat parties occupy no width, and there is no separate party legend beneath the bar. An all-zero feed shows an awaiting-allocation message, not a fabricated split. These combinations are illustrative, not confirmed agreements, and do not change the custom party selection underneath.
+
 ## Run locally
 
 Node 22 or newer:
