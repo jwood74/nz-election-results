@@ -1,4 +1,4 @@
-import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature, partyVoteComparison, seatChange } from './model.js';
+import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature, partyVoteComparison, seatChange, partyTintClass } from './model.js';
 import { $, int, pct, pp, changeClass, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 const selected = saved('nz-coalition');
 const watchlist = saved('nz-watchlist');
@@ -71,13 +71,19 @@ function renderNational() {
       const label = node('label', null, `party-option ${partyColourClass(party)}`);
       const input = document.createElement('input'); input.type = 'checkbox'; input.value = party.id; input.checked = selected.has(party.id);
       input.addEventListener('change', () => { input.checked ? selected.add(party.id) : selected.delete(party.id); save('nz-coalition', selected); renderCoalition(); });
-      label.append(input, document.createTextNode(party.name)); $('coalition-options').append(label);
+      const name = node('span', party.name); name.dataset.coalitionParty = party.id;
+      label.append(input, name); $('coalition-options').append(label);
     }
     $('coalition-options').dataset.ids = national.parties.map(p => p.id).sort().join(',');
   }
   renderCoalition();
 }
 function renderCoalition() {
+  const parties = new Map(national.parties.map(party => [party.id, party]));
+  for (const label of $('coalition-options').querySelectorAll('[data-coalition-party]')) {
+    const party = parties.get(label.dataset.coalitionParty);
+    label.textContent = `${party.name} (${national.seats > 0 ? int(party.seats) : '—'})`;
+  }
   const total = coalition(national.parties, selected, national.majority);
   $('coalition-seats').textContent = national.majority == null ? '—' : int(total.seats);
   $('coalition-status').textContent = national.majority == null ? 'Seat allocation not yet available.' :
@@ -106,7 +112,7 @@ function renderRaces() {
     const link = node('a', row.name); link.href = `/electorate.html?id=${encodeURIComponent(row.id)}`;
     const name = cell(tr, null, 'party-name'); name.append(link);
     markChange(tr, name, raceChanges.get(row.id), row, 'candidateVotes', 'candidate votes');
-    const leader = cell(tr, row.unavailable ? 'Feed unavailable' : row.tied ? 'Tied for the lead' : row.leader?.name || 'Awaiting votes');
+    const leader = cell(tr, row.unavailable ? 'Feed unavailable' : row.tied ? 'Tied for the lead' : row.leader?.name || 'Awaiting votes', !row.unavailable && !row.tied && row.leader ? partyTintClass(row.leader.partyId) : '');
     if (row.leader) leader.append(node('span', row.leader.party, 'party-sub'));
     const margin = cell(tr, int(row.margin), 'num');
     if (row.marginPercent != null) margin.append(node('span', `${pct(row.marginPercent)} of candidate votes`, 'party-sub'));
