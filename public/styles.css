@@ -20,9 +20,14 @@
 .national-table .result-changed td{background:transparent}
 .change-badge{display:block;width:fit-content;margin-top:5px;font-size:10px;font-weight:600;line-height:1.5;color:#22513a;border:1px solid #91b39c;border-radius:3px;padding:1px 5px;white-space:normal}
 .table-scroll{position:relative}
+.national-table th:first-child,.national-table td:first-child{position:sticky;left:0;background:var(--paper);z-index:1;box-shadow:1px 0 0 var(--line)}
+.national-table tbody tr:hover td:first-child{background:#eaf0e9}
 .seat-change{display:inline-block;font-size:12px;font-weight:750;white-space:nowrap}
 .seat-gain{color:#17643a}
 .seat-loss{color:#b32424}
+.change-positive{color:#17643a}
+.change-negative{color:#b32424}
+td.zero-value{color:#788589}
 .tint-lab{--party-tint:#f7e9e7}
 .tint-nat{--party-tint:#e6eff8}
 .tint-grn{--party-tint:#e9f1e5}

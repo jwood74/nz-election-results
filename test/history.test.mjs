@@ -45,13 +45,13 @@ test('national comparison uses exact valid votes, percentage points and null on 
   const comparison=partyVoteComparison(party,1000,data);
   assert.ok(Math.abs(comparison.previousPercent-26.9)<1e-10);
   assert.ok(Math.abs(comparison.change-3.1)<1e-10);
-  assert.equal(pp(comparison.change),'+3.1 pp');
-  assert.equal(pp(partyVoteComparison({...party,votes:200},1000,data).change),'−6.9 pp');
+  assert.equal(pp(comparison.change),'+3.1%');
+  assert.equal(pp(partyVoteComparison({...party,votes:200},1000,data).change),'−6.9%');
   assert.equal(partyVoteComparison({...party,votes:0},0,data).change,null);
   assert.equal(partyVoteComparison(party,1000,null).change,null);
   assert.equal(partyVoteComparison({...party,votes:1100},1000,data).change,null);
   assert.equal(partyVoteComparison({...party,votes:0},1000,data).change,-comparison.previousPercent);
-  assert.equal(pp(-0.0001),'0.0 pp'); assert.equal(pp(null),'—');
+  assert.equal(pp(-0.0001),'0.0%'); assert.equal(pp(null),'—');
 });
 test('download inventory contains all 144 original booth CSVs, with national summary opt-in', () => {
   const entries=historicalDownloads();

@@ -1,5 +1,5 @@
 import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature, partyTintClass, electoratePartyHistory, partyVoteComparison } from './model.js';
-import { $, int, pct, pp, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
+import { $, int, pct, pp, changeClass, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 
 const id = new URLSearchParams(location.search).get('id');
 const watchlist = saved('nz-watchlist');
@@ -61,7 +61,7 @@ function summary(body, items, votes, changes = new Map()) {
     cell(tr, int(item.votes), 'num'); cell(tr, pct(voteShare(item.votes, votes)), 'num');
     if (body.id === 'electorate-party-rows') {
       const comparison = partyVoteComparison(item, votes, historicalBaseline);
-      cell(tr, pct(comparison.previousPercent), 'num'); cell(tr, pp(comparison.change), 'num');
+      cell(tr, pct(comparison.previousPercent), 'num'); cell(tr, pp(comparison.change), `num ${changeClass(comparison.change)}`);
     }
     body.append(tr);
   }
