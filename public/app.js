@@ -1,17 +1,9 @@
 import { coalition, filterRaces, sourceTime } from './model.js';
-const $ = id => document.getElementById(id);
-const int = value => value == null ? '—' : value.toLocaleString('en-NZ');
-const pct = value => value == null ? '—' : `${value.toFixed(1)}%`;
-const clock = value => Number.isFinite(sourceTime(value)) ? new Date(sourceTime(value)).toLocaleString('en-NZ', { timeZone: 'Pacific/Auckland', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '—';
-function saved(key) { try { const value = JSON.parse(localStorage.getItem(key) || '[]'); return new Set(Array.isArray(value) ? value : []); } catch { return new Set(); } }
-function save(key, value) { try { localStorage.setItem(key, JSON.stringify([...value])); } catch { /* Storage is optional. */ } }
+import { $, int, pct, clock, saved, save, node, cell, message, get } from './ui.js';
 const selected = saved('nz-coalition');
 const watchlist = saved('nz-watchlist');
 let national, races, busy = false, checked, failures = [];
 let view = 'closest', sortKey = 'margin', direction = 1;
-function node(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
-function cell(row, text, className) { const n = node('td', text, className); row.append(n); return n; }
-function message(body, text, cols) { const tr = node('tr'); const td = cell(tr, text); td.colSpan = cols; body.replaceChildren(tr); }
 
 function renderNational() {
   $('counted').textContent = pct(national.percentPlacesCounted);
@@ -68,7 +60,9 @@ function renderRaces() {
       if (view === 'watchlist') { renderRaces(); $('search').focus(); }
       else { watch.textContent = watchlist.has(row.id) ? '★' : '☆'; watch.setAttribute('aria-pressed', String(watchlist.has(row.id))); }
     });
-    cell(tr).append(watch); cell(tr, row.name, 'party-name');
+    cell(tr).append(watch);
+    const link = node('a', row.name); link.href = `/electorate.html?id=${encodeURIComponent(row.id)}`;
+    cell(tr, null, 'party-name').append(link);
     const leader = cell(tr, row.unavailable ? 'Feed unavailable' : row.tied ? 'Tied for the lead' : row.leader?.name || 'Awaiting votes');
     if (row.leader) leader.append(node('span', row.leader.party, 'party-sub'));
     const margin = cell(tr, int(row.margin), 'num');
@@ -90,11 +84,6 @@ function renderStatus() {
   if (checked) parts.push(`Last checked ${clock(checked)} NZ. Refreshes every 60 seconds.`);
   $('connection').textContent = parts.join(' ') || 'Connecting to the election feed…';
   $('connection').classList.toggle('error', failures.length > 0 || oldSource || oldFetch);
-}
-async function get(path) {
-  const response = await fetch(`/api/${path}`, { cache: 'no-cache', signal: AbortSignal.timeout(55_000) });
-  if (!response.ok) throw new Error(`${path} unavailable`);
-  return response.json();
 }
 async function refresh() {
   if (busy) return;

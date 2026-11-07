@@ -26,3 +26,29 @@ export function sourceTime(value) {
   const zone = formatter.formatToParts(new Date(utc)).find(p => p.type === 'timeZoneName').value;
   return Date.parse(`${value}${zone.replace('GMT', '') || '+00:00'}`);
 }
+
+export function voteShare(votes, total) { return total > 0 && votes != null ? votes / total * 100 : null; }
+
+export function boothValue(booth, key, voteType, metric) {
+  if (key === 'name') return booth.name;
+  if (booth.unavailable) return null;
+  if (key === 'reported') return Number(booth.reported);
+  if (key === 'updated') return sourceTime(booth.updated);
+  const total = voteType === 'candidates' ? booth.candidateVotes : booth.partyVotes;
+  if (key === 'total') return total;
+  const votes = booth[voteType]?.find(item => item.id === key)?.votes;
+  return metric === 'percent' ? voteShare(votes, total) : votes ?? null;
+}
+
+export function filterBooths(rows, { search, status, sortKey, direction, voteType, metric }) {
+  const fold = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  return rows.filter(row => fold(row.name).includes(fold(search.trim())) &&
+    (status === 'all' || (status === 'reported' ? row.reported : !row.reported && !row.unavailable)))
+    .sort((a,b) => {
+      const av = boothValue(a, sortKey, voteType, metric), bv = boothValue(b, sortKey, voteType, metric);
+      if (av == null && bv == null) return a.name.localeCompare(b.name);
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      return (typeof av === 'string' ? av.localeCompare(bv) : av-bv) * direction || a.name.localeCompare(b.name);
+    });
+}

@@ -1,6 +1,6 @@
 # NZ election night
 
-Table-first election-night viewer: national party votes and feed-reported seats, a coalition selector, closest electorate races, search, sorting and a local watchlist. Electorate/booth drill-down and historic comparisons are follow-up work.
+Table-first election-night viewer: national party votes and feed-reported seats, a coalition selector, closest electorate races, search, sorting and a local watchlist. Open an electorate for separate candidate/party totals and sortable, searchable booth results, with votes/percentages toggles and a full-result dialog for each booth. Historic comparisons are follow-up work.
 
 ## Run locally
 
@@ -28,12 +28,17 @@ Alternatively use the Netlify CLI from this directory after authenticating:
 npx netlify-cli deploy --build
 ```
 
-This creates a preview deployment. Verify `/api/national` and `/api/electorates` on the deployed URL before publishing to production. A successful local fetch does **not** prove the source permits Netlify's outbound IP addresses. Check function duration/usage and plan limits as well. Do not use a static-folder drag-and-drop deployment: the functions must be built and deployed too.
+This creates a preview deployment. Verify `/api/national`, `/api/electorates`, `/api/electorate?id=1` and `/api/booths?id=1&page=0` on the deployed URL before publishing to production. A successful local fetch does **not** prove the source permits Netlify's outbound IP addresses. Check function duration/usage and plan limits as well. Do not use a static-folder drag-and-drop deployment: the functions must be built and deployed too.
 
 ## Data and caching
 
 - The backend fetches only fixed paths from https://media.election.net.nz/xml/; no open proxy or browser CORS workaround.
 - National and electorate endpoints are separate. Electorate requests have bounded concurrency (12) and each upstream fetch has an eight-second timeout.
+- Detail URLs use `/electorate.html?id=1`. Only validated electorate IDs and bounded numeric page inputs reach the source; unknown electorates/pages return 404.
+- Booth result filenames come from the source's directory listing, cached for five minutes; labels are joined by global `vp_id` from `votingplaces.xml`. This includes booths outside the contest's host electorate and Māori electorate coverage. No booth affiliation is inferred from its address.
+- `/api/booths?id=1&page=0` loads at most 40 result files with concurrency 12. The browser loads remaining batches with concurrency three and sorts/searches across all loaded rows. It retries on the next one-minute refresh and does not start overlapping refreshes. This is on-demand, not a national booth crawl.
+- A batch with some missing files returns explicit warnings without CDN caching; an entirely failed batch returns 502. The browser retains previous good booth rows on a failed batch/file, marks them stale, and shows progress and missing-batch counts. Candidate/party shares use their own valid-vote totals; absent data and all-zero denominators show dashes.
+- Reported booth status uses `time_received`, issued ballots, votes or informals, not merely `updated`. Booth files and electorate totals may have different coverage/timestamps and are not assumed to reconcile.
 - Metadata caches for an hour per warm function instance; results cache for 55 seconds. In-flight requests within an instance are coalesced.
 - Netlify CDN responses cache for 55 seconds, may serve stale while revalidating for another minute, and may serve stale on errors for five minutes. Warm-instance caching is opportunistic, not a persistent collector.
 - Partial electorate responses identify missing feeds and are not CDN-cached. An all-feed failure returns 502. The browser keeps its previous response when an endpoint fails and retries every minute. No persistent offline snapshot is stored.
