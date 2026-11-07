@@ -153,6 +153,12 @@ async function refresh() {
   }
 }
 $('refresh').addEventListener('click', refresh);
+$('coalition-clear').addEventListener('click', () => {
+  selected.clear();
+  save('nz-coalition', selected);
+  for (const input of $('coalition-options').querySelectorAll('input')) input.checked = false;
+  if (national) renderCoalition();
+});
 $('search').addEventListener('input', renderRaces);
 for (const button of document.querySelectorAll('[data-view]')) button.addEventListener('click', () => {
   view = button.dataset.view;
