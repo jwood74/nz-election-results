@@ -4,15 +4,17 @@
   "contest": "party",
   "coverage": "official-final-including-special-votes",
   "source": {
-    "url": "https://archive.electionresults.govt.nz/electionresults_2023/",
-    "title": "2023 General Election - Official Result",
-    "retrievedOn": "2026-11-07",
-    "method": "manual-transcription-of-search-indexed-official-table",
-    "note": "The archive returned HTTP 403 to direct requests and a fresh Edge browser. These integer vote counts were transcribed from the official table returned by web search, not downloaded as original CSVs. The counts sum to the published total. Do not substitute the 3 November media release, which predates amendments."
+    "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/votes-by-voting-place-electorate-index.html",
+    "title": "2023 official party votes aggregated across all 72 electorate CSVs",
+    "method": "aggregate-of-user-downloaded-official-csvs",
+    "note": "Exact integer totals from the party CSVs, including separately preserved special-vote categories. Original files, checksums and URLs are in the saved source manifest; no search-index transcription is used."
   },
   "hashes": {
-    "sourceSha256": "ae6d40a66f47b55709ce25af166ac72a96c81009ad592858f6e353ba6f680a81",
-    "mappingsSha256": "1b42025dac123f97fff15a0d77b6b9c922d623f6b242a8fb2f99f25e6c8196a7"
+    "mappingsSha256": "0945da8c899fff33017aa637366cb7760655242b47bf8feeec55b1d2bde40dd8",
+    "boundaryReviewSha256": "325c163c941008fe5e42574727e9f2aedc4bd4474c80d5266bad812b8e3d45ea",
+    "currentElectoratesSha256": "7aac8ed7d884279712abb6c7c7b93b3d451c0220a0827d79b326183f80de5e42",
+    "seatBaselineSha256": "c09368a7d4a3243ca383881505e05413c871897b4b01953bf3ae2bbfb8f07481",
+    "sourceSha256": "56f09d871b6d1b75727614eebcc25fd67db2c14cb3e08b29d2b23092d3a5e201"
   },
   "totalValidVotes": 2851211,
   "allParties": [
@@ -91,63 +93,72 @@
       "name2023": "ACT New Zealand",
       "votes": 246473,
       "percent": 8.644502283415713,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 11
     },
     {
       "currentId": "10",
       "name2023": "Green Party",
       "votes": 330907,
       "percent": 11.605840465682828,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 15
     },
     {
       "currentId": "13",
       "name2023": "Labour Party",
       "votes": 767540,
       "percent": 26.919789521014053,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 34
     },
     {
       "currentId": "14",
       "name2023": "Te Pāti Māori",
       "votes": 87844,
       "percent": 3.0809364862860025,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 6
     },
     {
       "currentId": "16",
       "name2023": "National Party",
       "votes": 1085851,
       "percent": 38.08385279097198,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 49
     },
     {
       "currentId": "17",
       "name2023": "New Zealand First Party",
       "votes": 173553,
       "percent": 6.086992509498596,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 8
     },
     {
       "currentId": "36",
       "name2023": "Aotearoa Legalise Cannabis Party",
       "votes": 13025,
       "percent": 0.45682343397244185,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 0
     },
     {
       "currentId": "56",
       "name2023": "Women’s Rights Party",
       "votes": 2513,
       "percent": 0.08813798768312833,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 0
     },
     {
       "currentId": "70",
       "name2023": "New Zealand Loyal",
       "votes": 34478,
       "percent": 1.2092405647986066,
-      "mappingBasis": "Same party name in the 2023 table and current XML metadata."
+      "mappingBasis": "Same party name in the 2023 table and current XML metadata.",
+      "seats2023": 0
     }
   ],
   "unmappedCurrentParties": {
@@ -160,5 +171,53 @@
     "69": "No verified comparable party-vote baseline in the 2023 table.",
     "71": "No verified comparable party-vote baseline in the 2023 table."
   },
-  "localComparisonStatus": "disabled-pending-original-csvs-and-reviewed-boundary-vote-category-matches"
+  "localComparisonStatus": "party-vote-comparison-only-for-officially-unchanged-boundaries",
+  "seatComparison": {
+    "year": 2023,
+    "coverage": "completed-2023-parliament-including-port-waikato",
+    "label": "Completed 2023 Parliament, including the deferred Port Waikato result",
+    "totalSeats": 123,
+    "source": {
+      "url": "https://selectcommittees.parliament.nz/download/Determinations/187df44c-5b73-4572-7edb-08dbfb4878a6",
+      "alternateUrl": "https://www3.parliament.nz/media/11259/order-for-calls-government-bills-second-and-third-readings-13-dec-2023.pdf",
+      "title": "Order of calls: second and third readings of Government bills, 54th Parliament (revised 12 December 2023)",
+      "method": "transcription-of-search-indexed-official-parliament-table",
+      "retrievedOn": "2026-11-07",
+      "note": "The official table lists National 49, Labour 34, Green 15, ACT 11, NZ First 8 and Te Paati Māori 6. Its footnote explicitly includes the Port Waikato by-election. These seats are a separately attributed baseline, not derived from booth CSVs or from current/outgoing party membership. No original PDF download is claimed."
+    }
+  },
+  "categoryTotals": {
+    "advance": {
+      "validVotes": 1377029,
+      "informalVotes": 7575
+    },
+    "election-day": {
+      "validVotes": 889316,
+      "informalVotes": 4279
+    },
+    "overseas-party-only": {
+      "validVotes": 630,
+      "informalVotes": 1
+    },
+    "overseas-special": {
+      "validVotes": 76559,
+      "informalVotes": 105
+    },
+    "special-before": {
+      "validVotes": 255550,
+      "informalVotes": 2005
+    },
+    "special-on": {
+      "validVotes": 208615,
+      "informalVotes": 1689
+    },
+    "party-only-unspecified": {
+      "validVotes": 41199,
+      "informalVotes": 580
+    },
+    "suppressed-ordinary": {
+      "validVotes": 2313,
+      "informalVotes": 33
+    }
+  }
 }

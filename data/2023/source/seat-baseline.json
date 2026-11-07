@@ -1,0 +1,23 @@
+{
+  "year": 2023,
+  "coverage": "completed-2023-parliament-including-port-waikato",
+  "label": "Completed 2023 Parliament, including the deferred Port Waikato result",
+  "totalSeats": 123,
+  "source": {
+    "url": "https://selectcommittees.parliament.nz/download/Determinations/187df44c-5b73-4572-7edb-08dbfb4878a6",
+    "alternateUrl": "https://www3.parliament.nz/media/11259/order-for-calls-government-bills-second-and-third-readings-13-dec-2023.pdf",
+    "title": "Order of calls: second and third readings of Government bills, 54th Parliament (revised 12 December 2023)",
+    "method": "transcription-of-search-indexed-official-parliament-table",
+    "retrievedOn": "2026-11-07",
+    "note": "The official table lists National 49, Labour 34, Green 15, ACT 11, NZ First 8 and Te Paati Māori 6. Its footnote explicitly includes the Port Waikato by-election. These seats are a separately attributed baseline, not derived from booth CSVs or from current/outgoing party membership. No original PDF download is claimed."
+  },
+  "parties": [
+    { "name": "National Party", "seats": 49 },
+    { "name": "Labour Party", "seats": 34 },
+    { "name": "Green Party", "seats": 15 },
+    { "name": "ACT New Zealand", "seats": 11 },
+    { "name": "New Zealand First Party", "seats": 8 },
+    { "name": "Te Pāti Māori", "seats": 6 }
+  ],
+  "otherParties": "The other parties in the saved 2023 party-vote CSVs held zero seats; unverified current-party mappings still receive no comparison."
+}

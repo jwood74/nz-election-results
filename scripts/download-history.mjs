@@ -8,7 +8,7 @@ let manifest;
 try { manifest = JSON.parse(await readFile(manifestUrl, 'utf8')); }
 catch (error) { if (error.code !== 'ENOENT') throw error; manifest = { files: [] }; }
 try {
-  for (const entry of historicalDownloads()) {
+  for (const entry of historicalDownloads({ includeSummary: process.argv.includes('--include-summary') })) {
     const target = new URL(entry.filename, root);
     let bytes;
     let method = 'existing-local-file';

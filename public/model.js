@@ -66,6 +66,21 @@ export function partyVoteComparison(party, totalValidVotes, history) {
   return { previousPercent, change: previousPercent != null && currentPercent != null ? currentPercent - previousPercent : null };
 }
 
+export function seatChange(party, allocatedSeats, history) {
+  const previous = history?.parties?.find(p=>p.currentId===party.id)?.seats2023;
+  if (!(allocatedSeats > 0) || !Number.isSafeInteger(previous) || previous < 0 || !Number.isSafeInteger(party.seats) || party.seats < 0) return null;
+  return { previous, change: party.seats - previous };
+}
+
+export function electoratePartyHistory(electorate, partyMappings) {
+  const party = electorate?.party;
+  if (!party || party.contest !== 'party' || !Array.isArray(party.choices) || !Array.isArray(party.totals?.votes)) return null;
+  return { totalValidVotes: party.totals.validVotes, parties: partyMappings.flatMap(mapping => {
+    const index = party.choices.findIndex(choice => choice.name === mapping.name2023);
+    return index < 0 ? [] : [{ currentId: mapping.currentId, votes: party.totals.votes[index] }];
+  }) };
+}
+
 // Stable feed party IDs, never candidate IDs or a candidate's ballot position.
 export function partyTintClass(partyId) {
   const tints = { '13': 'party-tint tint-lab', '16': 'party-tint tint-nat', '10': 'party-tint tint-grn', '5': 'party-tint tint-act', '17': 'party-tint tint-nzf' };

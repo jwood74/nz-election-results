@@ -22,5 +22,5 @@
   },
   "electorateMappings": {},
   "boothMappings": {},
-  "localComparisonStatus": "disabled-pending-original-csvs-and-reviewed-boundary-vote-category-matches"
+  "localComparisonStatus": "party-vote-comparison-only-for-officially-unchanged-boundaries"
 }

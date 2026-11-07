@@ -1,4 +1,4 @@
-import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature, partyVoteComparison } from './model.js';
+import { coalition, filterRaces, sourceTime, createChangeTracker, nationalSignature, electorateSignature, partyVoteComparison, seatChange } from './model.js';
 import { $, int, pct, pp, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 const selected = saved('nz-coalition');
 const watchlist = saved('nz-watchlist');
@@ -29,10 +29,11 @@ function renderNational() {
   $('national-empty').hidden = national.votes > 0;
   $('national-changes').textContent = `${partyChanges.size} party rows changed. Highlights compare votes and seats with the previous successful refresh in this tab; the first load establishes a baseline.`;
   $('national-history').textContent = historyFailed ? '2023 baseline unavailable. Live results are unaffected.' : !history ? 'Loading the saved 2023 baseline…' :
-    '2023 final party votes include special votes. Change is in percentage points (pp), not a forecast; early live results may be unrepresentative. Unmapped parties show —. Baseline transcribed from the indexed official table; original CSV download pending.';
+    '2023 final party votes are compiled from the saved original CSVs and include special votes. Change is in percentage points (pp), not a forecast; early live results may be unrepresentative. Unmapped parties show —.';
   if (history) {
     const link = node('a', ' Saved baseline and provenance ↗'); link.href = '/data/2023/national.json'; link.target = '_blank'; link.rel = 'noopener'; $('national-history').append(link);
   }
+  $('seat-history').textContent = history?.seatComparison ? 'The seat-change column compares with the completed 2023 Parliament, including Port Waikato (National 49; Parliament 123). Green ↑ is a gain, red ↓ a loss; 0 means unchanged and — means unavailable or unmapped. These are not changes since the previous refresh.' : 'Seat-change arrows require a saved 2023 seat baseline and a live allocation.';
   const validPartyVotes = national.parties.reduce((sum, party) => sum + party.votes, 0);
   $('party-rows').replaceChildren();
   for (const party of national.parties) {
@@ -48,6 +49,20 @@ function renderNational() {
     if (comparison.previousPercent == null && history) previous.title = history.unmappedCurrentParties?.[party.id] || 'No verified comparable 2023 baseline.';
     cell(tr, pp(comparison.change), 'num');
     for (const key of ['electorateSeats', 'listSeats', 'seats']) cell(tr, national.seats > 0 ? int(party[key]) : '—', 'num');
+    const seats = seatChange(party, national.seats, history);
+    const value = cell(tr, seats ? seats.change === 0 ? '0' : null : '—', 'num');
+    if (seats) {
+      const comparison = seats;
+      const description = comparison.change === 0 ? `Unchanged from ${comparison.previous} seats in 2023` : `${comparison.change > 0 ? 'Up' : 'Down'} ${Math.abs(comparison.change)} seats from ${comparison.previous} in 2023`;
+      value.title = `${description}, including the deferred Port Waikato result`;
+      if (comparison.change === 0) value.append(node('span', ` (${description})`, 'sr-only'));
+      else {
+        const gain = comparison.change > 0;
+        const badge = node('span', null, `seat-change ${gain ? 'seat-gain' : 'seat-loss'}`);
+        const visible = node('span', `${gain ? '↑ +' : '↓ −'}${int(Math.abs(comparison.change))}`); visible.setAttribute('aria-hidden','true');
+        badge.append(visible, node('span', ` (${description})`, 'sr-only')); value.append(badge);
+      }
+    }
     $('party-rows').append(tr);
   }
   // Preserve keyboard focus during automatic refreshes.
@@ -123,7 +138,7 @@ async function refresh() {
     await Promise.all([
       (async () => {
         try { national = await get('national'); partyChanges = trackNational(national.parties); renderNational(); }
-        catch { failures.push('National feed'); if (!national) message($('party-rows'), 'National feed unavailable. Retrying automatically.', 8); }
+        catch { failures.push('National feed'); if (!national) message($('party-rows'), 'National feed unavailable. Retrying automatically.', 9); }
         renderStatus();
       })(),
       (async () => {

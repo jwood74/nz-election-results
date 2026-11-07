@@ -1,0 +1,1392 @@
+{
+  "schemaVersion": 1,
+  "year": 2023,
+  "source": {
+    "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/votes-by-voting-place-electorate-index.html",
+    "title": "2023 official party votes aggregated across all 72 electorate CSVs",
+    "method": "aggregate-of-user-downloaded-official-csvs",
+    "note": "Exact integer totals from the party CSVs, including separately preserved special-vote categories. Original files, checksums and URLs are in the saved source manifest; no search-index transcription is used."
+  },
+  "boundarySource": {
+    "scheduleUrl": "https://elections.nz/assets/pagecomponent-file-files/SCHEDULE-B-LIST-OF-UNCHANGED-AND-CHANGED-ELECTORATES.pdf",
+    "summaryUrl": "https://elections.nz/assets/pagecomponent-file-files/Final-electorates-summary-080825.pdf",
+    "reportUrl": "https://elections.nz/assets/pagecomponent-file-files/REPORT-OF-THE-REPRESENTATION-COMMISSION-2025-WEB.pdf",
+    "method": "transcription-of-search-indexed-official-schedule-and-summary",
+    "retrievedOn": "2026-11-07",
+    "note": "The downloadable PDF endpoints returned an HTML security challenge, not PDF bytes. No PDF original is claimed. Schedule B explicitly lists these 19 current electorates as having unchanged 2020 boundaries. East Cape is the renamed East Coast with unchanged boundaries. Other current seats are not approved for electorate-wide comparison."
+  },
+  "hashes": {
+    "mappingsSha256": "0945da8c899fff33017aa637366cb7760655242b47bf8feeec55b1d2bde40dd8",
+    "boundaryReviewSha256": "325c163c941008fe5e42574727e9f2aedc4bd4474c80d5266bad812b8e3d45ea",
+    "currentElectoratesSha256": "7aac8ed7d884279712abb6c7c7b93b3d451c0220a0827d79b326183f80de5e42",
+    "seatBaselineSha256": "c09368a7d4a3243ca383881505e05413c871897b4b01953bf3ae2bbfb8f07481",
+    "sourceSha256": "56f09d871b6d1b75727614eebcc25fd67db2c14cb3e08b29d2b23092d3a5e201"
+  },
+  "currentElectoratesSource": "https://media.election.net.nz/xml/electorates.xml",
+  "partyMappings": [
+    {
+      "currentId": "5",
+      "name2023": "ACT New Zealand"
+    },
+    {
+      "currentId": "10",
+      "name2023": "Green Party"
+    },
+    {
+      "currentId": "13",
+      "name2023": "Labour Party"
+    },
+    {
+      "currentId": "14",
+      "name2023": "Te Pāti Māori"
+    },
+    {
+      "currentId": "16",
+      "name2023": "National Party"
+    },
+    {
+      "currentId": "17",
+      "name2023": "New Zealand First Party"
+    },
+    {
+      "currentId": "36",
+      "name2023": "Aotearoa Legalise Cannabis Party"
+    },
+    {
+      "currentId": "56",
+      "name2023": "Women’s Rights Party"
+    },
+    {
+      "currentId": "70",
+      "name2023": "New Zealand Loyal"
+    }
+  ],
+  "currentElectorates": {
+    "1": {
+      "id": "1",
+      "name": "Auckland Central",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "1",
+          "name": "Auckland Central",
+          "path": "/data/2023/electorates/1.json"
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "Banks Peninsula",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "2",
+          "name": "Banks Peninsula",
+          "path": "/data/2023/electorates/2.json"
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "Botany",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "4",
+          "name": "Botany",
+          "path": "/data/2023/electorates/4.json"
+        }
+      ]
+    },
+    "4": {
+      "id": "4",
+      "name": "Christchurch Central",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "5",
+          "name": "Christchurch Central",
+          "path": "/data/2023/electorates/5.json"
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "name": "Christchurch East",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "6",
+          "name": "Christchurch East",
+          "path": "/data/2023/electorates/6.json"
+        }
+      ]
+    },
+    "6": {
+      "id": "6",
+      "name": "Coromandel",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "7",
+          "name": "Coromandel",
+          "path": "/data/2023/electorates/7.json"
+        }
+      ]
+    },
+    "7": {
+      "id": "7",
+      "name": "Dunedin",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "8",
+          "name": "Dunedin",
+          "path": "/data/2023/electorates/8.json"
+        }
+      ]
+    },
+    "8": {
+      "id": "8",
+      "name": "East Cape",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "9",
+          "name": "East Coast",
+          "path": "/data/2023/electorates/9.json"
+        }
+      ]
+    },
+    "9": {
+      "id": "9",
+      "name": "East Coast Bays",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "10",
+          "name": "East Coast Bays",
+          "path": "/data/2023/electorates/10.json"
+        }
+      ]
+    },
+    "10": {
+      "id": "10",
+      "name": "Epsom",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "11",
+          "name": "Epsom",
+          "path": "/data/2023/electorates/11.json"
+        }
+      ]
+    },
+    "11": {
+      "id": "11",
+      "name": "Glendene",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "19",
+          "name": "Kelston",
+          "path": "/data/2023/electorates/19.json"
+        },
+        {
+          "id": "53",
+          "name": "Te Atatū",
+          "path": "/data/2023/electorates/53.json"
+        }
+      ]
+    },
+    "12": {
+      "id": "12",
+      "name": "Hamilton East",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "12",
+          "name": "Hamilton East",
+          "path": "/data/2023/electorates/12.json"
+        }
+      ]
+    },
+    "13": {
+      "id": "13",
+      "name": "Hamilton West",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "13",
+          "name": "Hamilton West",
+          "path": "/data/2023/electorates/13.json"
+        }
+      ]
+    },
+    "14": {
+      "id": "14",
+      "name": "Henderson",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "53",
+          "name": "Te Atatū",
+          "path": "/data/2023/electorates/53.json"
+        },
+        {
+          "id": "55",
+          "name": "Upper Harbour",
+          "path": "/data/2023/electorates/55.json"
+        },
+        {
+          "id": "18",
+          "name": "Kaipara ki Mahurangi",
+          "path": "/data/2023/electorates/18.json"
+        }
+      ]
+    },
+    "15": {
+      "id": "15",
+      "name": "Hutt South",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "14",
+          "name": "Hutt South",
+          "path": "/data/2023/electorates/14.json"
+        }
+      ]
+    },
+    "16": {
+      "id": "16",
+      "name": "Ilam",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "15",
+          "name": "Ilam",
+          "path": "/data/2023/electorates/15.json"
+        }
+      ]
+    },
+    "17": {
+      "id": "17",
+      "name": "Invercargill",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "16",
+          "name": "Invercargill",
+          "path": "/data/2023/electorates/16.json"
+        }
+      ]
+    },
+    "18": {
+      "id": "18",
+      "name": "Kaikōura",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "17",
+          "name": "Kaikōura",
+          "path": "/data/2023/electorates/17.json"
+        }
+      ]
+    },
+    "19": {
+      "id": "19",
+      "name": "Kaipara ki Mahurangi",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "18",
+          "name": "Kaipara ki Mahurangi",
+          "path": "/data/2023/electorates/18.json"
+        }
+      ]
+    },
+    "20": {
+      "id": "20",
+      "name": "Kapiti",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "34",
+          "name": "Ōtaki",
+          "path": "/data/2023/electorates/34.json"
+        },
+        {
+          "id": "20",
+          "name": "Mana",
+          "path": "/data/2023/electorates/20.json"
+        }
+      ]
+    },
+    "21": {
+      "id": "21",
+      "name": "Kenepuru",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "20",
+          "name": "Mana",
+          "path": "/data/2023/electorates/20.json"
+        },
+        {
+          "id": "33",
+          "name": "Ōhāriu",
+          "path": "/data/2023/electorates/33.json"
+        }
+      ]
+    },
+    "22": {
+      "id": "22",
+      "name": "Māngere",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "21",
+          "name": "Māngere",
+          "path": "/data/2023/electorates/21.json"
+        }
+      ]
+    },
+    "23": {
+      "id": "23",
+      "name": "Manurewa",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "22",
+          "name": "Manurewa",
+          "path": "/data/2023/electorates/22.json"
+        }
+      ]
+    },
+    "24": {
+      "id": "24",
+      "name": "Maungakiekie",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "23",
+          "name": "Maungakiekie",
+          "path": "/data/2023/electorates/23.json"
+        }
+      ]
+    },
+    "25": {
+      "id": "25",
+      "name": "Mt Albert",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "24",
+          "name": "Mt Albert",
+          "path": "/data/2023/electorates/24.json"
+        }
+      ]
+    },
+    "26": {
+      "id": "26",
+      "name": "Mt Maunganui",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "3",
+          "name": "Bay of Plenty",
+          "path": "/data/2023/electorates/3.json"
+        },
+        {
+          "id": "52",
+          "name": "Tauranga",
+          "path": "/data/2023/electorates/52.json"
+        }
+      ]
+    },
+    "27": {
+      "id": "27",
+      "name": "Mt Roskill",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "25",
+          "name": "Mt Roskill",
+          "path": "/data/2023/electorates/25.json"
+        }
+      ]
+    },
+    "28": {
+      "id": "28",
+      "name": "Napier",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "26",
+          "name": "Napier",
+          "path": "/data/2023/electorates/26.json"
+        }
+      ]
+    },
+    "29": {
+      "id": "29",
+      "name": "Nelson",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "27",
+          "name": "Nelson",
+          "path": "/data/2023/electorates/27.json"
+        }
+      ]
+    },
+    "30": {
+      "id": "30",
+      "name": "New Plymouth",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "29",
+          "name": "New Plymouth",
+          "path": "/data/2023/electorates/29.json"
+        }
+      ]
+    },
+    "31": {
+      "id": "31",
+      "name": "North Shore",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "30",
+          "name": "North Shore",
+          "path": "/data/2023/electorates/30.json"
+        }
+      ]
+    },
+    "32": {
+      "id": "32",
+      "name": "Northcote",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "31",
+          "name": "Northcote",
+          "path": "/data/2023/electorates/31.json"
+        }
+      ]
+    },
+    "33": {
+      "id": "33",
+      "name": "Northland",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "32",
+          "name": "Northland",
+          "path": "/data/2023/electorates/32.json"
+        }
+      ]
+    },
+    "34": {
+      "id": "34",
+      "name": "Ōtāhuhu",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "37",
+          "name": "Panmure-Ōtāhuhu",
+          "path": "/data/2023/electorates/37.json"
+        },
+        {
+          "id": "4",
+          "name": "Botany",
+          "path": "/data/2023/electorates/4.json"
+        }
+      ]
+    },
+    "35": {
+      "id": "35",
+      "name": "Pakuranga",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "35",
+          "name": "Pakuranga",
+          "path": "/data/2023/electorates/35.json"
+        }
+      ]
+    },
+    "36": {
+      "id": "36",
+      "name": "Palmerston North",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "36",
+          "name": "Palmerston North",
+          "path": "/data/2023/electorates/36.json"
+        }
+      ]
+    },
+    "37": {
+      "id": "37",
+      "name": "Papakura",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "38",
+          "name": "Papakura",
+          "path": "/data/2023/electorates/38.json"
+        }
+      ]
+    },
+    "38": {
+      "id": "38",
+      "name": "Port Waikato",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "39",
+          "name": "Port Waikato",
+          "path": "/data/2023/electorates/39.json"
+        }
+      ]
+    },
+    "39": {
+      "id": "39",
+      "name": "Rangitata",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "40",
+          "name": "Rangitata",
+          "path": "/data/2023/electorates/40.json"
+        }
+      ]
+    },
+    "40": {
+      "id": "40",
+      "name": "Rangitīkei",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "41",
+          "name": "Rangitīkei",
+          "path": "/data/2023/electorates/41.json"
+        }
+      ]
+    },
+    "41": {
+      "id": "41",
+      "name": "Remutaka",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "42",
+          "name": "Remutaka",
+          "path": "/data/2023/electorates/42.json"
+        }
+      ]
+    },
+    "42": {
+      "id": "42",
+      "name": "Rotorua",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "44",
+          "name": "Rotorua",
+          "path": "/data/2023/electorates/44.json"
+        }
+      ]
+    },
+    "43": {
+      "id": "43",
+      "name": "Selwyn",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "45",
+          "name": "Selwyn",
+          "path": "/data/2023/electorates/45.json"
+        }
+      ]
+    },
+    "44": {
+      "id": "44",
+      "name": "Southland",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "46",
+          "name": "Southland",
+          "path": "/data/2023/electorates/46.json"
+        }
+      ]
+    },
+    "45": {
+      "id": "45",
+      "name": "Taieri",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "47",
+          "name": "Taieri",
+          "path": "/data/2023/electorates/47.json"
+        }
+      ]
+    },
+    "46": {
+      "id": "46",
+      "name": "Takanini",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "48",
+          "name": "Takanini",
+          "path": "/data/2023/electorates/48.json"
+        }
+      ]
+    },
+    "47": {
+      "id": "47",
+      "name": "Tāmaki",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "49",
+          "name": "Tāmaki",
+          "path": "/data/2023/electorates/49.json"
+        }
+      ]
+    },
+    "48": {
+      "id": "48",
+      "name": "Taranaki-King Country",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "50",
+          "name": "Taranaki-King Country",
+          "path": "/data/2023/electorates/50.json"
+        }
+      ]
+    },
+    "49": {
+      "id": "49",
+      "name": "Taupō",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "51",
+          "name": "Taupō",
+          "path": "/data/2023/electorates/51.json"
+        }
+      ]
+    },
+    "50": {
+      "id": "50",
+      "name": "Tauranga",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "52",
+          "name": "Tauranga",
+          "path": "/data/2023/electorates/52.json"
+        }
+      ]
+    },
+    "51": {
+      "id": "51",
+      "name": "Tukituki",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "54",
+          "name": "Tukituki",
+          "path": "/data/2023/electorates/54.json"
+        }
+      ]
+    },
+    "52": {
+      "id": "52",
+      "name": "Upper Harbour",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "55",
+          "name": "Upper Harbour",
+          "path": "/data/2023/electorates/55.json"
+        }
+      ]
+    },
+    "53": {
+      "id": "53",
+      "name": "Waikato",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "56",
+          "name": "Waikato",
+          "path": "/data/2023/electorates/56.json"
+        }
+      ]
+    },
+    "54": {
+      "id": "54",
+      "name": "Waimakariri",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "57",
+          "name": "Waimakariri",
+          "path": "/data/2023/electorates/57.json"
+        }
+      ]
+    },
+    "55": {
+      "id": "55",
+      "name": "Wairarapa",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "58",
+          "name": "Wairarapa",
+          "path": "/data/2023/electorates/58.json"
+        }
+      ]
+    },
+    "56": {
+      "id": "56",
+      "name": "Waitākere",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "28",
+          "name": "New Lynn",
+          "path": "/data/2023/electorates/28.json"
+        },
+        {
+          "id": "19",
+          "name": "Kelston",
+          "path": "/data/2023/electorates/19.json"
+        }
+      ]
+    },
+    "57": {
+      "id": "57",
+      "name": "Waitaki",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "59",
+          "name": "Waitaki",
+          "path": "/data/2023/electorates/59.json"
+        }
+      ]
+    },
+    "58": {
+      "id": "58",
+      "name": "Wellington Bays",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "43",
+          "name": "Rongotai",
+          "path": "/data/2023/electorates/43.json"
+        }
+      ]
+    },
+    "59": {
+      "id": "59",
+      "name": "Wellington North",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "60",
+          "name": "Wellington Central",
+          "path": "/data/2023/electorates/60.json"
+        }
+      ]
+    },
+    "60": {
+      "id": "60",
+      "name": "West Coast-Tasman",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "61",
+          "name": "West Coast-Tasman",
+          "path": "/data/2023/electorates/61.json"
+        }
+      ]
+    },
+    "61": {
+      "id": "61",
+      "name": "Whanganui",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "62",
+          "name": "Whanganui",
+          "path": "/data/2023/electorates/62.json"
+        }
+      ]
+    },
+    "62": {
+      "id": "62",
+      "name": "Whangaparāoa",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "63",
+          "name": "Whangaparāoa",
+          "path": "/data/2023/electorates/63.json"
+        }
+      ]
+    },
+    "63": {
+      "id": "63",
+      "name": "Whangārei",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "64",
+          "name": "Whangārei",
+          "path": "/data/2023/electorates/64.json"
+        }
+      ]
+    },
+    "64": {
+      "id": "64",
+      "name": "Wigram",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "65",
+          "name": "Wigram",
+          "path": "/data/2023/electorates/65.json"
+        }
+      ]
+    },
+    "65": {
+      "id": "65",
+      "name": "Hauraki-Waikato",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "66",
+          "name": "Hauraki-Waikato",
+          "path": "/data/2023/electorates/66.json"
+        }
+      ]
+    },
+    "66": {
+      "id": "66",
+      "name": "Ikaroa-Rāwhiti",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "67",
+          "name": "Ikaroa-Rāwhiti",
+          "path": "/data/2023/electorates/67.json"
+        }
+      ]
+    },
+    "67": {
+      "id": "67",
+      "name": "Tāmaki Makaurau",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "68",
+          "name": "Tāmaki Makaurau",
+          "path": "/data/2023/electorates/68.json"
+        }
+      ]
+    },
+    "68": {
+      "id": "68",
+      "name": "Te Tai Hauāuru",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "69",
+          "name": "Te Tai Hauāuru",
+          "path": "/data/2023/electorates/69.json"
+        }
+      ]
+    },
+    "69": {
+      "id": "69",
+      "name": "Te Tai Tokerau",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "70",
+          "name": "Te Tai Tokerau",
+          "path": "/data/2023/electorates/70.json"
+        }
+      ]
+    },
+    "70": {
+      "id": "70",
+      "name": "Te Tai Tonga",
+      "canCompare": false,
+      "boundaryStatus": "changed-or-reconfigured",
+      "related2023": [
+        {
+          "id": "71",
+          "name": "Te Tai Tonga",
+          "path": "/data/2023/electorates/71.json"
+        }
+      ]
+    },
+    "71": {
+      "id": "71",
+      "name": "Waiariki",
+      "canCompare": true,
+      "boundaryStatus": "unchanged",
+      "related2023": [
+        {
+          "id": "72",
+          "name": "Waiariki",
+          "path": "/data/2023/electorates/72.json"
+        }
+      ]
+    }
+  },
+  "boothComparisonStatus": "disabled-pending-explicit-current-vote-category-and-reviewed-venue-population-matches",
+  "electorates": [
+    {
+      "id": "1",
+      "name": "Auckland Central",
+      "path": "/data/2023/electorates/1.json"
+    },
+    {
+      "id": "2",
+      "name": "Banks Peninsula",
+      "path": "/data/2023/electorates/2.json"
+    },
+    {
+      "id": "3",
+      "name": "Bay of Plenty",
+      "path": "/data/2023/electorates/3.json"
+    },
+    {
+      "id": "4",
+      "name": "Botany",
+      "path": "/data/2023/electorates/4.json"
+    },
+    {
+      "id": "5",
+      "name": "Christchurch Central",
+      "path": "/data/2023/electorates/5.json"
+    },
+    {
+      "id": "6",
+      "name": "Christchurch East",
+      "path": "/data/2023/electorates/6.json"
+    },
+    {
+      "id": "7",
+      "name": "Coromandel",
+      "path": "/data/2023/electorates/7.json"
+    },
+    {
+      "id": "8",
+      "name": "Dunedin",
+      "path": "/data/2023/electorates/8.json"
+    },
+    {
+      "id": "9",
+      "name": "East Coast",
+      "path": "/data/2023/electorates/9.json"
+    },
+    {
+      "id": "10",
+      "name": "East Coast Bays",
+      "path": "/data/2023/electorates/10.json"
+    },
+    {
+      "id": "11",
+      "name": "Epsom",
+      "path": "/data/2023/electorates/11.json"
+    },
+    {
+      "id": "12",
+      "name": "Hamilton East",
+      "path": "/data/2023/electorates/12.json"
+    },
+    {
+      "id": "13",
+      "name": "Hamilton West",
+      "path": "/data/2023/electorates/13.json"
+    },
+    {
+      "id": "14",
+      "name": "Hutt South",
+      "path": "/data/2023/electorates/14.json"
+    },
+    {
+      "id": "15",
+      "name": "Ilam",
+      "path": "/data/2023/electorates/15.json"
+    },
+    {
+      "id": "16",
+      "name": "Invercargill",
+      "path": "/data/2023/electorates/16.json"
+    },
+    {
+      "id": "17",
+      "name": "Kaikōura",
+      "path": "/data/2023/electorates/17.json"
+    },
+    {
+      "id": "18",
+      "name": "Kaipara ki Mahurangi",
+      "path": "/data/2023/electorates/18.json"
+    },
+    {
+      "id": "19",
+      "name": "Kelston",
+      "path": "/data/2023/electorates/19.json"
+    },
+    {
+      "id": "20",
+      "name": "Mana",
+      "path": "/data/2023/electorates/20.json"
+    },
+    {
+      "id": "21",
+      "name": "Māngere",
+      "path": "/data/2023/electorates/21.json"
+    },
+    {
+      "id": "22",
+      "name": "Manurewa",
+      "path": "/data/2023/electorates/22.json"
+    },
+    {
+      "id": "23",
+      "name": "Maungakiekie",
+      "path": "/data/2023/electorates/23.json"
+    },
+    {
+      "id": "24",
+      "name": "Mt Albert",
+      "path": "/data/2023/electorates/24.json"
+    },
+    {
+      "id": "25",
+      "name": "Mt Roskill",
+      "path": "/data/2023/electorates/25.json"
+    },
+    {
+      "id": "26",
+      "name": "Napier",
+      "path": "/data/2023/electorates/26.json"
+    },
+    {
+      "id": "27",
+      "name": "Nelson",
+      "path": "/data/2023/electorates/27.json"
+    },
+    {
+      "id": "28",
+      "name": "New Lynn",
+      "path": "/data/2023/electorates/28.json"
+    },
+    {
+      "id": "29",
+      "name": "New Plymouth",
+      "path": "/data/2023/electorates/29.json"
+    },
+    {
+      "id": "30",
+      "name": "North Shore",
+      "path": "/data/2023/electorates/30.json"
+    },
+    {
+      "id": "31",
+      "name": "Northcote",
+      "path": "/data/2023/electorates/31.json"
+    },
+    {
+      "id": "32",
+      "name": "Northland",
+      "path": "/data/2023/electorates/32.json"
+    },
+    {
+      "id": "33",
+      "name": "Ōhāriu",
+      "path": "/data/2023/electorates/33.json"
+    },
+    {
+      "id": "34",
+      "name": "Ōtaki",
+      "path": "/data/2023/electorates/34.json"
+    },
+    {
+      "id": "35",
+      "name": "Pakuranga",
+      "path": "/data/2023/electorates/35.json"
+    },
+    {
+      "id": "36",
+      "name": "Palmerston North",
+      "path": "/data/2023/electorates/36.json"
+    },
+    {
+      "id": "37",
+      "name": "Panmure-Ōtāhuhu",
+      "path": "/data/2023/electorates/37.json"
+    },
+    {
+      "id": "38",
+      "name": "Papakura",
+      "path": "/data/2023/electorates/38.json"
+    },
+    {
+      "id": "39",
+      "name": "Port Waikato",
+      "path": "/data/2023/electorates/39.json"
+    },
+    {
+      "id": "40",
+      "name": "Rangitata",
+      "path": "/data/2023/electorates/40.json"
+    },
+    {
+      "id": "41",
+      "name": "Rangitīkei",
+      "path": "/data/2023/electorates/41.json"
+    },
+    {
+      "id": "42",
+      "name": "Remutaka",
+      "path": "/data/2023/electorates/42.json"
+    },
+    {
+      "id": "43",
+      "name": "Rongotai",
+      "path": "/data/2023/electorates/43.json"
+    },
+    {
+      "id": "44",
+      "name": "Rotorua",
+      "path": "/data/2023/electorates/44.json"
+    },
+    {
+      "id": "45",
+      "name": "Selwyn",
+      "path": "/data/2023/electorates/45.json"
+    },
+    {
+      "id": "46",
+      "name": "Southland",
+      "path": "/data/2023/electorates/46.json"
+    },
+    {
+      "id": "47",
+      "name": "Taieri",
+      "path": "/data/2023/electorates/47.json"
+    },
+    {
+      "id": "48",
+      "name": "Takanini",
+      "path": "/data/2023/electorates/48.json"
+    },
+    {
+      "id": "49",
+      "name": "Tāmaki",
+      "path": "/data/2023/electorates/49.json"
+    },
+    {
+      "id": "50",
+      "name": "Taranaki-King Country",
+      "path": "/data/2023/electorates/50.json"
+    },
+    {
+      "id": "51",
+      "name": "Taupō",
+      "path": "/data/2023/electorates/51.json"
+    },
+    {
+      "id": "52",
+      "name": "Tauranga",
+      "path": "/data/2023/electorates/52.json"
+    },
+    {
+      "id": "53",
+      "name": "Te Atatū",
+      "path": "/data/2023/electorates/53.json"
+    },
+    {
+      "id": "54",
+      "name": "Tukituki",
+      "path": "/data/2023/electorates/54.json"
+    },
+    {
+      "id": "55",
+      "name": "Upper Harbour",
+      "path": "/data/2023/electorates/55.json"
+    },
+    {
+      "id": "56",
+      "name": "Waikato",
+      "path": "/data/2023/electorates/56.json"
+    },
+    {
+      "id": "57",
+      "name": "Waimakariri",
+      "path": "/data/2023/electorates/57.json"
+    },
+    {
+      "id": "58",
+      "name": "Wairarapa",
+      "path": "/data/2023/electorates/58.json"
+    },
+    {
+      "id": "59",
+      "name": "Waitaki",
+      "path": "/data/2023/electorates/59.json"
+    },
+    {
+      "id": "60",
+      "name": "Wellington Central",
+      "path": "/data/2023/electorates/60.json"
+    },
+    {
+      "id": "61",
+      "name": "West Coast-Tasman",
+      "path": "/data/2023/electorates/61.json"
+    },
+    {
+      "id": "62",
+      "name": "Whanganui",
+      "path": "/data/2023/electorates/62.json"
+    },
+    {
+      "id": "63",
+      "name": "Whangaparāoa",
+      "path": "/data/2023/electorates/63.json"
+    },
+    {
+      "id": "64",
+      "name": "Whangārei",
+      "path": "/data/2023/electorates/64.json"
+    },
+    {
+      "id": "65",
+      "name": "Wigram",
+      "path": "/data/2023/electorates/65.json"
+    },
+    {
+      "id": "66",
+      "name": "Hauraki-Waikato",
+      "path": "/data/2023/electorates/66.json"
+    },
+    {
+      "id": "67",
+      "name": "Ikaroa-Rāwhiti",
+      "path": "/data/2023/electorates/67.json"
+    },
+    {
+      "id": "68",
+      "name": "Tāmaki Makaurau",
+      "path": "/data/2023/electorates/68.json"
+    },
+    {
+      "id": "69",
+      "name": "Te Tai Hauāuru",
+      "path": "/data/2023/electorates/69.json"
+    },
+    {
+      "id": "70",
+      "name": "Te Tai Tokerau",
+      "path": "/data/2023/electorates/70.json"
+    },
+    {
+      "id": "71",
+      "name": "Te Tai Tonga",
+      "path": "/data/2023/electorates/71.json"
+    },
+    {
+      "id": "72",
+      "name": "Waiariki",
+      "path": "/data/2023/electorates/72.json"
+    }
+  ]
+}

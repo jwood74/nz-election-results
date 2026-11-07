@@ -5,6 +5,10 @@
 .result-changed td,.booth-table .result-changed td:first-child{background:#e0eee3}
 .result-changed:hover td{background:#d3e5d7}
 .change-badge{display:block;width:fit-content;margin-top:5px;font-size:10px;font-weight:600;line-height:1.5;color:#22513a;border:1px solid #91b39c;border-radius:3px;padding:1px 5px;white-space:normal}
+.table-scroll{position:relative}
+.seat-change{display:inline-block;font-size:12px;font-weight:750;white-space:nowrap}
+.seat-gain{color:#17643a}
+.seat-loss{color:#b32424}
 .tint-lab{--party-tint:#f7e9e7}
 .tint-nat{--party-tint:#e6eff8}
 .tint-grn{--party-tint:#e9f1e5}
@@ -19,6 +23,8 @@ th.party-tint,td.party-tint,tr.party-tint>td{background:var(--party-tint)}
 .summary-table th:first-child{width:60%;white-space:normal}
 .summary-table td{overflow-wrap:anywhere}
 .summary-table td.num{overflow-wrap:normal}
+.history-table{table-layout:auto;min-width:510px}
+.history-table th:first-child{width:auto;min-width:150px}
 .select-label{font-size:11px;color:var(--muted)}
 select{display:block;font:inherit;font-size:14px;color:var(--ink);background:var(--surface);padding:10px 12px;border:1px solid var(--line);border-radius:4px;margin-top:6px}
 .booth-table th:first-child,.booth-table td:first-child{min-width:270px;max-width:360px;padding-left:12px;position:sticky;left:0;background:var(--paper);z-index:1}

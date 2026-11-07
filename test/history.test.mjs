@@ -11,7 +11,7 @@ const source = JSON.parse(sourceBytes), mappings = JSON.parse(mappingBytes);
 const hashes = { sourceSha256: sha256(sourceBytes), mappingsSha256: sha256(mappingBytes) };
 const build = () => buildNationalHistory(source, mappings, hashes);
 
-test('saved final national table reconciles exactly, preserves provenance and is reproducible', async () => {
+test('archived indexed snapshot reconciles and matches the replacement original-CSV baseline', async () => {
   const data = build();
   assert.equal(data.totalValidVotes, 2851211); assert.equal(data.allParties.length, 17); assert.equal(data.parties.length, 9);
   assert.equal(data.parties.find(p => p.currentId === '16').votes, 1085851);
@@ -19,7 +19,10 @@ test('saved final national table reconciles exactly, preserves provenance and is
   assert.match(data.source.method, /indexed/);
   assert.equal(data.coverage, 'official-final-including-special-votes');
   const generated = await readFile(new URL('../public/data/2023/national.json', import.meta.url), 'utf8');
-  assert.equal(generated, `${JSON.stringify(data, null, 2)}\n`);
+  const production = JSON.parse(generated);
+  assert.equal(production.source.method, 'aggregate-of-user-downloaded-official-csvs');
+  assert.equal(production.totalValidVotes, data.totalValidVotes);
+  assert.deepEqual(production.allParties, data.allParties);
 });
 test('source builder rejects mismatched totals, invalid counts and duplicate parties/mappings', () => {
   assert.throws(() => buildNationalHistory({...source,totalValidVotes:source.totalValidVotes+1},mappings,hashes));
@@ -50,11 +53,12 @@ test('national comparison uses exact valid votes, percentage points and null on 
   assert.equal(partyVoteComparison({...party,votes:0},1000,data).change,-comparison.previousPercent);
   assert.equal(pp(-0.0001),'0.0 pp'); assert.equal(pp(null),'—');
 });
-test('download inventory contains the national export and 72 historical party booth CSVs', () => {
+test('download inventory contains all 144 original booth CSVs, with national summary opt-in', () => {
   const entries=historicalDownloads();
-  assert.equal(entries.length,73); assert.equal(new Set(entries.map(e=>e.filename)).size,73);
+  assert.equal(entries.length,144); assert.equal(new Set(entries.map(e=>e.filename)).size,144);
   assert.ok(entries.every(e=>e.url.startsWith('https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/')));
-  assert.equal(entries.at(-1).filename,'party-votes-by-voting-place-72.csv');
+  assert.equal(entries.at(-1).filename,'candidate-votes-by-voting-place-72.csv');
+  assert.equal(historicalDownloads({includeSummary:true}).length,145);
 });
 test('collector accepts CSV bytes unchanged and rejects access blocks and HTML challenges', async () => {
   const text='Party,Party Votes\r\n"Test party",123\r\n';

@@ -1,8 +1,10 @@
 # NZ election night
 
-Table-first election-night viewer: national party votes, 2023 national share change and feed-reported seats, a coalition selector, closest electorate races, search, sorting and a local watchlist. Open an electorate for separate candidate/party totals and sortable, searchable booth results, with votes/percentages toggles and a full-result dialog for each booth. Local historic comparisons remain disabled pending source downloads and reviewed mappings.
+Table-first election-night viewer: national party votes, 2023 national share change and feed-reported seats, a coalition selector, closest electorate races, search, sorting and a local watchlist. Open an electorate for separate candidate/party totals and sortable, searchable booth results, with votes/percentages toggles and a full-result dialog for each booth. Party-vote change is enabled for 19 officially unchanged electorates; renamed/redrawn seats have explicit historical references and boundary warnings.
 
 Click **Last Updated** in the electorate table for newest-first order, then click again for oldest-first. Invalid/missing timestamps stay last. Green rows and explicit “Changed” badges highlight changes since the previous successful refresh in the current tab, with signed vote deltas (including negative corrections). First loads/new rows establish a baseline; timestamp-only updates do not highlight. Sorting/filtering does not reset highlights; an unchanged successful refresh clears them. Baselines survive unavailable feeds and stale retained rows. These are in-memory comparisons, not persistent count history or notifications.
+
+The **Seat change** column after national-table **Total seats** shows green **↑ +N** / red **↓ −N** against the completed 2023 Parliament, including the deferred Port Waikato result (National 49; total 123). These are separate from per-refresh highlights. Unchanged parties show **0**; unavailable allocations and unverified mappings show **—**.
 
 ## Run locally
 
@@ -14,6 +16,8 @@ npm run dev
 ```
 
 Open http://127.0.0.1:8888. This lightweight local server uses the same function handlers as Netlify; it does not emulate Netlify's CDN or headers.
+
+The dev command watches backend modules and restarts when they change. If a dev server was started before this watch-mode change, stop it and rerun `npm run dev`; an older running process may otherwise lack newly added API routes even though it serves the latest HTML/JS files.
 
 ```sh
 npm test
@@ -50,8 +54,8 @@ This creates a preview deployment. Verify `/api/national`, `/api/electorates`, `
 
 ## Historical data
 
-The saved national 2023 baseline is served as static JSON, requested once per page independently of live polling. Build it offline with `npm run history:build`, and verify generated output with `npm run history:check`. See [`data/2023/README.md`](data/2023/README.md) for source provenance, explicit party mappings, comparison limitations and the opt-in CSV collector.
+All 144 user-downloaded original 2023 party/candidate booth CSVs are saved locally. National results, 72 historical electorate datasets and a boundary-aware index rebuild entirely offline with `npm run history:build`; verify generated output with `npm run history:check`. Static history is requested once per page independently of live polling. See [`data/2023/README.md`](data/2023/README.md) for provenance/checksums, explicit party/electorate mappings, preserved vote categories and limitations.
 
-The archive blocks direct downloads here. The national baseline is therefore a transparently labelled transcription of its indexed official final table, **not** downloaded CSV originals. Nine directly named parties are mapped; unverified renames/alliances show dashes. Change uses exact valid-vote denominators and includes 2023 special votes. Electorate/booth swing and predictions are not enabled.
+The national baseline now comes from the original CSVs, replacing the previous indexed-table transcription (retained for audit). The 2025 official Schedule B identifies 19 unchanged electorates, including East Cape (formerly East Coast); only those support electorate-wide party change. Same names/IDs do not imply equivalent boundaries. Nine directly named parties are mapped; unverified party renames/alliances show dashes. National/electorate change includes 2023 special votes. Booth swing remains disabled pending confirmation of current vote categories and reviewed venue/population matches; no candidate swing or predictions are shown.
 
 At initial inspection the live feed was zeroed with a `2026-11-06T16:19:53` timestamp.

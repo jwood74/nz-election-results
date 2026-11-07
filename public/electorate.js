@@ -1,5 +1,5 @@
-import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature, partyTintClass } from './model.js';
-import { $, int, pct, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
+import { sourceTime, voteShare, boothValue, filterBooths, createChangeTracker, boothSignature, partyTintClass, electoratePartyHistory, partyVoteComparison } from './model.js';
+import { $, int, pct, pp, clock, saved, save, node, cell, message, get, markChange } from './ui.js';
 
 const id = new URLSearchParams(location.search).get('id');
 const watchlist = saved('nz-watchlist');
@@ -9,6 +9,43 @@ let booths = new Map(), total = 0, failedBatches = 0, completedBatches = 0, page
 const trackCandidates = createChangeTracker(row => row.votes), trackParties = createChangeTracker(row => row.votes);
 const trackBooths = createChangeTracker(boothSignature, 'file');
 let candidateChanges = new Map(), partyChanges = new Map(), boothChanges = new Map(), progressChanged = false;
+let historicalBaseline, historicalMapping, historyLoaded = false, historyFailed = false;
+
+async function staticJson(path) {
+  const response = await fetch(path, { signal: AbortSignal.timeout(10_000) });
+  if (!response.ok) throw new Error('Historical data unavailable');
+  return response.json();
+}
+async function loadHistory() {
+  try {
+    const index = await staticJson('/data/2023/index.json');
+    if (index.schemaVersion !== 1 || index.year !== 2023 || !Array.isArray(index.partyMappings)) throw new Error('Invalid historical index');
+    historicalMapping = index.currentElectorates?.[id];
+    if (historicalMapping?.canCompare) {
+      const related = historicalMapping.related2023;
+      if (related.length !== 1 || !/^\d+$/.test(related[0].id)) throw new Error('Ambiguous historical electorate mapping');
+      const data = await staticJson(`/data/2023/electorates/${related[0].id}.json`);
+      if (data.id !== related[0].id || data.year !== 2023 || data.name !== related[0].name) throw new Error('Historical electorate mismatch');
+      historicalBaseline = electoratePartyHistory(data, index.partyMappings);
+      if (!historicalBaseline) throw new Error('Invalid historical party results');
+    }
+    historyLoaded = true;
+  } catch { historyFailed = true; }
+  renderHistoryNote();
+  if (detail) renderDetail();
+}
+function renderHistoryNote() {
+  const note = $('history-note');
+  if (historyFailed) note.textContent = '2023 comparison unavailable. Live results are unaffected.';
+  else if (!historyLoaded) note.textContent = 'Loading the saved 2023 reference and boundary mapping…';
+  else if (!historicalMapping) note.textContent = 'No reviewed 2023 electorate mapping is available. No electorate-wide change is shown.';
+  else if (!historicalMapping.canCompare) note.textContent = `Boundaries changed or reconfigured. Related 2023 electorate(s): ${historicalMapping.related2023.map(e=>e.name).join(', ')}. These are not equivalent populations; electorate-wide change is deliberately not shown.`;
+  else note.textContent = `2023 reference: ${historicalMapping.related2023[0].name}. Boundaries unchanged in the 2025 review. Party-vote change is in percentage points vs final 2023 results including special votes, not a forecast or a matched-count estimate. Unmapped parties show —.`;
+  if (historyLoaded && historicalMapping) {
+    const link = node('a', ' Mapping and source notes ↗'); link.href = '/data/2023/index.json'; link.target = '_blank'; link.rel = 'noopener'; note.append(link);
+  }
+  note.classList.toggle('stale', Boolean(historyFailed || historyLoaded && !historicalMapping?.canCompare));
+}
 
 function renderWatch() {
   $('watch').textContent = watchlist.has(id) ? '★ Watching electorate' : '☆ Watch electorate';
@@ -22,6 +59,10 @@ function summary(body, items, votes, changes = new Map()) {
     if (item.party) name.append(node('span', item.party, 'party-sub'));
     markChange(tr, name, changes.get(item.id), item);
     cell(tr, int(item.votes), 'num'); cell(tr, pct(voteShare(item.votes, votes)), 'num');
+    if (body.id === 'electorate-party-rows') {
+      const comparison = partyVoteComparison(item, votes, historicalBaseline);
+      cell(tr, pct(comparison.previousPercent), 'num'); cell(tr, pp(comparison.change), 'num');
+    }
     body.append(tr);
   }
 }
@@ -128,7 +169,7 @@ async function refreshDetail() {
     candidateChanges = trackCandidates(next.candidates); partyChanges = trackParties(next.parties);
     detail = next; detailError = false; renderDetail();
   }
-  catch { detailError = true; if (!detail) { message($('candidate-rows'), 'Electorate feed unavailable.', 3); message($('electorate-party-rows'), 'Electorate feed unavailable.', 3); } }
+  catch { detailError = true; if (!detail) { message($('candidate-rows'), 'Electorate feed unavailable.', 3); message($('electorate-party-rows'), 'Electorate feed unavailable.', 5); } }
   finally { checked = new Date().toISOString(); detailBusy = false; renderStatus(); }
 }
 async function refreshBooths() {
@@ -187,10 +228,11 @@ for (const button of document.querySelectorAll('[data-metric]')) button.addEvent
   renderBooths();
 });
 if (/^[1-9]\d?$/.test(id || '')) {
-  refresh(); setInterval(refresh, 60_000); setInterval(renderStatus, 30_000);
+  loadHistory(); refresh(); setInterval(refresh, 60_000); setInterval(renderStatus, 30_000);
 } else {
   $('connection').textContent = 'Missing or invalid electorate id. Return to the electorate list to choose a seat.';
   $('connection').classList.add('error'); $('refresh').disabled = true;
-  message($('candidate-rows'), 'Choose an electorate from the main page.', 3); message($('electorate-party-rows'), 'Choose an electorate from the main page.', 3);
+  message($('candidate-rows'), 'Choose an electorate from the main page.', 3); message($('electorate-party-rows'), 'Choose an electorate from the main page.', 5);
+  $('history-note').textContent = 'Choose an electorate to see its historical comparison status.';
   $('booth-progress').textContent = 'No electorate selected.'; message($('booth-rows'), 'No electorate selected.', 1);
 }

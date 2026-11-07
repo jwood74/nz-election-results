@@ -1,0 +1,30 @@
+{
+  "year": 2025,
+  "source": {
+    "scheduleUrl": "https://elections.nz/assets/pagecomponent-file-files/SCHEDULE-B-LIST-OF-UNCHANGED-AND-CHANGED-ELECTORATES.pdf",
+    "summaryUrl": "https://elections.nz/assets/pagecomponent-file-files/Final-electorates-summary-080825.pdf",
+    "reportUrl": "https://elections.nz/assets/pagecomponent-file-files/REPORT-OF-THE-REPRESENTATION-COMMISSION-2025-WEB.pdf",
+    "method": "transcription-of-search-indexed-official-schedule-and-summary",
+    "retrievedOn": "2026-11-07",
+    "note": "The downloadable PDF endpoints returned an HTML security challenge, not PDF bytes. No PDF original is claimed. Schedule B explicitly lists these 19 current electorates as having unchanged 2020 boundaries. East Cape is the renamed East Coast with unchanged boundaries. Other current seats are not approved for electorate-wide comparison."
+  },
+  "unchangedCurrentNames": [
+    "Coromandel", "Port Waikato", "Waikato", "Hamilton West", "Hamilton East", "East Cape",
+    "Nelson", "West Coast-Tasman", "Kaikōura", "Waimakariri", "Banks Peninsula", "Rangitata",
+    "Waitaki", "Dunedin", "Taieri", "Te Tai Tokerau", "Tāmaki Makaurau", "Hauraki-Waikato", "Waiariki"
+  ],
+  "related2023NamesForRenamedSeats": {
+    "East Cape": ["East Coast"],
+    "Wellington North": ["Wellington Central"],
+    "Wellington Bays": ["Rongotai"],
+    "Waitākere": ["New Lynn", "Kelston"],
+    "Henderson": ["Te Atatū", "Upper Harbour", "Kaipara ki Mahurangi"],
+    "Glendene": ["Kelston", "Te Atatū"],
+    "Ōtāhuhu": ["Panmure-Ōtāhuhu", "Botany"],
+    "Mt Maunganui": ["Bay of Plenty", "Tauranga"],
+    "Kapiti": ["Ōtaki", "Mana"],
+    "Kenepuru": ["Mana", "Ōhāriu"]
+  },
+  "relatedNamesNote": "Related historic seats are for navigation only, not an exhaustive population crosswalk. Their votes must not be added to manufacture results on 2025 boundaries.",
+  "boothComparisonStatus": "disabled-pending-explicit-current-vote-category-and-reviewed-venue-population-matches"
+}

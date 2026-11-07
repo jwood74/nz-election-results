@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "filename": "party-votes-by-voting-place-1.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-1.csv",
+      "bytes": 10313,
+      "sha256": "6d35564a9adb26411493d2603e052d75bff97c22e03c73d681bfe0df7fc7062f",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-1.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-1.csv",
+      "bytes": 8894,
+      "sha256": "f13138b53dc532676785e899e2ee83f72c1eeb23dc0cc4e8ca83185ca89b79a1",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-2.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-2.csv",
+      "bytes": 14426,
+      "sha256": "6db83665273c031fafd581f18cdf268532841177d82acaafc4109e343ece4d16",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-2.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-2.csv",
+      "bytes": 12123,
+      "sha256": "da736e133d08b77290c0c2bb041ca303465650de0e3613cec90f4cdf6032af47",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-3.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-3.csv",
+      "bytes": 10310,
+      "sha256": "2f0425b6f0ca5c89c2f5f91a84632e7a26ec6291d06c24b077bf8d91913afddd",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-3.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-3.csv",
+      "bytes": 8336,
+      "sha256": "c6fb903d66a3680b6ddbb1403949bbf01b19ae6ba144b560a8fe7425c3edb4b1",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-4.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-4.csv",
+      "bytes": 9607,
+      "sha256": "be1e54aa133edba5f0c608dc94b2ef634e8c3a451c6cf3d50d208278faeb2d50",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-4.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-4.csv",
+      "bytes": 7309,
+      "sha256": "5d81232eaf8454e56fb8f02f32e2b16b9b812572e45921296a57fe0154c36651",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-5.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-5.csv",
+      "bytes": 15932,
+      "sha256": "a5492677a119d59b47fa724e31d9785dfc2e8049abe5f8a8e95ef9f059d3fee7",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-5.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-5.csv",
+      "bytes": 12730,
+      "sha256": "50ad36121fa7c591aa2dccf61d913b4a4e5b58b4995dad58fdadfda2ec7be4bb",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-6.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-6.csv",
+      "bytes": 11102,
+      "sha256": "be9deed7a5d03a0547052954dbe9651d4283cf49e2b06f14bbecae0e54db05a4",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-6.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-6.csv",
+      "bytes": 9289,
+      "sha256": "3f3131e74c3298afb39d9317361b020b5b555eb60a6eb00dad5a4c9ba7473b6b",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-7.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-7.csv",
+      "bytes": 10533,
+      "sha256": "4b89c37b3994600fe361901129d869fc981122cb8fc5ca558411886dee571f94",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-7.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-7.csv",
+      "bytes": 8187,
+      "sha256": "850b1a7fb32e992e5c2e88f1bd2593c2162883b58c108326b2b832b53e08a747",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-8.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-8.csv",
+      "bytes": 9521,
+      "sha256": "972a4dc7f08d313be4b980e52648520e87e4a85c1dd207d98b7aaa2957e7f666",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-8.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-8.csv",
+      "bytes": 8468,
+      "sha256": "1f254a1b9f70785351429ece4275bff9995e7756ef5a231af7174fdd1e641155",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-9.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-9.csv",
+      "bytes": 12109,
+      "sha256": "00af046e1406408048e64a147d73c6a599de953aa26bfe51d8e6f549022b76fe",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-9.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-9.csv",
+      "bytes": 10572,
+      "sha256": "946133512b8fd344ba323c80f5e96552f6950e5fffa1e089829398328e247541",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-10.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-10.csv",
+      "bytes": 8157,
+      "sha256": "b2cda292e800e5e12f0026e3b55f459f3719d23829461b3c6577bdf21cf3f230",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-10.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-10.csv",
+      "bytes": 5784,
+      "sha256": "c857da1e20f28fcc4b8397ec87641ee25e16b8e69b60cec4fd23da3a574f562b",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-11.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-11.csv",
+      "bytes": 10778,
+      "sha256": "6cd75249f3bed02f8ddb0ab2ea594e747cd2c781284c72afbf1951461d3393fd",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-11.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-11.csv",
+      "bytes": 8635,
+      "sha256": "6b51f6b178b1478df0bd05b8659e150c1cc0f6676e756a72cb26a67d0fa7690e",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-12.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-12.csv",
+      "bytes": 8308,
+      "sha256": "3f830c046ccf8ab97f28a2be0f3f6c38ea1ff32fd81a037728cfe1edd27fe1f0",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-12.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-12.csv",
+      "bytes": 7237,
+      "sha256": "5ffcdd8841d8f781db86e64bc3d3c70bd529f5a6dc0a8ce66997293843da4e5f",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-13.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-13.csv",
+      "bytes": 9170,
+      "sha256": "a8b036a27621d6eb6a6f94b4daa22acbdb29ab01b23f0b3b6e92b7dac7adb5bc",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-13.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-13.csv",
+      "bytes": 7455,
+      "sha256": "b59661cc2799630da2cf5deb09a423d1b8c41251144708887a5bc552bf63aaab",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-14.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-14.csv",
+      "bytes": 9001,
+      "sha256": "f4cb572ecb8c7dc27c35e1e50a82e43028c2e420673cece5244afa580c8c4ba5",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-14.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-14.csv",
+      "bytes": 7246,
+      "sha256": "5e8a3849641cf3df8ce947e90a4f7362637fc7f93a671222ae147e95c5298cf3",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-15.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-15.csv",
+      "bytes": 11003,
+      "sha256": "1a5cf2fa68b463dd5bc9c0a77adaa7f724df9d08bf616e80071f31043d22723a",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-15.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-15.csv",
+      "bytes": 8755,
+      "sha256": "1357cefcbd11ae240398003f5c99023c3f0a9f81953fe8598b8bbc32880dbc34",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-16.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-16.csv",
+      "bytes": 10426,
+      "sha256": "7a611165dd1d011f0c22f776f5dc5c26a5d625c7ee6e7368a06dbd818ea00f42",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-16.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-16.csv",
+      "bytes": 7853,
+      "sha256": "5489b94192a9ae7fcd41cb081998f79141ca25fb0f062dfa885502cc81ea680c",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-17.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-17.csv",
+      "bytes": 11633,
+      "sha256": "b78b4ae641204738122e8d0b586efe2eda0998efd381cc23929ff183dd9a1d73",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-17.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-17.csv",
+      "bytes": 10334,
+      "sha256": "839dfd982426089947cb8a53aa9d24b1489c0e4230a95af33b6d479eaf159e11",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-18.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-18.csv",
+      "bytes": 12313,
+      "sha256": "828bd06c4abb73d8a36a59289deb46dee2f0d2d80807a2f92a5124cf73c0c967",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-18.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-18.csv",
+      "bytes": 9413,
+      "sha256": "4c5b62677fd5f4ebf9be33685085dee22a052d873f8c8388606611b48f4f25a2",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-19.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-19.csv",
+      "bytes": 10274,
+      "sha256": "6eafbe338fd8ac83998e06c4ebc1ee0856106bd09a4a9bc98ce8b18d511a4598",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-19.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-19.csv",
+      "bytes": 8369,
+      "sha256": "cc27ce11416a87554b0671b91cbb78df5b97f5b5ec282dc0449de51460c6b77e",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-20.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-20.csv",
+      "bytes": 9471,
+      "sha256": "5d85805362ad26ee74bd871abf1fbb433940b429c8e018f4ce94433f5ea6ab51",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-20.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-20.csv",
+      "bytes": 7676,
+      "sha256": "fae25dd3f49d6f010c0d014da08f3f5d7cf8228b14659d2a1f244c7e27671e6a",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-21.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-21.csv",
+      "bytes": 9018,
+      "sha256": "011a42c5ab46457f59dc5324c36892a226911f3edf5ef6a495297d63727f0596",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-21.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-21.csv",
+      "bytes": 7075,
+      "sha256": "61aafc0b88eb8a6b1af728d3f5520e35bd0c3a192392ce4ba250a8282f97ba2c",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-22.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-22.csv",
+      "bytes": 10390,
+      "sha256": "1bceada0977b3cf0c399633587527c70e09cf3e019de9a09936652a112ca6bf8",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-22.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-22.csv",
+      "bytes": 7311,
+      "sha256": "4b740fd8c85cc51cb9254e4dbfc4b3a4b6a426cc586c19d6002185f8d5e5da5d",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-23.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-23.csv",
+      "bytes": 9384,
+      "sha256": "2b06ed576904f847fd2daa4acdd0238c7005045e3f6e85c6f9ce115c48e7a852",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-23.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-23.csv",
+      "bytes": 7398,
+      "sha256": "a1e533e72622c37871e6e745566bc39783cc0b7a0dc267faf4fc3308969547f4",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-24.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-24.csv",
+      "bytes": 9725,
+      "sha256": "550e2a35efdcf5dd47d1b80d25a25ff2871b5e0ca7adeaed471bba438dd7d8bc",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-24.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-24.csv",
+      "bytes": 7760,
+      "sha256": "d8e0dab79a6c503567dbf57d57365fed9ab969e104f80a5d9250ced5de0d03ab",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-25.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-25.csv",
+      "bytes": 10751,
+      "sha256": "aeaa6e7150dc24609e2ed7e97fa53b47c67b8f487ff320c18effdd6d41807e4b",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-25.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-25.csv",
+      "bytes": 7771,
+      "sha256": "034a152a7494ecb791b8e37cfdef5d26e6b996a4429490f14e3237f9c4e8d833",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-26.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-26.csv",
+      "bytes": 9326,
+      "sha256": "fe202ab52c4219474125dfc25f6859f2067b88572e73c48240aedb0677f66457",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-26.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-26.csv",
+      "bytes": 7121,
+      "sha256": "b7f7fe65019207bbca24829ae83b0a1334ac07f73fe01d5f893c16057ebf0feb",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-27.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-27.csv",
+      "bytes": 5972,
+      "sha256": "aa5c8076da60924b14c27fff3aeac385e363212c6c12e5fa473bfa5709f49522",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-27.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-27.csv",
+      "bytes": 4425,
+      "sha256": "6b6d7d94b2cac37158ae05abe8e9729d889ed9f3b8f96be3f4993a61be2c2fb0",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-28.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-28.csv",
+      "bytes": 13497,
+      "sha256": "ef73bbdb3aab3e2d01b14ac586b4f322bcb3529b2c64ca256d0ca9820633246c",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-28.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-28.csv",
+      "bytes": 10474,
+      "sha256": "8571bbedc36d0cb4312ec85f22474069f8b58960502ff0e1ed5728add98613f5",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-29.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-29.csv",
+      "bytes": 8299,
+      "sha256": "8b76d1ca6040ba7b43b695cd91c3356e30d4672959dcde03ef32837b75fe1e76",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-29.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-29.csv",
+      "bytes": 6168,
+      "sha256": "f84c625c7f27018922f90bdbafc3be9898bfb443017c1c64e277c4781bebded6",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-30.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-30.csv",
+      "bytes": 9788,
+      "sha256": "5a1a0eed68564ba624db8cfb2bdf8167e4b728e97c9fcb1ab4e0ea4c66502236",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-30.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-30.csv",
+      "bytes": 7261,
+      "sha256": "81a66fed357de88dbe874b0ce26ab93c453b1bb40081fd20aba6a8f3482c20c9",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-31.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-31.csv",
+      "bytes": 9164,
+      "sha256": "958db2385bfecf5e9fca63a898eb2b469e31a8492c9b97ab66a2d4799c9219da",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-31.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-31.csv",
+      "bytes": 6987,
+      "sha256": "7a884c8c8144a6b14ea4c0f7334f49c19075bcfe42e7a2b718b300fb66a7aba6",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-32.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-32.csv",
+      "bytes": 15411,
+      "sha256": "0ace5f6a08f46e421d6cfd1d98799f3523494eb4f482b985f59c1759dcebd1bb",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-32.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-32.csv",
+      "bytes": 12840,
+      "sha256": "e2ab06e1d66b2fddfdb3f3ef3c01f1414a500cbda4cdbf614694bbffb50ff15a",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-33.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-33.csv",
+      "bytes": 9076,
+      "sha256": "f3112e6a9e5f20b2c75c8fc333d70d2d52da410b9d4d47019c4e3e9f0c035915",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-33.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-33.csv",
+      "bytes": 7128,
+      "sha256": "ab29762e17164acff5688de00206d2b4ace58149bdce5179e38178217cf7241c",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-34.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-34.csv",
+      "bytes": 9046,
+      "sha256": "77cccecf37ca17b65585f4c0736da2ef6a0c4f8fed9b31dabf183ab6146acfe9",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-34.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-34.csv",
+      "bytes": 6755,
+      "sha256": "a6cb7ba28678835265b4c4e67ae11cec19875d2bc95a8c2a7299ad84d5c8224c",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-35.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-35.csv",
+      "bytes": 8705,
+      "sha256": "f0ea0627499cd207e596f770884606c35ecf6d5a1de77476e44ec22138e40ad5",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-35.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-35.csv",
+      "bytes": 6520,
+      "sha256": "7ef08c0888ad6ee56e3303345b994fad61010798dca4447738ab4772430b457f",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-36.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-36.csv",
+      "bytes": 7354,
+      "sha256": "f4d9b319b1ab8866d53f9be0f51e9ed88dc5d5cccf95fd8a52cb2d8852740123",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-36.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-36.csv",
+      "bytes": 5478,
+      "sha256": "6ce2091fa9e2ad1bf415cd64a3e7fec25fbd76a6f9f4bf7ae887eb9b43c1229d",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-37.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-37.csv",
+      "bytes": 10619,
+      "sha256": "741dae5df1964ad4a9a25cb333c04a9a89f524c08a0f3272d11c1f00f6c57d25",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-37.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-37.csv",
+      "bytes": 8068,
+      "sha256": "e78b8112cab34f2e3286dc0727c1b6bb4fa0c55066571bcc91789a9667c53fdb",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-38.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-38.csv",
+      "bytes": 9661,
+      "sha256": "0848924b055802a8cb82714f07b166a95d0397fd485cdb0950807318fc0625f4",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-38.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-38.csv",
+      "bytes": 7558,
+      "sha256": "2ef7e5d400077e83f7ade61eb4dcf2325f3a41579b0926f7ff6771e5966c002d",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-39.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-39.csv",
+      "bytes": 9248,
+      "sha256": "82e1ecdaf5d44ad926530565dd1206782cc88dccc0b6e549c1e7b0d3c50eaacb",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-39.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-39.csv",
+      "bytes": 1261,
+      "sha256": "2151d5f7789a09b32f866a7da71f3217026e8cf9801c1ad0b7aa570e89bb7e77",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-40.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-40.csv",
+      "bytes": 9977,
+      "sha256": "8d6096f60bc0f3b87b4f888fb11211e3c9ca66804e64801e9c479620951763b5",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-40.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-40.csv",
+      "bytes": 8077,
+      "sha256": "539b535d9d0a6b45d7da01390aa307e53f0f2f9024c79d1aceb15212a388a68c",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-41.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-41.csv",
+      "bytes": 13116,
+      "sha256": "66eb491094772c21e4da2020357fa7bdedc4f6b5a2e098f8af895686aedbedd5",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-41.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-41.csv",
+      "bytes": 9710,
+      "sha256": "923fc1849ec4c7444c1bfcbd47d4dcd326bea5b458372748f414d1f530219a5f",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-42.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-42.csv",
+      "bytes": 9281,
+      "sha256": "5b241efe332a1a012e3f2f292a32e355c221752afa7cc89d3718cd4e5a325c54",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-42.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-42.csv",
+      "bytes": 7025,
+      "sha256": "380ff0e3d11e2248498f39de453107496256b048bf5dc9b64c2c2059d946e1cc",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-43.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-43.csv",
+      "bytes": 10480,
+      "sha256": "965ea512db6590f08e71dbaabf1cafdb8d0c5e0fa0bd725e2d2ef521f10994df",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-43.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-43.csv",
+      "bytes": 8721,
+      "sha256": "b4ffdd89905cc608f0ceb89bc0a32e2fa8995ea5a67e4b1d85816320c432a084",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-44.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-44.csv",
+      "bytes": 10638,
+      "sha256": "2cd21e478f2a083aa87d55427bdb904621eae86a7552d4492f4ec61ed9e5c07d",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-44.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-44.csv",
+      "bytes": 8054,
+      "sha256": "6185c2c68991b9c5ff232c84293c56314aee362329e08fa620e61c1fed464e33",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-45.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-45.csv",
+      "bytes": 12154,
+      "sha256": "6b6839fa2ca4954e4094be9652c76a2209defcd2f4a7a58d4d5633a0d3a38d73",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-45.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-45.csv",
+      "bytes": 8989,
+      "sha256": "4fb38330a5d66a1bda3aa5659a932bc6533c3fe552c32d962e9d2e61aed469dc",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-46.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-46.csv",
+      "bytes": 12239,
+      "sha256": "9b9c660906af63c92963c442468052ce4f956d3be914ed7a870f2fd4717330a8",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-46.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-46.csv",
+      "bytes": 9715,
+      "sha256": "fcf5d901bc9fea560aaebf604b101bd28d729418b782a7261448bfbcfc4003f7",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-47.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-47.csv",
+      "bytes": 11095,
+      "sha256": "63776a4c47ad5e74be37d86eeb5d9cdd8fb4ee1f2aeb1f59df8293c261e9fa67",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-47.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-47.csv",
+      "bytes": 9158,
+      "sha256": "e7d4b21fd7d0c152847aa2e75f3cc1888304325f16b85673705c76abb0bdecad",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-48.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-48.csv",
+      "bytes": 11505,
+      "sha256": "e6f3f5c5f9b8d7e563fd03689f7d7651ad974946aefac6099b18c4403ce7e7ef",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-48.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-48.csv",
+      "bytes": 8295,
+      "sha256": "5949ee52c87392328ca4861a1a88d0b829957c1b5f0e6ae37dff270a717027be",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-49.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-49.csv",
+      "bytes": 9254,
+      "sha256": "cc5e3bf8eaa7b166f8e3e2fd0637dc6e9560728673ff807e6a8ae535cdf37666",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-49.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-49.csv",
+      "bytes": 6516,
+      "sha256": "5fe5e0127e1476768a7a9f7425516abee0fe36d1e62366ceceaafaf8ed50efb2",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-50.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-50.csv",
+      "bytes": 16495,
+      "sha256": "a08b556d3164b05aa0ee31cc2fff7160ae7563419c1477a3e023df5a9a55b540",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-50.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-50.csv",
+      "bytes": 11721,
+      "sha256": "1dc2e47288940c14231514d601e4772fad4b67dc91a237d68c1f7e91d5357584",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-51.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-51.csv",
+      "bytes": 10366,
+      "sha256": "00b4e670ec7120ce873354b6cbffdba6db952938a6c30e72ceb6cf697ff9fdd9",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-51.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-51.csv",
+      "bytes": 7839,
+      "sha256": "e697ae9f6f46a001db1d09096a503c0b4594ddac51f8e32b38e7305d79a4ea17",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-52.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-52.csv",
+      "bytes": 8529,
+      "sha256": "c3eec904250ca575f10a7f590eeee26d6673b548aa7a9445e8050e506e54b4df",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-52.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-52.csv",
+      "bytes": 7404,
+      "sha256": "afc347e2c66811ced6a4b95436ccc3997d7d5d788d2cb89b6d700058b3ae4e59",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-53.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-53.csv",
+      "bytes": 10148,
+      "sha256": "c63c00e95a5bdef05161a6614a9923f584f4ef827cac002d1712f31150e60cfb",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-53.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-53.csv",
+      "bytes": 7753,
+      "sha256": "b45866ce2abe13d894967ca6c399e8537280dabe1b723566d5b7adca35e53804",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-54.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-54.csv",
+      "bytes": 10275,
+      "sha256": "347eff2699315cd925c19bc54f9fee6c9e4b968153291269fe063b9dae26ef38",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-54.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-54.csv",
+      "bytes": 8715,
+      "sha256": "d9fe5e82900eeea9ff3e6947d882ec852fc7084618ab0683895568b471b2ae56",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-55.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-55.csv",
+      "bytes": 8726,
+      "sha256": "8c4a3d3689277e4b4c5b59c15ddf8e543557935e8e8f4523157c20b7dd8048ea",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-55.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-55.csv",
+      "bytes": 7386,
+      "sha256": "142d0f070a264611081c9e2dc2a571ba0e23484c16bd4cbe1e04717a64f7ce06",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-56.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-56.csv",
+      "bytes": 12197,
+      "sha256": "a13b79cbda965499dfddff7be16dc1be08591f30859819774fbc050bca801827",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-56.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-56.csv",
+      "bytes": 8916,
+      "sha256": "4145e360b72aa3b21f070f1e7eae1d4d593dfd876f4174ab23ca2475fe16f005",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-57.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-57.csv",
+      "bytes": 10125,
+      "sha256": "1da496e771b8027f7022fe3d86b8fdcd184d3e41a3502ebfda18807832cf772b",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-57.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-57.csv",
+      "bytes": 7476,
+      "sha256": "a33904ddac5c7f987c2b261ceb12069011a129b65cb76ea584c5db9b73c2a628",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-58.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-58.csv",
+      "bytes": 10197,
+      "sha256": "3b90f94f5bc1afae997c2f4f8a14ba218ac220511ac1f97ad2d34d1d30586c9c",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-58.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-58.csv",
+      "bytes": 8043,
+      "sha256": "e2e41dcbbaa9fcd572747a7c2d1f309418806602c436d9170cb62ef6ec35e315",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-59.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-59.csv",
+      "bytes": 14351,
+      "sha256": "4465cd656574eb5b7f5d4c1efee543c5e109ab99119f19dc8a3aadd2bcd21c1f",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-59.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-59.csv",
+      "bytes": 11620,
+      "sha256": "e6782459b4f1e70dbaba08e129d720228bfcab8630130538671d59397be97318",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-60.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-60.csv",
+      "bytes": 9889,
+      "sha256": "a77ea311604b52d20f94b8c72d917cf44669fbb076a0e80c417e3a122961a97a",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-60.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-60.csv",
+      "bytes": 8716,
+      "sha256": "f0903129da1873deca47e571e47d6b297ceb6957fea3823ddc9a9f4d536678b1",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-61.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-61.csv",
+      "bytes": 12842,
+      "sha256": "dde643699fd1d9007facd591100e464b7186f7688f6739fc5e745d6912338d07",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-61.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-61.csv",
+      "bytes": 10696,
+      "sha256": "9fbd0abef17437b2765997a04988ca230784e615c67808c3069961e0a9fd42be",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-62.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-62.csv",
+      "bytes": 9704,
+      "sha256": "54a25a232c8a139deebf01994f75f51adc552414298b475e0e45f0e9dd3095a3",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-62.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-62.csv",
+      "bytes": 7216,
+      "sha256": "7ec28784b93989caf5ffa45e4e6df7e09b657fbf5ec2e1d17f9b11ff1bb839b2",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-63.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-63.csv",
+      "bytes": 7563,
+      "sha256": "3c8b9f277c539d3de8beca51a7d855aef3b10e4746a9372cabeafa455f74e778",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-63.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-63.csv",
+      "bytes": 5687,
+      "sha256": "e01a69f541a8ac7b5536a6ac46e32412a775d9f8ff87cd90a9f3964227e88296",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-64.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-64.csv",
+      "bytes": 8732,
+      "sha256": "6782cd7bc69341f07c3e844614f8fb3a718b38b0b56a80eb2b021c2addf26bc1",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-64.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-64.csv",
+      "bytes": 7480,
+      "sha256": "2e9375fc2a04fd215860b616907480428b72b4afb8614d7b23f347bc5f902306",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-65.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-65.csv",
+      "bytes": 11479,
+      "sha256": "9516db9c83e2435c3ebb297a0ef8b5f82fbe7517f2abd33daefd5aaa1021a000",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-65.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-65.csv",
+      "bytes": 9978,
+      "sha256": "b7af811ee6d580ea7130164a2a1354dc0e33502bd42be081f6ef621fcd8f0ba5",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-66.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-66.csv",
+      "bytes": 31116,
+      "sha256": "550eb7175abbcb4d4f779380b7d30179c6362007bbccc5a432034ede06ad853f",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-66.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-66.csv",
+      "bytes": 21614,
+      "sha256": "59aa8d0b67c73abd6ed43f9fa8d9663bbc8dae2cb0e55dd0003f3ee28674971a",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-67.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-67.csv",
+      "bytes": 28740,
+      "sha256": "80b000b9492dbe00818551ec9bd13e9dfbe00f98036c0e2fcad9e7f5cba9362f",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-67.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-67.csv",
+      "bytes": 19936,
+      "sha256": "89698e6bb9f751ec76116373746a5ce525f621a1a48ae367ff3f8451770b6981",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-68.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-68.csv",
+      "bytes": 43021,
+      "sha256": "bdf8ee177751f25a4c7d58247db220fc406658cf1256443dfb4c1ce41a83a4d5",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-68.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-68.csv",
+      "bytes": 32525,
+      "sha256": "0ec5443867c51c6c99cc3d30dc3f8a22bdc4c7aca956a2d4bbaa54f05fdb9f88",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-69.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-69.csv",
+      "bytes": 38223,
+      "sha256": "a65562faa159d66d642f707d067b4931971f3ca2f728f95cf8a4495ec8f8dfe7",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-69.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-69.csv",
+      "bytes": 27574,
+      "sha256": "2be6f92d6d08c5096ccc25a59c707f0350e90efcfd9538ede2a73e469e61d35d",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-70.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-70.csv",
+      "bytes": 39273,
+      "sha256": "ddc20ef43ed7a902625e5026adb470e8908d053f0ad6135f0b51196001a4b05a",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-70.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-70.csv",
+      "bytes": 29664,
+      "sha256": "83dfa23ba1ffa5408926a86daba5b2e4f5b17083f46dae2a7ae9b7639de74184",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-71.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-71.csv",
+      "bytes": 76335,
+      "sha256": "e3bb5b18bc3237a9094039a52e5c3252b761aadfcb21292eb43a1565fed45ac2",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-71.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-71.csv",
+      "bytes": 55106,
+      "sha256": "041c1a7bfc130150a6cbbb2361ee24f683c0bf83ed895f80d4ed325c9cc7c449",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "party-votes-by-voting-place-72.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/party-votes-by-voting-place-72.csv",
+      "bytes": 24241,
+      "sha256": "dc40de61bfd4dd981374c9fb195e6592ce5c8eafbf07680a278daca2c1b440e2",
+      "method": "user-provided-original-csv"
+    },
+    {
+      "filename": "candidate-votes-by-voting-place-72.csv",
+      "url": "https://archive.electionresults.govt.nz/electionresults_2023/statistics/csv/candidate-votes-by-voting-place-72.csv",
+      "bytes": 16767,
+      "sha256": "e5538000dd256932047776f5e1427f0dacd9da5aeb984719e8182dcc4b268e31",
+      "method": "user-provided-original-csv"
+    }
+  ]
+}
